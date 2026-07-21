@@ -1,0 +1,102 @@
+# Supply Chain Domain Business Services
+# DEA Metamodel Entity: BusinessService
+
+services:
+  - id: dea:service-inventory-management
+    type: BusinessService
+    name: Inventory Management Service
+    abbreviation: IMS
+    version: "1.0.0"
+    status: active
+    description: >
+      Inventory control including stock levels, replenishment planning, safety stock,
+      inventory valuation, and multi-warehouse management.
+    domain: Supply Chain
+    subdomain: Inventory
+    capabilities:
+      - dea:capability-supply-chain-planning
+    governance:
+      sla_uptime: "99.95%"
+      security_classification: Internal
+      compliance: []
+    solution_components:
+      - dea:component-inventory-management-system
+      - dea:component-warehouse-management-system
+    relationships:
+      - source_id: dea:service-inventory-management
+        target_id: dea:principle-real-time-visibility
+        relationship_type: implements
+    tags:
+      - supply-chain
+      - inventory
+      - warehouse
+      - stock
+
+  - id: dea:service-procurement
+    type: BusinessService
+    name: Procurement Service
+    abbreviation: PRS
+    version: "1.0.0"
+    status: active
+    description: >
+      Source-to-pay operations including supplier selection, purchase requisitions,
+      purchase orders, goods receipt, and supplier invoicing.
+    domain: Supply Chain
+    subdomain: Procurement
+    capabilities:
+      - dea:capability-supplier-management
+    governance:
+      sla_uptime: "99.9%"
+      security_classification: Confidential
+      compliance:
+        - SOX
+    solution_components:
+      - dea:component-procurement-system
+      - dea:component-supplier-portal
+    relationships:
+      - source_id: dea:service-procurement
+        target_id: dea:service-inventory-management
+        relationship_type: depends_on
+      - source_id: dea:service-procurement
+        target_id: dea:principle-three-way-match
+        relationship_type: implements
+    tags:
+      - supply-chain
+      - procurement
+      - purchasing
+      - supplier
+
+  - id: dea:service-logistics-coordination
+    type: BusinessService
+    name: Logistics Coordination Service
+    abbreviation: LCS
+    version: "1.0.0"
+    status: active
+    description: >
+      Transportation management, route optimization, carrier management, and logistics
+      network planning including import/export operations.
+    domain: Supply Chain
+    subdomain: Logistics
+    capabilities:
+      - dea:capability-supply-chain-planning
+    governance:
+      sla_uptime: "99.9%"
+      security_classification: Internal
+      compliance:
+        - customs
+        - trade-compliance
+    solution_components:
+      - dea:component-tms-system
+      - dea:component-carrier-integration-platform
+    relationships:
+      - source_id: dea:service-logistics-coordination
+        target_id: dea:service-inventory-management
+        relationship_type: depends_on
+      - source_id: dea:service-logistics-coordination
+        target_id: dea:service-order-fulfillment
+        relationship_type: depends_on
+    tags:
+      - supply-chain
+      - logistics
+      - transportation
+      - tms

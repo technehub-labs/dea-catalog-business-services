@@ -1,0 +1,35 @@
+governance:
+  sla_tiers:
+    - tier: Platinum
+      uptime: "99.99%"
+      recovery_time: 15
+      description: Mission-critical customer-facing services
+    - tier: Gold
+      uptime: "99.95%"
+      recovery_time: 60
+      description: Important customer-facing services
+    - tier: Silver
+      uptime: "99.9%"
+      recovery_time: 240
+      description: Internal business services
+    - tier: Bronze
+      uptime: "99.5%"
+      recovery_time: 480
+      description: Batch and background processing
+
+  security_classifications:
+    - level: Public
+      description: No confidentiality requirement
+    - level: Internal
+      description: Business-internal only
+    - level: Confidential
+      description: Sensitive business data
+    - level: Restricted
+      description: Regulated data (PII, financial, health)
+
+  compliance_frameworks:
+    - GDPR
+    - CCPA
+    - SOX
+    - HIPAA
+    - PCI-DSS

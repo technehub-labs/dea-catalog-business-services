@@ -1,0 +1,156 @@
+# Service to Solution Component Mappings
+# DEA Metamodel Entity: maps BusinessService → SolutionComponent
+
+mappings:
+  # ─── Customer Domain ───────────────────────────────────────────
+  - service_id: dea:service-customer-360
+    service_name: Customer 360 Service
+    components:
+      - component_id: dea:component-customer-data-platform
+        relationship: realised_through
+        description: Central CDP for unified customer data
+      - component_id: dea:component-identity-resolution-service
+        relationship: realised_through
+        description: Probabilistic and deterministic identity matching
+
+  - service_id: dea:service-customer-identity
+    service_name: Customer Identity Service
+    components:
+      - component_id: dea:component-identity-resolution-service
+        relationship: realised_through
+      - component_id: dea:component-customer-identity-provider
+        relationship: realised_through
+        description: OIDC/SAML identity provider
+
+  - service_id: dea:service-customer-notification
+    service_name: Customer Notification Service
+    components:
+      - component_id: dea:component-notification-gateway
+        relationship: realised_through
+      - component_id: dea:component-customer-engagement-platform
+        relationship: realised_through
+
+  # ─── Finance Domain ───────────────────────────────────────────
+  - service_id: dea:service-finance-accounting
+    service_name: Finance Accounting Service
+    components:
+      - component_id: dea:component-erp-system
+        relationship: realised_through
+      - component_id: dea:component-general-ledger
+        relationship: realised_through
+
+  - service_id: dea:service-finance-reporting
+    service_name: Finance Reporting Service
+    components:
+      - component_id: dea:component-bi-reporting-platform
+        relationship: realised_through
+      - component_id: dea:component-financial-data-warehouse
+        relationship: realised_through
+
+  - service_id: dea:service-treasury-management
+    service_name: Treasury Management Service
+    components:
+      - component_id: dea:component-treasury-management-system
+        relationship: realised_through
+      - component_id: dea:component-payment-gateway
+        relationship: realised_through
+
+  # ─── Product Domain ────────────────────────────────────────────
+  - service_id: dea:service-product-catalog
+    service_name: Product Catalog Service
+    components:
+      - component_id: dea:component-pim-system
+        relationship: realised_through
+      - component_id: dea:component-product-master
+        relationship: realised_through
+
+  - service_id: dea:service-product-lifecycle
+    service_name: Product Lifecycle Service
+    components:
+      - component_id: dea:component-plm-system
+        relationship: realised_through
+
+  - service_id: dea:service-product-pricing
+    service_name: Product Pricing Service
+    components:
+      - component_id: dea:component-pricing-engine
+        relationship: realised_through
+      - component_id: dea:component-revenue-management-system
+        relationship: realised_through
+
+  # ─── Order Management Domain ───────────────────────────────────
+  - service_id: dea:service-order-taking
+    service_name: Order Taking Service
+    components:
+      - component_id: dea:component-order-management-system
+        relationship: realised_through
+      - component_id: dea:component-ecommerce-platform
+        relationship: realised_through
+
+  - service_id: dea:service-order-fulfillment
+    service_name: Order Fulfillment Service
+    components:
+      - component_id: dea:component-warehouse-management-system
+        relationship: realised_through
+      - component_id: dea:component-fulfillment-engine
+        relationship: realised_through
+
+  - service_id: dea:service-order-tracking
+    service_name: Order Tracking Service
+    components:
+      - component_id: dea:component-tracking-engine
+        relationship: realised_through
+      - component_id: dea:component-notification-gateway
+        relationship: depends_on
+
+  # ─── Supply Chain Domain ────────────────────────────────────────
+  - service_id: dea:service-inventory-management
+    service_name: Inventory Management Service
+    components:
+      - component_id: dea:component-inventory-management-system
+        relationship: realised_through
+      - component_id: dea:component-warehouse-management-system
+        relationship: depends_on
+
+  - service_id: dea:service-procurement
+    service_name: Procurement Service
+    components:
+      - component_id: dea:component-procurement-system
+        relationship: realised_through
+      - component_id: dea:component-supplier-portal
+        relationship: realised_through
+
+  - service_id: dea:service-logistics-coordination
+    service_name: Logistics Coordination Service
+    components:
+      - component_id: dea:component-tms-system
+        relationship: realised_through
+      - component_id: dea:component-carrier-integration-platform
+        relationship: realised_through
+
+  # ─── HR Domain ──────────────────────────────────────────────────
+  - service_id: dea:service-hr-core
+    service_name: HR Core Service
+    components:
+      - component_id: dea:component-hcm-system
+        relationship: realised_through
+      - component_id: dea:component-benefits-management-system
+        relationship: realised_through
+
+  - service_id: dea:service-talent-management
+    service_name: Talent Management Service
+    components:
+      - component_id: dea:component-talent-acquisition-system
+        relationship: realised_through
+      - component_id: dea:component-lms-system
+        relationship: realised_through
+      - component_id: dea:component-performance-management-system
+        relationship: realised_through
+
+  - service_id: dea:service-payroll
+    service_name: Payroll Service
+    components:
+      - component_id: dea:component-payroll-system
+        relationship: realised_through
+      - component_id: dea:component-time-and-attendance-system
+        relationship: depends_on

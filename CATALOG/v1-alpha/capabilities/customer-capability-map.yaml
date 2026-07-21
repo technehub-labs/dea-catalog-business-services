@@ -1,0 +1,18 @@
+capability_map:
+  domain: Customer
+  capabilities:
+    - id: dea:capability-customer-data-management
+      name: Customer Data Management
+      description: Governs the collection, storage, and quality of customer master data
+      level: foundational
+      services: [dea:service-customer-360]
+    - id: dea:capability-customer-identity-resolution
+      name: Customer Identity Resolution
+      description: Unifies customer identity across channels and devices using probabilistic and deterministic matching
+      level: advanced
+      services: [dea:service-customer-360]
+    - id: dea:capability-customer-engagement
+      name: Customer Engagement
+      description: Manages all customer touchpoints and interaction channels
+      level: foundational
+      services: [dea:service-customer-notification]

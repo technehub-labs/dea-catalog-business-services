@@ -1,0 +1,93 @@
+# Product Domain Business Services
+# DEA Metamodel Entity: BusinessService
+
+services:
+  - id: dea:service-product-catalog
+    type: BusinessService
+    name: Product Catalog Service
+    abbreviation: PCT
+    version: "1.0.0"
+    status: active
+    description: >
+      Master product data management including product definitions, hierarchies,
+      categories, pricing structures, and product lifecycle states.
+    domain: Product
+    subdomain: Product Information Management
+    capabilities:
+      - dea:capability-product-information-management
+    governance:
+      sla_uptime: "99.95%"
+      security_classification: Internal
+      compliance:
+        - GDPR
+    solution_components:
+      - dea:component-pim-system
+      - dea:component-product-master
+    relationships:
+      - source_id: dea:service-product-catalog
+        target_id: dea:principle-single-source-of-truth
+        relationship_type: implements
+    tags:
+      - product
+      - catalog
+      - pim
+      - master-data
+
+  - id: dea:service-product-lifecycle
+    type: BusinessService
+    name: Product Lifecycle Service
+    abbreviation: PLS
+    version: "1.0.0"
+    status: active
+    description: >
+      Manages product lifecycle from ideation through launch, growth, maturity,
+      and end-of-life including version control and product transitions.
+    domain: Product
+    subdomain: Product Strategy
+    capabilities:
+      - dea:capability-product-information-management
+    governance:
+      sla_uptime: "99.9%"
+      security_classification: Internal
+      compliance: []
+    solution_components:
+      - dea:component-plm-system
+    relationships:
+      - source_id: dea:service-product-lifecycle
+        target_id: dea:service-product-catalog
+        relationship_type: depends_on
+    tags:
+      - product
+      - lifecycle
+      - plm
+
+  - id: dea:service-product-pricing
+    type: BusinessService
+    name: Product Pricing Service
+    abbreviation: PPS
+    version: "1.0.0"
+    status: active
+    description: >
+      Price management including pricing strategies, discount rules, promotional pricing,
+      margin calculations, and price optimization.
+    domain: Product
+    subdomain: Revenue Management
+    capabilities:
+      - dea:capability-product-revenue-management
+    governance:
+      sla_uptime: "99.95%"
+      security_classification: Confidential
+      compliance:
+        - SOX
+    solution_components:
+      - dea:component-pricing-engine
+      - dea:component-revenue-management-system
+    relationships:
+      - source_id: dea:service-product-pricing
+        target_id: dea:service-product-catalog
+        relationship_type: depends_on
+    tags:
+      - product
+      - pricing
+      - revenue
+      - discount

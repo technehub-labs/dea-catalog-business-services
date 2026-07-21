@@ -1,0 +1,18 @@
+capability_map:
+  domain: Finance
+  capabilities:
+    - id: dea:capability-financial-closing
+      name: Financial Closing
+      description: Manages period-end close processes, consolidation, and financial statement preparation
+      level: foundational
+      services: [dea:service-finance-accounting]
+    - id: dea:capability-financial-planning
+      name: Financial Planning
+      description: Budgeting, forecasting, and financial projection capabilities
+      level: advanced
+      services: [dea:service-finance-reporting]
+    - id: dea:capability-cash-management
+      name: Cash Management
+      description: Cash flow forecasting, liquidity optimization, and treasury operations
+      level: advanced
+      services: [dea:service-treasury-management]

@@ -1,0 +1,139 @@
+# Stakeholder Viewpoints
+# Maps stakeholder roles to DBSF services based on their concerns and responsibilities
+
+viewpoints:
+  - stakeholder: CTO
+    description: Chief Technology Officer — technology strategy, platform investment, and architectural governance
+    concerns:
+      - Platform scalability and performance
+      - Technology standardisation
+      - Integration architecture
+      - Data platform strategy
+      - Security and compliance posture
+    services:
+      - id: dea:service-customer-360
+        rationale: Core data platform enabling customer insight; highest impact on data strategy
+      - id: dea:service-customer-identity
+        rationale: Foundational IAM; affects all customer-facing systems
+      - id: dea:service-finance-reporting
+        rationale: BI and analytics platform; executive decision support
+      - id: dea:service-treasury-management
+        rationale: Payment gateway integration; critical financial operations
+      - id: dea:service-order-taking
+        rationale: E-commerce platform; revenue-critical channel
+      - id: dea:service-product-catalog
+        rationale: PIM/PIM master; foundation for commerce and supply chain
+    tags: [strategy, platform, integration, security]
+
+  - stakeholder: ChiefArchitect
+    description: Chief Architect — enterprise architecture governance, patterns, and standards
+    concerns:
+      - Architectural patterns and principles
+      - Cross-domain integration
+      - Technical debt management
+      - Reuse and consolidation
+      - Emerging technology evaluation
+    services:
+      - id: dea:service-customer-360
+        rationale: CQRS pattern implementation; reference for event-driven architecture
+      - id: dea:service-finance-accounting
+        rationale: Double-entry pattern; segregation of duties principles
+      - id: dea:service-treasury-management
+        rationale: Real-time settlement patterns; financial integration patterns
+      - id: dea:service-product-catalog
+        rationale: Single source of truth principle; master data governance
+      - id: dea:service-inventory-management
+        rationale: Real-time visibility principle; inventory tracking patterns
+      - id: dea:service-hr-core
+        rationale: Data privacy principle; PII handling patterns
+    tags: [architecture, patterns, standards, integration]
+
+  - stakeholder: SolutionsArchitect
+    description: Solutions Architect — translate business requirements into technical solutions
+    concerns:
+      - Solution design and component selection
+      - Requirement-to-component mapping
+      - Technical feasibility assessment
+      - Cost-of-ownership estimation
+      - Build vs buy analysis
+    services:
+      - id: dea:service-customer-360
+        rationale: CDP and identity resolution component selection
+      - id: dea:service-order-taking
+        rationale: OMS and e-commerce platform integration design
+      - id: dea:service-order-fulfillment
+        rationale: WMS and fulfillment engine orchestration
+      - id: dea:service-procurement
+        rationale: Source-to-pay component mapping
+      - id: dea:service-payroll
+        rationale: Payroll system integration with HCM
+      - id: dea:service-product-pricing
+        rationale: Pricing engine and revenue management design
+    tags: [solution-design, component-selection, requirements]
+
+  - stakeholder: BusinessArchitect
+    description: Business Architect — business capability mapping and process optimisation
+    concerns:
+      - Business capability decomposition
+      - Process digitisation opportunities
+      - Business-IT alignment
+      - Capability gap analysis
+      - Operating model design
+    services:
+      - id: dea:service-customer-identity
+        rationale: Customer engagement capabilities
+      - id: dea:service-order-taking
+        rationale: Order-to-cash process capabilities
+      - id: dea:service-finance-accounting
+        rationale: Record-to-report process capabilities
+      - id: dea:service-procurement
+        rationale: Source-to-pay process capabilities
+      - id: dea:service-talent-management
+        rationale: Hire-to-retire process capabilities
+      - id: dea:service-inventory-management
+        rationale: Plan-to-stock process capabilities
+    tags: [capability-map, process, alignment, optimization]
+
+  - stakeholder: SecurityArchitect
+    description: Security Architect — security controls, compliance, and risk management
+    concerns:
+      - Data classification and protection
+      - Access control and authentication
+      - Compliance framework adherence
+      - Security monitoring and incident response
+      - Privacy and PII protection
+    services:
+      - id: dea:service-customer-identity
+        rationale: IAM, MFA, and zero-trust implementation
+      - id: dea:service-customer-360
+        rationale: GDPR/CCPA compliance for customer data
+      - id: dea:service-finance-accounting
+        rationale: SOX controls and segregation of duties
+      - id: dea:service-treasury-management
+        rationale: PCI-DSS for payment processing
+      - id: dea:service-hr-core
+        rationale: HIPAA compliance for employee data
+      - id: dea:service-payroll
+        rationale: IRS compliance for tax data
+    tags: [security, compliance, privacy, access-control]
+
+  - stakeholder: DataArchitect
+    description: Data Architect — data platform, models, and governance
+    concerns:
+      - Data modelling and architecture
+      - Data quality and governance
+      - Integration and data movement
+      - Analytics and BI enablement
+      - Master data management
+    services:
+      - id: dea:service-customer-360
+        rationale: Customer data platform and MDM
+      - id: dea:service-product-catalog
+        rationale: Product master data management
+      - id: dea:service-finance-reporting
+        rationale: Financial data warehouse and star schema
+      - id: dea:service-inventory-management
+        rationale: Inventory data integration across warehouses
+      - id: dea:service-hr-core
+        rationale: Employee master data
+    tags: [data-model, governance, integration, analytics]

@@ -1,0 +1,102 @@
+# Order Management Domain Business Services
+# DEA Metamodel Entity: BusinessService
+
+services:
+  - id: dea:service-order-taking
+    type: BusinessService
+    name: Order Taking Service
+    abbreviation: OTS
+    version: "1.0.0"
+    status: active
+    description: >
+      Order capture from all channels including e-commerce, POS, mobile, and third-party
+      integrations with validation, pricing, and order confirmation.
+    domain: Order Management
+    subdomain: Order Capture
+    capabilities:
+      - dea:capability-order-management
+    governance:
+      sla_uptime: "99.95%"
+      security_classification: Confidential
+      compliance:
+        - GDPR
+        - PCI-DSS
+    solution_components:
+      - dea:component-order-management-system
+      - dea:component-ecommerce-platform
+    relationships:
+      - source_id: dea:service-order-taking
+        target_id: dea:service-customer-identity
+        relationship_type: depends_on
+      - source_id: dea:service-order-taking
+        target_id: dea:service-product-catalog
+        relationship_type: depends_on
+    tags:
+      - order
+      - ecommerce
+      - capture
+      - pos
+
+  - id: dea:service-order-fulfillment
+    type: BusinessService
+    name: Order Fulfillment Service
+    abbreviation: OFS
+    version: "1.0.0"
+    status: active
+    description: >
+      Orchestrates order fulfillment including inventory allocation, warehouse management,
+      picking, packing, shipping, and returns processing.
+    domain: Order Management
+    subdomain: Fulfillment
+    capabilities:
+      - dea:capability-fulfillment-orchestration
+    governance:
+      sla_uptime: "99.9%"
+      security_classification: Internal
+      compliance: []
+    solution_components:
+      - dea:component-warehouse-management-system
+      - dea:component-fulfillment-engine
+    relationships:
+      - source_id: dea:service-order-fulfillment
+        target_id: dea:service-order-taking
+        relationship_type: depends_on
+      - source_id: dea:service-order-fulfillment
+        target_id: dea:service-inventory-management
+        relationship_type: depends_on
+    tags:
+      - order
+      - fulfillment
+      - warehouse
+      - wms
+
+  - id: dea:service-order-tracking
+    type: BusinessService
+    name: Order Tracking Service
+    abbreviation: OTR
+    version: "1.0.0"
+    status: active
+    description: >
+      Real-time order status visibility including shipment tracking, delivery estimates,
+      exception notifications, and customer-facing tracking portals.
+    domain: Order Management
+    subdomain: Order Visibility
+    capabilities:
+      - dea:capability-order-management
+    governance:
+      sla_uptime: "99.9%"
+      security_classification: Internal
+      compliance:
+        - GDPR
+    solution_components:
+      - dea:component-tracking-engine
+      - dea:component-notification-gateway
+    relationships:
+      - source_id: dea:service-order-tracking
+        target_id: dea:service-order-fulfillment
+        relationship_type: depends_on
+    tags:
+      - order
+      - tracking
+      - visibility
+      - shipment

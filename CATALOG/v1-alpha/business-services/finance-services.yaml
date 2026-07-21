@@ -1,0 +1,112 @@
+# Finance Domain Business Services
+# DEA Metamodel Entity: BusinessService
+
+services:
+  - id: dea:service-finance-accounting
+    type: BusinessService
+    name: Finance Accounting Service
+    abbreviation: FAC
+    version: "1.0.0"
+    status: active
+    description: >
+      Core accounting operations including general ledger, accounts payable/receivable,
+      fixed assets, cost accounting, and financial consolidation.
+    domain: Finance
+    subdomain: Core Accounting
+    capabilities:
+      - dea:capability-financial-closing
+    governance:
+      sla_uptime: "99.95%"
+      security_classification: Restricted
+      compliance:
+        - SOX
+        - IFRS
+        - GAAP
+    solution_components:
+      - dea:component-erp-system
+      - dea:component-general-ledger
+    relationships:
+      - source_id: dea:service-finance-accounting
+        target_id: dea:principle-segregation-of-duties
+        relationship_type: implements
+      - source_id: dea:service-finance-accounting
+        target_id: dea:pattern-double-entry
+        relationship_type: realised_through
+    tags:
+      - finance
+      - accounting
+      - general-ledger
+      - sox
+
+  - id: dea:service-finance-reporting
+    type: BusinessService
+    name: Finance Reporting Service
+    abbreviation: FRP
+    version: "1.0.0"
+    status: active
+    description: >
+      Financial reporting and analysis including management reporting, regulatory reporting,
+      budgeting, forecasting, and executive dashboards.
+    domain: Finance
+    subdomain: Financial Planning & Analysis
+    capabilities:
+      - dea:capability-financial-planning
+    governance:
+      sla_uptime: "99.9%"
+      security_classification: Confidential
+      compliance:
+        - SOX
+        - IFRS
+    solution_components:
+      - dea:component-bi-reporting-platform
+      - dea:component-financial-data-warehouse
+    relationships:
+      - source_id: dea:service-finance-reporting
+        target_id: dea:service-finance-accounting
+        relationship_type: depends_on
+      - source_id: dea:service-finance-reporting
+        target_id: dea:pattern-star-schema
+        relationship_type: realised_through
+    tags:
+      - finance
+      - reporting
+      - bi
+      - analytics
+      - planning
+
+  - id: dea:service-treasury-management
+    type: BusinessService
+    name: Treasury Management Service
+    abbreviation: TMG
+    version: "1.0.0"
+    status: active
+    description: >
+      Cash management, liquidity forecasting, debt management, investment management,
+      and banking interface operations.
+    domain: Finance
+    subdomain: Treasury
+    capabilities:
+      - dea:capability-cash-management
+    governance:
+      sla_uptime: "99.99%"
+      security_classification: Restricted
+      compliance:
+        - SOX
+        - Basel III
+        - PCI-DSS
+    solution_components:
+      - dea:component-treasury-management-system
+      - dea:component-payment-gateway
+    relationships:
+      - source_id: dea:service-treasury-management
+        target_id: dea:principle-real-time-settlement
+        relationship_type: implements
+      - source_id: dea:service-treasury-management
+        target_id: dea:service-finance-accounting
+        relationship_type: depends_on
+    tags:
+      - finance
+      - treasury
+      - cash-management
+      - payments
+      - pci-dss

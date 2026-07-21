@@ -1,0 +1,103 @@
+# Customer Domain Business Services
+# DEA Metamodel Entity: BusinessService
+
+services:
+  - id: dea:service-customer-360
+    type: BusinessService
+    name: Customer 360 Service
+    abbreviation: C360
+    version: "1.0.0"
+    status: active
+    description: >
+      Provides a unified, real-time view of all customer interactions, attributes,
+      and history across all channels and touchpoints.
+    domain: Customer
+    subdomain: Customer Insight
+    capabilities:
+      - dea:capability-customer-data-management
+      - dea:capability-customer-identity-resolution
+    governance:
+      sla_uptime: "99.95%"
+      security_classification: Confidential
+      compliance:
+        - GDPR
+        - CCPA
+    solution_components:
+      - dea:component-customer-data-platform
+      - dea:component-identity-resolution-service
+    relationships:
+      - source_id: dea:service-customer-360
+        target_id: dea:principle-data-ownership
+        relationship_type: implements
+      - source_id: dea:service-customer-360
+        target_id: dea:pattern-cqrs
+        relationship_type: realised_through
+    tags:
+      - customer
+      - data-platform
+      - real-time
+      - gdpr
+
+  - id: dea:service-customer-identity
+    type: BusinessService
+    name: Customer Identity Service
+    abbreviation: CID
+    version: "1.0.0"
+    status: active
+    description: >
+      Manages customer identity lifecycle including registration, authentication,
+      profile management, and identity verification across all digital channels.
+    domain: Customer
+    subdomain: Identity & Access
+    capabilities:
+      - dea:capability-customer-identity-resolution
+    governance:
+      sla_uptime: "99.99%"
+      security_classification: Restricted
+      compliance:
+        - GDPR
+        - CCPA
+        - eIDAS
+    solution_components:
+      - dea:component-identity-resolution-service
+      - dea:component-customer-identity-provider
+    relationships:
+      - source_id: dea:service-customer-identity
+        target_id: dea:principle-zero-trust
+        relationship_type: implements
+    tags:
+      - customer
+      - identity
+      - authentication
+      - iam
+
+  - id: dea:service-customer-notification
+    type: BusinessService
+    name: Customer Notification Service
+    abbreviation: CNS
+    version: "1.0.0"
+    status: active
+    description: >
+      Handles all outbound customer communications including email, SMS, push notifications,
+      and in-app messaging with preference management and delivery tracking.
+    domain: Customer
+    subdomain: Engagement
+    capabilities:
+      - dea:capability-customer-engagement
+    governance:
+      sla_uptime: "99.9%"
+      security_classification: Internal
+      compliance:
+        - GDPR
+    solution_components:
+      - dea:component-notification-gateway
+      - dea:component-customer-engagement-platform
+    relationships:
+      - source_id: dea:service-customer-notification
+        target_id: dea:service-customer-identity
+        relationship_type: depends_on
+    tags:
+      - customer
+      - notification
+      - messaging
+      - engagement
