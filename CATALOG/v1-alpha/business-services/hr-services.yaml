@@ -1,107 +1,109 @@
 # Human Resources Domain Business Services
-# DEA Metamodel Entity: BusinessService
 
-services:
+entries:
   - id: dea:service-hr-core
     type: BusinessService
     name: HR Core Service
-    abbreviation: HRC
+    abbreviation: HRCS
     version: "1.0.0"
     status: active
     description: >
-      Core HR operations including employee records, organization management,
-      benefits administration, and HR self-service portals.
+      Core HR operations: employee master data, organisational structure, employment
+      records, and HR transactions. The system of record for the entire employee
+      lifecycle from hire to retirement.
     domain: Human Resources
     subdomain: Core HR
     capabilities:
       - dea:capability-workforce-planning
     governance:
-      sla_uptime: "99.9%"
+      sla_tier: Gold
+      sla_uptime: "99.95%"
+      recovery_time_minutes: 60
       security_classification: Restricted
       compliance:
         - GDPR
         - HIPAA
-        - EEOC
     solution_components:
-      - dea:component-hcm-system
-      - dea:component-benefits-management-system
+      - dea:component-hris
     relationships:
       - source_id: dea:service-hr-core
-        target_id: dea:principle-data-privacy
-        relationship_type: implements
+        target_id: dea:service-talent-management
+        relationship_type: feeds
+      - source_id: dea:service-hr-core
+        target_id: dea:service-payroll
+        relationship_type: supplies
     tags:
       - hr
-      - employee
-      - benefits
-      - hcm
+      - hris
+      - employee-data
+      - gdpr
 
   - id: dea:service-talent-management
     type: BusinessService
     name: Talent Management Service
-    abbreviation: TMS
+    abbreviation: TMSvc
     version: "1.0.0"
     status: active
     description: >
-      Talent acquisition, onboarding, performance management, learning and development,
-      succession planning, and career development.
+      Talent acquisition, performance management, learning and development,
+      succession planning, and career development. Manages the full talent lifecycle.
     domain: Human Resources
     subdomain: Talent
     capabilities:
       - dea:capability-talent-acquisition
     governance:
+      sla_tier: Silver
       sla_uptime: "99.9%"
+      recovery_time_minutes: 240
       security_classification: Confidential
       compliance:
         - GDPR
-        - EEOC
     solution_components:
-      - dea:component-talent-acquisition-system
-      - dea:component-lms-system
-      - dea:component-performance-management-system
+      - dea:component-talent-management-system
     relationships:
       - source_id: dea:service-talent-management
         target_id: dea:service-hr-core
-        relationship_type: depends_on
+        relationship_type: receives_from
     tags:
       - hr
       - talent
       - recruitment
-      - learning
       - performance
 
   - id: dea:service-payroll
     type: BusinessService
     name: Payroll Service
-    abbreviation: PRL
+    abbreviation: PYS
     version: "1.0.0"
     status: active
     description: >
-      Payroll processing including salary calculation, tax withholding, direct deposit,
-      payroll reporting, and year-end tax form generation.
+      Payroll processing: salary calculation, tax withholding, benefits deductions,
+      direct deposit, and payroll reporting. Interfaces with time and attendance,
+      benefits administration, and tax filing systems.
     domain: Human Resources
     subdomain: Payroll
     capabilities:
       - dea:capability-compensation-management
     governance:
+      sla_tier: Platinum
       sla_uptime: "99.99%"
+      recovery_time_minutes: 15
       security_classification: Restricted
       compliance:
+        - SOX
         - GDPR
         - HIPAA
-        - IRS
-        - state-tax
     solution_components:
       - dea:component-payroll-system
-      - dea:component-time-and-attendance-system
     relationships:
       - source_id: dea:service-payroll
         target_id: dea:service-hr-core
         relationship_type: depends_on
       - source_id: dea:service-payroll
-        target_id: dea:principle-accuracy-first
-        relationship_type: implements
+        target_id: dea:service-finance-accounting
+        relationship_type: posts_to
     tags:
       - hr
       - payroll
-      - compensation
-      - tax
+      - sox
+      - platinum-sla

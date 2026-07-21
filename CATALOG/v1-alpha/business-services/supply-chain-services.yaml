@@ -1,7 +1,6 @@
 # Supply Chain Domain Business Services
-# DEA Metamodel Entity: BusinessService
 
-services:
+entries:
   - id: dea:service-inventory-management
     type: BusinessService
     name: Inventory Management Service
@@ -9,14 +8,17 @@ services:
     version: "1.0.0"
     status: active
     description: >
-      Inventory control including stock levels, replenishment planning, safety stock,
-      inventory valuation, and multi-warehouse management.
+      Tracks inventory levels across all locations: warehouses, distribution centres,
+      retail locations, and in-transit. Manages reorder points, safety stock, and
+      inventory valuation. Provides real-time inventory visibility.
     domain: Supply Chain
     subdomain: Inventory
     capabilities:
       - dea:capability-supply-chain-planning
     governance:
+      sla_tier: Gold
       sla_uptime: "99.95%"
+      recovery_time_minutes: 60
       security_classification: Internal
       compliance: []
     solution_components:
@@ -24,30 +26,35 @@ services:
       - dea:component-warehouse-management-system
     relationships:
       - source_id: dea:service-inventory-management
-        target_id: dea:principle-real-time-visibility
-        relationship_type: implements
+        target_id: dea:service-order-fulfillment
+        relationship_type: supplies
+      - source_id: dea:service-inventory-management
+        target_id: dea:service-procurement
+        relationship_type: triggers_replenishment
     tags:
       - supply-chain
       - inventory
       - warehouse
-      - stock
 
   - id: dea:service-procurement
     type: BusinessService
     name: Procurement Service
-    abbreviation: PRS
+    abbreviation: PS
     version: "1.0.0"
     status: active
     description: >
-      Source-to-pay operations including supplier selection, purchase requisitions,
-      purchase orders, goods receipt, and supplier invoicing.
+      Manages the end-to-end procurement process: requisitioning, supplier selection,
+      purchase order creation, goods receipt, and invoice matching. Governs supplier
+      relationships and procurement policies.
     domain: Supply Chain
     subdomain: Procurement
     capabilities:
       - dea:capability-supplier-management
     governance:
+      sla_tier: Silver
       sla_uptime: "99.9%"
-      security_classification: Confidential
+      recovery_time_minutes: 240
+      security_classification: Internal
       compliance:
         - SOX
     solution_components:
@@ -56,15 +63,15 @@ services:
     relationships:
       - source_id: dea:service-procurement
         target_id: dea:service-inventory-management
-        relationship_type: depends_on
+        relationship_type: replenishes
       - source_id: dea:service-procurement
-        target_id: dea:principle-three-way-match
-        relationship_type: implements
+        target_id: dea:service-finance-accounting
+        relationship_type: posts_to
     tags:
       - supply-chain
       - procurement
       - purchasing
-      - supplier
+      - sox
 
   - id: dea:service-logistics-coordination
     type: BusinessService
@@ -73,30 +80,31 @@ services:
     version: "1.0.0"
     status: active
     description: >
-      Transportation management, route optimization, carrier management, and logistics
-      network planning including import/export operations.
+      Coordinates inbound and outbound logistics: carrier management, route
+      optimisation, shipment tracking, and freight cost management. Interfaces with
+      customs for cross-border shipments.
     domain: Supply Chain
     subdomain: Logistics
     capabilities:
       - dea:capability-supply-chain-planning
     governance:
+      sla_tier: Silver
       sla_uptime: "99.9%"
+      recovery_time_minutes: 240
       security_classification: Internal
-      compliance:
-        - customs
-        - trade-compliance
+      compliance: []
     solution_components:
-      - dea:component-tms-system
-      - dea:component-carrier-integration-platform
+      - dea:component-tms
+      - dea:component-carrier-integration
     relationships:
       - source_id: dea:service-logistics-coordination
-        target_id: dea:service-inventory-management
-        relationship_type: depends_on
-      - source_id: dea:service-logistics-coordination
         target_id: dea:service-order-fulfillment
-        relationship_type: depends_on
+        relationship_type: ships
+      - source_id: dea:service-logistics-coordination
+        target_id: dea:service-inventory-management
+        relationship_type: receives_from
     tags:
       - supply-chain
       - logistics
-      - transportation
       - tms
+      - freight

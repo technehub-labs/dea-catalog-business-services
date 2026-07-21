@@ -1,156 +1,97 @@
-# Service to Solution Component Mappings
-# DEA Metamodel Entity: maps BusinessService → SolutionComponent
+# Service-to-Solution Component Mappings
 
 mappings:
-  # ─── Customer Domain ───────────────────────────────────────────
-  - service_id: dea:service-customer-360
-    service_name: Customer 360 Service
-    components:
-      - component_id: dea:component-customer-data-platform
-        relationship: realised_through
-        description: Central CDP for unified customer data
-      - component_id: dea:component-identity-resolution-service
-        relationship: realised_through
-        description: Probabilistic and deterministic identity matching
+  description: >
+    Declares the typed relationships between business services
+    and the solution components that realise them.
 
-  - service_id: dea:service-customer-identity
-    service_name: Customer Identity Service
-    components:
-      - component_id: dea:component-identity-resolution-service
-        relationship: realised_through
-      - component_id: dea:component-customer-identity-provider
-        relationship: realised_through
-        description: OIDC/SAML identity provider
+  service_components:
+    - service: dea:service-customer-360
+      components:
+        - id: dea:component-customer-data-platform
+          relationship: realised_through
+          description: CDP provides unified customer data ingestion, identity resolution, and activation
+        - id: dea:component-identity-resolution-service
+          relationship: realised_through
+          description: Identity service handles probabilistic and deterministic identity matching
 
-  - service_id: dea:service-customer-notification
-    service_name: Customer Notification Service
-    components:
-      - component_id: dea:component-notification-gateway
-        relationship: realised_through
-      - component_id: dea:component-customer-engagement-platform
-        relationship: realised_through
+    - service: dea:service-customer-identity
+      components:
+        - id: dea:component-identity-resolution-service
+          relationship: realised_through
+          description: Dedicated identity resolution engine
 
-  # ─── Finance Domain ───────────────────────────────────────────
-  - service_id: dea:service-finance-accounting
-    service_name: Finance Accounting Service
-    components:
-      - component_id: dea:component-erp-system
-        relationship: realised_through
-      - component_id: dea:component-general-ledger
-        relationship: realised_through
+    - service: dea:service-customer-notification
+      components:
+        - id: dea:component-notification-gateway
+          relationship: realised_through
+          description: Multi-channel notification gateway (email, SMS, push)
 
-  - service_id: dea:service-finance-reporting
-    service_name: Finance Reporting Service
-    components:
-      - component_id: dea:component-bi-reporting-platform
-        relationship: realised_through
-      - component_id: dea:component-financial-data-warehouse
-        relationship: realised_through
+    - service: dea:service-finance-accounting
+      components:
+        - id: dea:component-erp-core
+          relationship: realised_through
+          description: Core ERP system providing general ledger and AP/AR
+        - id: dea:component-general-ledger
+          relationship: realised_through
+          description: General ledger sub-system
 
-  - service_id: dea:service-treasury-management
-    service_name: Treasury Management Service
-    components:
-      - component_id: dea:component-treasury-management-system
-        relationship: realised_through
-      - component_id: dea:component-payment-gateway
-        relationship: realised_through
+    - service: dea:service-finance-reporting
+      components:
+        - id: dea:component-financial-reporting-engine
+          relationship: realised_through
+          description: Financial reporting and management reporting engine
+        - id: dea:component-bi-platform
+          relationship: realised_through
+          description: BI platform for ad-hoc financial analysis
 
-  # ─── Product Domain ────────────────────────────────────────────
-  - service_id: dea:service-product-catalog
-    service_name: Product Catalog Service
-    components:
-      - component_id: dea:component-pim-system
-        relationship: realised_through
-      - component_id: dea:component-product-master
-        relationship: realised_through
+    - service: dea:service-treasury-management
+      components:
+        - id: dea:component-treasury-management-system
+          relationship: realised_through
+          description: Dedicated treasury management system
+        - id: dea:component-payment-gateway
+          relationship: realised_through
+          description: Payment initiation and settlement gateway
 
-  - service_id: dea:service-product-lifecycle
-    service_name: Product Lifecycle Service
-    components:
-      - component_id: dea:component-plm-system
-        relationship: realised_through
+    - service: dea:service-order-taking
+      components:
+        - id: dea:component-order-management-system
+          relationship: realised_through
+          description: OMS handles order capture, validation, and order management
+        - id: dea:component-ecommerce-platform
+          relationship: realised_through
+          description: E-commerce platform for digital order capture
 
-  - service_id: dea:service-product-pricing
-    service_name: Product Pricing Service
-    components:
-      - component_id: dea:component-pricing-engine
-        relationship: realised_through
-      - component_id: dea:component-revenue-management-system
-        relationship: realised_through
+    - service: dea:service-order-fulfillment
+      components:
+        - id: dea:component-warehouse-management-system
+          relationship: realised_through
+          description: WMS manages warehouse operations and fulfillment
+        - id: dea:component-carrier-integration
+          relationship: realised_through
+          description: Carrier integration for label generation and tracking
 
-  # ─── Order Management Domain ───────────────────────────────────
-  - service_id: dea:service-order-taking
-    service_name: Order Taking Service
-    components:
-      - component_id: dea:component-order-management-system
-        relationship: realised_through
-      - component_id: dea:component-ecommerce-platform
-        relationship: realised_through
+    - service: dea:service-inventory-management
+      components:
+        - id: dea:component-inventory-management-system
+          relationship: realised_through
+          description: Inventory tracking and optimisation system
 
-  - service_id: dea:service-order-fulfillment
-    service_name: Order Fulfillment Service
-    components:
-      - component_id: dea:component-warehouse-management-system
-        relationship: realised_through
-      - component_id: dea:component-fulfillment-engine
-        relationship: realised_through
+    - service: dea:service-procurement
+      components:
+        - id: dea:component-procurement-system
+          relationship: realised_through
+          description: End-to-end procurement and sourcing system
 
-  - service_id: dea:service-order-tracking
-    service_name: Order Tracking Service
-    components:
-      - component_id: dea:component-tracking-engine
-        relationship: realised_through
-      - component_id: dea:component-notification-gateway
-        relationship: depends_on
+    - service: dea:service-talent-management
+      components:
+        - id: dea:component-talent-management-system
+          relationship: realised_through
+          description: TMS for recruitment, performance, and learning
 
-  # ─── Supply Chain Domain ────────────────────────────────────────
-  - service_id: dea:service-inventory-management
-    service_name: Inventory Management Service
-    components:
-      - component_id: dea:component-inventory-management-system
-        relationship: realised_through
-      - component_id: dea:component-warehouse-management-system
-        relationship: depends_on
-
-  - service_id: dea:service-procurement
-    service_name: Procurement Service
-    components:
-      - component_id: dea:component-procurement-system
-        relationship: realised_through
-      - component_id: dea:component-supplier-portal
-        relationship: realised_through
-
-  - service_id: dea:service-logistics-coordination
-    service_name: Logistics Coordination Service
-    components:
-      - component_id: dea:component-tms-system
-        relationship: realised_through
-      - component_id: dea:component-carrier-integration-platform
-        relationship: realised_through
-
-  # ─── HR Domain ──────────────────────────────────────────────────
-  - service_id: dea:service-hr-core
-    service_name: HR Core Service
-    components:
-      - component_id: dea:component-hcm-system
-        relationship: realised_through
-      - component_id: dea:component-benefits-management-system
-        relationship: realised_through
-
-  - service_id: dea:service-talent-management
-    service_name: Talent Management Service
-    components:
-      - component_id: dea:component-talent-acquisition-system
-        relationship: realised_through
-      - component_id: dea:component-lms-system
-        relationship: realised_through
-      - component_id: dea:component-performance-management-system
-        relationship: realised_through
-
-  - service_id: dea:service-payroll
-    service_name: Payroll Service
-    components:
-      - component_id: dea:component-payroll-system
-        relationship: realised_through
-      - component_id: dea:component-time-and-attendance-system
-        relationship: depends_on
+    - service: dea:service-payroll
+      components:
+        - id: dea:component-payroll-system
+          relationship: realised_through
+          description: Payroll processing system

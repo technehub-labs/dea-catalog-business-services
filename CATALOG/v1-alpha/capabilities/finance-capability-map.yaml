@@ -1,18 +1,43 @@
+# Finance Capability Map
+
 capability_map:
   domain: Finance
+  description: >
+    Maps finance domain capabilities to the services that realise them
+    and the solution components that implement each service.
   capabilities:
     - id: dea:capability-financial-closing
       name: Financial Closing
-      description: Manages period-end close processes, consolidation, and financial statement preparation
-      level: foundational
-      services: [dea:service-finance-accounting]
+      description: >
+        The ability to produce accurate and timely period-end financial closes
+        with proper reconciliation, journal entries, and audit trails.
+      maturity_target: Optimised
+      services:
+        - dea:service-finance-accounting
+      kpis:
+        - close_days: Number of days to complete period close (target: ≤5)
+        - adjustment_rate: Journal adjustments as % of total transactions (target: <1%)
+
     - id: dea:capability-financial-planning
-      name: Financial Planning
-      description: Budgeting, forecasting, and financial projection capabilities
-      level: advanced
-      services: [dea:service-finance-reporting]
+      name: Financial Planning and Analysis
+      description: >
+        The ability to produce budget, forecast, and variance analysis
+        across all organisational units and financial dimensions.
+      maturity_target: Managed
+      services:
+        - dea:service-finance-reporting
+      kpis:
+        - forecast_accuracy: Forecast vs actual variance (target: ±5%)
+        - planning_cycle_days: Days to complete annual planning cycle (target: ≤45)
+
     - id: dea:capability-cash-management
       name: Cash Management
-      description: Cash flow forecasting, liquidity optimization, and treasury operations
-      level: advanced
-      services: [dea:service-treasury-management]
+      description: >
+        The ability to forecast cash position, optimise liquidity, manage
+        banking relationships, and process payments accurately.
+      maturity_target: Managed
+      services:
+        - dea:service-treasury-management
+      kpis:
+        - cash_position_accuracy: Forecast vs actual cash (target: ±2%)
+        - payment_accuracy: Failed payments as % of total (target: <0.1%)

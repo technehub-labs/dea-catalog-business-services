@@ -1,7 +1,6 @@
 # Order Management Domain Business Services
-# DEA Metamodel Entity: BusinessService
 
-services:
+entries:
   - id: dea:service-order-taking
     type: BusinessService
     name: Order Taking Service
@@ -9,33 +8,38 @@ services:
     version: "1.0.0"
     status: active
     description: >
-      Order capture from all channels including e-commerce, POS, mobile, and third-party
-      integrations with validation, pricing, and order confirmation.
+      Order capture across all channels: e-commerce, contact centre, field sales.
+      Validates orders against product availability, pricing, and customer credit limits.
+      Creates order records and hands off to fulfillment.
     domain: Order Management
     subdomain: Order Capture
     capabilities:
       - dea:capability-order-management
     governance:
-      sla_uptime: "99.95%"
+      sla_tier: Platinum
+      sla_uptime: "99.99%"
+      recovery_time_minutes: 15
       security_classification: Confidential
       compliance:
-        - GDPR
         - PCI-DSS
     solution_components:
       - dea:component-order-management-system
       - dea:component-ecommerce-platform
     relationships:
       - source_id: dea:service-order-taking
-        target_id: dea:service-customer-identity
-        relationship_type: depends_on
-      - source_id: dea:service-order-taking
         target_id: dea:service-product-catalog
-        relationship_type: depends_on
+        relationship_type: references
+      - source_id: dea:service-order-taking
+        target_id: dea:service-product-pricing
+        relationship_type: prices
+      - source_id: dea:service-order-taking
+        target_id: dea:service-order-fulfillment
+        relationship_type: hands_off_to
     tags:
       - order
-      - ecommerce
-      - capture
-      - pos
+      - commerce
+      - pci-dss
+      - platinum-sla
 
   - id: dea:service-order-fulfillment
     type: BusinessService
@@ -44,59 +48,68 @@ services:
     version: "1.0.0"
     status: active
     description: >
-      Orchestrates order fulfillment including inventory allocation, warehouse management,
-      picking, packing, shipping, and returns processing.
+      Orchestrates order fulfillment from reservation through shipment. Manages
+      allocation, picking, packing, shipping, and proof of delivery. Interfaces
+      with warehouse management and carrier systems.
     domain: Order Management
     subdomain: Fulfillment
     capabilities:
       - dea:capability-fulfillment-orchestration
     governance:
-      sla_uptime: "99.9%"
+      sla_tier: Gold
+      sla_uptime: "99.95%"
+      recovery_time_minutes: 60
       security_classification: Internal
       compliance: []
     solution_components:
       - dea:component-warehouse-management-system
-      - dea:component-fulfillment-engine
+      - dea:component-carrier-integration
     relationships:
       - source_id: dea:service-order-fulfillment
         target_id: dea:service-order-taking
-        relationship_type: depends_on
+        relationship_type: receives_from
       - source_id: dea:service-order-fulfillment
         target_id: dea:service-inventory-management
         relationship_type: depends_on
+      - source_id: dea:service-order-fulfillment
+        target_id: dea:service-logistics-coordination
+        relationship_type: coordinates_with
     tags:
       - order
       - fulfillment
-      - warehouse
-      - wms
+      - logistics
 
   - id: dea:service-order-tracking
     type: BusinessService
     name: Order Tracking Service
-    abbreviation: OTR
+    abbreviation: ORTS
     version: "1.0.0"
     status: active
     description: >
-      Real-time order status visibility including shipment tracking, delivery estimates,
-      exception notifications, and customer-facing tracking portals.
+      Provides real-time order and shipment tracking to customers and internal teams.
+      Aggregates status from fulfillment, logistics, and carrier systems. Delivers
+      notifications at key order milestones.
     domain: Order Management
-    subdomain: Order Visibility
+    subdomain: Tracking
     capabilities:
       - dea:capability-order-management
     governance:
-      sla_uptime: "99.9%"
+      sla_tier: Gold
+      sla_uptime: "99.95%"
+      recovery_time_minutes: 60
       security_classification: Internal
-      compliance:
-        - GDPR
+      compliance: []
     solution_components:
       - dea:component-tracking-engine
       - dea:component-notification-gateway
     relationships:
       - source_id: dea:service-order-tracking
         target_id: dea:service-order-fulfillment
-        relationship_type: depends_on
+        relationship_type: subscribes_to
+      - source_id: dea:service-order-tracking
+        target_id: dea:service-logistics-coordination
+        relationship_type: integrates_with
     tags:
       - order
       - tracking
-      - visibility
-      - shipment
+      - customer-experience

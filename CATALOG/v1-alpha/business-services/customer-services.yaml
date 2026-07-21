@@ -1,7 +1,6 @@
-# Customer Domain Business Services
-# DEA Metamodel Entity: BusinessService
+# Digital Business Service Factory — Business Service Entries
 
-services:
+entries:
   - id: dea:service-customer-360
     type: BusinessService
     name: Customer 360 Service
@@ -10,14 +9,18 @@ services:
     status: active
     description: >
       Provides a unified, real-time view of all customer interactions, attributes,
-      and history across all channels and touchpoints.
+      and history across all channels and touchpoints. The single source of customer
+      truth for all enterprise systems.
     domain: Customer
     subdomain: Customer Insight
     capabilities:
       - dea:capability-customer-data-management
       - dea:capability-customer-identity-resolution
+      - dea:capability-customer-engagement
     governance:
-      sla_uptime: "99.95%"
+      sla_tier: Platinum
+      sla_uptime: "99.99%"
+      recovery_time_minutes: 15
       security_classification: Confidential
       compliance:
         - GDPR
@@ -32,44 +35,52 @@ services:
       - source_id: dea:service-customer-360
         target_id: dea:pattern-cqrs
         relationship_type: realised_through
+      - source_id: dea:service-customer-360
+        target_id: dea:service-product-catalog
+        relationship_type: depends_on
     tags:
       - customer
       - data-platform
       - real-time
       - gdpr
+      - platinum-sla
 
   - id: dea:service-customer-identity
     type: BusinessService
     name: Customer Identity Service
-    abbreviation: CID
+    abbreviation: CIS
     version: "1.0.0"
     status: active
     description: >
-      Manages customer identity lifecycle including registration, authentication,
-      profile management, and identity verification across all digital channels.
+      Manages customer identity across all channels using probabilistic and deterministic
+      matching. Resolves fragmented identities into a single customer identity graph
+      with confidence scores and merge/purge policies.
     domain: Customer
-    subdomain: Identity & Access
+    subdomain: Identity
     capabilities:
       - dea:capability-customer-identity-resolution
     governance:
-      sla_uptime: "99.99%"
-      security_classification: Restricted
+      sla_tier: Gold
+      sla_uptime: "99.95%"
+      recovery_time_minutes: 60
+      security_classification: Confidential
       compliance:
         - GDPR
         - CCPA
-        - eIDAS
     solution_components:
       - dea:component-identity-resolution-service
-      - dea:component-customer-identity-provider
     relationships:
       - source_id: dea:service-customer-identity
-        target_id: dea:principle-zero-trust
+        target_id: dea:service-customer-360
+        relationship_type: feeds
+      - source_id: dea:service-customer-identity
+        target_id: dea:principle-privacy-by-design
         relationship_type: implements
     tags:
       - customer
       - identity
-      - authentication
-      - iam
+      - identity-resolution
+      - gdpr
 
   - id: dea:service-customer-notification
     type: BusinessService
@@ -78,26 +89,30 @@ services:
     version: "1.0.0"
     status: active
     description: >
-      Handles all outbound customer communications including email, SMS, push notifications,
-      and in-app messaging with preference management and delivery tracking.
+      Manages all outbound customer communications: email, SMS, push notifications,
+      and in-app messaging. Supports preference management, template rendering, and
+      delivery tracking with unsubscribe handling.
     domain: Customer
     subdomain: Engagement
     capabilities:
       - dea:capability-customer-engagement
     governance:
-      sla_uptime: "99.9%"
+      sla_tier: Gold
+      sla_uptime: "99.95%"
+      recovery_time_minutes: 60
       security_classification: Internal
       compliance:
         - GDPR
     solution_components:
       - dea:component-notification-gateway
-      - dea:component-customer-engagement-platform
     relationships:
       - source_id: dea:service-customer-notification
-        target_id: dea:service-customer-identity
-        relationship_type: depends_on
+        target_id: dea:service-customer-360
+        relationship_type: subscribes_to
+      - source_id: dea:service-customer-notification
+        target_id: dea:principle-api-first
+        relationship_type: implements
     tags:
       - customer
-      - notification
-      - messaging
+      - notifications
       - engagement

@@ -1,53 +1,58 @@
 # Product Domain Business Services
-# DEA Metamodel Entity: BusinessService
 
-services:
+entries:
   - id: dea:service-product-catalog
     type: BusinessService
     name: Product Catalog Service
-    abbreviation: PCT
+    abbreviation: PCS
     version: "1.0.0"
     status: active
     description: >
-      Master product data management including product definitions, hierarchies,
-      categories, pricing structures, and product lifecycle states.
+      Manages the enterprise product catalogue: product definitions, pricing,
+      hierarchies, variants, and lifecycle states. The authoritative source of
+      product information for commerce, ERP, and analytics systems.
     domain: Product
-    subdomain: Product Information Management
+    subdomain: Catalog Management
     capabilities:
       - dea:capability-product-information-management
     governance:
+      sla_tier: Gold
       sla_uptime: "99.95%"
+      recovery_time_minutes: 60
       security_classification: Internal
-      compliance:
-        - GDPR
+      compliance: []
     solution_components:
-      - dea:component-pim-system
-      - dea:component-product-master
+      - dea:component-product-information-system
+      - dea:component-pricing-engine
     relationships:
       - source_id: dea:service-product-catalog
-        target_id: dea:principle-single-source-of-truth
+        target_id: dea:service-order-taking
+        relationship_type: supplies
+      - source_id: dea:service-product-catalog
+        target_id: dea:principle-data-ownership
         relationship_type: implements
     tags:
       - product
       - catalog
       - pim
-      - master-data
 
   - id: dea:service-product-lifecycle
     type: BusinessService
-    name: Product Lifecycle Service
-    abbreviation: PLS
+    name: Product Lifecycle Management Service
+    abbreviation: PLMS
     version: "1.0.0"
     status: active
     description: >
-      Manages product lifecycle from ideation through launch, growth, maturity,
-      and end-of-life including version control and product transitions.
+      Manages product lifecycles from ideation through launch, growth, maintenance,
+      and retirement. Integrates with engineering, marketing, and supply chain systems.
     domain: Product
-    subdomain: Product Strategy
+    subdomain: Lifecycle
     capabilities:
-      - dea:capability-product-information-management
+      - dea:capability-product-revenue-management
     governance:
+      sla_tier: Silver
       sla_uptime: "99.9%"
+      recovery_time_minutes: 240
       security_classification: Internal
       compliance: []
     solution_components:
@@ -55,7 +60,7 @@ services:
     relationships:
       - source_id: dea:service-product-lifecycle
         target_id: dea:service-product-catalog
-        relationship_type: depends_on
+        relationship_type: manages_lifecycle_of
     tags:
       - product
       - lifecycle
@@ -68,26 +73,29 @@ services:
     version: "1.0.0"
     status: active
     description: >
-      Price management including pricing strategies, discount rules, promotional pricing,
-      margin calculations, and price optimization.
+      Centralised pricing management: price lists, discount rules, promotional pricing,
+      customer-specific pricing, and currency conversion. Enforces pricing governance
+      and prevents unauthorised discounting.
     domain: Product
-    subdomain: Revenue Management
+    subdomain: Pricing
     capabilities:
       - dea:capability-product-revenue-management
     governance:
+      sla_tier: Gold
       sla_uptime: "99.95%"
+      recovery_time_minutes: 60
       security_classification: Confidential
-      compliance:
-        - SOX
+      compliance: []
     solution_components:
       - dea:component-pricing-engine
-      - dea:component-revenue-management-system
     relationships:
       - source_id: dea:service-product-pricing
         target_id: dea:service-product-catalog
         relationship_type: depends_on
+      - source_id: dea:service-product-pricing
+        target_id: dea:service-order-taking
+        relationship_type: prices
     tags:
       - product
       - pricing
       - revenue
-      - discount
