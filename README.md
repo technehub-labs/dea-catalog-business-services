@@ -8,6 +8,20 @@
 
 ---
 
+## Entity Scope
+
+This catalog hosts the following entities from the DEA metamodel:
+
+| Entity | ID | Status |
+|---|---|---|
+| Business Service | `dea:entity-business-service` | Primary host |
+| Business Object | `dea:entity-business-object` | Hosted (relocation pending separate decision) |
+| Organizational Unit | `dea:entity-organizational-unit` | Hosted (relocation pending separate decision) |
+
+**Relocated (2026-08-08):** Business Process (`dea:entity-business-process`) moved to its own catalog: [`dea-catalog-processes`](https://github.com/technehub-labs/dea-catalog-processes). The entity-graph viewer reference has been updated in `dea-metamodel/viewer/entity-graph.json`. Business Object (BO) and Organizational Unit (OU) remain hosted here pending a separate relocation decision.
+
+---
+
 ## Overview
 
 The Digital Business Service Factory (DBSF) is the L1 reference catalog that defines, classifies, and governs enterprise business services — from high-level capabilities down to the solution components that realise them.
