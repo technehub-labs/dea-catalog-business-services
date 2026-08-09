@@ -15,10 +15,14 @@ This catalog hosts the following entities from the DEA metamodel:
 | Entity | ID | Status |
 |---|---|---|
 | Business Service | `dea:entity-business-service` | Primary host |
-| Business Object | `dea:entity-business-object` | Hosted (relocation pending separate decision) |
-| Organizational Unit | `dea:entity-organizational-unit` | Hosted (relocation pending separate decision) |
 
-**Relocated (2026-08-08):** Business Process (`dea:entity-business-process`) moved to its own catalog: [`dea-catalog-processes`](https://github.com/technehub-labs/dea-catalog-processes). The entity-graph viewer reference has been updated in `dea-metamodel/viewer/entity-graph.json`. Business Object (BO) and Organizational Unit (OU) remain hosted here pending a separate relocation decision.
+**Relocated:**
+
+- **2026-08-08** — Business Process (`dea:entity-business-process`) → [`dea-catalog-processes`](https://github.com/technehub-labs/dea-catalog-processes)
+- **2026-08-09** — Business Object (`dea:entity-business-object`) → [`dea-catalog-business-objects`](https://github.com/technehub-labs/dea-catalog-business-objects)
+- **2026-08-09** — Organizational Unit (`dea:entity-organizational-unit`) → [`dea-catalog-organizational-units`](https://github.com/technehub-labs/dea-catalog-organizational-units)
+
+The entity-graph viewer reference has been updated in [`dea-metamodel/viewer/entity-graph.json`](https://github.com/technehub-labs/dea-metamodel/blob/main/viewer/entity-graph.json). With these relocations, DBSF becomes a pure Business Service host — Business Capability, Solution Component, and Business Service remain here, composing the digital business service factory.
 
 ---
 
