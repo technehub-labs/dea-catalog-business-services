@@ -1,0 +1,36 @@
+id: dea:service-finance-reporting
+type: BusinessService
+name: Finance Reporting and Analytics Service
+abbreviation: FRAS
+version: 1.0.0
+description: 'Financial reporting, management reporting, budgeting, and variance analysis.
+  Produces statutory, management, and ad-hoc financial reports from the general ledger
+  and sub-ledgers.
+
+  '
+domain: Finance
+subdomain: Reporting
+capabilities:
+- dea:capability-financial-planning
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Restricted
+  compliance:
+  - SOX
+  - IFRS
+solution_components:
+- dea:component-financial-reporting-engine
+- dea:component-bi-platform
+relationships:
+- target_id: dea:service-finance-accounting
+  relationship_type: depends_on
+- target_id: dea:principle-data-ownership
+  relationship_type: implements
+tags:
+- finance
+- reporting
+- analytics
+- sox
+lifecycle_status: active
