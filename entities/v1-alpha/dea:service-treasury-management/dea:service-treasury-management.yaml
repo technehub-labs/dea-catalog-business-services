@@ -1,0 +1,37 @@
+id: dea:service-treasury-management
+type: BusinessService
+name: Treasury Management Service
+abbreviation: TMS
+version: 1.0.0
+description: 'Cash management, liquidity forecasting, debt management, investment
+  management, and treasury operations. Interfaces with banking partners and payment
+  processors to manage the enterprise''s cash position in real time.
+
+  '
+domain: Finance
+subdomain: Treasury
+capabilities:
+- dea:capability-cash-management
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Restricted
+  compliance:
+  - SOX
+  - Basel III
+solution_components:
+- dea:component-treasury-management-system
+- dea:component-payment-gateway
+relationships:
+- target_id: dea:service-finance-accounting
+  relationship_type: integrates_with
+- target_id: dea:principle-zero-trust
+  relationship_type: implements
+tags:
+- finance
+- treasury
+- cash-management
+- payments
+- platinum-sla
+lifecycle_status: active

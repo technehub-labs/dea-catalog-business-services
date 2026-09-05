@@ -1,0 +1,281 @@
+catalog:
+  abbreviation: DBSF
+  counts:
+    candidates: 0
+    canonical: 18
+    entities: 18
+    open_change_requests: 1
+    research_files: 0
+    retired: 0
+  cross_cutting:
+    change_requests: change-requests/
+    classifications: classifications/
+    contributions_queue: contributions/
+    schemas: schemas/
+    validators: scripts/
+  description: 'Enterprise business service definitions, capability decompositions,
+
+    and solution component mappings for TechNeHub Labs.
+
+    '
+  entities:
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-customer-360
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-customer-360/dea:service-customer-360.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-customer-identity
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-customer-identity/dea:service-customer-identity.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-customer-notification
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-customer-notification/dea:service-customer-notification.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-finance-accounting
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-finance-accounting/dea:service-finance-accounting.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-finance-reporting
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-finance-reporting/dea:service-finance-reporting.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-hr-core
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-hr-core/dea:service-hr-core.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-inventory-management
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-inventory-management/dea:service-inventory-management.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-logistics-coordination
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-logistics-coordination/dea:service-logistics-coordination.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-order-fulfillment
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-order-fulfillment/dea:service-order-fulfillment.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-order-taking
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-order-taking/dea:service-order-taking.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-order-tracking
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-order-tracking/dea:service-order-tracking.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-payroll
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-payroll/dea:service-payroll.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-procurement
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-procurement/dea:service-procurement.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-product-catalog
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-product-catalog/dea:service-product-catalog.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-product-lifecycle
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-product-lifecycle/dea:service-product-lifecycle.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-product-pricing
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-product-pricing/dea:service-product-pricing.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-talent-management
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-talent-management/dea:service-talent-management.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: dea:service-treasury-management
+    last_modified: '2026-09-05'
+    lifecycle_status: active
+    path: entities/v1-alpha/dea:service-treasury-management/dea:service-treasury-management.yaml
+    research_count: 0
+    retired_count: 0
+    state: canonical
+    type: BusinessService
+    version: 1.0.0
+  id: dea:catalog-dbsf
+  metamodel_version: ^0.2.1
+  name: Digital Business Service Factory
+  owner: TechNeHub Labs
+  repository: https://github.com/technehub-labs/dea-catalog-digital-business-service-factory.git
+  research_registers:
+  - entity_id: dea:service-customer-360
+    files: []
+    path: entities/v1-alpha/dea:service-customer-360/research/
+  - entity_id: dea:service-customer-identity
+    files: []
+    path: entities/v1-alpha/dea:service-customer-identity/research/
+  - entity_id: dea:service-customer-notification
+    files: []
+    path: entities/v1-alpha/dea:service-customer-notification/research/
+  - entity_id: dea:service-finance-accounting
+    files: []
+    path: entities/v1-alpha/dea:service-finance-accounting/research/
+  - entity_id: dea:service-finance-reporting
+    files: []
+    path: entities/v1-alpha/dea:service-finance-reporting/research/
+  - entity_id: dea:service-hr-core
+    files: []
+    path: entities/v1-alpha/dea:service-hr-core/research/
+  - entity_id: dea:service-inventory-management
+    files: []
+    path: entities/v1-alpha/dea:service-inventory-management/research/
+  - entity_id: dea:service-logistics-coordination
+    files: []
+    path: entities/v1-alpha/dea:service-logistics-coordination/research/
+  - entity_id: dea:service-order-fulfillment
+    files: []
+    path: entities/v1-alpha/dea:service-order-fulfillment/research/
+  - entity_id: dea:service-order-taking
+    files: []
+    path: entities/v1-alpha/dea:service-order-taking/research/
+  - entity_id: dea:service-order-tracking
+    files: []
+    path: entities/v1-alpha/dea:service-order-tracking/research/
+  - entity_id: dea:service-payroll
+    files: []
+    path: entities/v1-alpha/dea:service-payroll/research/
+  - entity_id: dea:service-procurement
+    files: []
+    path: entities/v1-alpha/dea:service-procurement/research/
+  - entity_id: dea:service-product-catalog
+    files: []
+    path: entities/v1-alpha/dea:service-product-catalog/research/
+  - entity_id: dea:service-product-lifecycle
+    files: []
+    path: entities/v1-alpha/dea:service-product-lifecycle/research/
+  - entity_id: dea:service-product-pricing
+    files: []
+    path: entities/v1-alpha/dea:service-product-pricing/research/
+  - entity_id: dea:service-talent-management
+    files: []
+    path: entities/v1-alpha/dea:service-talent-management/research/
+  - entity_id: dea:service-treasury-management
+    files: []
+    path: entities/v1-alpha/dea:service-treasury-management/research/
+  status: active
+  version: 0.0.0

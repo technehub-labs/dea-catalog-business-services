@@ -1,0 +1,34 @@
+id: dea:service-logistics-coordination
+type: BusinessService
+name: Logistics Coordination Service
+abbreviation: LCS
+version: 1.0.0
+description: 'Coordinates inbound and outbound logistics: carrier management, route
+  optimisation, shipment tracking, and freight cost management. Interfaces with customs
+  for cross-border shipments.
+
+  '
+domain: Supply Chain
+subdomain: Logistics
+capabilities:
+- dea:capability-supply-chain-planning
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+solution_components:
+- dea:component-tms
+- dea:component-carrier-integration
+relationships:
+- target_id: dea:service-order-fulfillment
+  relationship_type: ships
+- target_id: dea:service-inventory-management
+  relationship_type: receives_from
+tags:
+- supply-chain
+- logistics
+- tms
+- freight
+lifecycle_status: active

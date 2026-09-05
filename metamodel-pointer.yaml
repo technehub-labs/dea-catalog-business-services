@@ -2,6 +2,24 @@
 # Auto-generated from OpenDEAM v0.2.1 (dea-architecture-framework, ADR-0002).
 # Do not edit manually — allocation changes go through the root model
 # (structural: ADR + minor bump; additive: PR + patch bump).
+#
+# Top-level metadata (id, name, abbreviation, version, status,
+# metamodel_version, owner, license, repository, homepage,
+# conformance_status) is read by the catalog regenerator
+# (tools/regenerate_catalog.py). The nested blocks below
+# (metamodel:, entities:, catalog:, description:, links:) are the
+# allocation declaration pinned by validate-allocation.yml
+# (dea-architecture-framework@v0.2.1).
+id: dea:catalog-dbsf
+name: Digital Business Service Factory
+abbreviation: DBSF
+owner: TechNeHub Labs
+license: Apache-2.0
+repository: https://github.com/technehub-labs/dea-catalog-digital-business-service-factory
+homepage: https://github.com/technehub-labs/dea-catalog-digital-business-service-factory
+metamodel_version: "^0.2.1"
+conformance_status: draft
+
 metamodel:
   version: v0.2.1
   entity_id: dea:entity-business-service
@@ -10,6 +28,8 @@ metamodel:
   building_block: L3-service-offerings
   discriminator: entry_kind
   viewer_url: "https://technehub-labs.github.io/metamodel/?entity=BS"
+  description: |
+    A service exposed to the business or to external consumers. Composite of capabilities, realised by solution components.
 
 # Additional entities hosted in this repo (shared catalog_repo, ADR-0002 D6):
 entities:
@@ -24,8 +44,14 @@ catalog:
   repo: technehub-labs/dea-catalog-digital-business-service-factory
   status: existing
 
+# Catalog-level description (read by the regenerator as
+# CATALOG.yaml: catalog.description). Distinct from
+# metamodel.description above, which is the entity-class description
+# read by the OpenDEAM allocation validator
+# (dea-architecture-framework/scripts/validate_consumer.py).
 description: |
-  A service exposed to the business or to external consumers. Composite of capabilities, realised by solution components.
+  Enterprise business service definitions, capability decompositions,
+  and solution component mappings for TechNeHub Labs.
 
 links:
   metamodel_repo: https://github.com/technehub-labs/dea-metamodel
