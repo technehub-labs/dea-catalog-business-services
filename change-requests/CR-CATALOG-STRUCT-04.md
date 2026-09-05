@@ -84,14 +84,21 @@ The extractor (`tools/extract_dbsf_entities.py`) does the following on each entr
 
 The extractor is idempotent: re-running overwrites the same files. It does NOT remove the source files (the migration step is a separate `git rm`).
 
-## Pointer pre-existing drift (NOT in scope)
+## Pointer false alarm (NOT a real issue)
 
-The DBSF pointer declares `entities[0].layer: L3` for `dea:entity-solution-component`, which the OpenDEAM root model flags as drift ("solution-component is an abstract kernel; layer should not be declared"). This is pre-existing and unrelated to STRUCT-04. Fixing it requires either:
+While verifying locally I observed that running `dea-architecture-framework/scripts/validate_consumer.py` against the local `model/opendeam-model.yaml` (the framework's HEAD) flags `entities[0].layer: L3` for `dea:entity-solution-component` as drift ("solution-component is an abstract kernel; layer should not be declared"). This is a local-vs-pinned mismatch, not a real issue:
 
-- Removing `layer:` from `entities[0]` (the kernel is realized by its specializations), OR
-- Updating the OpenDEAM root model to mark `dea:entity-solution-component` as L3-instantiable (a structural change requiring ADR + minor bump).
+- The DBSF CI workflow pins to `dea-architecture-framework@v0.2.1`.
+- In the pinned `v0.2.1` model, `dea:entity-solution-component` has `layer: L3` directly (it is L3-instantiable, not an abstract kernel).
+- The drift only appears when validating against HEAD/main of the framework (where the kernel classification has been refined).
 
-Track as a separate CR (`CR-OPENDEAM-SC-LAYER`). The DBSF pointer drift does NOT block catalog conformance: `validate-allocation.yml` is the orthogonal CI check, and the catalog-standard gate (`catalog-conformance.yml`) does not run it.
+This is exactly the kind of model drift the pinning mechanism is designed to defend against. CI passes against the pinned v0.2.1 model:
+
+```
+allocation / validate   pass   11s
+```
+
+Documented here for clarity so a future reader does not re-investigate.
 
 ## Verification
 
