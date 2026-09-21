@@ -10,10 +10,10 @@ viewpoints:
       What is our most critical service exposure? Where are our compliance risks?
       Are we over-dependent on any single service?
     services_of_interest:
-      - dea:service-customer-360
-      - dea:service-finance-accounting
-      - dea:service-treasury-management
-      - dea:service-payroll
+      - services:service-customer-360-ut9yeu
+      - services:service-finance-accounting-qmxysp
+      - services:service-treasury-management-8tc77w
+      - services:service-payroll-t8x26e
     governance_focus:
       - SLA tier distribution across portfolio
       - Compliance coverage (SOX, GDPR, PCI-DSS)
@@ -27,10 +27,10 @@ viewpoints:
       Are all services correctly typed against the metamodel? Are relationship
       types accurate? Do capability maps form coherent decompositions?
     services_of_interest:
-      - dea:service-customer-360
-      - dea:service-finance-accounting
-      - dea:service-order-taking
-      - dea:service-inventory-management
+      - services:service-customer-360-ut9yeu
+      - services:service-finance-accounting-qmxysp
+      - services:service-order-taking-es2d2g
+      - services:service-inventory-management-g8xbwr
     design_focus:
       - Service boundary quality
       - Relationship type correctness
@@ -45,11 +45,11 @@ viewpoints:
       Which existing services does my solution connect to? What are the
       integration patterns? What governance requirements apply?
     services_of_interest:
-      - dea:service-customer-360
-      - dea:service-product-catalog
-      - dea:service-order-taking
-      - dea:service-order-fulfillment
-      - dea:service-finance-accounting
+      - services:service-customer-360-ut9yeu
+      - services:service-product-catalog-7vytmc
+      - services:service-order-taking-es2d2g
+      - services:service-order-fulfillment-ceuq33
+      - services:service-finance-accounting-qmxysp
     integration_focus:
       - Service APIs and integration patterns
       - SLA requirements from governance contracts
@@ -63,11 +63,11 @@ viewpoints:
       Which services underpin which business capabilities? Where are the
       capability gaps? What is the capability maturity trajectory?
     services_of_interest:
-      - dea:service-customer-360
-      - dea:service-product-catalog
-      - dea:service-order-taking
-      - dea:service-finance-reporting
-      - dea:service-hr-core
+      - services:service-customer-360-ut9yeu
+      - services:service-product-catalog-7vytmc
+      - services:service-order-taking-es2d2g
+      - services:service-finance-reporting-ev9c4k
+      - services:service-hr-core-98hdbh
     capability_focus:
       - Capability-to-service mapping
       - Capability maturity scores

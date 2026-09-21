@@ -1,0 +1,35 @@
+id: services:service-hr-core-98hdbh
+type: BusinessService
+name: HR Core Service
+abbreviation: HRCS
+version: 1.0.0
+description: 'Core HR operations: employee master data, organisational structure,
+  employment records, and HR transactions. The system of record for the entire employee
+  lifecycle from hire to retirement.
+
+  '
+domain: Human Resources
+subdomain: Core HR
+capabilities:
+- capabilities:capability-workforce-planning-b43rhm
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Restricted
+  compliance:
+  - GDPR
+  - HIPAA
+solution_components:
+- dea:component-hris
+relationships:
+- target_id: services:service-talent-management-fprqec
+  relationship_type: feeds
+- target_id: services:service-payroll-t8x26e
+  relationship_type: supplies
+tags:
+- hr
+- hris
+- employee-data
+- gdpr
+lifecycle_status: active

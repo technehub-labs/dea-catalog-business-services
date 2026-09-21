@@ -1,0 +1,33 @@
+id: services:service-product-catalog-7vytmc
+type: BusinessService
+name: Product Catalog Service
+abbreviation: PCS
+version: 1.0.0
+description: 'Manages the enterprise product catalogue: product definitions, pricing,
+  hierarchies, variants, and lifecycle states. The authoritative source of product
+  information for commerce, ERP, and analytics systems.
+
+  '
+domain: Product
+subdomain: Catalog Management
+capabilities:
+- dea:capability-product-information-management
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+solution_components:
+- dea:component-product-information-system
+- dea:component-pricing-engine
+relationships:
+- target_id: services:service-order-taking-es2d2g
+  relationship_type: supplies
+- target_id: dea:principle-data-ownership
+  relationship_type: implements
+tags:
+- product
+- catalog
+- pim
+lifecycle_status: active

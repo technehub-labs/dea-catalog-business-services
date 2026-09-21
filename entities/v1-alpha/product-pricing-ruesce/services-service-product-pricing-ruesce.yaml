@@ -1,0 +1,32 @@
+id: services:service-product-pricing-ruesce
+type: BusinessService
+name: Product Pricing Service
+abbreviation: PPS
+version: 1.0.0
+description: 'Centralised pricing management: price lists, discount rules, promotional
+  pricing, customer-specific pricing, and currency conversion. Enforces pricing governance
+  and prevents unauthorised discounting.
+
+  '
+domain: Product
+subdomain: Pricing
+capabilities:
+- dea:capability-product-revenue-management
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+solution_components:
+- dea:component-pricing-engine
+relationships:
+- target_id: services:service-product-catalog-7vytmc
+  relationship_type: depends_on
+- target_id: services:service-order-taking-es2d2g
+  relationship_type: prices
+tags:
+- product
+- pricing
+- revenue
+lifecycle_status: active

@@ -1,0 +1,41 @@
+id: services:service-customer-360-ut9yeu
+type: BusinessService
+name: Customer 360 Service
+abbreviation: C360
+version: 1.0.0
+description: 'Provides a unified, real-time view of all customer interactions, attributes,
+  and history across all channels and touchpoints. The single source of customer truth
+  for all enterprise systems.
+
+  '
+domain: Customer
+subdomain: Customer Insight
+capabilities:
+- dea:capability-customer-data-management
+- dea:capability-customer-identity-resolution
+- dea:capability-customer-engagement
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - CCPA
+solution_components:
+- dea:component-customer-data-platform
+- dea:component-identity-resolution-service
+relationships:
+- target_id: dea:principle-data-ownership
+  relationship_type: implements
+- target_id: dea:pattern-cqrs
+  relationship_type: realised_through
+- target_id: services:service-product-catalog-7vytmc
+  relationship_type: depends_on
+tags:
+- customer
+- data-platform
+- real-time
+- gdpr
+- platinum-sla
+lifecycle_status: active

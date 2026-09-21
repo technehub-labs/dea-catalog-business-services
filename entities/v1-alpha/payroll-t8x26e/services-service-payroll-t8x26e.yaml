@@ -1,0 +1,36 @@
+id: services:service-payroll-t8x26e
+type: BusinessService
+name: Payroll Service
+abbreviation: PYS
+version: 1.0.0
+description: 'Payroll processing: salary calculation, tax withholding, benefits deductions,
+  direct deposit, and payroll reporting. Interfaces with time and attendance, benefits
+  administration, and tax filing systems.
+
+  '
+domain: Human Resources
+subdomain: Payroll
+capabilities:
+- dea:capability-compensation-management
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Restricted
+  compliance:
+  - SOX
+  - GDPR
+  - HIPAA
+solution_components:
+- dea:component-payroll-system
+relationships:
+- target_id: services:service-hr-core-98hdbh
+  relationship_type: depends_on
+- target_id: services:service-finance-accounting-qmxysp
+  relationship_type: posts_to
+tags:
+- hr
+- payroll
+- sox
+- platinum-sla
+lifecycle_status: active

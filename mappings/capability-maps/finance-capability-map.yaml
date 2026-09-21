@@ -13,7 +13,7 @@ capability_map:
         with proper reconciliation, journal entries, and audit trails.
       maturity_target: Optimised
       services:
-        - dea:service-finance-accounting
+        - services:service-finance-accounting-qmxysp
       kpis:
         - close_days: Number of days to complete period close (target: ≤5)
         - adjustment_rate: Journal adjustments as % of total transactions (target: <1%)
@@ -25,7 +25,7 @@ capability_map:
         across all organisational units and financial dimensions.
       maturity_target: Managed
       services:
-        - dea:service-finance-reporting
+        - services:service-finance-reporting-ev9c4k
       kpis:
         - forecast_accuracy: Forecast vs actual variance (target: ±5%)
         - planning_cycle_days: Days to complete annual planning cycle (target: ≤45)
@@ -37,7 +37,7 @@ capability_map:
         banking relationships, and process payments accurately.
       maturity_target: Managed
       services:
-        - dea:service-treasury-management
+        - services:service-treasury-management-8tc77w
       kpis:
         - cash_position_accuracy: Forecast vs actual cash (target: ±2%)
         - payment_accuracy: Failed payments as % of total (target: <0.1%)

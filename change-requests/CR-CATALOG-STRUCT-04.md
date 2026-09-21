@@ -1,5 +1,11 @@
 # CR-CATALOG-STRUCT-04: Digital Business Service Factory Adoption
 
+> **Layout note (CR-SVC-mv1, 2026-09-21):** This document was authored against the
+> pre-migration catalog layout (`entities/v1-alpha/dea:*`) and the legacy `dea:*` id
+> family. Ids and paths cited below are historical; see `reconciliation/migration-id-map.yaml`
+> for the old-to-new id mapping and dea-metaframework `docs/entity-storage-layout.md` for
+> the current layout.
+
 **Status**: Proposed
 **Layer**: L1 (Business Service Catalog)
 **Owner**: TechNeHub Labs
