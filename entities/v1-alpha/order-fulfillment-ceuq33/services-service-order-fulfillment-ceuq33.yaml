@@ -1,0 +1,35 @@
+id: services:service-order-fulfillment-ceuq33
+type: BusinessService
+name: Order Fulfillment Service
+abbreviation: OFS
+version: 1.0.0
+description: 'Orchestrates order fulfillment from reservation through shipment. Manages
+  allocation, picking, packing, shipping, and proof of delivery. Interfaces with warehouse
+  management and carrier systems.
+
+  '
+domain: Order Management
+subdomain: Fulfillment
+capabilities:
+- dea:capability-fulfillment-orchestration
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+solution_components:
+- dea:component-warehouse-management-system
+- dea:component-carrier-integration
+relationships:
+- target_id: services:service-order-taking-es2d2g
+  relationship_type: receives_from
+- target_id: services:service-inventory-management-g8xbwr
+  relationship_type: depends_on
+- target_id: services:service-logistics-coordination-j8nped
+  relationship_type: coordinates_with
+tags:
+- order
+- fulfillment
+- logistics
+lifecycle_status: active

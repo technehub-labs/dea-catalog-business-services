@@ -6,7 +6,7 @@ mappings:
     and the solution components that realise them.
 
   service_components:
-    - service: dea:service-customer-360
+    - service: services:service-customer-360-ut9yeu
       components:
         - id: dea:component-customer-data-platform
           relationship: realised_through
@@ -15,19 +15,19 @@ mappings:
           relationship: realised_through
           description: Identity service handles probabilistic and deterministic identity matching
 
-    - service: dea:service-customer-identity
+    - service: services:service-customer-identity-9vrnkq
       components:
         - id: dea:component-identity-resolution-service
           relationship: realised_through
           description: Dedicated identity resolution engine
 
-    - service: dea:service-customer-notification
+    - service: services:service-customer-notification-4m3jsv
       components:
         - id: dea:component-notification-gateway
           relationship: realised_through
           description: Multi-channel notification gateway (email, SMS, push)
 
-    - service: dea:service-finance-accounting
+    - service: services:service-finance-accounting-qmxysp
       components:
         - id: dea:component-erp-core
           relationship: realised_through
@@ -36,7 +36,7 @@ mappings:
           relationship: realised_through
           description: General ledger sub-system
 
-    - service: dea:service-finance-reporting
+    - service: services:service-finance-reporting-ev9c4k
       components:
         - id: dea:component-financial-reporting-engine
           relationship: realised_through
@@ -45,7 +45,7 @@ mappings:
           relationship: realised_through
           description: BI platform for ad-hoc financial analysis
 
-    - service: dea:service-treasury-management
+    - service: services:service-treasury-management-8tc77w
       components:
         - id: dea:component-treasury-management-system
           relationship: realised_through
@@ -54,7 +54,7 @@ mappings:
           relationship: realised_through
           description: Payment initiation and settlement gateway
 
-    - service: dea:service-order-taking
+    - service: services:service-order-taking-es2d2g
       components:
         - id: dea:component-order-management-system
           relationship: realised_through
@@ -63,7 +63,7 @@ mappings:
           relationship: realised_through
           description: E-commerce platform for digital order capture
 
-    - service: dea:service-order-fulfillment
+    - service: services:service-order-fulfillment-ceuq33
       components:
         - id: dea:component-warehouse-management-system
           relationship: realised_through
@@ -72,25 +72,25 @@ mappings:
           relationship: realised_through
           description: Carrier integration for label generation and tracking
 
-    - service: dea:service-inventory-management
+    - service: services:service-inventory-management-g8xbwr
       components:
         - id: dea:component-inventory-management-system
           relationship: realised_through
           description: Inventory tracking and optimisation system
 
-    - service: dea:service-procurement
+    - service: services:service-procurement-6s5ttj
       components:
         - id: dea:component-procurement-system
           relationship: realised_through
           description: End-to-end procurement and sourcing system
 
-    - service: dea:service-talent-management
+    - service: services:service-talent-management-fprqec
       components:
         - id: dea:component-talent-management-system
           relationship: realised_through
           description: TMS for recruitment, performance, and learning
 
-    - service: dea:service-payroll
+    - service: services:service-payroll-t8x26e
       components:
         - id: dea:component-payroll-system
           relationship: realised_through

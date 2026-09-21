@@ -1,0 +1,41 @@
+version: 1
+namespace: services
+migrated_at: '2026-09-21'
+carrier_cr: CR-SVC-mv1
+id_map:
+  dea:service-customer-360: services:service-customer-360-ut9yeu
+  dea:service-customer-identity: services:service-customer-identity-9vrnkq
+  dea:service-customer-notification: services:service-customer-notification-4m3jsv
+  dea:service-finance-accounting: services:service-finance-accounting-qmxysp
+  dea:service-finance-reporting: services:service-finance-reporting-ev9c4k
+  dea:service-hr-core: services:service-hr-core-98hdbh
+  dea:service-inventory-management: services:service-inventory-management-g8xbwr
+  dea:service-logistics-coordination: services:service-logistics-coordination-j8nped
+  dea:service-order-fulfillment: services:service-order-fulfillment-ceuq33
+  dea:service-order-taking: services:service-order-taking-es2d2g
+  dea:service-order-tracking: services:service-order-tracking-62qzu5
+  dea:service-payroll: services:service-payroll-t8x26e
+  dea:service-procurement: services:service-procurement-6s5ttj
+  dea:service-product-catalog: services:service-product-catalog-7vytmc
+  dea:service-product-lifecycle: services:service-product-lifecycle-y4dnkx
+  dea:service-product-pricing: services:service-product-pricing-ruesce
+  dea:service-talent-management: services:service-talent-management-fprqec
+  dea:service-treasury-management: services:service-treasury-management-8tc77w
+known_residuals:
+- legacy_value: dea:capability-* (13 distinct ids in capabilities[] bindings)
+  where: canonical records (capabilities fields)
+  reason: >-
+    Every capability binding in this catalog references a granularity that
+    does not exist in the capabilities catalog (28 first-order records).
+    Pre-existing org drift, not migration damage; no mapping target exists.
+    Needs a binding-reconciliation CR (either admit the finer-grained
+    capabilities or remap bindings to first-order ids).
+- legacy_value: dea:component-*
+  where: canonical records (solution_components fields)
+  reason: component namespace is not in the ratified id registry
+- legacy_value: dea:principle-*
+  where: canonical records (relationships[] target_id)
+  reason: principle namespace is not in the ratified id registry
+- legacy_value: dea:pattern-*
+  where: canonical records (relationships[] target_id)
+  reason: pattern namespace is not in the ratified id registry

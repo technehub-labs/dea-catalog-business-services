@@ -1,0 +1,29 @@
+id: services:service-product-lifecycle-y4dnkx
+type: BusinessService
+name: Product Lifecycle Management Service
+abbreviation: PLMS
+version: 1.0.0
+description: 'Manages product lifecycles from ideation through launch, growth, maintenance,
+  and retirement. Integrates with engineering, marketing, and supply chain systems.
+
+  '
+domain: Product
+subdomain: Lifecycle
+capabilities:
+- dea:capability-product-revenue-management
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+solution_components:
+- dea:component-plm-system
+relationships:
+- target_id: services:service-product-catalog-7vytmc
+  relationship_type: manages_lifecycle_of
+tags:
+- product
+- lifecycle
+- plm
+lifecycle_status: active

@@ -1,0 +1,33 @@
+id: services:service-order-tracking-62qzu5
+type: BusinessService
+name: Order Tracking Service
+abbreviation: ORTS
+version: 1.0.0
+description: 'Provides real-time order and shipment tracking to customers and internal
+  teams. Aggregates status from fulfillment, logistics, and carrier systems. Delivers
+  notifications at key order milestones.
+
+  '
+domain: Order Management
+subdomain: Tracking
+capabilities:
+- dea:capability-order-management
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+solution_components:
+- dea:component-tracking-engine
+- dea:component-notification-gateway
+relationships:
+- target_id: services:service-order-fulfillment-ceuq33
+  relationship_type: subscribes_to
+- target_id: services:service-logistics-coordination-j8nped
+  relationship_type: integrates_with
+tags:
+- order
+- tracking
+- customer-experience
+lifecycle_status: active

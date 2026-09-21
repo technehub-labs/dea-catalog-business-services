@@ -1,10 +1,10 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 0
-    canonical: 18
+    candidates: 18
+    canonical: 0
     entities: 18
-    open_change_requests: 1
+    open_change_requests: 2
     research_files: 0
     retired: 0
   cross_cutting:
@@ -21,261 +21,261 @@ catalog:
   entities:
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-customer-360
-    last_modified: '2026-09-05'
+    id: services:service-customer-360-ut9yeu
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-customer-360/dea:service-customer-360.yaml
+    path: entities/v1-alpha/customer-360-ut9yeu/services-service-customer-360-ut9yeu.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-customer-identity
-    last_modified: '2026-09-05'
+    id: services:service-customer-identity-9vrnkq
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-customer-identity/dea:service-customer-identity.yaml
+    path: entities/v1-alpha/customer-identity-9vrnkq/services-service-customer-identity-9vrnkq.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-customer-notification
-    last_modified: '2026-09-05'
+    id: services:service-customer-notification-4m3jsv
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-customer-notification/dea:service-customer-notification.yaml
+    path: entities/v1-alpha/customer-notification-4m3jsv/services-service-customer-notification-4m3jsv.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-finance-accounting
-    last_modified: '2026-09-05'
+    id: services:service-finance-accounting-qmxysp
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-finance-accounting/dea:service-finance-accounting.yaml
+    path: entities/v1-alpha/finance-accounting-qmxysp/services-service-finance-accounting-qmxysp.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-finance-reporting
-    last_modified: '2026-09-05'
+    id: services:service-finance-reporting-ev9c4k
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-finance-reporting/dea:service-finance-reporting.yaml
+    path: entities/v1-alpha/finance-reporting-ev9c4k/services-service-finance-reporting-ev9c4k.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-hr-core
-    last_modified: '2026-09-05'
+    id: services:service-hr-core-98hdbh
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-hr-core/dea:service-hr-core.yaml
+    path: entities/v1-alpha/hr-core-98hdbh/services-service-hr-core-98hdbh.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-inventory-management
-    last_modified: '2026-09-05'
+    id: services:service-inventory-management-g8xbwr
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-inventory-management/dea:service-inventory-management.yaml
+    path: entities/v1-alpha/inventory-management-g8xbwr/services-service-inventory-management-g8xbwr.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-logistics-coordination
-    last_modified: '2026-09-05'
+    id: services:service-logistics-coordination-j8nped
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-logistics-coordination/dea:service-logistics-coordination.yaml
+    path: entities/v1-alpha/logistics-coordination-j8nped/services-service-logistics-coordination-j8nped.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-order-fulfillment
-    last_modified: '2026-09-05'
+    id: services:service-order-fulfillment-ceuq33
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-order-fulfillment/dea:service-order-fulfillment.yaml
+    path: entities/v1-alpha/order-fulfillment-ceuq33/services-service-order-fulfillment-ceuq33.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-order-taking
-    last_modified: '2026-09-05'
+    id: services:service-order-taking-es2d2g
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-order-taking/dea:service-order-taking.yaml
+    path: entities/v1-alpha/order-taking-es2d2g/services-service-order-taking-es2d2g.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-order-tracking
-    last_modified: '2026-09-05'
+    id: services:service-order-tracking-62qzu5
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-order-tracking/dea:service-order-tracking.yaml
+    path: entities/v1-alpha/order-tracking-62qzu5/services-service-order-tracking-62qzu5.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-payroll
-    last_modified: '2026-09-05'
+    id: services:service-payroll-t8x26e
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-payroll/dea:service-payroll.yaml
+    path: entities/v1-alpha/payroll-t8x26e/services-service-payroll-t8x26e.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-procurement
-    last_modified: '2026-09-05'
+    id: services:service-procurement-6s5ttj
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-procurement/dea:service-procurement.yaml
+    path: entities/v1-alpha/procurement-6s5ttj/services-service-procurement-6s5ttj.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-product-catalog
-    last_modified: '2026-09-05'
+    id: services:service-product-catalog-7vytmc
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-product-catalog/dea:service-product-catalog.yaml
+    path: entities/v1-alpha/product-catalog-7vytmc/services-service-product-catalog-7vytmc.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-product-lifecycle
-    last_modified: '2026-09-05'
+    id: services:service-product-lifecycle-y4dnkx
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-product-lifecycle/dea:service-product-lifecycle.yaml
+    path: entities/v1-alpha/product-lifecycle-y4dnkx/services-service-product-lifecycle-y4dnkx.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-product-pricing
-    last_modified: '2026-09-05'
+    id: services:service-product-pricing-ruesce
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-product-pricing/dea:service-product-pricing.yaml
+    path: entities/v1-alpha/product-pricing-ruesce/services-service-product-pricing-ruesce.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-talent-management
-    last_modified: '2026-09-05'
+    id: services:service-talent-management-fprqec
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-talent-management/dea:service-talent-management.yaml
+    path: entities/v1-alpha/talent-management-fprqec/services-service-talent-management-fprqec.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
-    id: dea:service-treasury-management
-    last_modified: '2026-09-05'
+    id: services:service-treasury-management-8tc77w
+    last_modified: '2026-09-21'
     lifecycle_status: active
-    path: entities/v1-alpha/dea:service-treasury-management/dea:service-treasury-management.yaml
+    path: entities/v1-alpha/treasury-management-8tc77w/services-service-treasury-management-8tc77w.yaml
     research_count: 0
     retired_count: 0
-    state: canonical
+    state: candidate
     type: BusinessService
     version: 1.0.0
   id: dea:catalog-dbsf
   metamodel_version: ^0.2.1
   name: Digital Business Service Factory
   owner: TechNeHub Labs
-  repository: https://github.com/technehub-labs/dea-catalog-digital-business-service-factory.git
+  repository: https://github.com/technehub-labs/dea-catalog-business-services.git
   research_registers:
-  - entity_id: dea:service-customer-360
+  - entity_id: services:service-customer-360-ut9yeu
     files: []
-    path: entities/v1-alpha/dea:service-customer-360/research/
-  - entity_id: dea:service-customer-identity
+    path: entities/v1-alpha/customer-360-ut9yeu/research/
+  - entity_id: services:service-customer-identity-9vrnkq
     files: []
-    path: entities/v1-alpha/dea:service-customer-identity/research/
-  - entity_id: dea:service-customer-notification
+    path: entities/v1-alpha/customer-identity-9vrnkq/research/
+  - entity_id: services:service-customer-notification-4m3jsv
     files: []
-    path: entities/v1-alpha/dea:service-customer-notification/research/
-  - entity_id: dea:service-finance-accounting
+    path: entities/v1-alpha/customer-notification-4m3jsv/research/
+  - entity_id: services:service-finance-accounting-qmxysp
     files: []
-    path: entities/v1-alpha/dea:service-finance-accounting/research/
-  - entity_id: dea:service-finance-reporting
+    path: entities/v1-alpha/finance-accounting-qmxysp/research/
+  - entity_id: services:service-finance-reporting-ev9c4k
     files: []
-    path: entities/v1-alpha/dea:service-finance-reporting/research/
-  - entity_id: dea:service-hr-core
+    path: entities/v1-alpha/finance-reporting-ev9c4k/research/
+  - entity_id: services:service-hr-core-98hdbh
     files: []
-    path: entities/v1-alpha/dea:service-hr-core/research/
-  - entity_id: dea:service-inventory-management
+    path: entities/v1-alpha/hr-core-98hdbh/research/
+  - entity_id: services:service-inventory-management-g8xbwr
     files: []
-    path: entities/v1-alpha/dea:service-inventory-management/research/
-  - entity_id: dea:service-logistics-coordination
+    path: entities/v1-alpha/inventory-management-g8xbwr/research/
+  - entity_id: services:service-logistics-coordination-j8nped
     files: []
-    path: entities/v1-alpha/dea:service-logistics-coordination/research/
-  - entity_id: dea:service-order-fulfillment
+    path: entities/v1-alpha/logistics-coordination-j8nped/research/
+  - entity_id: services:service-order-fulfillment-ceuq33
     files: []
-    path: entities/v1-alpha/dea:service-order-fulfillment/research/
-  - entity_id: dea:service-order-taking
+    path: entities/v1-alpha/order-fulfillment-ceuq33/research/
+  - entity_id: services:service-order-taking-es2d2g
     files: []
-    path: entities/v1-alpha/dea:service-order-taking/research/
-  - entity_id: dea:service-order-tracking
+    path: entities/v1-alpha/order-taking-es2d2g/research/
+  - entity_id: services:service-order-tracking-62qzu5
     files: []
-    path: entities/v1-alpha/dea:service-order-tracking/research/
-  - entity_id: dea:service-payroll
+    path: entities/v1-alpha/order-tracking-62qzu5/research/
+  - entity_id: services:service-payroll-t8x26e
     files: []
-    path: entities/v1-alpha/dea:service-payroll/research/
-  - entity_id: dea:service-procurement
+    path: entities/v1-alpha/payroll-t8x26e/research/
+  - entity_id: services:service-procurement-6s5ttj
     files: []
-    path: entities/v1-alpha/dea:service-procurement/research/
-  - entity_id: dea:service-product-catalog
+    path: entities/v1-alpha/procurement-6s5ttj/research/
+  - entity_id: services:service-product-catalog-7vytmc
     files: []
-    path: entities/v1-alpha/dea:service-product-catalog/research/
-  - entity_id: dea:service-product-lifecycle
+    path: entities/v1-alpha/product-catalog-7vytmc/research/
+  - entity_id: services:service-product-lifecycle-y4dnkx
     files: []
-    path: entities/v1-alpha/dea:service-product-lifecycle/research/
-  - entity_id: dea:service-product-pricing
+    path: entities/v1-alpha/product-lifecycle-y4dnkx/research/
+  - entity_id: services:service-product-pricing-ruesce
     files: []
-    path: entities/v1-alpha/dea:service-product-pricing/research/
-  - entity_id: dea:service-talent-management
+    path: entities/v1-alpha/product-pricing-ruesce/research/
+  - entity_id: services:service-talent-management-fprqec
     files: []
-    path: entities/v1-alpha/dea:service-talent-management/research/
-  - entity_id: dea:service-treasury-management
+    path: entities/v1-alpha/talent-management-fprqec/research/
+  - entity_id: services:service-treasury-management-8tc77w
     files: []
-    path: entities/v1-alpha/dea:service-treasury-management/research/
+    path: entities/v1-alpha/treasury-management-8tc77w/research/
   status: active
   version: 0.0.0

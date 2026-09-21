@@ -1,0 +1,33 @@
+id: services:service-customer-notification-4m3jsv
+type: BusinessService
+name: Customer Notification Service
+abbreviation: CNS
+version: 1.0.0
+description: 'Manages all outbound customer communications: email, SMS, push notifications,
+  and in-app messaging. Supports preference management, template rendering, and delivery
+  tracking with unsubscribe handling.
+
+  '
+domain: Customer
+subdomain: Engagement
+capabilities:
+- dea:capability-customer-engagement
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - GDPR
+solution_components:
+- dea:component-notification-gateway
+relationships:
+- target_id: services:service-customer-360-ut9yeu
+  relationship_type: subscribes_to
+- target_id: dea:principle-api-first
+  relationship_type: implements
+tags:
+- customer
+- notifications
+- engagement
+lifecycle_status: active

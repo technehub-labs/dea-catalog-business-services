@@ -88,7 +88,7 @@ dea-catalog-digital-business-service-factory/
 Each entry in DBSF is a `BusinessService` entity (from the DEA metamodel):
 
 ```yaml
-id: dea:service-customer-360
+id: services:service-customer-360-ut9yeu
 type: BusinessService
 name: Customer 360 Service
 abbreviation: C360
@@ -112,10 +112,10 @@ solution_components:
   - dea:component-customer-data-platform
   - dea:component-identity-resolution-service
 relationships:
-  - source_id: dea:service-customer-360
+  - source_id: services:service-customer-360-ut9yeu
     target_id: dea:principle-data-ownership
     relationship_type: implements
-  - source_id: dea:service-customer-360
+  - source_id: services:service-customer-360-ut9yeu
     target_id: dea:pattern-cqrs
     relationship_type: realised_through
 tags:
@@ -141,7 +141,7 @@ dea viewpoint --stakeholder CTO --tag finance
 
 **Map a service to its components:**
 ```bash
-dea query --id dea:service-customer-360
+dea query --id services:service-customer-360-ut9yeu
 ```
 
 ---
