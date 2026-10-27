@@ -1,0 +1,41 @@
+# Business Services Catalog Changelog
+
+All notable changes to this catalog are recorded here. The format is based
+on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), adapted for
+CR-carried changes: each entry records the change request, the scope, the
+rationale, and the PR that landed it. Bootstrapped by CR-SVC-002
+(2026-10-27); landings before it are recorded retrospectively below.
+
+Status vocabulary for change requests: `Draft`/`Proposed` (open) →
+`Merged` (landed). See `change-requests/CR-SVC-002` §2 (decision of
+record).
+
+## [Unreleased]
+
+### CR-SVC-002: CR Status Truth + CHANGELOG Bootstrap
+
+Adopts `Merged` as this repo's landed-CR status (the effective toolchain — vendored copies and the CI-pinned upstream regenerator alike — recognizes exactly one closed status, so the count becomes truthful with zero tool delta; the counter's duplicated condition and single-status closed set exist upstream too and are recorded there as follow-up). Both previously landed CRs backfilled from their authoring-time status with recorded corrections: CR-CATALOG-STRUCT-04 (PR #6, 2026-09-05) and CR-SVC-mv1 (PR #7, 2026-09-21). This CHANGELOG bootstrapped (Keep-a-Changelog shape) with retrospective entries for the pre-changelog landings. `CATALOG.yaml` regenerated in the same PR: `open_change_requests` 2 → 0. No entity, id, schema, or vendored-script changes.
+
+---
+
+## Pre-changelog history (recorded retrospectively by CR-SVC-002, 2026-10-27)
+
+> Entries below this line predate this CHANGELOG and are reconstructed
+> from the merged PRs and their carrier CRs. PRs #3 (2026-08-08) and #4
+> (2026-08-09) were docs-only relocation announcements and carried no CR.
+
+### CR-SVC-001: CI Toolchain Pinning + Vendored Copy Refresh — 2026-10-27
+
+The `dea-metaframework` checkout in `catalog-conformance.yml` pinned to release tag `v2.6.0` with tools staged unconditionally from the pinned checkout (CST-013/014 canonical shape; the checks were redefined 2026-10-22 to require a pinned upstream, and the unpinned checkout would have turned every subsequent PR red). Repo checkout gains `fetch-depth: 0`: the regenerator's `last_modified` machinery resolves every path to HEAD's date under a depth-1 clone, churning all 18 entity dates and failing the freshness gate on any PR merged on a later day (reproduced at landing). Vendored `regenerate_catalog.py` / `check_catalog_index.py` / `catalog-index-schema.json` refreshed to be byte-identical to the pin, fixing the hash-alphabet regex drift (all 18 current hashes already conform). `timeout-minutes: 15`. (PR #10; first attempt #9 was auto-closed when its head was orphaned by a force-push.)
+
+### docs: entity README template mirror — 2026-09-21
+
+Per-entity `README.md` files under `entities/v1-alpha/*/` mirrored from the structural template set in `dea-catalog-processes` PR #153: flat-layout sections replacing the containment-tree and ECF-matrix sections specific to ECF-coordinated catalogs. (PR #8.)
+
+### CR-SVC-mv1: ID System Migration (org-wide Wave 2, services) — 2026-09-21
+
+Migrated the catalog to the org-wide id system and storage layout (`dea-metaframework` canonical specs): 18 records rewritten from `dea:service-*` to `services:service-<slug>-<hash>` (hash per id-system.md §2.5, 31-symbol alphabet); entity directories moved to the flat `entities/v1-alpha/<slug>-<hash>/` layout; own-id cross-references rewritten via `reconciliation/migration-id-map.yaml`; new blocking `check_id_system.py` gate (IDM-001..008) wired into CI with a per-PR coherence report artifact; vendored STRUCT tools + catalog-index schema replaced with the dual-family ports. Disclosed residuals: 13 finer-grained `dea:capability-*` bindings with no mapping target, and `dea:component-*` / `dea:principle-*` / `dea:pattern-*` namespaces not in the ratified registry — binding-reconciliation CR needed. (PR #7.)
+
+### CR-CATALOG-STRUCT-04: Digital Business Service Factory Adoption — 2026-09-05
+
+Adopted the catalog repository standard (CR-CATALOG-STRUCT-01) end-to-end: the 18 `BusinessService` entries migrated from flat `CATALOG/v1-alpha/business-services/*.yaml` (6 files, 3 entries each) into per-entity subtrees; vendored regenerator + index gate + schema; new `catalog-conformance.yml` workflow; committed `CATALOG.yaml` + `TEMPLATE_VERSION`. (PR #6.)

@@ -6,11 +6,13 @@
 > for the old-to-new id mapping and dea-metaframework `docs/entity-storage-layout.md` for
 > the current layout.
 
-**Status**: Proposed
+**Status**: Merged
 **Layer**: L1 (Business Service Catalog)
 **Owner**: TechNeHub Labs
 **Depends on**: CR-CATALOG-STRUCT-01, CR-CATALOG-STRUCT-06a+06b
 **Adoption pattern**: STRUCT-03 (single-PR; smaller blast radius than STRUCT-03a+03b because there is no research distribution step)
+
+> **Correction (CR-SVC-002, 2026-10-27):** Status backfilled Proposed → Merged; landed via PR #6 (merged 2026-09-05).
 
 ## What this CR is
 
