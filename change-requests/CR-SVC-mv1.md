@@ -1,9 +1,11 @@
 # CR-SVC-mv1: ID System Migration (org-wide Wave 2, services)
 
-**Status**: Proposed
+**Status**: Merged
 **Layer**: Catalog (business services)
 **Owner**: Coder (for eaojnr)
 **Date**: 2026-09-21
+
+> **Correction (CR-SVC-002, 2026-10-27):** Status backfilled Proposed → Merged; landed via PR #7 (merged 2026-09-21).
 **Depends on**: dea-metaframework docs (`id-system.md`, `entity-storage-layout.md`, PR #31); Wave 1 (dea-catalog-business-processes PR #149); Wave 2a (dea-catalog-business-capabilities PR #73); Wave 2 decision review (eaojnr 2026-09-21: D2-1..D2-5 confirmed)
 
 ## 1. Summary
