@@ -171,11 +171,11 @@ dea query --id services:service-customer-360-ut9yeu
 
 ## Contributing
 
-1. Propose a new business service via issue or a queued contribution file under `contributions/`
-2. Ensure it conforms to the `BusinessService` schema in `dea-metamodel` and the id system (`dea-metaframework` `docs/id-system.md`)
-3. Attach a governance contract (SLA tier, security classification, compliance) per the vocabulary in `classifications/sla-classification.yaml`
-4. Declare relationships to capabilities and solution components
-5. Submit PR — CI validates the id system, index freshness, structure conformance, and OpenDEAM allocation
+New business services enter through the contribution queue — see [`contributions/README.md`](contributions/README.md) for the full intake process (submit a queue file → CI-validated → admission assigns the org-wide id and scaffolds the entity → admission CR lands it):
+
+1. Copy [`contributions/intake-template.yaml`](contributions/intake-template.yaml) to `contributions/queue/<slug>.yaml` and open a PR
+2. The queue gate validates: no hand-invented ids; governance values (SLA tier, security classification, compliance) from [`classifications/sla-classification.yaml`](classifications/sla-classification.yaml); well-formed capability/component references
+3. Admission (`scripts/admit_entity.py`) assigns the content-derived id, scaffolds the entity subtree, and gate-verifies; the admission CR carries the landing
 
 Structural changes are carried by change requests in `change-requests/` (see its README); landings regenerate `CATALOG.yaml` and record a `CHANGELOG.md` entry in the same PR.
 

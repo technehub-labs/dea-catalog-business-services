@@ -12,6 +12,10 @@ record).
 
 ## [Unreleased]
 
+### CR-SVC-004: Entity Ingestion Groundwork (Contribution Queue + Admission Tool)
+
+Defines the intake path for new `BusinessService` entities: a contribution queue (`contributions/queue/`, template + process doc) validated by a new blocking CI gate (`scripts/check_contributions.py` — no hand-invented ids, governance values from the `classifications/sla-classification.yaml` register), and an admission tool (`scripts/admit_entity.py`) that assigns the org-wide id (`services:service-<slug>-<hash6>`, the id-system §2.5 content-derived hash over the intake content — same derivation as the mv1 migration), collision-checks it, scaffolds the entity subtree with the per-entity README (IDM-007), marks the queue entry admitted, and gate-verifies the result (a red id-system gate aborts admission). End-to-end round-trip verified at authoring (18 → 19 records CONFORMANT, index regenerated and valid, then reverted); no real entity lands with this CR — the first real admission rides its own CR.
+
 ### CR-SVC-003: Rename Residue Cleanup + README Truth + Authorship Correction
 
 Recorded authorship correction on `CR-SVC-mv1.md` (Owner per the Authorship Cardinal Rule, CR-BP-118 / CR-DEA-BC-34; the original value carried the 2026-10-13 denylisted agent signature). README rewritten to the truth: actual flat entity tree, entity scope = Business Service primary + Solution Component shared per the pointer (capability bindings are references into the capabilities catalog), governance wording now names the real CI gates (no branch-protection/CODEOWNERS claim — unavailable on this plan), plus a verified local-gates section. The stranded governance register relocated from the legacy pre-migration tree to `classifications/sla-classification.yaml`; the spent one-shot `tools/extract_dbsf_entities.py` removed. The `metamodel-pointer.yaml` URLs are documented as blocked on a root-model rename in `dea-architecture-framework` (specified in the CR §4; the pointer itself is generated and untouched).
