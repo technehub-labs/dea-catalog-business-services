@@ -1,0 +1,39 @@
+# Intake template (CR-SVC-004). Copy to contributions/queue/<slug>.yaml,
+# fill in, and open a PR. Validated by scripts/check_contributions.py (CI).
+#
+# Rules:
+# - NO `id` — record ids are assigned at admission (content-derived hash,
+#   id-system.md section 2.5) by scripts/admit_entity.py
+# - governance values must come from classifications/sla-classification.yaml
+# - capabilities / solution_components are id references (colon-namespaced);
+#   cross-catalog resolution is verified at admission by the id-system gate
+
+status: queued            # draft | queued | admitted | rejected
+submitted_by: Emmanuel A. Otchere
+submitted: "2026-10-27"
+
+name: Order Orchestration Service
+slug: order-orchestration  # optional; derived from name if omitted
+description: >
+  Coordinates the end-to-end execution of customer orders across capture,
+  fulfilment, and settlement, issuing compensation actions on failure.
+domain: Order
+subdomain: Order Orchestration
+
+capabilities:
+  - dea:capability-order-management        # references into the capabilities catalog
+solution_components:
+  - dea:component-order-management-system
+
+governance:
+  sla_tier: Gold                           # Platinum | Gold | Silver | Bronze
+  sla_uptime: "99.95%"
+  recovery_time_minutes: 60
+  security_classification: Internal        # Public | Internal | Confidential | Restricted
+  compliance:
+    - SOX
+
+relationships: []                          # optional; target_id + relationship_type
+tags:
+  - order-management
+  - orchestration

@@ -61,6 +61,9 @@ jobs:
       - name: Run ID System gate (CR-SVC-mv1; IDM-001..007)
         run: python scripts/check_id_system.py --strict
 
+      - name: Run contribution queue gate (CR-SVC-004)
+        run: python scripts/check_contributions.py
+
       - name: Run ID System coherence gate (CR-SVC-mv1; IDM-008, PR-scoped)
         run: |
           git fetch origin main --depth=1 || true
