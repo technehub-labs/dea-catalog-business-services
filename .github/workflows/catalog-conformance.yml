@@ -14,30 +14,32 @@ on:
 jobs:
   catalog-conformance:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with:
+          # CR-SVC-001: the regenerator's last_modified machinery runs
+          # `git log -1 -- <entity subtree>`; a depth-1 clone resolves every
+          # path to HEAD's date, churning all 18 dates and failing the
+          # freshness gate on any PR merged on a later day.
+          fetch-depth: 0
 
       - name: Install dependencies
         run: pip install pyyaml jsonschema pytest
 
-      - name: Fetch catalog index machinery from dea-metaframework (if not vendored)
+      - name: Fetch catalog index machinery from dea-metaframework (pinned)
         uses: actions/checkout@v4
         with:
           repository: technehub-labs/dea-metaframework
           path: .metaframework
+          ref: v2.6.0          # CR-SVC-001: release-tag pin (CST-013/014); bump deliberately
 
-      - name: Install regenerator + gate + schema (prefer vendored copies)
+      - name: Stage regenerator + gate + schema from the pinned checkout
         run: |
           mkdir -p scripts catalog-index-schema
-          if [ ! -f scripts/regenerate_catalog.py ]; then
-            cp .metaframework/tools/regenerate_catalog.py scripts/
-          fi
-          if [ ! -f scripts/check_catalog_index.py ]; then
-            cp .metaframework/tools/check_catalog_index.py scripts/
-          fi
-          if [ ! -f catalog-index-schema/catalog-index-schema.json ]; then
-            cp .metaframework/tools/catalog-index-schema.json catalog-index-schema/
-          fi
+          cp .metaframework/tools/regenerate_catalog.py scripts/
+          cp .metaframework/tools/check_catalog_index.py scripts/
+          cp .metaframework/tools/catalog-index-schema.json catalog-index-schema/
 
       - name: Set canonical git origin URL (regenerator reads it)
         run: |
