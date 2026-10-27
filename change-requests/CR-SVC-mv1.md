@@ -2,10 +2,11 @@
 
 **Status**: Merged
 **Layer**: Catalog (business services)
-**Owner**: Coder (for eaojnr)
+**Owner**: Emmanuel A. Otchere
 **Date**: 2026-09-21
 
 > **Correction (CR-SVC-002, 2026-10-27):** Status backfilled Proposed → Merged; landed via PR #7 (merged 2026-09-21).
+> **Correction (CR-SVC-003, 2026-10-27):** Owner corrected per the Authorship Cardinal Rule (CR-BP-118 / CR-DEA-BC-34; the original value carried the 2026-10-13 denylisted agent signature); this CR was prepared by the authoring agent under eaojnr's direction, recorded in the **Depends on** narrative above. Only the authorship-of-record value changes.
 **Depends on**: dea-metaframework docs (`id-system.md`, `entity-storage-layout.md`, PR #31); Wave 1 (dea-catalog-business-processes PR #149); Wave 2a (dea-catalog-business-capabilities PR #73); Wave 2 decision review (eaojnr 2026-09-21: D2-1..D2-5 confirmed)
 
 ## 1. Summary

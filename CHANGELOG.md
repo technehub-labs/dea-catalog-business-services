@@ -12,6 +12,10 @@ record).
 
 ## [Unreleased]
 
+### CR-SVC-003: Rename Residue Cleanup + README Truth + Authorship Correction
+
+Recorded authorship correction on `CR-SVC-mv1.md` (Owner per the Authorship Cardinal Rule, CR-BP-118 / CR-DEA-BC-34; the original value carried the 2026-10-13 denylisted agent signature). README rewritten to the truth: actual flat entity tree, entity scope = Business Service primary + Solution Component shared per the pointer (capability bindings are references into the capabilities catalog), governance wording now names the real CI gates (no branch-protection/CODEOWNERS claim — unavailable on this plan), plus a verified local-gates section. The stranded governance register relocated from the legacy pre-migration tree to `classifications/sla-classification.yaml`; the spent one-shot `tools/extract_dbsf_entities.py` removed. The `metamodel-pointer.yaml` URLs are documented as blocked on a root-model rename in `dea-architecture-framework` (specified in the CR §4; the pointer itself is generated and untouched).
+
 ### CR-SVC-002: CR Status Truth + CHANGELOG Bootstrap
 
 Adopts `Merged` as this repo's landed-CR status (the effective toolchain — vendored copies and the CI-pinned upstream regenerator alike — recognizes exactly one closed status, so the count becomes truthful with zero tool delta; the counter's duplicated condition and single-status closed set exist upstream too and are recorded there as follow-up). Both previously landed CRs backfilled from their authoring-time status with recorded corrections: CR-CATALOG-STRUCT-04 (PR #6, 2026-09-05) and CR-SVC-mv1 (PR #7, 2026-09-21). This CHANGELOG bootstrapped (Keep-a-Changelog shape) with retrospective entries for the pre-changelog landings. `CATALOG.yaml` regenerated in the same PR: `open_change_requests` 2 → 0. No entity, id, schema, or vendored-script changes.
