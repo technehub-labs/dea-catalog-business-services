@@ -1,0 +1,27 @@
+id: services:service-supplier-sustainability-assessment-msfs39
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Supplier Sustainability Assessment Service
+abbreviation: SSA
+description: Evaluates suppliers on labor practices, emissions, and sourcing standards
+  through weighted questionnaires and certificates, flags high-risk relationships
+  for audits, and tracks corrective commitments to closure.
+domain: Sustainability & ESG
+subdomain: Responsible Operations
+capabilities:
+- capabilities:capability-enterprise-governance-uas48u
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-esg-data-platform
+- dea:component-case-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- sustainability
+- supply-chain
+- assessment

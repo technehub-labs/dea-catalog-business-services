@@ -1,0 +1,27 @@
+id: services:service-transformation-program-office-ma6zg7
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Transformation Program Office Service
+abbreviation: TPO
+description: 'Operates the program management office for enterprise transformation:
+  intake of initiatives, stage documentation, milestone and dependency registers,
+  status reporting to the steering committee, and decision logs.'
+domain: Change & Transformation
+subdomain: Transformation Programs
+capabilities:
+- capabilities:capability-change-management-hukdeq
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-portfolio-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- change
+- pmo
+- governance
+- transformation

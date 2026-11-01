@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Voice-of-Customer Analytics Service
+slug: voice-of-customer-analytics
+abbreviation: VOC
+description: Mines verbatim comments, ratings and contact-driver records with text
+  analytics, surfacing recurring themes, sentiment shifts and emerging issues to product
+  and experience owners monthly, across every feedback channel.
+domain: Customer Experience
+subdomain: Feedback & Voice of Customer
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- voice-of-customer
+- text-analytics
+assigned_id: services:service-voice-of-customer-analytics-yevb5r
+admitted: '2026-11-01'

@@ -1,0 +1,27 @@
+id: services:service-visitor-management-jdaa66
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Visitor Management Service
+abbreviation: VMS
+description: Handles visitor pre-registration, host approval, badge issuance, and
+  check-in and check-out at reception, stores visitor personal data under GDPR retention
+  limits, and maintains emergency mustering lists.
+domain: Communications & Workplace
+subdomain: Workplace Experience
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-visitor-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- workplace
+- visitors
+- reception
+- security

@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Trial Conversion Tracking Service
+slug: trial-conversion-tracking
+abbreviation: TCT
+description: Tracks trial cohorts from signup through paid conversion, computes conversion
+  and time-to-convert metrics by plan and acquisition source, and governs the trial
+  user records it processes under GDPR.
+domain: Product & Offering Management
+subdomain: Subscription & Service Offerings
+capabilities:
+- capabilities:capability-subscription-and-service-management-p3n8rt
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-subscription-billing-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- product
+- subscription
+- conversion
+assigned_id: services:service-trial-conversion-tracking-jthzem
+admitted: '2026-11-01'

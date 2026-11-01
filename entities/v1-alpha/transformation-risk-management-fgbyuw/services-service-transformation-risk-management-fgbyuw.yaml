@@ -1,0 +1,26 @@
+id: services:service-transformation-risk-management-fgbyuw
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Transformation Risk Management Service
+abbreviation: TRK
+description: Maintains the risk register for the transformation portfolio, scoring
+  delivery, adoption, and operational risks with mitigation owners, and reporting
+  exposure trends and top risks to governance forums.
+domain: Change & Transformation
+subdomain: Transformation Programs
+capabilities:
+- capabilities:capability-change-management-hukdeq
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-governance-risk-compliance-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- change
+- risk
+- portfolio

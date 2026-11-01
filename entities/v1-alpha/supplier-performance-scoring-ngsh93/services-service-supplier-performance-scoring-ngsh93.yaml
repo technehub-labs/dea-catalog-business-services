@@ -1,0 +1,26 @@
+id: services:service-supplier-performance-scoring-ngsh93
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Supplier Performance Scoring Service
+abbreviation: SPS
+description: Computes supplier scorecards from on-time-in-full delivery, quality PPM,
+  lead-time adherence and responsiveness measures, and publishes ranked results that
+  feed sourcing decisions and corrective action triggers.
+domain: Sourcing & Procurement
+subdomain: Supplier Performance & Risk
+capabilities:
+- capabilities:capability-supplier-management-d6fuj4
+solution_components:
+- dea:component-supplier-portal
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- sourcing
+- suppliers
+- performance

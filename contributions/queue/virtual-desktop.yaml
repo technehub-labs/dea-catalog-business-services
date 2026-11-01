@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Virtual Desktop Service
+slug: virtual-desktop
+abbreviation: VDS
+description: Delivers cloud-hosted virtual desktops and published applications for
+  contractors, offshore teams and regulated users, provisioning personalized or pooled
+  sessions from golden images with central patching.
+domain: IT Operations & Infrastructure
+subdomain: Endpoint & Workplace
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-vdi-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- vdi
+- workplace
+assigned_id: services:service-virtual-desktop-9f8ydf
+admitted: '2026-11-01'

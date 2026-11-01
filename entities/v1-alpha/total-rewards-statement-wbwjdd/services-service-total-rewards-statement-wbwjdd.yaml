@@ -1,0 +1,28 @@
+id: services:service-total-rewards-statement-wbwjdd
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Total Rewards Statement Service
+abbreviation: TRS
+description: Generates personalized annual statements combining salary, bonus, employer
+  benefit contributions, and pension accruals into a single employee-facing view of
+  total compensation value, refreshed each plan year.
+domain: Human Resources
+subdomain: Compensation & Benefits
+capabilities:
+- capabilities:capability-talent-management-v2qw9c
+solution_components:
+- dea:component-benefits-administration-platform
+- dea:component-bi-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- compensation
+- benefits
+- statements

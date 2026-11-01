@@ -1,0 +1,26 @@
+id: services:service-supplier-delivery-collaboration-myfsme
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Supplier Delivery Collaboration Service
+abbreviation: SDC
+description: Shares rolling schedules, delivery calls and ASN requirements with suppliers,
+  collects their confirmations and ship notices, and tracks confirmed-versus-actual
+  delivery performance for inbound planning and dock scheduling.
+domain: Supply Chain & Logistics
+subdomain: Supply Network Visibility & Analytics
+capabilities:
+- capabilities:capability-supplier-management-d6fuj4
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-supplier-portal
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- suppliers
+- collaboration

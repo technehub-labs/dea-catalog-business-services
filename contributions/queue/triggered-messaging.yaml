@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Triggered Messaging Service
+slug: triggered-messaging
+abbreviation: TRM
+description: Fires event-driven messages such as cart abandonment, replenishment and
+  milestone notices within seconds of qualifying events, applying frequency caps and
+  suppression checks before each send.
+domain: Marketing & Brand
+subdomain: Campaign Management & Operations
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-marketing-automation-platform
+- dea:component-notification-hub
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- marketing
+- messaging
+- events
+assigned_id: services:service-triggered-messaging-acwfhr
+admitted: '2026-11-01'

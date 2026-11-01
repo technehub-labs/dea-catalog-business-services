@@ -1,0 +1,27 @@
+id: services:service-warranty-claims-sekef5
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Warranty Claims Service
+abbreviation: WCL
+description: Validates submitted warranty claims against coverage terms, serial numbers
+  and purchase records, adjudicating repair, replace or deny outcomes and tracking
+  claim costs to closure, plus service-provider assignments.
+domain: Order Management
+subdomain: Returns & Post-Sale Care
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+solution_components:
+- dea:component-return-management-system
+- dea:component-crm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- order-management
+- warranty
+- claims

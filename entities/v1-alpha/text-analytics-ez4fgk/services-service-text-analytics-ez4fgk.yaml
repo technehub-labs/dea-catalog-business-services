@@ -1,0 +1,25 @@
+id: services:service-text-analytics-ez4fgk
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Text Analytics Service
+abbreviation: TXT
+description: Classifies and extracts structure from documents, tickets and survey
+  verbatims using language models, feeding sentiment, topic and entity outputs into
+  dashboards that voice-of-customer and support teams consume.
+domain: Data & Analytics
+subdomain: Advanced Analytics & AI
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-ml-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- nlp
+- text

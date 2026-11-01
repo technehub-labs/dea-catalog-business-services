@@ -1,0 +1,27 @@
+id: services:service-usage-rating-and-metering-twht72
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Usage Rating and Metering Service
+abbreviation: URM
+description: Ingests metered consumption events, applies tiered and volume pricing
+  rules to rate each record, and aggregates rated usage into billing-ready quantities
+  for the invoicing run.
+domain: Finance & Accounting
+subdomain: Revenue & Billing
+capabilities:
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-billing-engine
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- billing
+- metering

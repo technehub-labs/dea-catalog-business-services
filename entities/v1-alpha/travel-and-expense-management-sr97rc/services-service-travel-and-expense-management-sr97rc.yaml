@@ -1,0 +1,27 @@
+id: services:service-travel-and-expense-management-sr97rc
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Travel and Expense Management Service
+abbreviation: TEM
+description: Captures employee expense claims with receipt evidence, enforces travel
+  policy limits and per-diem rules, routes claims for line manager approval, and posts
+  approved amounts for reimbursement.
+domain: Finance & Accounting
+subdomain: Tax, Expense & Fixed Assets
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-erp-core
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- expense
+- employee

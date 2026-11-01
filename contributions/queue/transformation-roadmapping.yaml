@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Transformation Roadmapping Service
+slug: transformation-roadmapping
+abbreviation: TRD
+description: Assembles initiative milestones, capability releases, and dependency
+  chains into an integrated multi-year transformation roadmap, stress-testing sequencing
+  choices and publishing the agreed view to planning and budget cycles.
+domain: Change & Transformation
+subdomain: Transformation Programs
+capabilities:
+- capabilities:capability-change-management-hukdeq
+- capabilities:capability-strategic-planning-k3rz7a
+solution_components:
+- dea:component-strategy-management-platform
+- dea:component-portfolio-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- change
+- roadmap
+- sequencing
+assigned_id: services:service-transformation-roadmapping-mbsfh5
+admitted: '2026-11-01'

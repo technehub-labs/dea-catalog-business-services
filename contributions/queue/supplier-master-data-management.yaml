@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Supplier Master Data Management Service
+slug: supplier-master-data-management
+abbreviation: SMD
+description: Onboards suppliers with tax and bank verification, maintains vendor records
+  and payment details under change control, and blocks duplicates that drive misdirected
+  or fraudulent payments.
+domain: Finance & Accounting
+subdomain: Payables & Receivables
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-erp-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- payables
+- master-data
+assigned_id: services:service-supplier-master-data-management-q84hum
+admitted: '2026-11-01'

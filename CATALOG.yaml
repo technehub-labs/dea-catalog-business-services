@@ -1,9 +1,9 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 468
+    candidates: 518
     canonical: 0
-    entities: 468
+    entities: 518
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -5147,6 +5147,171 @@ catalog:
     version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-subscription-entitlement-mctryn
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/subscription-entitlement-mctryn/services-service-subscription-entitlement-mctryn.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-subscription-plan-configuration-zrv5bn
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/subscription-plan-configuration-zrv5bn/services-service-subscription-plan-configuration-zrv5bn.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-subscription-renewal-yycd5m
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/subscription-renewal-yycd5m/services-service-subscription-renewal-yycd5m.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supplier-corrective-action-p7jh6n
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supplier-corrective-action-p7jh6n/services-service-supplier-corrective-action-p7jh6n.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supplier-delivery-collaboration-myfsme
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supplier-delivery-collaboration-myfsme/services-service-supplier-delivery-collaboration-myfsme.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supplier-diversity-reporting-wpjstz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supplier-diversity-reporting-wpjstz/services-service-supplier-diversity-reporting-wpjstz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supplier-master-data-management-q84hum
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supplier-master-data-management-q84hum/services-service-supplier-master-data-management-q84hum.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supplier-onboarding-hwebjb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supplier-onboarding-hwebjb/services-service-supplier-onboarding-hwebjb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supplier-performance-scoring-ngsh93
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supplier-performance-scoring-ngsh93/services-service-supplier-performance-scoring-ngsh93.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supplier-qualification-f6mfjx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supplier-qualification-f6mfjx/services-service-supplier-qualification-f6mfjx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supplier-risk-scoring-yghbp7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supplier-risk-scoring-yghbp7/services-service-supplier-risk-scoring-yghbp7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supplier-sustainability-assessment-msfs39
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supplier-sustainability-assessment-msfs39/services-service-supplier-sustainability-assessment-msfs39.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supply-and-demand-balancing-xx85eq
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supply-and-demand-balancing-xx85eq/services-service-supply-and-demand-balancing-xx85eq.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-supply-chain-visibility-t259yp
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/supply-chain-visibility-t259yp/services-service-supply-chain-visibility-t259yp.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-survey-orchestration-mndh27
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/survey-orchestration-mndh27/services-service-survey-orchestration-mndh27.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-talent-management-fprqec
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -5158,6 +5323,193 @@ catalog:
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-talent-pool-ah3qxg
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/talent-pool-ah3qxg/services-service-talent-pool-ah3qxg.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-tax-calculation-pyns6g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/tax-calculation-pyns6g/services-service-tax-calculation-pyns6g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-tax-return-preparation-and-filing-83x7xk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/tax-return-preparation-and-filing-83x7xk/services-service-tax-return-preparation-and-filing-83x7xk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-text-analytics-ez4fgk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/text-analytics-ez4fgk/services-service-text-analytics-ez4fgk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-third-party-risk-assessment-u8pz5k
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/third-party-risk-assessment-u8pz5k/services-service-third-party-risk-assessment-u8pz5k.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-third-party-security-assessment-9ubgpd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/third-party-security-assessment-9ubgpd/services-service-third-party-security-assessment-9ubgpd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-threat-intelligence-4pdp8m
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/threat-intelligence-4pdp8m/services-service-threat-intelligence-4pdp8m.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-three-way-match-32cqp6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/three-way-match-32cqp6/services-service-three-way-match-32cqp6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-time-and-attendance-grh7nr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/time-and-attendance-grh7nr/services-service-time-and-attendance-grh7nr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-total-rewards-statement-wbwjdd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/total-rewards-statement-wbwjdd/services-service-total-rewards-statement-wbwjdd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-track-and-trace-vjtmjt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/track-and-trace-vjtmjt/services-service-track-and-trace-vjtmjt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-transformation-communication-planning-p8mnys
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/transformation-communication-planning-p8mnys/services-service-transformation-communication-planning-p8mnys.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-transformation-program-office-ma6zg7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/transformation-program-office-ma6zg7/services-service-transformation-program-office-ma6zg7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-transformation-risk-management-fgbyuw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/transformation-risk-management-fgbyuw/services-service-transformation-risk-management-fgbyuw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-transformation-roadmapping-mbsfh5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/transformation-roadmapping-mbsfh5/services-service-transformation-roadmapping-mbsfh5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-transportation-planning-ujmq64
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/transportation-planning-ujmq64/services-service-transportation-planning-ujmq64.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-travel-and-expense-management-sr97rc
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/travel-and-expense-management-sr97rc/services-service-travel-and-expense-management-sr97rc.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-treasury-management-8tc77w
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -5167,6 +5519,204 @@ catalog:
     state: candidate
     type: BusinessService
     version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-trial-conversion-tracking-jthzem
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/trial-conversion-tracking-jthzem/services-service-trial-conversion-tracking-jthzem.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-triggered-messaging-acwfhr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/triggered-messaging-acwfhr/services-service-triggered-messaging-acwfhr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-usage-rating-and-metering-twht72
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/usage-rating-and-metering-twht72/services-service-usage-rating-and-metering-twht72.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-usage-rating-x9rzvd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/usage-rating-x9rzvd/services-service-usage-rating-x9rzvd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-user-activity-monitoring-xuhnky
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/user-activity-monitoring-xuhnky/services-service-user-activity-monitoring-xuhnky.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-variance-analysis-5vmh7z
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/variance-analysis-5vmh7z/services-service-variance-analysis-5vmh7z.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-video-surveillance-gykuz2
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/video-surveillance-gykuz2/services-service-video-surveillance-gykuz2.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-virtual-desktop-9f8ydf
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/virtual-desktop-9f8ydf/services-service-virtual-desktop-9f8ydf.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-visitor-management-jdaa66
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/visitor-management-jdaa66/services-service-visitor-management-jdaa66.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-voice-of-customer-analytics-yevb5r
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/voice-of-customer-analytics-yevb5r/services-service-voice-of-customer-analytics-yevb5r.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-vulnerability-management-sgqm8p
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/vulnerability-management-sgqm8p/services-service-vulnerability-management-sgqm8p.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-warehouse-order-release-q5943g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/warehouse-order-release-q5943g/services-service-warehouse-order-release-q5943g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-warehouse-receiving-6y6j37
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/warehouse-receiving-6y6j37/services-service-warehouse-receiving-6y6j37.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-warehouse-slotting-5vyfwa
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/warehouse-slotting-5vyfwa/services-service-warehouse-slotting-5vyfwa.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-warehouse-task-execution-79zyqc
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/warehouse-task-execution-79zyqc/services-service-warehouse-task-execution-79zyqc.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-warranty-claims-sekef5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/warranty-claims-sekef5/services-service-warranty-claims-sekef5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-wave-planning-xpt2mk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/wave-planning-xpt2mk/services-service-wave-planning-xpt2mk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-web-analytics-f7ekw7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/web-analytics-f7ekw7/services-service-web-analytics-f7ekw7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
   id: dea:catalog-dbsf
   metamodel_version: ^0.2.1
   name: Digital Business Service Factory
@@ -6571,11 +7121,161 @@ catalog:
   - entity_id: services:service-subscription-billing-gkcj3d
     files: []
     path: entities/v1-alpha/subscription-billing-gkcj3d/research/
+  - entity_id: services:service-subscription-entitlement-mctryn
+    files: []
+    path: entities/v1-alpha/subscription-entitlement-mctryn/research/
+  - entity_id: services:service-subscription-plan-configuration-zrv5bn
+    files: []
+    path: entities/v1-alpha/subscription-plan-configuration-zrv5bn/research/
+  - entity_id: services:service-subscription-renewal-yycd5m
+    files: []
+    path: entities/v1-alpha/subscription-renewal-yycd5m/research/
+  - entity_id: services:service-supplier-corrective-action-p7jh6n
+    files: []
+    path: entities/v1-alpha/supplier-corrective-action-p7jh6n/research/
+  - entity_id: services:service-supplier-delivery-collaboration-myfsme
+    files: []
+    path: entities/v1-alpha/supplier-delivery-collaboration-myfsme/research/
+  - entity_id: services:service-supplier-diversity-reporting-wpjstz
+    files: []
+    path: entities/v1-alpha/supplier-diversity-reporting-wpjstz/research/
+  - entity_id: services:service-supplier-master-data-management-q84hum
+    files: []
+    path: entities/v1-alpha/supplier-master-data-management-q84hum/research/
+  - entity_id: services:service-supplier-onboarding-hwebjb
+    files: []
+    path: entities/v1-alpha/supplier-onboarding-hwebjb/research/
+  - entity_id: services:service-supplier-performance-scoring-ngsh93
+    files: []
+    path: entities/v1-alpha/supplier-performance-scoring-ngsh93/research/
+  - entity_id: services:service-supplier-qualification-f6mfjx
+    files: []
+    path: entities/v1-alpha/supplier-qualification-f6mfjx/research/
+  - entity_id: services:service-supplier-risk-scoring-yghbp7
+    files: []
+    path: entities/v1-alpha/supplier-risk-scoring-yghbp7/research/
+  - entity_id: services:service-supplier-sustainability-assessment-msfs39
+    files: []
+    path: entities/v1-alpha/supplier-sustainability-assessment-msfs39/research/
+  - entity_id: services:service-supply-and-demand-balancing-xx85eq
+    files: []
+    path: entities/v1-alpha/supply-and-demand-balancing-xx85eq/research/
+  - entity_id: services:service-supply-chain-visibility-t259yp
+    files: []
+    path: entities/v1-alpha/supply-chain-visibility-t259yp/research/
+  - entity_id: services:service-survey-orchestration-mndh27
+    files: []
+    path: entities/v1-alpha/survey-orchestration-mndh27/research/
   - entity_id: services:service-talent-management-fprqec
     files: []
     path: entities/v1-alpha/talent-management-fprqec/research/
+  - entity_id: services:service-talent-pool-ah3qxg
+    files: []
+    path: entities/v1-alpha/talent-pool-ah3qxg/research/
+  - entity_id: services:service-tax-calculation-pyns6g
+    files: []
+    path: entities/v1-alpha/tax-calculation-pyns6g/research/
+  - entity_id: services:service-tax-return-preparation-and-filing-83x7xk
+    files: []
+    path: entities/v1-alpha/tax-return-preparation-and-filing-83x7xk/research/
+  - entity_id: services:service-text-analytics-ez4fgk
+    files: []
+    path: entities/v1-alpha/text-analytics-ez4fgk/research/
+  - entity_id: services:service-third-party-risk-assessment-u8pz5k
+    files: []
+    path: entities/v1-alpha/third-party-risk-assessment-u8pz5k/research/
+  - entity_id: services:service-third-party-security-assessment-9ubgpd
+    files: []
+    path: entities/v1-alpha/third-party-security-assessment-9ubgpd/research/
+  - entity_id: services:service-threat-intelligence-4pdp8m
+    files: []
+    path: entities/v1-alpha/threat-intelligence-4pdp8m/research/
+  - entity_id: services:service-three-way-match-32cqp6
+    files: []
+    path: entities/v1-alpha/three-way-match-32cqp6/research/
+  - entity_id: services:service-time-and-attendance-grh7nr
+    files: []
+    path: entities/v1-alpha/time-and-attendance-grh7nr/research/
+  - entity_id: services:service-total-rewards-statement-wbwjdd
+    files: []
+    path: entities/v1-alpha/total-rewards-statement-wbwjdd/research/
+  - entity_id: services:service-track-and-trace-vjtmjt
+    files: []
+    path: entities/v1-alpha/track-and-trace-vjtmjt/research/
+  - entity_id: services:service-transformation-communication-planning-p8mnys
+    files: []
+    path: entities/v1-alpha/transformation-communication-planning-p8mnys/research/
+  - entity_id: services:service-transformation-program-office-ma6zg7
+    files: []
+    path: entities/v1-alpha/transformation-program-office-ma6zg7/research/
+  - entity_id: services:service-transformation-risk-management-fgbyuw
+    files: []
+    path: entities/v1-alpha/transformation-risk-management-fgbyuw/research/
+  - entity_id: services:service-transformation-roadmapping-mbsfh5
+    files: []
+    path: entities/v1-alpha/transformation-roadmapping-mbsfh5/research/
+  - entity_id: services:service-transportation-planning-ujmq64
+    files: []
+    path: entities/v1-alpha/transportation-planning-ujmq64/research/
+  - entity_id: services:service-travel-and-expense-management-sr97rc
+    files: []
+    path: entities/v1-alpha/travel-and-expense-management-sr97rc/research/
   - entity_id: services:service-treasury-management-8tc77w
     files: []
     path: entities/v1-alpha/treasury-management-8tc77w/research/
+  - entity_id: services:service-trial-conversion-tracking-jthzem
+    files: []
+    path: entities/v1-alpha/trial-conversion-tracking-jthzem/research/
+  - entity_id: services:service-triggered-messaging-acwfhr
+    files: []
+    path: entities/v1-alpha/triggered-messaging-acwfhr/research/
+  - entity_id: services:service-usage-rating-and-metering-twht72
+    files: []
+    path: entities/v1-alpha/usage-rating-and-metering-twht72/research/
+  - entity_id: services:service-usage-rating-x9rzvd
+    files: []
+    path: entities/v1-alpha/usage-rating-x9rzvd/research/
+  - entity_id: services:service-user-activity-monitoring-xuhnky
+    files: []
+    path: entities/v1-alpha/user-activity-monitoring-xuhnky/research/
+  - entity_id: services:service-variance-analysis-5vmh7z
+    files: []
+    path: entities/v1-alpha/variance-analysis-5vmh7z/research/
+  - entity_id: services:service-video-surveillance-gykuz2
+    files: []
+    path: entities/v1-alpha/video-surveillance-gykuz2/research/
+  - entity_id: services:service-virtual-desktop-9f8ydf
+    files: []
+    path: entities/v1-alpha/virtual-desktop-9f8ydf/research/
+  - entity_id: services:service-visitor-management-jdaa66
+    files: []
+    path: entities/v1-alpha/visitor-management-jdaa66/research/
+  - entity_id: services:service-voice-of-customer-analytics-yevb5r
+    files: []
+    path: entities/v1-alpha/voice-of-customer-analytics-yevb5r/research/
+  - entity_id: services:service-vulnerability-management-sgqm8p
+    files: []
+    path: entities/v1-alpha/vulnerability-management-sgqm8p/research/
+  - entity_id: services:service-warehouse-order-release-q5943g
+    files: []
+    path: entities/v1-alpha/warehouse-order-release-q5943g/research/
+  - entity_id: services:service-warehouse-receiving-6y6j37
+    files: []
+    path: entities/v1-alpha/warehouse-receiving-6y6j37/research/
+  - entity_id: services:service-warehouse-slotting-5vyfwa
+    files: []
+    path: entities/v1-alpha/warehouse-slotting-5vyfwa/research/
+  - entity_id: services:service-warehouse-task-execution-79zyqc
+    files: []
+    path: entities/v1-alpha/warehouse-task-execution-79zyqc/research/
+  - entity_id: services:service-warranty-claims-sekef5
+    files: []
+    path: entities/v1-alpha/warranty-claims-sekef5/research/
+  - entity_id: services:service-wave-planning-xpt2mk
+    files: []
+    path: entities/v1-alpha/wave-planning-xpt2mk/research/
+  - entity_id: services:service-web-analytics-f7ekw7
+    files: []
+    path: entities/v1-alpha/web-analytics-f7ekw7/research/
   status: active
   version: 0.0.0

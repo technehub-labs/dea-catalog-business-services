@@ -1,0 +1,26 @@
+id: services:service-subscription-entitlement-mctryn
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Subscription Entitlement Service
+abbreviation: SEN
+description: Resolves at runtime which features, limits and service levels a subscriber
+  is entitled to, serving entitlement decisions to applications with sub-second latency
+  and full decision audit logging.
+domain: Product & Offering Management
+subdomain: Subscription & Service Offerings
+capabilities:
+- capabilities:capability-subscription-and-service-management-p3n8rt
+solution_components:
+- dea:component-subscription-billing-platform
+- dea:component-api-gateway
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- subscription
+- entitlement

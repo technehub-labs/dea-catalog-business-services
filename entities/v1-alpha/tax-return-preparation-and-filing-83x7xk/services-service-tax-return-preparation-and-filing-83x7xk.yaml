@@ -1,0 +1,27 @@
+id: services:service-tax-return-preparation-and-filing-83x7xk
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Tax Return Preparation and Filing Service
+abbreviation: TRF
+description: Assembles VAT, income tax, and withholding return data from ledger and
+  tax accounts, prepares jurisdiction filings with supporting schedules, and records
+  submission acknowledgments and payment obligations.
+domain: Finance & Accounting
+subdomain: Tax, Expense & Fixed Assets
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-tax-engine
+- dea:component-document-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- tax
+- filing

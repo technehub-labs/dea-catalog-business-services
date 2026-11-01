@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Supplier Diversity Reporting Service
+slug: supplier-diversity-reporting
+abbreviation: SDR
+description: Classifies supplier registrations by ownership category, computes diverse-supplier
+  spend and participation rates from purchase data, and produces the periodic reports
+  required for supplier diversity programs.
+domain: Sourcing & Procurement
+subdomain: Supplier Performance & Risk
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- sourcing
+- reporting
+- diversity
+assigned_id: services:service-supplier-diversity-reporting-wpjstz
+admitted: '2026-11-01'

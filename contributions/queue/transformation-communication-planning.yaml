@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Transformation Communication Planning Service
+slug: transformation-communication-planning
+abbreviation: TCP
+description: Builds audience-segmented communication plans for change programs, defining
+  key messages, channels, senders, and timing per milestone, and tracks message delivery
+  against the stakeholder groups each initiative affects.
+domain: Change & Transformation
+subdomain: Change Enablement
+capabilities:
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-change-management-platform
+- dea:component-intranet-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- change
+- communication-planning
+- stakeholders
+assigned_id: services:service-transformation-communication-planning-p8mnys
+admitted: '2026-11-01'
