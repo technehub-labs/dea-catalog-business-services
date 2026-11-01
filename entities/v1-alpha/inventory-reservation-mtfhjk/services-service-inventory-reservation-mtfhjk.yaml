@@ -1,0 +1,26 @@
+id: services:service-inventory-reservation-mtfhjk
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Inventory Reservation Service
+abbreviation: IVR
+description: Reserves on-hand and in-transit stock against orders in real time using
+  allocation priority and date rules, releases reservations on cancellation, and publishes
+  available-to-promise quantities to order capture.
+domain: Supply Chain & Logistics
+subdomain: Warehouse & Inventory Operations
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-erp-core
+- dea:component-warehouse-management-system
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- inventory
+- atp

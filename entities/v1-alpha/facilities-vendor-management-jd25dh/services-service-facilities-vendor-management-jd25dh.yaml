@@ -1,0 +1,26 @@
+id: services:service-facilities-vendor-management-jd25dh
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Facilities Vendor Management Service
+abbreviation: FVM
+description: Qualifies and manages soft-services and maintenance contractors, monitoring
+  SLA performance, insurance validity and site compliance, and scoring vendors each
+  quarter to steer contract renewals and retendering.
+domain: Facilities & Asset Management
+subdomain: Field & Maintenance
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-cafm-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- vendors
+- contracts

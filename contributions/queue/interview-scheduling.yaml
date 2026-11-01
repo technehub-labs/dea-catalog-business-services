@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Interview Scheduling Service
+slug: interview-scheduling
+abbreviation: ISC
+description: Coordinates interview panels, rooms, and video links between candidates
+  and hiring teams, sends automated invitations and reminders, and records panel feedback
+  forms against each candidate stage.
+domain: Human Resources
+subdomain: Talent Acquisition
+capabilities:
+- capabilities:capability-talent-management-v2qw9c
+solution_components:
+- dea:component-ats-platform
+- dea:component-collaboration-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- recruiting
+- interviews
+- scheduling
+assigned_id: services:service-interview-scheduling-ykz9ef
+admitted: '2026-11-01'

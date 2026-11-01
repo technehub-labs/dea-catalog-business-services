@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Lead Assignment Service
+slug: lead-assignment
+abbreviation: LDA
+description: Distributes qualified leads to sellers using round-robin, territory and
+  skill-based routing rules within service-level windows, reassigning stale or unworked
+  leads automatically with routing audit trails.
+domain: Sales & Revenue Operations
+subdomain: Opportunity & Pipeline Management
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+solution_components:
+- dea:component-crm-platform
+- dea:component-marketing-automation-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- sales
+- lead-routing
+- assignment
+assigned_id: services:service-lead-assignment-rww7jd
+admitted: '2026-11-01'

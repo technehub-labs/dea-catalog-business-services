@@ -1,0 +1,29 @@
+id: services:service-funding-stage-gate-ssyspj
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Funding Stage Gate Service
+abbreviation: FSG
+description: Controls investment funding through defined stage gates - concept, business
+  case, execution, and closure - verifying entry criteria and release conditions at
+  each gate and recording funding decisions with conditions of grant.
+domain: Enterprise Strategy & Performance
+subdomain: Investment Portfolio
+capabilities:
+- capabilities:capability-portfolio-and-investment-management-m4kw72
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-portfolio-management-system
+- dea:component-governance-risk-compliance-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- strategy
+- funding
+- stage-gate
+- governance

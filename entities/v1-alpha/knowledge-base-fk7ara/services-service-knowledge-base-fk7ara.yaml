@@ -1,0 +1,25 @@
+id: services:service-knowledge-base-fk7ara
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Knowledge Base Service
+abbreviation: KBS
+description: Publishes curated help articles, how-to guides and troubleshooting content
+  to public and agent-facing channels, with versioning, review workflows, usage analytics
+  and search relevance tuning, across all supported locales.
+domain: Customer Experience
+subdomain: Customer Support & Service
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+solution_components:
+- dea:component-content-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Public
+  compliance: []
+tags:
+- customer-experience
+- knowledge
+- self-service

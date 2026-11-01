@@ -1,0 +1,26 @@
+id: services:service-landing-page-builder-mqy95t
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Landing Page Builder Service
+abbreviation: LPB
+description: Assembles campaign landing pages from modular templates with forms, tracking
+  parameters and testing hooks, publishing to production domains only after compliance
+  and brand review gates.
+domain: Marketing & Brand
+subdomain: Content & Digital Experience
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-content-management-system
+- dea:component-marketing-automation-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- landing-pages
+- web

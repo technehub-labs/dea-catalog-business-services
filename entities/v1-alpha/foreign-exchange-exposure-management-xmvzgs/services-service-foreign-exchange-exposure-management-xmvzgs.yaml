@@ -1,0 +1,25 @@
+id: services:service-foreign-exchange-exposure-management-xmvzgs
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Foreign Exchange Exposure Management Service
+abbreviation: FXE
+description: Measures open currency positions from payable, receivable, and forecast
+  flows, calculates hedge ratios against policy, and tracks forward and swap positions
+  with revaluation results per period.
+domain: Finance & Accounting
+subdomain: Treasury & Payments
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-treasury-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- finance
+- treasury
+- foreign-exchange

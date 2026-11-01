@@ -1,0 +1,27 @@
+id: services:service-freight-audit-djyphm
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Freight Audit Service
+abbreviation: FAU
+description: Reconciles carrier invoices against contracted rates, tendered loads
+  and delivered events, flags overcharges and duplicate billing into dispute workflows,
+  and posts approved freight costs to the ledger.
+domain: Supply Chain & Logistics
+subdomain: Transportation & Distribution
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-transport-management-system
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- supply-chain
+- transportation
+- finance

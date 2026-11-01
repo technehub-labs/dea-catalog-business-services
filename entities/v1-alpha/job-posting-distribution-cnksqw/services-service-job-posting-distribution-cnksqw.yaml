@@ -1,0 +1,27 @@
+id: services:service-job-posting-distribution-cnksqw
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Job Posting Distribution Service
+abbreviation: JPD
+description: Publishes approved vacancies to internal career portals, external job
+  boards, and social channels from a single posting, synchronizes closing dates and
+  content edits, and returns applicant-source tracking data to the ATS.
+domain: Human Resources
+subdomain: Talent Acquisition
+capabilities:
+- capabilities:capability-talent-management-v2qw9c
+solution_components:
+- dea:component-ats-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Public
+  compliance:
+  - GDPR
+tags:
+- hr
+- recruiting
+- job-posting
+- distribution

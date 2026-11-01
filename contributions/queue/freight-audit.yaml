@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Freight Audit Service
+slug: freight-audit
+abbreviation: FAU
+description: Reconciles carrier invoices against contracted rates, tendered loads
+  and delivered events, flags overcharges and duplicate billing into dispute workflows,
+  and posts approved freight costs to the ledger.
+domain: Supply Chain & Logistics
+subdomain: Transportation & Distribution
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-transport-management-system
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- supply-chain
+- transportation
+- finance
+assigned_id: services:service-freight-audit-djyphm
+admitted: '2026-11-01'

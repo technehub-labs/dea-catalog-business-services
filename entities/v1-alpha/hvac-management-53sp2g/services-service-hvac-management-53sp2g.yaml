@@ -1,0 +1,26 @@
+id: services:service-hvac-management-53sp2g
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: HVAC Management Service
+abbreviation: HVC
+description: Controls heating, ventilation and cooling plant through the building
+  management system, holding temperature and humidity setpoints for occupied and equipment
+  spaces, and alarming engineers on drift or failure.
+domain: Facilities & Asset Management
+subdomain: Physical Infrastructure
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-bms-platform
+- dea:component-iot-telemetry-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- hvac
+- bms

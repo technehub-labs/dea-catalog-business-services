@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Invoice Exception Resolution Service
+slug: invoice-exception-resolution
+abbreviation: IER
+description: Routes blocked and mismatched invoices to buyers and approvers with the
+  match discrepancy detail, tracks resolution actions and write-off decisions, and
+  clears or credits invoices within policy deadlines.
+domain: Sourcing & Procurement
+subdomain: Purchase Operations
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+solution_components:
+- dea:component-procure-to-pay-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - SOX
+tags:
+- sourcing
+- invoices
+- exceptions
+assigned_id: services:service-invoice-exception-resolution-z796wb
+admitted: '2026-11-01'

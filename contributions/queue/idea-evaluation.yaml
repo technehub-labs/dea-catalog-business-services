@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Idea Evaluation Service
+slug: idea-evaluation
+abbreviation: IDE
+description: Applies structured scoring - novelty, feasibility, strategic fit, and
+  expected value - through multi-role review panels, records rationales for accept,
+  park, or decline decisions, and closes the loop with submitters.
+domain: Enterprise Strategy & Performance
+subdomain: Innovation & Ideas
+capabilities:
+- capabilities:capability-idea-management-86dckf
+solution_components:
+- dea:component-idea-crowdsourcing-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- strategy
+- ideas
+- evaluation
+- scoring
+assigned_id: services:service-idea-evaluation-wjc6pm
+admitted: '2026-11-01'

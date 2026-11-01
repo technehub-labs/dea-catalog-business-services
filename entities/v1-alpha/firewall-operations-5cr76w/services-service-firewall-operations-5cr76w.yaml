@@ -1,0 +1,27 @@
+id: services:service-firewall-operations-5cr76w
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Firewall Operations Service
+abbreviation: FOS
+description: Administers perimeter and internal firewall rule bases, processing change
+  requests through review and justification, cleaning stale rules on schedule, and
+  evidencing controls for audits covering cardholder-data zones.
+domain: IT Operations & Infrastructure
+subdomain: Network & Connectivity
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-firewall-cluster
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - PCI-DSS
+tags:
+- it
+- firewall
+- network

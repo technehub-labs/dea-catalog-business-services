@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Innovation Challenge Management Service
+slug: innovation-challenge-management
+abbreviation: ICM
+description: Runs time-boxed innovation challenges on defined problem statements -
+  briefs, judging panels, and prize structures - collecting focused submissions, scoring
+  them against published criteria, and announcing selected concepts for incubation.
+domain: Enterprise Strategy & Performance
+subdomain: Innovation & Ideas
+capabilities:
+- capabilities:capability-idea-management-86dckf
+solution_components:
+- dea:component-idea-crowdsourcing-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- challenges
+- innovation
+assigned_id: services:service-innovation-challenge-management-mxw4j9
+admitted: '2026-11-01'

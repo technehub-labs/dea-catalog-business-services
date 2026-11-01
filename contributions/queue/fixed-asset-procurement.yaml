@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Fixed Asset Procurement Service
+slug: fixed-asset-procurement
+abbreviation: FAP
+description: Sources and purchases furniture, equipment and plant through approved
+  vendor channels, raising purchase orders, receiving goods into the asset register,
+  and confirming installation before payment release.
+domain: Facilities & Asset Management
+subdomain: Asset Lifecycle
+capabilities:
+- capabilities:capability-asset-management-judtwr
+solution_components:
+- dea:component-eam-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- procurement
+- assets
+assigned_id: services:service-fixed-asset-procurement-rju7d9
+admitted: '2026-11-01'

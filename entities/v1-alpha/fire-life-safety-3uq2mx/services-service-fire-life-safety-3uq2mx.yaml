@@ -1,0 +1,26 @@
+id: services:service-fire-life-safety-3uq2mx
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Fire & Life Safety Service
+abbreviation: FLS
+description: Inspects and maintains detection, suppression and evacuation systems
+  to statutory schedules, manages impairment permits during works, and coordinates
+  drills so occupants can leave safely in emergencies.
+domain: Facilities & Asset Management
+subdomain: Physical Infrastructure
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+- capabilities:capability-continuity-management-v3rn6u
+solution_components:
+- dea:component-bms-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- fire-safety
+- compliance

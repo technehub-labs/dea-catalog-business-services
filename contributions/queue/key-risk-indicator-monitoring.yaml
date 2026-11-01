@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Key Risk Indicator Monitoring Service
+slug: key-risk-indicator-monitoring
+abbreviation: KRI
+description: Tracks key risk indicators against defined thresholds and appetite limits,
+  raises breach alerts with trend context, and escalates sustained indicator deterioration
+  to accountable executives and risk committees.
+domain: Risk & Compliance
+subdomain: Enterprise Risk Management
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-grc-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- kri
+- monitoring
+assigned_id: services:service-key-risk-indicator-monitoring-g2666a
+admitted: '2026-11-01'

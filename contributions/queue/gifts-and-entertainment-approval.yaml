@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Gifts and Entertainment Approval Service
+slug: gifts-and-entertainment-approval
+abbreviation: GEA
+description: Registers offered and received gifts, hospitality, and entertainment
+  against value thresholds, requires pre-approval above limits, and aggregates entries
+  per counterparty to detect influence patterns over time.
+domain: Risk & Compliance
+subdomain: Policies & Ethics
+capabilities:
+- capabilities:capability-policy-management-w5qb87
+- capabilities:capability-regulation-management-gya4d8
+solution_components:
+- dea:component-case-management-system
+- dea:component-policy-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- ethics
+- approvals
+assigned_id: services:service-gifts-and-entertainment-approval-4bwn3x
+admitted: '2026-11-01'

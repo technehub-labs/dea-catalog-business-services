@@ -1,0 +1,27 @@
+id: services:service-indirect-tax-determination-3ezw34
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Indirect Tax Determination Service
+abbreviation: ITD
+description: Determines VAT, GST, and sales tax treatment for transactions from jurisdiction,
+  product, and party attributes, returns rates at invoice time, and logs decisions
+  for filing support.
+domain: Finance & Accounting
+subdomain: Tax, Expense & Fixed Assets
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-tax-engine
+- dea:component-billing-engine
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- tax
+- invoicing
