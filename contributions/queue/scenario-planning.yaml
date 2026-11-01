@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Scenario Planning Service
+slug: scenario-planning
+abbreviation: SCP
+description: Constructs alternative future scenarios from driving forces and critical
+  uncertainties, quantifies business exposure under each, and evaluates strategy robustness
+  so leaders can commit to options resilient across scenarios.
+domain: Enterprise Strategy & Performance
+subdomain: Strategy Development
+capabilities:
+- capabilities:capability-strategy-formulation-sf7q2x
+solution_components:
+- dea:component-strategy-management-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- strategy
+- scenarios
+- uncertainty
+assigned_id: services:service-scenario-planning-jk9v82
+admitted: '2026-11-01'

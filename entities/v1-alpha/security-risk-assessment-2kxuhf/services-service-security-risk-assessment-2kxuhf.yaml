@@ -1,0 +1,26 @@
+id: services:service-security-risk-assessment-2kxuhf
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Security Risk Assessment Service
+abbreviation: SRA
+description: Evaluates threats and control effectiveness for new projects, systems
+  and changes, rating likelihood and business impact, recommending treatments, and
+  maintaining the enterprise security risk register for governance review.
+domain: Cybersecurity
+subdomain: Governance, Risk & Compliance
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-grc-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- security
+- risk
+- assessment

@@ -1,0 +1,27 @@
+id: services:service-subscription-billing-gkcj3d
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Subscription Billing Service
+abbreviation: SBB
+description: Bills recurring subscription plans with proration, upgrades, and renewals,
+  generates period invoices from contracted terms, and posts billed revenue with tax
+  detail to receivables automatically.
+domain: Finance & Accounting
+subdomain: Revenue & Billing
+capabilities:
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-billing-engine
+- dea:component-erp-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- billing
+- revenue

@@ -1,0 +1,27 @@
+id: services:service-shipment-scheduling-n846up
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Shipment Scheduling Service
+abbreviation: SHS
+description: Books carrier pickups and delivery slots against released orders, producing
+  labels, manifests and customs documentation, and adjusting schedules when dock or
+  line-haul capacity shifts, with cut-off enforcement.
+domain: Order Management
+subdomain: Order Processing & Fulfillment
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-warehouse-management-system
+- dea:component-order-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- order-management
+- shipping
+- carriers

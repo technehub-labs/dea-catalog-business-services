@@ -1,0 +1,25 @@
+id: services:service-sales-territory-management-jxfpnp
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Sales Territory Management Service
+abbreviation: STM
+description: Defines and balances sales territories from account geography, industry
+  and revenue potential, reassigning accounts between owners and keeping CRM hierarchies
+  and assignment rules aligned after each restructuring.
+domain: Sales & Revenue Operations
+subdomain: Sales Planning & Performance
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+solution_components:
+- dea:component-crm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- sales
+- territory
+- planning

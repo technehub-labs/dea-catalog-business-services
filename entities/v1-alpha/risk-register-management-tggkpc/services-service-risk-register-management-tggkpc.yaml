@@ -1,0 +1,25 @@
+id: services:service-risk-register-management-tggkpc
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Risk Register Management Service
+abbreviation: RRM
+description: Maintains the enterprise risk register with risk statements, owners,
+  likelihood and impact scores, and treatment plans, and records score movements approved
+  by risk committees each quarter.
+domain: Risk & Compliance
+subdomain: Enterprise Risk Management
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-grc-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- risk-register
+- governance

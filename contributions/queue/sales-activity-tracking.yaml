@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Sales Activity Tracking Service
+slug: sales-activity-tracking
+abbreviation: SAT
+description: Captures calls, meetings, emails and tasks against accounts and opportunities,
+  measuring coverage, cadence compliance and activity-to-outcome conversion for coaching
+  and forecast inspection by front-line managers.
+domain: Sales & Revenue Operations
+subdomain: Opportunity & Pipeline Management
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+solution_components:
+- dea:component-crm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- sales
+- activity
+- coaching
+assigned_id: services:service-sales-activity-tracking-26egpg
+admitted: '2026-11-01'

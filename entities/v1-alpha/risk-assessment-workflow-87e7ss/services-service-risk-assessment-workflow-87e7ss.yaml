@@ -1,0 +1,26 @@
+id: services:service-risk-assessment-workflow-87e7ss
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Risk Assessment Workflow Service
+abbreviation: RAW
+description: Launches periodic risk assessments across business units, collects inherent
+  and residual scoring responses, calculates aggregated exposure per function, and
+  routes outliers to risk owners for rebuttal or acceptance.
+domain: Risk & Compliance
+subdomain: Enterprise Risk Management
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-grc-platform
+- dea:component-case-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- assessment
+- workflow

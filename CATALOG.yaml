@@ -1,9 +1,9 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 418
+    candidates: 468
     canonical: 0
-    entities: 418
+    entities: 468
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -4597,6 +4597,556 @@ catalog:
     version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-revenue-recognition-accounting-7rz8p5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/revenue-recognition-accounting-7rz8p5/services-service-revenue-recognition-accounting-7rz8p5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-revenue-recognition-p5yxn5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/revenue-recognition-p5yxn5/services-service-revenue-recognition-p5yxn5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-reverse-auction-9yv45m
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/reverse-auction-9yv45m/services-service-reverse-auction-9yv45m.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-risk-aggregation-and-reporting-vbwdqt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/risk-aggregation-and-reporting-vbwdqt/services-service-risk-aggregation-and-reporting-vbwdqt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-risk-assessment-workflow-87e7ss
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/risk-assessment-workflow-87e7ss/services-service-risk-assessment-workflow-87e7ss.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-risk-register-management-tggkpc
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/risk-register-management-tggkpc/services-service-risk-register-management-tggkpc.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-risk-scenario-and-stress-analysis-4vwa5c
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/risk-scenario-and-stress-analysis-4vwa5c/services-service-risk-scenario-and-stress-analysis-4vwa5c.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-royalty-and-commission-settlement-9pwwm9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/royalty-and-commission-settlement-9pwwm9/services-service-royalty-and-commission-settlement-9pwwm9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-safety-stock-optimization-kuqkvt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/safety-stock-optimization-kuqkvt/services-service-safety-stock-optimization-kuqkvt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-salary-structure-c8qyqy
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/salary-structure-c8qyqy/services-service-salary-structure-c8qyqy.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-sales-activity-tracking-26egpg
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/sales-activity-tracking-26egpg/services-service-sales-activity-tracking-26egpg.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-sales-capacity-planning-kp4b7g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/sales-capacity-planning-kp4b7g/services-service-sales-capacity-planning-kp4b7g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-sales-forecasting-ekthvu
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/sales-forecasting-ekthvu/services-service-sales-forecasting-ekthvu.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-sales-incentive-compensation-9vjkj5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/sales-incentive-compensation-9vjkj5/services-service-sales-incentive-compensation-9vjkj5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-sales-quota-management-k5ytwp
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/sales-quota-management-k5ytwp/services-service-sales-quota-management-k5ytwp.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-sales-territory-management-jxfpnp
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/sales-territory-management-jxfpnp/services-service-sales-territory-management-jxfpnp.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-sanctions-and-watchlist-screening-dyumuw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/sanctions-and-watchlist-screening-dyumuw/services-service-sanctions-and-watchlist-screening-dyumuw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-scenario-planning-jk9v82
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/scenario-planning-jk9v82/services-service-scenario-planning-jk9v82.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-scheduled-report-distribution-rs4zfa
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/scheduled-report-distribution-rs4zfa/services-service-scheduled-report-distribution-rs4zfa.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-scope-3-supplier-emissions-collection-jtq2bj
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/scope-3-supplier-emissions-collection-jtq2bj/services-service-scope-3-supplier-emissions-collection-jtq2bj.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-secrets-management-3me7v6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/secrets-management-3me7v6/services-service-secrets-management-3me7v6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-security-awareness-training-jbsx38
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/security-awareness-training-jbsx38/services-service-security-awareness-training-jbsx38.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-security-incident-response-cz98yv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/security-incident-response-cz98yv/services-service-security-incident-response-cz98yv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-security-monitoring-vhfk9u
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/security-monitoring-vhfk9u/services-service-security-monitoring-vhfk9u.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-security-policy-management-az3tpy
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/security-policy-management-az3tpy/services-service-security-policy-management-az3tpy.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-security-risk-assessment-2kxuhf
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/security-risk-assessment-2kxuhf/services-service-security-risk-assessment-2kxuhf.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-self-service-bi-j7zah7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/self-service-bi-j7zah7/services-service-self-service-bi-j7zah7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-self-service-portal-3emjtt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/self-service-portal-3emjtt/services-service-self-service-portal-3emjtt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-seo-management-uxa2pz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/seo-management-uxa2pz/services-service-seo-management-uxa2pz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-service-appointment-scheduling-faknr5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/service-appointment-scheduling-faknr5/services-service-service-appointment-scheduling-faknr5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-service-desk-szpcsr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/service-desk-szpcsr/services-service-service-desk-szpcsr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-service-level-package-management-jr6a4y
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/service-level-package-management-jr6a4y/services-service-service-level-package-management-jr6a4y.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-shipment-exception-management-prfpu6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/shipment-exception-management-prfpu6/services-service-shipment-exception-management-prfpu6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-shipment-scheduling-n846up
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/shipment-scheduling-n846up/services-service-shipment-scheduling-n846up.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-shipment-tendering-zrxkh7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/shipment-tendering-zrxkh7/services-service-shipment-tendering-zrxkh7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-shopping-cart-wnguty
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/shopping-cart-wnguty/services-service-shopping-cart-wnguty.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-should-cost-modeling-uk336h
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/should-cost-modeling-uk336h/services-service-should-cost-modeling-uk336h.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-skill-assessment-q9kv5d
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/skill-assessment-q9kv5d/services-service-skill-assessment-q9kv5d.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-software-license-management-9r46ga
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/software-license-management-9r46ga/services-service-software-license-management-9r46ga.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-sourcing-event-management-axev6g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/sourcing-event-management-axev6g/services-service-sourcing-event-management-axev6g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-space-planning-yhn6hj
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/space-planning-yhn6hj/services-service-space-planning-yhn6hj.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-spend-analysis-69v7gv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/spend-analysis-69v7gv/services-service-spend-analysis-69v7gv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-sponsorship-events-management-b63atw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/sponsorship-events-management-b63atw/services-service-sponsorship-events-management-b63atw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-stock-reservation-xphup7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/stock-reservation-xphup7/services-service-stock-reservation-xphup7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-storage-provisioning-6pkfhv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/storage-provisioning-6pkfhv/services-service-storage-provisioning-6pkfhv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-strategic-foresight-thqm9r
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/strategic-foresight-thqm9r/services-service-strategic-foresight-thqm9r.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-strategic-risk-assessment-z3hvxz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/strategic-risk-assessment-z3hvxz/services-service-strategic-risk-assessment-z3hvxz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-strategic-roadmap-ecajt2
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/strategic-roadmap-ecajt2/services-service-strategic-roadmap-ecajt2.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-streaming-data-pipeline-q5hyag
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/streaming-data-pipeline-q5hyag/services-service-streaming-data-pipeline-q5hyag.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-subscription-billing-gkcj3d
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/subscription-billing-gkcj3d/services-service-subscription-billing-gkcj3d.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-talent-management-fprqec
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -5871,6 +6421,156 @@ catalog:
   - entity_id: services:service-revenue-assurance-analytics-yvcewr
     files: []
     path: entities/v1-alpha/revenue-assurance-analytics-yvcewr/research/
+  - entity_id: services:service-revenue-recognition-accounting-7rz8p5
+    files: []
+    path: entities/v1-alpha/revenue-recognition-accounting-7rz8p5/research/
+  - entity_id: services:service-revenue-recognition-p5yxn5
+    files: []
+    path: entities/v1-alpha/revenue-recognition-p5yxn5/research/
+  - entity_id: services:service-reverse-auction-9yv45m
+    files: []
+    path: entities/v1-alpha/reverse-auction-9yv45m/research/
+  - entity_id: services:service-risk-aggregation-and-reporting-vbwdqt
+    files: []
+    path: entities/v1-alpha/risk-aggregation-and-reporting-vbwdqt/research/
+  - entity_id: services:service-risk-assessment-workflow-87e7ss
+    files: []
+    path: entities/v1-alpha/risk-assessment-workflow-87e7ss/research/
+  - entity_id: services:service-risk-register-management-tggkpc
+    files: []
+    path: entities/v1-alpha/risk-register-management-tggkpc/research/
+  - entity_id: services:service-risk-scenario-and-stress-analysis-4vwa5c
+    files: []
+    path: entities/v1-alpha/risk-scenario-and-stress-analysis-4vwa5c/research/
+  - entity_id: services:service-royalty-and-commission-settlement-9pwwm9
+    files: []
+    path: entities/v1-alpha/royalty-and-commission-settlement-9pwwm9/research/
+  - entity_id: services:service-safety-stock-optimization-kuqkvt
+    files: []
+    path: entities/v1-alpha/safety-stock-optimization-kuqkvt/research/
+  - entity_id: services:service-salary-structure-c8qyqy
+    files: []
+    path: entities/v1-alpha/salary-structure-c8qyqy/research/
+  - entity_id: services:service-sales-activity-tracking-26egpg
+    files: []
+    path: entities/v1-alpha/sales-activity-tracking-26egpg/research/
+  - entity_id: services:service-sales-capacity-planning-kp4b7g
+    files: []
+    path: entities/v1-alpha/sales-capacity-planning-kp4b7g/research/
+  - entity_id: services:service-sales-forecasting-ekthvu
+    files: []
+    path: entities/v1-alpha/sales-forecasting-ekthvu/research/
+  - entity_id: services:service-sales-incentive-compensation-9vjkj5
+    files: []
+    path: entities/v1-alpha/sales-incentive-compensation-9vjkj5/research/
+  - entity_id: services:service-sales-quota-management-k5ytwp
+    files: []
+    path: entities/v1-alpha/sales-quota-management-k5ytwp/research/
+  - entity_id: services:service-sales-territory-management-jxfpnp
+    files: []
+    path: entities/v1-alpha/sales-territory-management-jxfpnp/research/
+  - entity_id: services:service-sanctions-and-watchlist-screening-dyumuw
+    files: []
+    path: entities/v1-alpha/sanctions-and-watchlist-screening-dyumuw/research/
+  - entity_id: services:service-scenario-planning-jk9v82
+    files: []
+    path: entities/v1-alpha/scenario-planning-jk9v82/research/
+  - entity_id: services:service-scheduled-report-distribution-rs4zfa
+    files: []
+    path: entities/v1-alpha/scheduled-report-distribution-rs4zfa/research/
+  - entity_id: services:service-scope-3-supplier-emissions-collection-jtq2bj
+    files: []
+    path: entities/v1-alpha/scope-3-supplier-emissions-collection-jtq2bj/research/
+  - entity_id: services:service-secrets-management-3me7v6
+    files: []
+    path: entities/v1-alpha/secrets-management-3me7v6/research/
+  - entity_id: services:service-security-awareness-training-jbsx38
+    files: []
+    path: entities/v1-alpha/security-awareness-training-jbsx38/research/
+  - entity_id: services:service-security-incident-response-cz98yv
+    files: []
+    path: entities/v1-alpha/security-incident-response-cz98yv/research/
+  - entity_id: services:service-security-monitoring-vhfk9u
+    files: []
+    path: entities/v1-alpha/security-monitoring-vhfk9u/research/
+  - entity_id: services:service-security-policy-management-az3tpy
+    files: []
+    path: entities/v1-alpha/security-policy-management-az3tpy/research/
+  - entity_id: services:service-security-risk-assessment-2kxuhf
+    files: []
+    path: entities/v1-alpha/security-risk-assessment-2kxuhf/research/
+  - entity_id: services:service-self-service-bi-j7zah7
+    files: []
+    path: entities/v1-alpha/self-service-bi-j7zah7/research/
+  - entity_id: services:service-self-service-portal-3emjtt
+    files: []
+    path: entities/v1-alpha/self-service-portal-3emjtt/research/
+  - entity_id: services:service-seo-management-uxa2pz
+    files: []
+    path: entities/v1-alpha/seo-management-uxa2pz/research/
+  - entity_id: services:service-service-appointment-scheduling-faknr5
+    files: []
+    path: entities/v1-alpha/service-appointment-scheduling-faknr5/research/
+  - entity_id: services:service-service-desk-szpcsr
+    files: []
+    path: entities/v1-alpha/service-desk-szpcsr/research/
+  - entity_id: services:service-service-level-package-management-jr6a4y
+    files: []
+    path: entities/v1-alpha/service-level-package-management-jr6a4y/research/
+  - entity_id: services:service-shipment-exception-management-prfpu6
+    files: []
+    path: entities/v1-alpha/shipment-exception-management-prfpu6/research/
+  - entity_id: services:service-shipment-scheduling-n846up
+    files: []
+    path: entities/v1-alpha/shipment-scheduling-n846up/research/
+  - entity_id: services:service-shipment-tendering-zrxkh7
+    files: []
+    path: entities/v1-alpha/shipment-tendering-zrxkh7/research/
+  - entity_id: services:service-shopping-cart-wnguty
+    files: []
+    path: entities/v1-alpha/shopping-cart-wnguty/research/
+  - entity_id: services:service-should-cost-modeling-uk336h
+    files: []
+    path: entities/v1-alpha/should-cost-modeling-uk336h/research/
+  - entity_id: services:service-skill-assessment-q9kv5d
+    files: []
+    path: entities/v1-alpha/skill-assessment-q9kv5d/research/
+  - entity_id: services:service-software-license-management-9r46ga
+    files: []
+    path: entities/v1-alpha/software-license-management-9r46ga/research/
+  - entity_id: services:service-sourcing-event-management-axev6g
+    files: []
+    path: entities/v1-alpha/sourcing-event-management-axev6g/research/
+  - entity_id: services:service-space-planning-yhn6hj
+    files: []
+    path: entities/v1-alpha/space-planning-yhn6hj/research/
+  - entity_id: services:service-spend-analysis-69v7gv
+    files: []
+    path: entities/v1-alpha/spend-analysis-69v7gv/research/
+  - entity_id: services:service-sponsorship-events-management-b63atw
+    files: []
+    path: entities/v1-alpha/sponsorship-events-management-b63atw/research/
+  - entity_id: services:service-stock-reservation-xphup7
+    files: []
+    path: entities/v1-alpha/stock-reservation-xphup7/research/
+  - entity_id: services:service-storage-provisioning-6pkfhv
+    files: []
+    path: entities/v1-alpha/storage-provisioning-6pkfhv/research/
+  - entity_id: services:service-strategic-foresight-thqm9r
+    files: []
+    path: entities/v1-alpha/strategic-foresight-thqm9r/research/
+  - entity_id: services:service-strategic-risk-assessment-z3hvxz
+    files: []
+    path: entities/v1-alpha/strategic-risk-assessment-z3hvxz/research/
+  - entity_id: services:service-strategic-roadmap-ecajt2
+    files: []
+    path: entities/v1-alpha/strategic-roadmap-ecajt2/research/
+  - entity_id: services:service-streaming-data-pipeline-q5hyag
+    files: []
+    path: entities/v1-alpha/streaming-data-pipeline-q5hyag/research/
+  - entity_id: services:service-subscription-billing-gkcj3d
+    files: []
+    path: entities/v1-alpha/subscription-billing-gkcj3d/research/
   - entity_id: services:service-talent-management-fprqec
     files: []
     path: entities/v1-alpha/talent-management-fprqec/research/

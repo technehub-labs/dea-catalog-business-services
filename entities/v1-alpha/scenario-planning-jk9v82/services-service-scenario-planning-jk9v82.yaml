@@ -1,0 +1,25 @@
+id: services:service-scenario-planning-jk9v82
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Scenario Planning Service
+abbreviation: SCP
+description: Constructs alternative future scenarios from driving forces and critical
+  uncertainties, quantifies business exposure under each, and evaluates strategy robustness
+  so leaders can commit to options resilient across scenarios.
+domain: Enterprise Strategy & Performance
+subdomain: Strategy Development
+capabilities:
+- capabilities:capability-strategy-formulation-sf7q2x
+solution_components:
+- dea:component-strategy-management-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- strategy
+- scenarios
+- uncertainty

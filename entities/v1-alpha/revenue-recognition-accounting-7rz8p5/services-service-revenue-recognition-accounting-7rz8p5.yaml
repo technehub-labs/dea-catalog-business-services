@@ -1,0 +1,28 @@
+id: services:service-revenue-recognition-accounting-7rz8p5
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Revenue Recognition Accounting Service
+abbreviation: RRR
+description: Applies ASC 606 and IFRS 15 models to allocate contract consideration
+  across performance obligations, defers unsatisfied amounts, and posts recognition
+  schedules through journal automation each period.
+domain: Finance & Accounting
+subdomain: Revenue & Billing
+capabilities:
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-erp-core
+- dea:component-billing-engine
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- revenue
+- compliance

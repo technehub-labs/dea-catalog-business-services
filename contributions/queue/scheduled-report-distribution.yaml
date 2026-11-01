@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Scheduled Report Distribution Service
+slug: scheduled-report-distribution
+abbreviation: SRD
+description: Delivers recurring report extracts to distribution lists in PDF and spreadsheet
+  formats on business calendars, retrying failed deliveries and confirming completion
+  so operational reviewers receive their packs on time.
+domain: Data & Analytics
+subdomain: Analytics & Business Intelligence
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-orchestration-scheduler
+- dea:component-bi-suite
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- reporting
+- distribution
+assigned_id: services:service-scheduled-report-distribution-rs4zfa
+admitted: '2026-11-01'

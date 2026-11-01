@@ -1,0 +1,26 @@
+id: services:service-service-level-package-management-jr6a4y
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Service Level Package Management Service
+abbreviation: SLP
+description: Specifies attachable service level packages — response targets, coverage
+  hours, severity definitions — validates them against operational capability, and
+  versions packages as offerings change so commitments remain deliverable.
+domain: Product & Offering Management
+subdomain: Subscription & Service Offerings
+capabilities:
+- capabilities:capability-subscription-and-service-management-p3n8rt
+- capabilities:capability-offering-management-6egkc8
+solution_components:
+- dea:component-subscription-billing-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- service-levels
+- offering

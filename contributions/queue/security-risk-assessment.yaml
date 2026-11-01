@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Security Risk Assessment Service
+slug: security-risk-assessment
+abbreviation: SRA
+description: Evaluates threats and control effectiveness for new projects, systems
+  and changes, rating likelihood and business impact, recommending treatments, and
+  maintaining the enterprise security risk register for governance review.
+domain: Cybersecurity
+subdomain: Governance, Risk & Compliance
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-grc-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- security
+- risk
+- assessment
+assigned_id: services:service-security-risk-assessment-2kxuhf
+admitted: '2026-11-01'

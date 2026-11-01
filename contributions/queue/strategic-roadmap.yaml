@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Strategic Roadmap Service
+slug: strategic-roadmap
+abbreviation: SRM
+description: Publishes the enterprise strategic roadmap showing capability builds,
+  market entries, and technology shifts on a shared timeline, keeping initiative timing
+  synchronized with funding decisions and annual planning.
+domain: Enterprise Strategy & Performance
+subdomain: Strategic Planning
+capabilities:
+- capabilities:capability-strategic-planning-k3rz7a
+solution_components:
+- dea:component-strategy-management-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- roadmap
+- timeline
+assigned_id: services:service-strategic-roadmap-ecajt2
+admitted: '2026-11-01'

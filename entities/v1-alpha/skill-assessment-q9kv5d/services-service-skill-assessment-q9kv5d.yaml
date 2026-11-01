@@ -1,0 +1,27 @@
+id: services:service-skill-assessment-q9kv5d
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Skill Assessment Service
+abbreviation: SKA
+description: Runs skill and proficiency assessments through tests, manager evaluations,
+  and peer reviews, producing verified skill profiles per employee that feed development
+  plans, staffing decisions, and gap analytics.
+domain: Human Resources
+subdomain: Learning & Development
+capabilities:
+- capabilities:capability-learning-and-development-b8qw5n
+solution_components:
+- dea:component-lms-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- skills
+- assessment

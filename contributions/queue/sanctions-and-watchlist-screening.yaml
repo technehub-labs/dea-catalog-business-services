@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Sanctions and Watchlist Screening Service
+slug: sanctions-and-watchlist-screening
+abbreviation: SWS
+description: Screens customers, suppliers, and payment counterparties against sanctions
+  and watchlists at onboarding and on every list update, holds potential matches for
+  investigator disposition, and records audit decisions.
+domain: Risk & Compliance
+subdomain: Regulatory Compliance
+capabilities:
+- capabilities:capability-regulation-management-gya4d8
+solution_components:
+- dea:component-grc-platform
+- dea:component-api-gateway
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Restricted
+  compliance: []
+tags:
+- risk
+- sanctions
+- screening
+assigned_id: services:service-sanctions-and-watchlist-screening-dyumuw
+admitted: '2026-11-01'

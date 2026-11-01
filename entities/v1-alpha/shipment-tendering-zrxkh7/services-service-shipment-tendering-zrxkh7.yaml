@@ -1,0 +1,25 @@
+id: services:service-shipment-tendering-zrxkh7
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Shipment Tendering Service
+abbreviation: STN
+description: Tenders planned loads to selected carriers over their preferred channels,
+  tracks acceptances and declines against fallback carrier ladders, and locks awarded
+  carriers into the execution schedule.
+domain: Supply Chain & Logistics
+subdomain: Transportation & Distribution
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-transport-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- transportation
+- tendering
