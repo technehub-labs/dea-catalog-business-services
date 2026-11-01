@@ -1,0 +1,27 @@
+id: services:service-pre-order-management-5fz5mg
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Pre-Order Management Service
+abbreviation: POM
+description: Accepts orders for not-yet-released items against announced availability,
+  capping quantities per allocation plan and releasing pre-orders into fulfillment
+  when stock is received with dated acknowledgements.
+domain: Order Management
+subdomain: Inventory & Order Intelligence
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+solution_components:
+- dea:component-order-management-system
+- dea:component-ecommerce-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- order-management
+- pre-order
+- launches

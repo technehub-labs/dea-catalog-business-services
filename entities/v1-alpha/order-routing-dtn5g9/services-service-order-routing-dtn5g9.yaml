@@ -1,0 +1,26 @@
+id: services:service-order-routing-dtn5g9
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Order Routing Service
+abbreviation: ORT
+description: Selects fulfillment nodes for each order line using inventory position,
+  shipping cost, promised date and stock-protection rules, splitting orders when sourcing
+  diverges across locations, plus carrier capacity limits.
+domain: Order Management
+subdomain: Order Processing & Fulfillment
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-order-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- order-management
+- sourcing
+- routing

@@ -1,0 +1,25 @@
+id: services:service-partner-directory-uf4uz2
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Directory Service
+abbreviation: PDR
+description: Maintains the authoritative registry of active partners — legal entities,
+  contacts, certifications, territories and specializations — and publishes verified
+  partner listings to internal teams and partner-facing locator tools.
+domain: Partner & Channel Management
+subdomain: Partner Lifecycle & Governance
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-partner-portal
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- registry
+- directory

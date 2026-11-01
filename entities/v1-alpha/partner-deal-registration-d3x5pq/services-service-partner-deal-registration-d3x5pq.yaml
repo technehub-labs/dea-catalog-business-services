@@ -1,0 +1,27 @@
+id: services:service-partner-deal-registration-d3x5pq
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Deal Registration Service
+abbreviation: PDR
+description: Accepts partner deal registrations, validating eligibility, conflict
+  and overlap rules before granting protection windows and creating linked opportunities
+  for the registering partner and sales owner.
+domain: Sales & Revenue Operations
+subdomain: Partner & Channel Sales
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+- capabilities:capability-offering-management-6egkc8
+solution_components:
+- dea:component-partner-portal
+- dea:component-crm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- sales
+- partners
+- deal-registration

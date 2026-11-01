@@ -1,0 +1,27 @@
+id: services:service-policy-exception-management-3mr8tf
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Policy Exception Management Service
+abbreviation: POX
+description: Accepts requests to deviate from approved policies, routes them through
+  compensating control review and risk acceptance decisions, and registers approved
+  exceptions with expiry dates for revalidation.
+domain: Risk & Compliance
+subdomain: Policies & Ethics
+capabilities:
+- capabilities:capability-policy-management-w5qb87
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-policy-management-system
+- dea:component-case-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- exceptions
+- policy

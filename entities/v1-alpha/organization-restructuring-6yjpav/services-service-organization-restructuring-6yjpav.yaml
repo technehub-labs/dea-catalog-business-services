@@ -1,0 +1,28 @@
+id: services:service-organization-restructuring-6yjpav
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Organization Restructuring Service
+abbreviation: ORG
+description: Designs and executes organization changes - spans and layers, reporting-line
+  moves, and unit consolidations - from consultation through effective-dated org updates
+  and workforce plan adjustments on the implementation date.
+domain: Change & Transformation
+subdomain: Process & Organization
+capabilities:
+- capabilities:capability-organizational-design-vanefq
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-hris-core
+- dea:component-strategy-management-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- change
+- restructuring
+- org-design

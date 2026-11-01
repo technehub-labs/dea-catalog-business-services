@@ -1,0 +1,29 @@
+id: services:service-preference-center-2agmkc
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Preference Center Service
+abbreviation: PFC
+description: Lets customers manage channel, topic and frequency preferences through
+  a validated interface, syncing accepted preferences to messaging platforms and suppression
+  lists within minutes, without support intervention.
+domain: Customer Experience
+subdomain: Consent & Privacy
+capabilities:
+- capabilities:capability-privacy-and-consent-management-h3mw69
+- capabilities:capability-customer-management-f3n8wb
+solution_components:
+- dea:component-consent-management-platform
+- dea:component-notification-hub
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- customer-experience
+- preferences
+- consent

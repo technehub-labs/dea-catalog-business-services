@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Penetration Testing Service
+slug: penetration-testing
+abbreviation: PNT
+description: Engages internal specialists or vetted third parties to attack defined
+  systems under agreed rules of engagement, documenting exploited paths and remediation
+  advice, and verifying fixes through retests.
+domain: Cybersecurity
+subdomain: Vulnerability & Threat Management
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-vulnerability-scanner
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Restricted
+  compliance: []
+tags:
+- security
+- pentest
+- assurance
+assigned_id: services:service-penetration-testing-8ff77s
+admitted: '2026-11-01'

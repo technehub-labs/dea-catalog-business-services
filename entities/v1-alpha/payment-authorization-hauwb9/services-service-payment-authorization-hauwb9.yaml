@@ -1,0 +1,27 @@
+id: services:service-payment-authorization-hauwb9
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Payment Authorization Service
+abbreviation: PYA
+description: Obtains real-time card and wallet authorizations at checkout, tokenizing
+  payment instruments, screening risk rules and holding approvals within issuer validity
+  windows pending later capture requests.
+domain: Order Management
+subdomain: Payment & Settlement
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+solution_components:
+- dea:component-payment-gateway
+- dea:component-api-gateway
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Restricted
+  compliance:
+  - PCI-DSS
+tags:
+- order-management
+- payments
+- authorization

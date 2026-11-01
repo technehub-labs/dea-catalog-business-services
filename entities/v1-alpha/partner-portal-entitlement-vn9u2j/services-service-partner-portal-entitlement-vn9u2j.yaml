@@ -1,0 +1,26 @@
+id: services:service-partner-portal-entitlement-vn9u2j
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Portal Entitlement Service
+abbreviation: PPE
+description: Controls which portal functions, data ranges and self-service actions
+  each partner can reach, evaluating program tier, certifications and agreement status,
+  and logs every entitlement decision for program audit.
+domain: Partner & Channel Management
+subdomain: Partner Performance & Enablement
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-partner-portal
+- dea:component-api-gateway
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- portal
+- access-control

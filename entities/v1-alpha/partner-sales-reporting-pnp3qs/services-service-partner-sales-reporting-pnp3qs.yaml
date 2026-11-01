@@ -1,0 +1,26 @@
+id: services:service-partner-sales-reporting-pnp3qs
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Sales Reporting Service
+abbreviation: PSR
+description: Ingests periodic point-of-sale and inventory reports from channel partners,
+  validates format and completeness, normalizes product codes to the catalog, and
+  loads the results for channel analytics.
+domain: Partner & Channel Management
+subdomain: Channel Operations
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- reporting
+- sales

@@ -1,0 +1,27 @@
+id: services:service-order-exception-management-c9j3y3
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Order Exception Management Service
+abbreviation: OEM
+description: Detects stalled or failed orders including stuck states, failed integrations
+  and unconfirmed shipments, triaging them to resolution queues with aging and escalation
+  rules, plus root-cause categories.
+domain: Order Management
+subdomain: Inventory & Order Intelligence
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-order-management-system
+- dea:component-notification-hub
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- order-management
+- exceptions
+- monitoring

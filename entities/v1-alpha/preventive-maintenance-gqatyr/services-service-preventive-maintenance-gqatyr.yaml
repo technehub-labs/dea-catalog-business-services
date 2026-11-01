@@ -1,0 +1,26 @@
+id: services:service-preventive-maintenance-gqatyr
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Preventive Maintenance Service
+abbreviation: PRM
+description: Schedules and executes planned maintenance on plant and equipment from
+  statutory intervals and condition data, generating work orders, checking spares
+  availability, and completing compliance records for regulated assets.
+domain: Facilities & Asset Management
+subdomain: Field & Maintenance
+capabilities:
+- capabilities:capability-asset-management-judtwr
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-eam-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- maintenance
+- planned

@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Partner Lead Distribution Service
+slug: partner-lead-distribution
+abbreviation: PLD
+description: Distributes qualified leads to partners by territory and expertise, enforces
+  follow-up service levels with tracked response clocks, and returns declined leads
+  to the central pool for reallocation.
+domain: Partner & Channel Management
+subdomain: Partner Performance & Enablement
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-prm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- leads
+- distribution
+assigned_id: services:service-partner-lead-distribution-rccjje
+admitted: '2026-11-01'

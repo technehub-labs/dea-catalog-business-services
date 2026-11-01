@@ -1,0 +1,25 @@
+id: services:service-predictive-analytics-zsx35t
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Predictive Analytics Service
+abbreviation: PRA
+description: Builds and maintains forecasting and propensity models for demand planning,
+  churn and credit teams, backtesting accuracy against realized outcomes, and refreshing
+  predictions on schedules business processes consume.
+domain: Data & Analytics
+subdomain: Advanced Analytics & AI
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-ml-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- forecasting
+- models

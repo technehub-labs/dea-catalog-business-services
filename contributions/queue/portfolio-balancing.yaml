@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Portfolio Balancing Service
+slug: portfolio-balancing
+abbreviation: PBL
+description: Rebalances the active investment portfolio against risk appetite, horizon
+  mix, and capacity constraints, simulating add, pause, and stop decisions so aggregate
+  exposure stays within the board-approved profile.
+domain: Enterprise Strategy & Performance
+subdomain: Investment Portfolio
+capabilities:
+- capabilities:capability-portfolio-and-investment-management-m4kw72
+solution_components:
+- dea:component-portfolio-management-system
+- dea:component-bi-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- strategy
+- portfolio
+- balancing
+- risk
+assigned_id: services:service-portfolio-balancing-5e87pf
+admitted: '2026-11-01'

@@ -1,0 +1,28 @@
+id: services:service-payment-capture-b6bjm7
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Payment Capture Service
+abbreviation: PYC
+description: Captures authorized amounts at shipment and fulfillment events, applying
+  partial-capture rules, reconciling captures against authorizations and queuing timed
+  retries on gateway failures with audit logging.
+domain: Order Management
+subdomain: Payment & Settlement
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-payment-gateway
+- dea:component-billing-engine
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Restricted
+  compliance:
+  - PCI-DSS
+tags:
+- order-management
+- payments
+- capture

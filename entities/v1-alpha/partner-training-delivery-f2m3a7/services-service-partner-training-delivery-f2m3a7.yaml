@@ -1,0 +1,25 @@
+id: services:service-partner-training-delivery-f2m3a7
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Training Delivery Service
+abbreviation: PTD
+description: Delivers enablement courses and certification paths to partner staff,
+  tracks enrollment, completion and assessment scores per course, and reports training
+  coverage that tier requirements and certifications depend on.
+domain: Partner & Channel Management
+subdomain: Partner Performance & Enablement
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-prm-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- enablement
+- training

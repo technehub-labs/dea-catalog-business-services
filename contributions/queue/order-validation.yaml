@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Order Validation Service
+slug: order-validation
+abbreviation: OVA
+description: Checks each order for catalog validity, pricing accuracy, address deliverability,
+  credit status and fraud signals, quarantining failures for correction before release
+  to fulfillment, plus data-quality checks.
+domain: Order Management
+subdomain: Order Capture & Validation
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-order-management-system
+- dea:component-payment-gateway
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- order-management
+- validation
+- fraud
+assigned_id: services:service-order-validation-p7ywmd
+admitted: '2026-11-01'

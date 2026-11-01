@@ -1,0 +1,27 @@
+id: services:service-payroll-accounting-integration-8fbqez
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Payroll Accounting Integration Service
+abbreviation: PAI
+description: Receives payroll run results, maps gross-to-net components to ledger
+  accounts, posts salary, benefits, and withholding journals per entity, and reconciles
+  payroll control totals before close.
+domain: Finance & Accounting
+subdomain: Tax, Expense & Fixed Assets
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-payroll-engine
+- dea:component-erp-core
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- payroll
+- general-ledger

@@ -1,0 +1,26 @@
+id: services:service-pci-segmentation-monitoring-cuw7q6
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: PCI Segmentation Monitoring Service
+abbreviation: PSM
+description: Continuously probes network segmentation between cardholder-data environments
+  and corporate zones, alerting on unauthorized communication paths, validating firewall
+  rules each quarter, and producing evidence packs for payment-card assessors.
+domain: Cybersecurity
+subdomain: Governance, Risk & Compliance
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-segmentation-monitor
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Restricted
+  compliance:
+  - PCI-DSS
+tags:
+- security
+- pci
+- segmentation

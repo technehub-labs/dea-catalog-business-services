@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Outside Counsel Engagement Service
+slug: outside-counsel-engagement
+abbreviation: OCE
+description: Onboards law firms with engagement letters and rate arrangements, enforces
+  panel and conflicts check requirements, and monitors staffing and scope changes
+  against approved engagement terms.
+domain: Legal & Privacy
+subdomain: Legal Operations
+capabilities:
+- capabilities:capability-legal-matter-management-zzbd2u
+solution_components:
+- dea:component-clm-platform
+- dea:component-case-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- legal
+- counsel
+- engagement
+assigned_id: services:service-outside-counsel-engagement-ufu4v3
+admitted: '2026-11-01'

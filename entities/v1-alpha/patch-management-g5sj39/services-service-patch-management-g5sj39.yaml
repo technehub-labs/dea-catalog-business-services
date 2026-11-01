@@ -1,0 +1,26 @@
+id: services:service-patch-management-g5sj39
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Patch Management Service
+abbreviation: PCH
+description: Tests, schedules and deploys operating-system and third-party patches
+  across servers and endpoints, tracks remediation against vendor advisories, and
+  reports exception devices with documented risk acceptance to change boards.
+domain: IT Operations & Infrastructure
+subdomain: Compute & Cloud Platform
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-mdm-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- patching
+- compliance

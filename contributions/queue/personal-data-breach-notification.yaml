@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Personal Data Breach Notification Service
+slug: personal-data-breach-notification
+abbreviation: PDB
+description: Coordinates suspected personal data breach triage, captures scope and
+  sensitivity findings, calculates notification deadlines against the 72-hour rule,
+  and generates regulator and individual notices for counsel review.
+domain: Legal & Privacy
+subdomain: Privacy Management
+capabilities:
+- capabilities:capability-privacy-and-consent-management-h3mw69
+solution_components:
+- dea:component-case-management-system
+- dea:component-dsr-orchestration-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Restricted
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- legal
+- privacy
+- breach
+assigned_id: services:service-personal-data-breach-notification-6xtujc
+admitted: '2026-11-01'

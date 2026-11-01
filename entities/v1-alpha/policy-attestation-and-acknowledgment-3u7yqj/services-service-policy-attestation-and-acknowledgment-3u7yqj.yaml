@@ -1,0 +1,26 @@
+id: services:service-policy-attestation-and-acknowledgment-3u7yqj
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Policy Attestation and Acknowledgment Service
+abbreviation: PAA
+description: Distributes policies requiring employee acknowledgment, records individual
+  attestations with timestamps, targets non-responders with reminders, and produces
+  population-level compliance evidence for audit sampling and examination requests.
+domain: Risk & Compliance
+subdomain: Policies & Ethics
+capabilities:
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-policy-management-system
+- dea:component-document-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- attestation
+- policy

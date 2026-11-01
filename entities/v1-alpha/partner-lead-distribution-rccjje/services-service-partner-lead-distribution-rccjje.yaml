@@ -1,0 +1,25 @@
+id: services:service-partner-lead-distribution-rccjje
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Lead Distribution Service
+abbreviation: PLD
+description: Distributes qualified leads to partners by territory and expertise, enforces
+  follow-up service levels with tracked response clocks, and returns declined leads
+  to the central pool for reallocation.
+domain: Partner & Channel Management
+subdomain: Partner Performance & Enablement
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-prm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- leads
+- distribution
