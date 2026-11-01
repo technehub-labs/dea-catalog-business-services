@@ -1,0 +1,25 @@
+id: services:service-facilities-help-desk-zqbzf4
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Facilities Help Desk Service
+abbreviation: FHD
+description: Takes occupant requests for repairs, temperature, cleaning and access
+  through a facilities service channel, triaging to trades or vendors, and tracking
+  each ticket through to occupant confirmation.
+domain: Facilities & Asset Management
+subdomain: Field & Maintenance
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-cafm-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- help-desk
+- requests

@@ -1,0 +1,26 @@
+id: services:service-enterprise-dns-hysv6w
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Enterprise DNS Service
+abbreviation: EDS
+description: Resolves internal and external names for every corporate device and application,
+  operates authoritative and recursive zones with anycast redundancy, and validates
+  record changes before propagation to prevent outages.
+domain: IT Operations & Infrastructure
+subdomain: Network & Connectivity
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-incident-and-problem-management-c2wk96
+solution_components:
+- dea:component-dns-resolver
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance: []
+tags:
+- it
+- dns
+- network

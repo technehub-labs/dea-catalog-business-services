@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Employee Newsletter Service
+slug: employee-newsletter
+abbreviation: ENL
+description: Assembles and distributes the periodic employee newsletter from contributed
+  articles, campaign news, and event listings, with template-driven layout, segmented
+  recipient lists, and open- and click-rate reporting to communications owners.
+domain: Communications & Workplace
+subdomain: Internal Communications
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-intranet-platform
+- dea:component-collaboration-suite
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Public
+  compliance: []
+tags:
+- communications
+- newsletter
+- internal-comms
+assigned_id: services:service-employee-newsletter-6ha3kr
+admitted: '2026-11-01'

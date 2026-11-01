@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Diversity and Inclusion Metrics Service
+slug: diversity-and-inclusion-metrics
+abbreviation: DIM
+description: Aggregates workforce composition, pay equity, and hiring flow data into
+  disclosed diversity indicators, applies aggregation thresholds that prevent individual
+  identification, and tracks trends against stated inclusion commitments.
+domain: Sustainability & ESG
+subdomain: Responsible Operations
+capabilities:
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-esg-data-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- sustainability
+- diversity
+- workforce
+assigned_id: services:service-diversity-and-inclusion-metrics-8bmc3g
+admitted: '2026-11-01'

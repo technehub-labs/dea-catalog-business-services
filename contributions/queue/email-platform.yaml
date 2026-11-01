@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Email Platform Service
+slug: email-platform
+abbreviation: EML
+description: Operates corporate mailboxes, calendars and distribution lists for the
+  whole workforce, maintaining deliverability, mailbox lifecycle and archival retention,
+  and absorbing phishing and spam at the gateway before delivery.
+domain: IT Operations & Infrastructure
+subdomain: Endpoint & Workplace
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-email-platform
+- dea:component-email-security-gateway
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance: []
+tags:
+- it
+- email
+- workplace
+assigned_id: services:service-email-platform-gr3kgt
+admitted: '2026-11-01'

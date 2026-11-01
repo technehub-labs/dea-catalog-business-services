@@ -1,0 +1,29 @@
+id: services:service-employee-directory-ej75cd
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Employee Directory Service
+abbreviation: EDR
+description: Provides the searchable, profile-driven directory of colleagues spanning
+  names, roles, locations, reporting lines, and expertise, synchronized nightly from
+  HR master data with privacy controls over visible fields.
+domain: Communications & Workplace
+subdomain: Employee Engagement
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-intranet-platform
+- dea:component-hris-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- communications
+- directory
+- people-search
+- profiles

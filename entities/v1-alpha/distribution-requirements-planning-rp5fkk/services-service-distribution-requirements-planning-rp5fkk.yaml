@@ -1,0 +1,25 @@
+id: services:service-distribution-requirements-planning-rp5fkk
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Distribution Requirements Planning Service
+abbreviation: DRP
+description: Projects net requirements at each distribution node from downstream demand
+  and inventory positions, explodes them up the network, and issues time-phased replenishment
+  orders between stocking locations.
+domain: Supply Chain & Logistics
+subdomain: Demand & Supply Planning
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-scm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- planning
+- distribution

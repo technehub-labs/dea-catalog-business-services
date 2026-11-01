@@ -1,0 +1,27 @@
+id: services:service-executive-broadcast-3v64f5
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Executive Broadcast Service
+abbreviation: EBS
+description: Streams and records town halls, all-hands briefings, and leadership updates
+  to employees across sites and remote locations, handling registration, live Q&A
+  moderation, captions, and on-demand replay with view analytics.
+domain: Communications & Workplace
+subdomain: Internal Communications
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-collaboration-suite
+- dea:component-intranet-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- communications
+- town-hall
+- broadcast
+- leadership

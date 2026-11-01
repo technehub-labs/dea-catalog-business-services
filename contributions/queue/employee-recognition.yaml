@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Employee Recognition Service
+slug: employee-recognition
+abbreviation: ERS
+description: Enables peer-to-peer and manager-to-peer recognition awards tied to company
+  values, routes high-value awards for approval, posts recognitions to social feeds,
+  and accumulates award history for each employee.
+domain: Communications & Workplace
+subdomain: Employee Engagement
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-recognition-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- communications
+- recognition
+- engagement
+- rewards
+assigned_id: services:service-employee-recognition-c397z9
+admitted: '2026-11-01'

@@ -1,0 +1,25 @@
+id: services:service-enterprise-asset-registry-237zbv
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Enterprise Asset Registry Service
+abbreviation: EAR
+description: Maintains the single register of physical assets with owners, locations,
+  warranties and hierarchies, reconciling procurement, movement and disposal events
+  so depreciation and maintenance planning use accurate data.
+domain: Facilities & Asset Management
+subdomain: Asset Lifecycle
+capabilities:
+- capabilities:capability-asset-management-judtwr
+solution_components:
+- dea:component-eam-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- assets
+- registry

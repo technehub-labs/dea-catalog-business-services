@@ -1,0 +1,26 @@
+id: services:service-digital-asset-management-pk6v7n
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Digital Asset Management Service
+abbreviation: DAM
+description: Stores and classifies images, video and design files with usage-rights
+  metadata, licence expiry alerts and automatic rendition generation, giving channel
+  teams licensed, on-brand assets only.
+domain: Marketing & Brand
+subdomain: Content & Digital Experience
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-digital-asset-management-system
+- dea:component-content-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- assets
+- content

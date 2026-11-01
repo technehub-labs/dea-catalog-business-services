@@ -1,0 +1,26 @@
+id: services:service-endpoint-detection-response-64rs3j
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Endpoint Detection & Response Service
+abbreviation: EDR
+description: Watches every managed endpoint for malicious process, file and network
+  behaviour, isolating compromised machines automatically, streaming telemetry to
+  investigators, and rolling out response actions across the fleet remotely.
+domain: Cybersecurity
+subdomain: Vulnerability & Threat Management
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+- capabilities:capability-incident-and-problem-management-c2wk96
+solution_components:
+- dea:component-edr-platform
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Restricted
+  compliance: []
+tags:
+- security
+- edr
+- endpoint

@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Enterprise Reporting Service
+slug: enterprise-reporting
+abbreviation: ERS
+description: Produces and distributes scheduled operational and regulatory reports
+  from certified datasets, managing subscription lists, burst delivery by region,
+  and historical output archives that business reviewers rely on monthly.
+domain: Data & Analytics
+subdomain: Analytics & Business Intelligence
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-bi-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- reporting
+- bi
+assigned_id: services:service-enterprise-reporting-vwg46e
+admitted: '2026-11-01'

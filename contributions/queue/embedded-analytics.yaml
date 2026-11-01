@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Embedded Analytics Service
+slug: embedded-analytics
+abbreviation: EAN
+description: Embeds charts, metrics and report views inside operational applications
+  and customer portals through governed components, scoping each viewer's data by
+  tenancy and measuring consumption of in-product insights.
+domain: Data & Analytics
+subdomain: Analytics & Business Intelligence
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-bi-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- embedded
+- analytics
+assigned_id: services:service-embedded-analytics-fm7sgm
+admitted: '2026-11-01'

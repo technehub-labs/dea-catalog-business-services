@@ -1,0 +1,28 @@
+id: services:service-esg-disclosure-management-9fwhyc
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: ESG Disclosure Management Service
+abbreviation: EDM
+description: Prepares sustainability statement content against CSRD and ESRS datapoints,
+  links narrative disclosures to underlying data lineage, and manages review and sign-off
+  cycles with assurance-ready evidence trails.
+domain: Sustainability & ESG
+subdomain: ESG Disclosure & Reporting
+capabilities:
+- capabilities:capability-enterprise-governance-uas48u
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-disclosure-management-system
+- dea:component-esg-data-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- sustainability
+- disclosure
+- csrd

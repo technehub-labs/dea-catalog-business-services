@@ -1,0 +1,26 @@
+id: services:service-enterprise-insurance-management-n6qms5
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Enterprise Insurance Management Service
+abbreviation: EIM
+description: Maintains the insurance program inventory with coverage limits, exclusions,
+  and renewal dates, records claims and loss runs, and matches exposure changes to
+  coverage adequacy at renewal.
+domain: Risk & Compliance
+subdomain: Enterprise Risk Management
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-grc-platform
+- dea:component-document-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- insurance
+- claims

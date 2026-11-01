@@ -1,0 +1,26 @@
+id: services:service-enterprise-reporting-vwg46e
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Enterprise Reporting Service
+abbreviation: ERS
+description: Produces and distributes scheduled operational and regulatory reports
+  from certified datasets, managing subscription lists, burst delivery by region,
+  and historical output archives that business reviewers rely on monthly.
+domain: Data & Analytics
+subdomain: Analytics & Business Intelligence
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-bi-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- reporting
+- bi

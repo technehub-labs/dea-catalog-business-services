@@ -1,9 +1,9 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 168
+    candidates: 218
     canonical: 0
-    entities: 168
+    entities: 218
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -1704,6 +1704,556 @@ catalog:
     version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-desk-booking-2pn9x6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/desk-booking-2pn9x6/services-service-desk-booking-2pn9x6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-digital-asset-distribution-v5wxuf
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/digital-asset-distribution-v5wxuf/services-service-digital-asset-distribution-v5wxuf.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-digital-asset-management-pk6v7n
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/digital-asset-management-pk6v7n/services-service-digital-asset-management-pk6v7n.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-digital-forensics-gsuc2e
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/digital-forensics-gsuc2e/services-service-digital-forensics-gsuc2e.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-digital-signage-content-5nmxmh
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/digital-signage-content-5nmxmh/services-service-digital-signage-content-5nmxmh.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-directory-synchronization-pzwjzt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/directory-synchronization-pzwjzt/services-service-directory-synchronization-pzwjzt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-disaster-recovery-orchestration-x2qmys
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/disaster-recovery-orchestration-x2qmys/services-service-disaster-recovery-orchestration-x2qmys.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-distribution-requirements-planning-rp5fkk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/distribution-requirements-planning-rp5fkk/services-service-distribution-requirements-planning-rp5fkk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-diversity-and-inclusion-metrics-8bmc3g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/diversity-and-inclusion-metrics-8bmc3g/services-service-diversity-and-inclusion-metrics-8bmc3g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-double-materiality-assessment-vxqh34
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/double-materiality-assessment-vxqh34/services-service-double-materiality-assessment-vxqh34.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-e-invoicing-compliance-4kah3a
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/e-invoicing-compliance-4kah3a/services-service-e-invoicing-compliance-4kah3a.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-electronic-invoice-capture-r23teb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/electronic-invoice-capture-r23teb/services-service-electronic-invoice-capture-r23teb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-email-campaign-delivery-bcdpx7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/email-campaign-delivery-bcdpx7/services-service-email-campaign-delivery-bcdpx7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-email-platform-gr3kgt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/email-platform-gr3kgt/services-service-email-platform-gr3kgt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-email-security-tvtsjr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/email-security-tvtsjr/services-service-email-security-tvtsjr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-embedded-analytics-fm7sgm
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/embedded-analytics-fm7sgm/services-service-embedded-analytics-fm7sgm.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-emissions-target-tracking-68vksw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/emissions-target-tracking-68vksw/services-service-emissions-target-tracking-68vksw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-employee-assistance-program-38dcdw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/employee-assistance-program-38dcdw/services-service-employee-assistance-program-38dcdw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-employee-directory-ej75cd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/employee-directory-ej75cd/services-service-employee-directory-ej75cd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-employee-newsletter-6ha3kr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/employee-newsletter-6ha3kr/services-service-employee-newsletter-6ha3kr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-employee-recognition-c397z9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/employee-recognition-c397z9/services-service-employee-recognition-c397z9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-employee-record-administration-ycdq8g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/employee-record-administration-ycdq8g/services-service-employee-record-administration-ycdq8g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-employee-relations-case-jpyra2
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/employee-relations-case-jpyra2/services-service-employee-relations-case-jpyra2.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-employment-contract-administration-hbh4kg
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/employment-contract-administration-hbh4kg/services-service-employment-contract-administration-hbh4kg.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-endpoint-detection-response-64rs3j
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/endpoint-detection-response-64rs3j/services-service-endpoint-detection-response-64rs3j.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-endpoint-device-management-ypn5x9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/endpoint-device-management-ypn5x9/services-service-endpoint-device-management-ypn5x9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-energy-consumption-monitoring-tqhk58
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/energy-consumption-monitoring-tqhk58/services-service-energy-consumption-monitoring-tqhk58.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-energy-management-pm8pq7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/energy-management-pm8pq7/services-service-energy-management-pm8pq7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-engagement-analytics-55pg93
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/engagement-analytics-55pg93/services-service-engagement-analytics-55pg93.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-engineering-change-management-9yuqxb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/engineering-change-management-9yuqxb/services-service-engineering-change-management-9yuqxb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-enterprise-asset-registry-237zbv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/enterprise-asset-registry-237zbv/services-service-enterprise-asset-registry-237zbv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-enterprise-backup-7mgxv4
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/enterprise-backup-7mgxv4/services-service-enterprise-backup-7mgxv4.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-enterprise-dns-hysv6w
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/enterprise-dns-hysv6w/services-service-enterprise-dns-hysv6w.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-enterprise-insurance-management-n6qms5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/enterprise-insurance-management-n6qms5/services-service-enterprise-insurance-management-n6qms5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-enterprise-reporting-vwg46e
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/enterprise-reporting-vwg46e/services-service-enterprise-reporting-vwg46e.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-environmental-resource-tracking-w5fmtk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/environmental-resource-tracking-w5fmtk/services-service-environmental-resource-tracking-w5fmtk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-escalation-management-a8ybu4
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/escalation-management-a8ybu4/services-service-escalation-management-a8ybu4.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-esg-data-assurance-readiness-x5femu
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/esg-data-assurance-readiness-x5femu/services-service-esg-data-assurance-readiness-x5femu.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-esg-disclosure-management-9fwhyc
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/esg-disclosure-management-9fwhyc/services-service-esg-disclosure-management-9fwhyc.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-esg-goal-and-initiative-management-fau5sw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/esg-goal-and-initiative-management-fau5sw/services-service-esg-goal-and-initiative-management-fau5sw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-esg-metrics-consolidation-ym5wwq
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/esg-metrics-consolidation-ym5wwq/services-service-esg-metrics-consolidation-ym5wwq.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-esg-ratings-submission-v2eb2a
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/esg-ratings-submission-v2eb2a/services-service-esg-ratings-submission-v2eb2a.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-etl-orchestration-yvqn7f
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/etl-orchestration-yvqn7f/services-service-etl-orchestration-yvqn7f.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-event-marketing-vdczyx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/event-marketing-vdczyx/services-service-event-marketing-vdczyx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-executive-broadcast-3v64f5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/executive-broadcast-3v64f5/services-service-executive-broadcast-3v64f5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-executive-dashboard-upu9wb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/executive-dashboard-upu9wb/services-service-executive-dashboard-upu9wb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-experimentation-b6hx9c
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/experimentation-b6hx9c/services-service-experimentation-b6hx9c.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-external-audit-coordination-crfzbn
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/external-audit-coordination-crfzbn/services-service-external-audit-coordination-crfzbn.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-facilities-help-desk-zqbzf4
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/facilities-help-desk-zqbzf4/services-service-facilities-help-desk-zqbzf4.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-facilities-maintenance-5p5frk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/facilities-maintenance-5p5frk/services-service-facilities-maintenance-5p5frk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-finance-accounting-qmxysp
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -2332,6 +2882,156 @@ catalog:
   - entity_id: services:service-demand-forecasting-x8c95n
     files: []
     path: entities/v1-alpha/demand-forecasting-x8c95n/research/
+  - entity_id: services:service-desk-booking-2pn9x6
+    files: []
+    path: entities/v1-alpha/desk-booking-2pn9x6/research/
+  - entity_id: services:service-digital-asset-distribution-v5wxuf
+    files: []
+    path: entities/v1-alpha/digital-asset-distribution-v5wxuf/research/
+  - entity_id: services:service-digital-asset-management-pk6v7n
+    files: []
+    path: entities/v1-alpha/digital-asset-management-pk6v7n/research/
+  - entity_id: services:service-digital-forensics-gsuc2e
+    files: []
+    path: entities/v1-alpha/digital-forensics-gsuc2e/research/
+  - entity_id: services:service-digital-signage-content-5nmxmh
+    files: []
+    path: entities/v1-alpha/digital-signage-content-5nmxmh/research/
+  - entity_id: services:service-directory-synchronization-pzwjzt
+    files: []
+    path: entities/v1-alpha/directory-synchronization-pzwjzt/research/
+  - entity_id: services:service-disaster-recovery-orchestration-x2qmys
+    files: []
+    path: entities/v1-alpha/disaster-recovery-orchestration-x2qmys/research/
+  - entity_id: services:service-distribution-requirements-planning-rp5fkk
+    files: []
+    path: entities/v1-alpha/distribution-requirements-planning-rp5fkk/research/
+  - entity_id: services:service-diversity-and-inclusion-metrics-8bmc3g
+    files: []
+    path: entities/v1-alpha/diversity-and-inclusion-metrics-8bmc3g/research/
+  - entity_id: services:service-double-materiality-assessment-vxqh34
+    files: []
+    path: entities/v1-alpha/double-materiality-assessment-vxqh34/research/
+  - entity_id: services:service-e-invoicing-compliance-4kah3a
+    files: []
+    path: entities/v1-alpha/e-invoicing-compliance-4kah3a/research/
+  - entity_id: services:service-electronic-invoice-capture-r23teb
+    files: []
+    path: entities/v1-alpha/electronic-invoice-capture-r23teb/research/
+  - entity_id: services:service-email-campaign-delivery-bcdpx7
+    files: []
+    path: entities/v1-alpha/email-campaign-delivery-bcdpx7/research/
+  - entity_id: services:service-email-platform-gr3kgt
+    files: []
+    path: entities/v1-alpha/email-platform-gr3kgt/research/
+  - entity_id: services:service-email-security-tvtsjr
+    files: []
+    path: entities/v1-alpha/email-security-tvtsjr/research/
+  - entity_id: services:service-embedded-analytics-fm7sgm
+    files: []
+    path: entities/v1-alpha/embedded-analytics-fm7sgm/research/
+  - entity_id: services:service-emissions-target-tracking-68vksw
+    files: []
+    path: entities/v1-alpha/emissions-target-tracking-68vksw/research/
+  - entity_id: services:service-employee-assistance-program-38dcdw
+    files: []
+    path: entities/v1-alpha/employee-assistance-program-38dcdw/research/
+  - entity_id: services:service-employee-directory-ej75cd
+    files: []
+    path: entities/v1-alpha/employee-directory-ej75cd/research/
+  - entity_id: services:service-employee-newsletter-6ha3kr
+    files: []
+    path: entities/v1-alpha/employee-newsletter-6ha3kr/research/
+  - entity_id: services:service-employee-recognition-c397z9
+    files: []
+    path: entities/v1-alpha/employee-recognition-c397z9/research/
+  - entity_id: services:service-employee-record-administration-ycdq8g
+    files: []
+    path: entities/v1-alpha/employee-record-administration-ycdq8g/research/
+  - entity_id: services:service-employee-relations-case-jpyra2
+    files: []
+    path: entities/v1-alpha/employee-relations-case-jpyra2/research/
+  - entity_id: services:service-employment-contract-administration-hbh4kg
+    files: []
+    path: entities/v1-alpha/employment-contract-administration-hbh4kg/research/
+  - entity_id: services:service-endpoint-detection-response-64rs3j
+    files: []
+    path: entities/v1-alpha/endpoint-detection-response-64rs3j/research/
+  - entity_id: services:service-endpoint-device-management-ypn5x9
+    files: []
+    path: entities/v1-alpha/endpoint-device-management-ypn5x9/research/
+  - entity_id: services:service-energy-consumption-monitoring-tqhk58
+    files: []
+    path: entities/v1-alpha/energy-consumption-monitoring-tqhk58/research/
+  - entity_id: services:service-energy-management-pm8pq7
+    files: []
+    path: entities/v1-alpha/energy-management-pm8pq7/research/
+  - entity_id: services:service-engagement-analytics-55pg93
+    files: []
+    path: entities/v1-alpha/engagement-analytics-55pg93/research/
+  - entity_id: services:service-engineering-change-management-9yuqxb
+    files: []
+    path: entities/v1-alpha/engineering-change-management-9yuqxb/research/
+  - entity_id: services:service-enterprise-asset-registry-237zbv
+    files: []
+    path: entities/v1-alpha/enterprise-asset-registry-237zbv/research/
+  - entity_id: services:service-enterprise-backup-7mgxv4
+    files: []
+    path: entities/v1-alpha/enterprise-backup-7mgxv4/research/
+  - entity_id: services:service-enterprise-dns-hysv6w
+    files: []
+    path: entities/v1-alpha/enterprise-dns-hysv6w/research/
+  - entity_id: services:service-enterprise-insurance-management-n6qms5
+    files: []
+    path: entities/v1-alpha/enterprise-insurance-management-n6qms5/research/
+  - entity_id: services:service-enterprise-reporting-vwg46e
+    files: []
+    path: entities/v1-alpha/enterprise-reporting-vwg46e/research/
+  - entity_id: services:service-environmental-resource-tracking-w5fmtk
+    files: []
+    path: entities/v1-alpha/environmental-resource-tracking-w5fmtk/research/
+  - entity_id: services:service-escalation-management-a8ybu4
+    files: []
+    path: entities/v1-alpha/escalation-management-a8ybu4/research/
+  - entity_id: services:service-esg-data-assurance-readiness-x5femu
+    files: []
+    path: entities/v1-alpha/esg-data-assurance-readiness-x5femu/research/
+  - entity_id: services:service-esg-disclosure-management-9fwhyc
+    files: []
+    path: entities/v1-alpha/esg-disclosure-management-9fwhyc/research/
+  - entity_id: services:service-esg-goal-and-initiative-management-fau5sw
+    files: []
+    path: entities/v1-alpha/esg-goal-and-initiative-management-fau5sw/research/
+  - entity_id: services:service-esg-metrics-consolidation-ym5wwq
+    files: []
+    path: entities/v1-alpha/esg-metrics-consolidation-ym5wwq/research/
+  - entity_id: services:service-esg-ratings-submission-v2eb2a
+    files: []
+    path: entities/v1-alpha/esg-ratings-submission-v2eb2a/research/
+  - entity_id: services:service-etl-orchestration-yvqn7f
+    files: []
+    path: entities/v1-alpha/etl-orchestration-yvqn7f/research/
+  - entity_id: services:service-event-marketing-vdczyx
+    files: []
+    path: entities/v1-alpha/event-marketing-vdczyx/research/
+  - entity_id: services:service-executive-broadcast-3v64f5
+    files: []
+    path: entities/v1-alpha/executive-broadcast-3v64f5/research/
+  - entity_id: services:service-executive-dashboard-upu9wb
+    files: []
+    path: entities/v1-alpha/executive-dashboard-upu9wb/research/
+  - entity_id: services:service-experimentation-b6hx9c
+    files: []
+    path: entities/v1-alpha/experimentation-b6hx9c/research/
+  - entity_id: services:service-external-audit-coordination-crfzbn
+    files: []
+    path: entities/v1-alpha/external-audit-coordination-crfzbn/research/
+  - entity_id: services:service-facilities-help-desk-zqbzf4
+    files: []
+    path: entities/v1-alpha/facilities-help-desk-zqbzf4/research/
+  - entity_id: services:service-facilities-maintenance-5p5frk
+    files: []
+    path: entities/v1-alpha/facilities-maintenance-5p5frk/research/
   - entity_id: services:service-finance-accounting-qmxysp
     files: []
     path: entities/v1-alpha/finance-accounting-qmxysp/research/
