@@ -1,0 +1,27 @@
+id: services:service-spend-analysis-69v7gv
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Spend Analysis Service
+abbreviation: SPA
+description: Classifies historical purchase transactions into category hierarchies,
+  normalizes supplier names across systems, and surfaces consolidation, price-variance
+  and demand-management savings opportunities with supporting spend evidence for sourcing
+  teams.
+domain: Sourcing & Procurement
+subdomain: Strategic Sourcing
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- sourcing
+- spend
+- analytics

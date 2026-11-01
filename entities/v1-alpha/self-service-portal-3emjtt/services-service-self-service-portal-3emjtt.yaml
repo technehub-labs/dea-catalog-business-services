@@ -1,0 +1,28 @@
+id: services:service-self-service-portal-3emjtt
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Self-Service Portal Service
+abbreviation: SSP
+description: Serves authenticated customers a unified portal for order views, case
+  creation, knowledge search and account changes, enforcing entitlement and identity
+  checks before exposing each function.
+domain: Customer Experience
+subdomain: Customer Support & Service
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+- capabilities:capability-privacy-and-consent-management-h3mw69
+solution_components:
+- dea:component-mobile-app-backend
+- dea:component-content-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- self-service
+- portal

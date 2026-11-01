@@ -1,0 +1,26 @@
+id: services:service-scheduled-report-distribution-rs4zfa
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Scheduled Report Distribution Service
+abbreviation: SRD
+description: Delivers recurring report extracts to distribution lists in PDF and spreadsheet
+  formats on business calendars, retrying failed deliveries and confirming completion
+  so operational reviewers receive their packs on time.
+domain: Data & Analytics
+subdomain: Analytics & Business Intelligence
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-orchestration-scheduler
+- dea:component-bi-suite
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- reporting
+- distribution

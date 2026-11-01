@@ -1,0 +1,25 @@
+id: services:service-should-cost-modeling-uk336h
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Should-Cost Modeling Service
+abbreviation: SCM
+description: Builds bottom-up cost models for purchased parts from material indices,
+  labor rates, cycle times and overhead assumptions, and compares model cost against
+  quoted price to target negotiations.
+domain: Sourcing & Procurement
+subdomain: Strategic Sourcing
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+solution_components:
+- dea:component-cost-modeling-tool
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- sourcing
+- cost-modeling
+- negotiation

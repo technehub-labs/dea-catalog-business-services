@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Risk Scenario and Stress Analysis Service
+slug: risk-scenario-and-stress-analysis
+abbreviation: RSS
+description: Models scenario and stress outcomes for identified risks, quantifies
+  financial and operational impact ranges, and compares results against appetite so
+  mitigation plans can be prioritized.
+domain: Risk & Compliance
+subdomain: Enterprise Risk Management
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-grc-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- scenario-analysis
+- stress-testing
+assigned_id: services:service-risk-scenario-and-stress-analysis-4vwa5c
+admitted: '2026-11-01'

@@ -1,0 +1,26 @@
+id: services:service-salary-structure-c8qyqy
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Salary Structure Service
+abbreviation: SST
+description: Maintains salary grades, bands, and geographic differentials benchmarked
+  against market survey data, and exposes approved ranges to requisition, offer, and
+  merit processes so pay decisions stay within policy.
+domain: Human Resources
+subdomain: Compensation & Benefits
+capabilities:
+- capabilities:capability-talent-management-v2qw9c
+solution_components:
+- dea:component-compensation-management
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- compensation
+- salary-bands

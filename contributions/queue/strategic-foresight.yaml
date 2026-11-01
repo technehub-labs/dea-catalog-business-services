@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Strategic Foresight Service
+slug: strategic-foresight
+abbreviation: SFM
+description: Scans technological, regulatory, demographic, and societal trends over
+  multi-year horizons, curates weak-signal briefings for leadership, and maintains
+  the foresight library that scenario and strategy work draws upon.
+domain: Enterprise Strategy & Performance
+subdomain: Strategy Development
+capabilities:
+- capabilities:capability-strategy-formulation-sf7q2x
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-competitive-intelligence-platform
+- dea:component-strategy-management-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- foresight
+- trends
+assigned_id: services:service-strategic-foresight-thqm9r
+admitted: '2026-11-01'

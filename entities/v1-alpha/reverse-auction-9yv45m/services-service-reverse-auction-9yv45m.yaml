@@ -1,0 +1,25 @@
+id: services:service-reverse-auction-9yv45m
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Reverse Auction Service
+abbreviation: RAU
+description: Conducts time-boxed reverse auctions where qualified suppliers bid down
+  against published award rules, records every bid with timestamps, and hands the
+  final ranking to the sourcing award step.
+domain: Sourcing & Procurement
+subdomain: Strategic Sourcing
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+solution_components:
+- dea:component-supplier-portal
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- sourcing
+- auctions
+- bidding

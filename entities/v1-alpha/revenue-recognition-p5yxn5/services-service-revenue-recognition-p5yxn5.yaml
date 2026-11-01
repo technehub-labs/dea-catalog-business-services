@@ -1,0 +1,27 @@
+id: services:service-revenue-recognition-p5yxn5
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Revenue Recognition Service
+abbreviation: RRG
+description: Applies recognition rules to contracted revenue events, scheduling amortization
+  and milestone-based recognition, and posting deferral and recognition journals to
+  the general ledger with audit trails.
+domain: Sales & Revenue Operations
+subdomain: Revenue Recognition & Sales Analytics
+capabilities:
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-revenue-recognition-engine
+- dea:component-quote-to-cash-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- sales
+- revenue-recognition
+- finance

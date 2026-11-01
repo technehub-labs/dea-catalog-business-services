@@ -1,0 +1,27 @@
+id: services:service-sales-forecasting-ekthvu
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Sales Forecasting Service
+abbreviation: SFS
+description: Aggregates rep commits, pipeline probability and historical conversion
+  into weekly revenue forecasts by segment and product line, reconciling bottom-up
+  submissions against top-down targets with variance commentary.
+domain: Sales & Revenue Operations
+subdomain: Sales Planning & Performance
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-crm-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- sales
+- forecasting
+- revenue

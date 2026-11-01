@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Scope 3 Supplier Emissions Collection Service
+slug: scope-3-supplier-emissions-collection
+abbreviation: SSE
+description: Requests primary emission data and spend-based estimates from suppliers
+  by tier, validates submissions against category benchmarks, and feeds category totals
+  into the corporate footprint calculation.
+domain: Sustainability & ESG
+subdomain: Emissions & Climate
+capabilities:
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-esg-data-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- sustainability
+- scope-3
+- supply-chain
+assigned_id: services:service-scope-3-supplier-emissions-collection-jtq2bj
+admitted: '2026-11-01'

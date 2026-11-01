@@ -1,0 +1,26 @@
+id: services:service-sales-capacity-planning-kp4b7g
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Sales Capacity Planning Service
+abbreviation: SCP
+description: Models required seller headcount and ramp schedules from coverage ratios,
+  productivity assumptions and territory demand, producing hiring and capacity plans
+  for planning rounds with sensitivity scenarios.
+domain: Sales & Revenue Operations
+subdomain: Revenue Recognition & Sales Analytics
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- sales
+- capacity
+- headcount

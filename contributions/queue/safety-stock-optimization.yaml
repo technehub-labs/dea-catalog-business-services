@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Safety Stock Optimization Service
+slug: safety-stock-optimization
+abbreviation: SSO
+description: Recalculates safety stock targets per SKU-location from demand variability,
+  lead-time variance and target service levels, and writes approved parameter changes
+  to planning systems on a batch cycle.
+domain: Supply Chain & Logistics
+subdomain: Demand & Supply Planning
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-inventory-optimization-engine
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- planning
+- inventory
+assigned_id: services:service-safety-stock-optimization-kuqkvt
+admitted: '2026-11-01'

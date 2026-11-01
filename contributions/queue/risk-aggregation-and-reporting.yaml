@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Risk Aggregation and Reporting Service
+slug: risk-aggregation-and-reporting
+abbreviation: RAR
+description: Consolidates risk scores, incidents, and indicator breaches into board-level
+  risk profiles, produces heat maps and movement commentary, and distributes reporting
+  packs on the risk committee calendar.
+domain: Risk & Compliance
+subdomain: Enterprise Risk Management
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-grc-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- reporting
+- governance
+assigned_id: services:service-risk-aggregation-and-reporting-vbwdqt
+admitted: '2026-11-01'

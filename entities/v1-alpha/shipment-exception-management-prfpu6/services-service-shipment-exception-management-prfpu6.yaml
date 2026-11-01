@@ -1,0 +1,25 @@
+id: services:service-shipment-exception-management-prfpu6
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Shipment Exception Management Service
+abbreviation: SEM
+description: Detects late, damaged, rerouted and lost shipment conditions from tracking
+  feeds, opens exceptions with severity and owner, and drives them through corrective
+  action to closure with cost capture.
+domain: Supply Chain & Logistics
+subdomain: Supply Network Visibility & Analytics
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-tracking-event-engine
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- transportation
+- exceptions

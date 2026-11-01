@@ -1,0 +1,25 @@
+id: services:service-storage-provisioning-6pkfhv
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Storage Provisioning Service
+abbreviation: SPV
+description: Provisions block, file and object storage volumes to application teams
+  with agreed performance tiers, replication settings and quotas, and expands or reclaims
+  capacity as demand changes.
+domain: IT Operations & Infrastructure
+subdomain: Backup & Resilience
+capabilities:
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-storage-array
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- storage
+- provisioning

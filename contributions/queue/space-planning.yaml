@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Space Planning Service
+slug: space-planning
+abbreviation: SPC
+description: Plans and allocates office floor space from occupancy data and headcount
+  forecasts, maintaining CAD-linked floor plans, churn move sequencing and utilization
+  metrics that guide workplace investment decisions.
+domain: Facilities & Asset Management
+subdomain: Workplace & Space
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-space-planning-tool
+- dea:component-cafm-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- space
+- workplace
+assigned_id: services:service-space-planning-yhn6hj
+admitted: '2026-11-01'

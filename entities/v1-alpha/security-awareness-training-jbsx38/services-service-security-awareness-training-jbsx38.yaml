@@ -1,0 +1,25 @@
+id: services:service-security-awareness-training-jbsx38
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Security Awareness Training Service
+abbreviation: SAT
+description: Delivers role-based security education and phishing simulations to the
+  workforce, tracking completion and repeat-susceptibility metrics, and targeting
+  refresher campaigns at departments whose click rates stay elevated.
+domain: Cybersecurity
+subdomain: Governance, Risk & Compliance
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-training-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- security
+- training
+- awareness

@@ -1,0 +1,26 @@
+id: services:service-software-license-management-9r46ga
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Software License Management Service
+abbreviation: SLM
+description: Tracks entitlements and consumption for commercial software against contracts,
+  reclaims unused licences during true-up cycles, and gives budget holders usage evidence
+  before renewal negotiations with vendors.
+domain: IT Operations & Infrastructure
+subdomain: Endpoint & Workplace
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-sam-tool
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- licensing
+- sam
