@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Pipeline Analytics Service
+slug: pipeline-analytics
+abbreviation: PLA
+description: Analyzes pipeline coverage, stage conversion and sales velocity by segment
+  and period, flagging stalled deals, coverage shortfalls and slippage risks against
+  quota with drill-down detail.
+domain: Sales & Revenue Operations
+subdomain: Opportunity & Pipeline Management
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-crm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- sales
+- pipeline
+- analytics
+assigned_id: services:service-pipeline-analytics-zgpr3s
+admitted: '2026-11-01'

@@ -1,0 +1,28 @@
+id: services:service-order-orchestration-gee93b
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Order Orchestration Service
+abbreviation: OOR
+description: Coordinates the end-to-end order lifecycle across capture, validation,
+  sourcing, fulfillment and settlement, tracking state transitions, timeouts and compensating
+  actions when downstream steps fail, plus downstream integration retries.
+domain: Order Management
+subdomain: Order Capture & Validation
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-order-management-system
+- dea:component-api-gateway
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- order-management
+- orchestration
+- lifecycle

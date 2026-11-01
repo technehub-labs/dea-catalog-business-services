@@ -1,0 +1,28 @@
+id: services:service-partner-commission-settlement-ywccrt
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Commission Settlement Service
+abbreviation: PCS
+description: Computes channel rebates and commissions from registered and fulfilled
+  deals, applying program rates, clawbacks and caps, and issuing settlement statements
+  for payment execution within accounting deadlines.
+domain: Sales & Revenue Operations
+subdomain: Partner & Channel Sales
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-quote-to-cash-suite
+- dea:component-partner-portal
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- sales
+- partners
+- rebates

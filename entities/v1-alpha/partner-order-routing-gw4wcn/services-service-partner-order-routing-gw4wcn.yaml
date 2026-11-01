@@ -1,0 +1,25 @@
+id: services:service-partner-order-routing-gw4wcn
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Order Routing Service
+abbreviation: POR
+description: Routes orders and opportunities to the correct fulfillment partner using
+  territory, capability and capacity rules, tracks routing outcomes, and rebalances
+  assignments when partners decline or miss acceptance windows.
+domain: Partner & Channel Management
+subdomain: Channel Operations
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-prm-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- orders
+- routing

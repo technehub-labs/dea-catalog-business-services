@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Partner Scorecard Service
+slug: partner-scorecard
+abbreviation: PSC
+description: Produces composite partner scorecards combining revenue attainment, certification
+  currency, customer satisfaction and reporting timeliness, ranks partners within
+  tiers, and feeds results into tier reviews and incentive decisions.
+domain: Partner & Channel Management
+subdomain: Partner Performance & Enablement
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-prm-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- performance
+- scorecards
+assigned_id: services:service-partner-scorecard-xcxxas
+admitted: '2026-11-01'

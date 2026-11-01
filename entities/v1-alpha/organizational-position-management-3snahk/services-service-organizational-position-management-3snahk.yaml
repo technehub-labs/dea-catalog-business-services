@@ -1,0 +1,27 @@
+id: services:service-organizational-position-management-3snahk
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Organizational Position Management Service
+abbreviation: OPM
+description: Defines and versions positions, job architectures, and reporting lines,
+  links each position to budget and grade data, and keeps the org chart synchronized
+  with downstream payroll and access-provisioning systems.
+domain: Human Resources
+subdomain: Core HR & Payroll
+capabilities:
+- capabilities:capability-workforce-planning-b43rhm
+- capabilities:capability-organizational-design-vanefq
+solution_components:
+- dea:component-hris-core
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- hr
+- positions
+- org-structure

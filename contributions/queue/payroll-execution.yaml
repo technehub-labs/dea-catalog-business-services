@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Payroll Execution Service
+slug: payroll-execution
+abbreviation: PEX
+description: Runs gross-to-net payroll calculations per pay period from time, absence,
+  and master-data inputs, applies statutory deductions and garnishments, and disburses
+  validated payment files to banking and tax authorities on a fixed calendar.
+domain: Human Resources
+subdomain: Core HR & Payroll
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-payroll-engine
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - SOX
+tags:
+- hr
+- payroll
+- payments
+assigned_id: services:service-payroll-execution-yd3n25
+admitted: '2026-11-01'

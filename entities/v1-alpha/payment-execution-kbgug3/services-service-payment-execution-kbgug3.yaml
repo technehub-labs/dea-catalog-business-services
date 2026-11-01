@@ -1,0 +1,28 @@
+id: services:service-payment-execution-kbgug3
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Payment Execution Service
+abbreviation: PEM
+description: Formats and releases approved payment batches to banking rails, enforces
+  dual authorization limits, and returns settlement confirmations and status updates
+  to the originating systems of record.
+domain: Finance & Accounting
+subdomain: Treasury & Payments
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-payment-gateway
+- dea:component-treasury-management-system
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Restricted
+  compliance:
+  - SOX
+  - PCI-DSS
+tags:
+- finance
+- payments
+- settlement

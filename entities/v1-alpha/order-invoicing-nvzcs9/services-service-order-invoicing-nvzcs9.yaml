@@ -1,0 +1,29 @@
+id: services:service-order-invoicing-nvzcs9
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Order Invoicing Service
+abbreviation: OIN
+description: Generates order invoices and credit notes with jurisdiction-correct numbering
+  and e-invoicing formats, transmitting them to customers and posting them to accounts
+  receivable without manual steps.
+domain: Order Management
+subdomain: Payment & Settlement
+capabilities:
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+- capabilities:capability-order-management-t6wm3h
+solution_components:
+- dea:component-billing-engine
+- dea:component-quote-to-cash-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+  - GDPR
+tags:
+- order-management
+- invoicing
+- receivables

@@ -1,0 +1,25 @@
+id: services:service-partner-onboarding-z3n8ca
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Onboarding Service
+abbreviation: PON
+description: Registers new channel partners through structured applications, validates
+  business credentials, legal standing and program eligibility, and provisions portal
+  accounts and program entitlements once the approval completes.
+domain: Partner & Channel Management
+subdomain: Partner Lifecycle & Governance
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-partner-portal
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- onboarding
+- lifecycle

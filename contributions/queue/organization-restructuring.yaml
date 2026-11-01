@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Organization Restructuring Service
+slug: organization-restructuring
+abbreviation: ORG
+description: Designs and executes organization changes - spans and layers, reporting-line
+  moves, and unit consolidations - from consultation through effective-dated org updates
+  and workforce plan adjustments on the implementation date.
+domain: Change & Transformation
+subdomain: Process & Organization
+capabilities:
+- capabilities:capability-organizational-design-vanefq
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-hris-core
+- dea:component-strategy-management-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- change
+- restructuring
+- org-design
+assigned_id: services:service-organization-restructuring-6yjpav
+admitted: '2026-11-01'

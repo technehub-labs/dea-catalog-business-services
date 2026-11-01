@@ -1,0 +1,30 @@
+id: services:service-payroll-controls-compliance-mfkue2
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Payroll Controls Compliance Service
+abbreviation: PCC
+description: Enforces segregation of duties and maker-checker approval across payroll
+  changes, produces audit-ready evidence of calculation runs and retroactive adjustments,
+  and reconciles payroll registers against GL postings each cycle.
+domain: Human Resources
+subdomain: Core HR & Payroll
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-payroll-engine
+- dea:component-governance-risk-compliance-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+  - GDPR
+tags:
+- hr
+- payroll
+- controls
+- audit

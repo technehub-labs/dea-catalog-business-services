@@ -1,0 +1,26 @@
+id: services:service-order-modification-wr3eqk
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Order Modification Service
+abbreviation: OMO
+description: Applies post-capture changes such as line quantities, addresses and shipping
+  method, revalidating each amendment against fulfillment state and repricing affected
+  order lines and tax determinations.
+domain: Order Management
+subdomain: Order Processing & Fulfillment
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+solution_components:
+- dea:component-order-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- order-management
+- amendments
+- changes

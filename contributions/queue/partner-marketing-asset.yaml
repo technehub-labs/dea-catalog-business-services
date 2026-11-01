@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Partner Marketing Asset Service
+slug: partner-marketing-asset
+abbreviation: PMA
+description: Serves co-branded campaign templates, imagery and brand guidelines to
+  partners, enforces brand-compliance review of partner-produced materials, and records
+  asset usage for market development fund justification.
+domain: Partner & Channel Management
+subdomain: Partner Performance & Enablement
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+- capabilities:capability-offering-management-6egkc8
+solution_components:
+- dea:component-marketing-content-hub
+- dea:component-partner-portal
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- marketing
+- brand
+assigned_id: services:service-partner-marketing-asset-qtzham
+admitted: '2026-11-01'

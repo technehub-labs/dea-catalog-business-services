@@ -1,0 +1,25 @@
+id: services:service-partner-certification-tracking-r29xk2
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Certification Tracking Service
+abbreviation: PCT
+description: Tracks partner staff certifications and training requirements by program
+  level, records expiry dates, and suspends partner benefits or accreditations when
+  mandatory certifications lapse without renewal.
+domain: Partner & Channel Management
+subdomain: Partner Lifecycle & Governance
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-prm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- certification
+- compliance

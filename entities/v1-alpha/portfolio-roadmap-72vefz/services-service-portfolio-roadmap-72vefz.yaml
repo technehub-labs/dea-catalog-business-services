@@ -1,0 +1,27 @@
+id: services:service-portfolio-roadmap-72vefz
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Portfolio Roadmap Service
+abbreviation: PRT
+description: Maintains timeline roadmaps across the product portfolio for planning
+  teams, recording phase-in and phase-out milestones, dependency links between offerings,
+  and variance commentary against planned launch windows.
+domain: Product & Offering Management
+subdomain: Offering & Portfolio Planning
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-product-development-q9nv34
+solution_components:
+- dea:component-plm-suite
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- portfolio
+- roadmap

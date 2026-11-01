@@ -1,0 +1,26 @@
+id: services:service-partner-agreement-management-r5burx
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Agreement Management Service
+abbreviation: PAM
+description: Records partner agreements with commission terms, territory grants, exclusivity
+  scope and renewal dates, tracks amendments and countersignatures, and exposes active
+  terms to deal registration and incentive calculations.
+domain: Partner & Channel Management
+subdomain: Partner Lifecycle & Governance
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-contract-lifecycle-management
+- dea:component-prm-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- partner-channel
+- contracts
+- agreements

@@ -1,0 +1,25 @@
+id: services:service-partner-dispute-resolution-q57x6n
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Dispute Resolution Service
+abbreviation: PDX
+description: Logs channel disputes over pricing, deal ownership and incentive payments,
+  routes each case to the accountable program owner with evidence attached, and tracks
+  resolution to agreed remedy and closure.
+domain: Partner & Channel Management
+subdomain: Partner Performance & Enablement
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-prm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- disputes
+- case-management

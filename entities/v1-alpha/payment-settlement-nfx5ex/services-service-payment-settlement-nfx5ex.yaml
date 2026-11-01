@@ -1,0 +1,28 @@
+id: services:service-payment-settlement-nfx5ex
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Payment Settlement Service
+abbreviation: PYS
+description: Settles captured funds with acquirers and card schemes, reconciling settlement
+  files, scheme fees and chargeback debits to internal ledgers on every settlement
+  cycle, with exception item queues.
+domain: Order Management
+subdomain: Payment & Settlement
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-payment-gateway
+- dea:component-billing-engine
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Restricted
+  compliance:
+  - PCI-DSS
+tags:
+- order-management
+- settlement
+- reconciliation

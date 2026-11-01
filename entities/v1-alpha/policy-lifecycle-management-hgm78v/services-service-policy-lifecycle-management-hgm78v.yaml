@@ -1,0 +1,25 @@
+id: services:service-policy-lifecycle-management-hgm78v
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Policy Lifecycle Management Service
+abbreviation: PLM
+description: Drafts, reviews, and publishes corporate policies through approval workflow,
+  maintains version history and effective dates, and retires superseded documents
+  with links to related procedures and standards.
+domain: Risk & Compliance
+subdomain: Policies & Ethics
+capabilities:
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-policy-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- policy
+- governance

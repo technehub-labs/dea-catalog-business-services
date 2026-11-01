@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Partner Onboarding Service
+slug: partner-onboarding
+abbreviation: PON
+description: Registers new channel partners through structured applications, validates
+  business credentials, legal standing and program eligibility, and provisions portal
+  accounts and program entitlements once the approval completes.
+domain: Partner & Channel Management
+subdomain: Partner Lifecycle & Governance
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-partner-portal
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- onboarding
+- lifecycle
+assigned_id: services:service-partner-onboarding-z3n8ca
+admitted: '2026-11-01'

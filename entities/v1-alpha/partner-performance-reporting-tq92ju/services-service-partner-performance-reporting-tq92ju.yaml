@@ -1,0 +1,27 @@
+id: services:service-partner-performance-reporting-tq92ju
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Partner Performance Reporting Service
+abbreviation: PPR
+description: Compiles partner sell-through, deal registrations, certifications and
+  rebate earnings into monthly scorecards used for tier reviews, program compliance
+  checks and enablement targeting across the channel.
+domain: Sales & Revenue Operations
+subdomain: Partner & Channel Sales
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-partner-portal
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- sales
+- partners
+- reporting
