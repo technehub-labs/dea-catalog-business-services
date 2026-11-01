@@ -1,0 +1,26 @@
+id: services:service-anti-money-laundering-monitoring-z4njq6
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Anti-Money Laundering Monitoring Service
+abbreviation: AML
+description: Monitors transaction flows against typology models for laundering patterns,
+  generates alerts with customer risk context, and manages alert investigations through
+  disposition and suspicious activity reporting.
+domain: Risk & Compliance
+subdomain: Regulatory Compliance
+capabilities:
+- capabilities:capability-regulation-management-gya4d8
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-case-management-system
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Restricted
+  compliance: []
+tags:
+- risk
+- aml
+- transaction-monitoring

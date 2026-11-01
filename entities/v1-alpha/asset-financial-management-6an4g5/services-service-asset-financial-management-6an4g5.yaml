@@ -1,0 +1,27 @@
+id: services:service-asset-financial-management-6an4g5
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Asset Financial Management Service
+abbreviation: AFM
+description: Calculates depreciation schedules, impairment and capitalization treatment
+  for the fixed-asset book, reconciling register balances to the general ledger each
+  period and evidencing controls for financial audit.
+domain: Facilities & Asset Management
+subdomain: Asset Lifecycle
+capabilities:
+- capabilities:capability-asset-management-judtwr
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-eam-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - SOX
+tags:
+- facilities
+- assets
+- finance

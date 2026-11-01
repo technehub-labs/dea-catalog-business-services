@@ -1,0 +1,26 @@
+id: services:service-bill-of-materials-management-u6whj7
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Bill of Materials Management Service
+abbreviation: BOMM
+description: Authors and version-controls multi-level bills of materials, maintains
+  approved manufacturer and component references, and feeds validated BOM revisions
+  to ERP costing, procurement and manufacturing planning systems.
+domain: Product & Offering Management
+subdomain: Product Development & Engineering
+capabilities:
+- capabilities:capability-product-development-q9nv34
+solution_components:
+- dea:component-plm-suite
+- dea:component-erp-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- engineering
+- bom

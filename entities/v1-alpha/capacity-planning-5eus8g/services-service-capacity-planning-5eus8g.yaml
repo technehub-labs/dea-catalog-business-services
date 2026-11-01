@@ -1,0 +1,25 @@
+id: services:service-capacity-planning-5eus8g
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Capacity Planning Service
+abbreviation: CAP
+description: Forecasts compute, storage and network headroom from utilization telemetry
+  and growth trends, publishes quarterly capacity plans per platform, and triggers
+  expansion purchases before saturation degrades production performance.
+domain: IT Operations & Infrastructure
+subdomain: Compute & Cloud Platform
+capabilities:
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-monitoring-observability-stack
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- capacity
+- planning

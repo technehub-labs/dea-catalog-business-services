@@ -1,0 +1,25 @@
+id: services:service-brand-asset-governance-69pt87
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Brand Asset Governance Service
+abbreviation: BRG
+description: Maintains brand guidelines, logo kits and approved templates for all
+  markets, validating produced materials against usage rules and recording sanctioned
+  exceptions by waiver with expiry dates.
+domain: Marketing & Brand
+subdomain: Brand & Creative
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-digital-asset-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- brand
+- governance

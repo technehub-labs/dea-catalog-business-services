@@ -1,0 +1,26 @@
+id: services:service-carbon-accounting-kemcbv
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Carbon Accounting Service
+abbreviation: CAA
+description: Compiles the greenhouse gas inventory across scope 1, scope 2, and scope
+  3 categories, applies published emission factors to activity data, and produces
+  auditable carbon statements per reporting boundary.
+domain: Sustainability & ESG
+subdomain: Emissions & Climate
+capabilities:
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-carbon-accounting-engine
+- dea:component-esg-data-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- sustainability
+- emissions
+- ghg

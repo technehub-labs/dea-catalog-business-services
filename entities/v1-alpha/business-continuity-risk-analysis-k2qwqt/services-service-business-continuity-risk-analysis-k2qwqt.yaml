@@ -1,0 +1,25 @@
+id: services:service-business-continuity-risk-analysis-k2qwqt
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Business Continuity Risk Analysis Service
+abbreviation: BCX
+description: Supports business impact analysis by capturing critical processes, recovery
+  time objectives, and dependency maps, then quantifies continuity gaps and tracks
+  exercise findings into remediation plans.
+domain: Risk & Compliance
+subdomain: Enterprise Risk Management
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-grc-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- continuity
+- resilience

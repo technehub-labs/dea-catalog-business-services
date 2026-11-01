@@ -1,0 +1,26 @@
+id: services:service-api-data-delivery-qztxe2
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: API Data Delivery Service
+abbreviation: ADD
+description: Publishes governed data products as queryable APIs with versioned contracts,
+  quotas and authentication, serving operational and partner consumers while monitoring
+  usage and deprecating stale endpoints on notice.
+domain: Data & Analytics
+subdomain: Data Integration
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-api-gateway
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- api
+- delivery

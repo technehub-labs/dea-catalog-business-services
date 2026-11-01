@@ -1,0 +1,27 @@
+id: services:service-blanket-order-management-76mq32
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Blanket Order Management Service
+abbreviation: BOM
+description: Administers framework purchase orders that call off quantities over time
+  against negotiated contracts, tracks released value against order ceilings, and
+  alerts buyers as commitments approach contract limits.
+domain: Sourcing & Procurement
+subdomain: Purchase Operations
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+solution_components:
+- dea:component-procure-to-pay-suite
+- dea:component-contract-lifecycle-management
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - SOX
+tags:
+- sourcing
+- purchasing
+- contracts

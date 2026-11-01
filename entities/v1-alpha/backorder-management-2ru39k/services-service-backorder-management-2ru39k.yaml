@@ -1,0 +1,27 @@
+id: services:service-backorder-management-2ru39k
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Backorder Management Service
+abbreviation: BOM
+description: Tracks shorted order lines as backorders with promised dates derived
+  from supply signals, prioritizing fulfillment sequences and notifying customers
+  when dates change or stock arrives.
+domain: Order Management
+subdomain: Inventory & Order Intelligence
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+solution_components:
+- dea:component-order-management-system
+- dea:component-notification-hub
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- order-management
+- backorders
+- promised-dates

@@ -1,0 +1,27 @@
+id: services:service-benefits-realization-k2jfyz
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Benefits Realization Service
+abbreviation: BRS
+description: Registers the financial and operational benefits each transformation
+  initiative promised, assigns owners and measurement methods, and tracks realized
+  value against the business case at agreed checkpoints after go-live.
+domain: Change & Transformation
+subdomain: Transformation Programs
+capabilities:
+- capabilities:capability-change-management-hukdeq
+- capabilities:capability-portfolio-and-investment-management-m4kw72
+solution_components:
+- dea:component-portfolio-management-system
+- dea:component-bi-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- change
+- benefits
+- value-tracking

@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Audit Execution Service
+slug: audit-execution
+abbreviation: AEX
+description: Manages audit fieldwork from engagement kickoff through workpaper review,
+  records observations with criteria and root cause, and validates draft findings
+  with process owners before reporting.
+domain: Risk & Compliance
+subdomain: Internal Controls & Audit
+capabilities:
+- capabilities:capability-audit-and-assurance-management-n7qv25
+solution_components:
+- dea:component-audit-management-system
+- dea:component-document-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- audit
+- fieldwork
+assigned_id: services:service-audit-execution-7hxpdp
+admitted: '2026-11-01'

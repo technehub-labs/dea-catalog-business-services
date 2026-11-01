@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Allocation Planning Service
+slug: allocation-planning
+abbreviation: ALP
+description: Distributes constrained supply across competing demands using priority
+  rules such as customer class, contract commitments and margin contribution, and
+  exposes allocation decisions with their rationale to order entry.
+domain: Supply Chain & Logistics
+subdomain: Demand & Supply Planning
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-inventory-optimization-engine
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- planning
+- allocation
+assigned_id: services:service-allocation-planning-gzg3k8
+admitted: '2026-11-01'

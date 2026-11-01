@@ -1,0 +1,27 @@
+id: services:service-capital-planning-jsy953
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Capital Planning Service
+abbreviation: CAP
+description: Plans multi-year capital allocation across growth, maintenance, and mandatory
+  spend categories, tying capital requests to asset plans and depreciation impacts,
+  and publishing the approved capital envelope per unit and year.
+domain: Enterprise Strategy & Performance
+subdomain: Investment Portfolio
+capabilities:
+- capabilities:capability-portfolio-and-investment-management-m4kw72
+solution_components:
+- dea:component-portfolio-management-system
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- strategy
+- capital
+- allocation

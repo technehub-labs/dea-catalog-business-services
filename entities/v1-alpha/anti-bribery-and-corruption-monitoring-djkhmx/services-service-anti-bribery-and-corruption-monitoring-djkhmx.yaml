@@ -1,0 +1,27 @@
+id: services:service-anti-bribery-and-corruption-monitoring-djkhmx
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Anti-Bribery and Corruption Monitoring Service
+abbreviation: ABC
+description: Screens counterparties for government exposure and corruption indicators,
+  monitors high-risk payments and facilitation patterns, and records due diligence
+  outcomes required by applicable anti-bribery legislation and policy.
+domain: Risk & Compliance
+subdomain: Regulatory Compliance
+capabilities:
+- capabilities:capability-regulation-management-gya4d8
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-grc-platform
+- dea:component-case-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- abac
+- due-diligence

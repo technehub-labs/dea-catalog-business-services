@@ -1,0 +1,27 @@
+id: services:service-balanced-scorecard-6a9j6n
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Balanced Scorecard Service
+abbreviation: BSC
+description: Maintains the corporate balanced scorecard across financial, customer,
+  internal-process, and learning perspectives, defining measures, owners, and targets
+  per perspective, and refreshing scorecard results from source systems each period.
+domain: Enterprise Strategy & Performance
+subdomain: Strategic Planning
+capabilities:
+- capabilities:capability-enterprise-performance-management-5fxren
+- capabilities:capability-strategic-planning-k3rz7a
+solution_components:
+- dea:component-bi-platform
+- dea:component-strategy-management-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- strategy
+- scorecard
+- performance

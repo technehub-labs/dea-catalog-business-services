@@ -1,0 +1,25 @@
+id: services:service-business-case-management-2c3deb
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Business Case Management Service
+abbreviation: BCM
+description: Templates, reviews, and versions investment business cases - strategic
+  fit, costs, benefits, and risks - routing them through finance validation and governance
+  gates, and preserving approved baselines for later value tracking.
+domain: Enterprise Strategy & Performance
+subdomain: Investment Portfolio
+capabilities:
+- capabilities:capability-portfolio-and-investment-management-m4kw72
+solution_components:
+- dea:component-portfolio-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- strategy
+- business-case
+- investment

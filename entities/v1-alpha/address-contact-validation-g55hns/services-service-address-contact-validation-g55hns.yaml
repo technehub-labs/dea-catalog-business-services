@@ -1,0 +1,27 @@
+id: services:service-address-contact-validation-g55hns
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Address & Contact Validation Service
+abbreviation: ACV
+description: Validates postal addresses, email addresses and phone numbers against
+  reference directories at point of entry, normalizing formats and returning deliverability
+  and line-type indicators to capturing systems.
+domain: Customer Experience
+subdomain: Customer Identity & Profile
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-customer-management-f3n8wb
+solution_components:
+- dea:component-api-gateway
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- data-quality
+- validation

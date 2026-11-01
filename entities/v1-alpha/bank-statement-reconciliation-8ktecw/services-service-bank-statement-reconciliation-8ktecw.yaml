@@ -1,0 +1,27 @@
+id: services:service-bank-statement-reconciliation-8ktecw
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Bank Statement Reconciliation Service
+abbreviation: BSR
+description: Ingests electronic bank statements, auto-matches transactions to ledger
+  and payment records, and routes unmatched items with root-cause codes to cash controllers
+  for daily resolution each morning.
+domain: Finance & Accounting
+subdomain: Treasury & Payments
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-treasury-management-system
+- dea:component-erp-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- reconciliation
+- banking

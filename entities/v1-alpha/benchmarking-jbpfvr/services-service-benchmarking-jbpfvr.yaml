@@ -1,0 +1,27 @@
+id: services:service-benchmarking-jbpfvr
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Benchmarking Service
+abbreviation: BMK
+description: Positions enterprise and unit performance against industry benchmarks
+  and peer comparators from licensed datasets, normalizing definitions where methods
+  differ, and publishing benchmark gaps into performance review packs.
+domain: Enterprise Strategy & Performance
+subdomain: Performance Management
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-bi-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- benchmarking
+- comparison

@@ -1,0 +1,26 @@
+id: services:service-big-data-processing-8434e6
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Big Data Processing Service
+abbreviation: BDP
+description: Runs distributed processing clusters that transform petabyte-scale datasets
+  for engineering teams, autoscaling workers per job, enforcing queue fairness, and
+  emitting cost and runtime telemetry back to requesting tenants.
+domain: Data & Analytics
+subdomain: Data Platform Engineering
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-distributed-processing
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- spark
+- processing

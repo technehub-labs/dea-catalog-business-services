@@ -1,9 +1,9 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 18
+    candidates: 68
     canonical: 0
-    entities: 18
+    entities: 68
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -19,6 +19,556 @@ catalog:
 
     '
   entities:
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-access-certification-5pmuad
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/access-certification-5pmuad/services-service-access-certification-5pmuad.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-account-planning-hpa2jh
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/account-planning-hpa2jh/services-service-account-planning-hpa2jh.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-account-reconciliation-kmdf2m
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/account-reconciliation-kmdf2m/services-service-account-reconciliation-kmdf2m.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-accounts-payable-automation-m398gg
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/accounts-payable-automation-m398gg/services-service-accounts-payable-automation-m398gg.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-accounts-receivable-management-s5yg65
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/accounts-receivable-management-s5yg65/services-service-accounts-receivable-management-s5yg65.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-address-contact-validation-g55hns
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/address-contact-validation-g55hns/services-service-address-contact-validation-g55hns.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-allocation-planning-gzg3k8
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/allocation-planning-gzg3k8/services-service-allocation-planning-gzg3k8.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-allocations-and-cost-distribution-v4ye82
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/allocations-and-cost-distribution-v4ye82/services-service-allocations-and-cost-distribution-v4ye82.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-analytics-platform-provisioning-z2f5yt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/analytics-platform-provisioning-z2f5yt/services-service-analytics-platform-provisioning-z2f5yt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-analytics-warehouse-p5v78g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/analytics-warehouse-p5v78g/services-service-analytics-warehouse-p5v78g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-annual-operating-plan-8qf8yd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/annual-operating-plan-8qf8yd/services-service-annual-operating-plan-8qf8yd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-anti-bribery-and-corruption-monitoring-djkhmx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/anti-bribery-and-corruption-monitoring-djkhmx/services-service-anti-bribery-and-corruption-monitoring-djkhmx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-anti-money-laundering-monitoring-z4njq6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/anti-money-laundering-monitoring-z4njq6/services-service-anti-money-laundering-monitoring-z4njq6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-api-data-delivery-qztxe2
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/api-data-delivery-qztxe2/services-service-api-data-delivery-qztxe2.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-applicant-screening-frcxv2
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/applicant-screening-frcxv2/services-service-applicant-screening-frcxv2.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-application-packaging-dzuz7k
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/application-packaging-dzuz7k/services-service-application-packaging-dzuz7k.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-asset-disposal-dfgkd7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/asset-disposal-dfgkd7/services-service-asset-disposal-dfgkd7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-asset-financial-management-6an4g5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/asset-financial-management-6an4g5/services-service-asset-financial-management-6an4g5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-asset-tracking-b829c4
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/asset-tracking-b829c4/services-service-asset-tracking-b829c4.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-audience-management-jvxnfg
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/audience-management-jvxnfg/services-service-audience-management-jvxnfg.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-audiovisual-conference-zprxud
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/audiovisual-conference-zprxud/services-service-audiovisual-conference-zprxud.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-audit-execution-7hxpdp
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/audit-execution-7hxpdp/services-service-audit-execution-7hxpdp.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-audit-findings-and-remediation-9zuzgy
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/audit-findings-and-remediation-9zuzgy/services-service-audit-findings-and-remediation-9zuzgy.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-backorder-management-2ru39k
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/backorder-management-2ru39k/services-service-backorder-management-2ru39k.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-balanced-scorecard-6a9j6n
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/balanced-scorecard-6a9j6n/services-service-balanced-scorecard-6a9j6n.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-bank-account-management-78qnrx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/bank-account-management-78qnrx/services-service-bank-account-management-78qnrx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-bank-statement-reconciliation-8ktecw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/bank-statement-reconciliation-8ktecw/services-service-bank-statement-reconciliation-8ktecw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-batch-data-ingestion-yftkuq
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/batch-data-ingestion-yftkuq/services-service-batch-data-ingestion-yftkuq.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-benchmarking-jbpfvr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/benchmarking-jbpfvr/services-service-benchmarking-jbpfvr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-benefits-enrollment-sp2qsb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/benefits-enrollment-sp2qsb/services-service-benefits-enrollment-sp2qsb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-benefits-realization-k2jfyz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/benefits-realization-k2jfyz/services-service-benefits-realization-k2jfyz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-big-data-processing-8434e6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/big-data-processing-8434e6/services-service-big-data-processing-8434e6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-bill-of-materials-management-u6whj7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/bill-of-materials-management-u6whj7/services-service-bill-of-materials-management-u6whj7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-blanket-order-management-76mq32
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/blanket-order-management-76mq32/services-service-blanket-order-management-76mq32.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-brand-asset-governance-69pt87
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/brand-asset-governance-69pt87/services-service-brand-asset-governance-69pt87.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-brand-monitoring-79pest
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/brand-monitoring-79pest/services-service-brand-monitoring-79pest.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-building-access-control-88gdpz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/building-access-control-88gdpz/services-service-building-access-control-88gdpz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-building-compliance-inspection-kh285p
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/building-compliance-inspection-kh285p/services-service-building-compliance-inspection-kh285p.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-business-case-management-2c3deb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/business-case-management-2c3deb/services-service-business-case-management-2c3deb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-business-continuity-risk-analysis-k2qwqt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/business-continuity-risk-analysis-k2qwqt/services-service-business-continuity-risk-analysis-k2qwqt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-business-continuity-testing-3u6nf3
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/business-continuity-testing-3u6nf3/services-service-business-continuity-testing-3u6nf3.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-business-impact-analysis-fb5hzh
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/business-impact-analysis-fb5hzh/services-service-business-impact-analysis-fb5hzh.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-business-model-design-wd887q
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/business-model-design-wd887q/services-service-business-model-design-wd887q.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-business-process-mapping-r5jkrb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/business-process-mapping-r5jkrb/services-service-business-process-mapping-r5jkrb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-campaign-management-c6e8ez
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/campaign-management-c6e8ez/services-service-campaign-management-c6e8ez.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-campaign-planning-budgeting-bc2fcf
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/campaign-planning-budgeting-bc2fcf/services-service-campaign-planning-budgeting-bc2fcf.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-capacity-planning-5eus8g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/capacity-planning-5eus8g/services-service-capacity-planning-5eus8g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-capital-planning-jsy953
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/capital-planning-jsy953/services-service-capital-planning-jsy953.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-carbon-accounting-kemcbv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/carbon-accounting-kemcbv/services-service-carbon-accounting-kemcbv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-career-development-aw8s88
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/career-development-aw8s88/services-service-career-development-aw8s88.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
     id: services:service-customer-360-ut9yeu
@@ -223,6 +773,156 @@ catalog:
   owner: TechNeHub Labs
   repository: https://github.com/technehub-labs/dea-catalog-business-services.git
   research_registers:
+  - entity_id: services:service-access-certification-5pmuad
+    files: []
+    path: entities/v1-alpha/access-certification-5pmuad/research/
+  - entity_id: services:service-account-planning-hpa2jh
+    files: []
+    path: entities/v1-alpha/account-planning-hpa2jh/research/
+  - entity_id: services:service-account-reconciliation-kmdf2m
+    files: []
+    path: entities/v1-alpha/account-reconciliation-kmdf2m/research/
+  - entity_id: services:service-accounts-payable-automation-m398gg
+    files: []
+    path: entities/v1-alpha/accounts-payable-automation-m398gg/research/
+  - entity_id: services:service-accounts-receivable-management-s5yg65
+    files: []
+    path: entities/v1-alpha/accounts-receivable-management-s5yg65/research/
+  - entity_id: services:service-address-contact-validation-g55hns
+    files: []
+    path: entities/v1-alpha/address-contact-validation-g55hns/research/
+  - entity_id: services:service-allocation-planning-gzg3k8
+    files: []
+    path: entities/v1-alpha/allocation-planning-gzg3k8/research/
+  - entity_id: services:service-allocations-and-cost-distribution-v4ye82
+    files: []
+    path: entities/v1-alpha/allocations-and-cost-distribution-v4ye82/research/
+  - entity_id: services:service-analytics-platform-provisioning-z2f5yt
+    files: []
+    path: entities/v1-alpha/analytics-platform-provisioning-z2f5yt/research/
+  - entity_id: services:service-analytics-warehouse-p5v78g
+    files: []
+    path: entities/v1-alpha/analytics-warehouse-p5v78g/research/
+  - entity_id: services:service-annual-operating-plan-8qf8yd
+    files: []
+    path: entities/v1-alpha/annual-operating-plan-8qf8yd/research/
+  - entity_id: services:service-anti-bribery-and-corruption-monitoring-djkhmx
+    files: []
+    path: entities/v1-alpha/anti-bribery-and-corruption-monitoring-djkhmx/research/
+  - entity_id: services:service-anti-money-laundering-monitoring-z4njq6
+    files: []
+    path: entities/v1-alpha/anti-money-laundering-monitoring-z4njq6/research/
+  - entity_id: services:service-api-data-delivery-qztxe2
+    files: []
+    path: entities/v1-alpha/api-data-delivery-qztxe2/research/
+  - entity_id: services:service-applicant-screening-frcxv2
+    files: []
+    path: entities/v1-alpha/applicant-screening-frcxv2/research/
+  - entity_id: services:service-application-packaging-dzuz7k
+    files: []
+    path: entities/v1-alpha/application-packaging-dzuz7k/research/
+  - entity_id: services:service-asset-disposal-dfgkd7
+    files: []
+    path: entities/v1-alpha/asset-disposal-dfgkd7/research/
+  - entity_id: services:service-asset-financial-management-6an4g5
+    files: []
+    path: entities/v1-alpha/asset-financial-management-6an4g5/research/
+  - entity_id: services:service-asset-tracking-b829c4
+    files: []
+    path: entities/v1-alpha/asset-tracking-b829c4/research/
+  - entity_id: services:service-audience-management-jvxnfg
+    files: []
+    path: entities/v1-alpha/audience-management-jvxnfg/research/
+  - entity_id: services:service-audiovisual-conference-zprxud
+    files: []
+    path: entities/v1-alpha/audiovisual-conference-zprxud/research/
+  - entity_id: services:service-audit-execution-7hxpdp
+    files: []
+    path: entities/v1-alpha/audit-execution-7hxpdp/research/
+  - entity_id: services:service-audit-findings-and-remediation-9zuzgy
+    files: []
+    path: entities/v1-alpha/audit-findings-and-remediation-9zuzgy/research/
+  - entity_id: services:service-backorder-management-2ru39k
+    files: []
+    path: entities/v1-alpha/backorder-management-2ru39k/research/
+  - entity_id: services:service-balanced-scorecard-6a9j6n
+    files: []
+    path: entities/v1-alpha/balanced-scorecard-6a9j6n/research/
+  - entity_id: services:service-bank-account-management-78qnrx
+    files: []
+    path: entities/v1-alpha/bank-account-management-78qnrx/research/
+  - entity_id: services:service-bank-statement-reconciliation-8ktecw
+    files: []
+    path: entities/v1-alpha/bank-statement-reconciliation-8ktecw/research/
+  - entity_id: services:service-batch-data-ingestion-yftkuq
+    files: []
+    path: entities/v1-alpha/batch-data-ingestion-yftkuq/research/
+  - entity_id: services:service-benchmarking-jbpfvr
+    files: []
+    path: entities/v1-alpha/benchmarking-jbpfvr/research/
+  - entity_id: services:service-benefits-enrollment-sp2qsb
+    files: []
+    path: entities/v1-alpha/benefits-enrollment-sp2qsb/research/
+  - entity_id: services:service-benefits-realization-k2jfyz
+    files: []
+    path: entities/v1-alpha/benefits-realization-k2jfyz/research/
+  - entity_id: services:service-big-data-processing-8434e6
+    files: []
+    path: entities/v1-alpha/big-data-processing-8434e6/research/
+  - entity_id: services:service-bill-of-materials-management-u6whj7
+    files: []
+    path: entities/v1-alpha/bill-of-materials-management-u6whj7/research/
+  - entity_id: services:service-blanket-order-management-76mq32
+    files: []
+    path: entities/v1-alpha/blanket-order-management-76mq32/research/
+  - entity_id: services:service-brand-asset-governance-69pt87
+    files: []
+    path: entities/v1-alpha/brand-asset-governance-69pt87/research/
+  - entity_id: services:service-brand-monitoring-79pest
+    files: []
+    path: entities/v1-alpha/brand-monitoring-79pest/research/
+  - entity_id: services:service-building-access-control-88gdpz
+    files: []
+    path: entities/v1-alpha/building-access-control-88gdpz/research/
+  - entity_id: services:service-building-compliance-inspection-kh285p
+    files: []
+    path: entities/v1-alpha/building-compliance-inspection-kh285p/research/
+  - entity_id: services:service-business-case-management-2c3deb
+    files: []
+    path: entities/v1-alpha/business-case-management-2c3deb/research/
+  - entity_id: services:service-business-continuity-risk-analysis-k2qwqt
+    files: []
+    path: entities/v1-alpha/business-continuity-risk-analysis-k2qwqt/research/
+  - entity_id: services:service-business-continuity-testing-3u6nf3
+    files: []
+    path: entities/v1-alpha/business-continuity-testing-3u6nf3/research/
+  - entity_id: services:service-business-impact-analysis-fb5hzh
+    files: []
+    path: entities/v1-alpha/business-impact-analysis-fb5hzh/research/
+  - entity_id: services:service-business-model-design-wd887q
+    files: []
+    path: entities/v1-alpha/business-model-design-wd887q/research/
+  - entity_id: services:service-business-process-mapping-r5jkrb
+    files: []
+    path: entities/v1-alpha/business-process-mapping-r5jkrb/research/
+  - entity_id: services:service-campaign-management-c6e8ez
+    files: []
+    path: entities/v1-alpha/campaign-management-c6e8ez/research/
+  - entity_id: services:service-campaign-planning-budgeting-bc2fcf
+    files: []
+    path: entities/v1-alpha/campaign-planning-budgeting-bc2fcf/research/
+  - entity_id: services:service-capacity-planning-5eus8g
+    files: []
+    path: entities/v1-alpha/capacity-planning-5eus8g/research/
+  - entity_id: services:service-capital-planning-jsy953
+    files: []
+    path: entities/v1-alpha/capital-planning-jsy953/research/
+  - entity_id: services:service-carbon-accounting-kemcbv
+    files: []
+    path: entities/v1-alpha/carbon-accounting-kemcbv/research/
+  - entity_id: services:service-career-development-aw8s88
+    files: []
+    path: entities/v1-alpha/career-development-aw8s88/research/
   - entity_id: services:service-customer-360-ut9yeu
     files: []
     path: entities/v1-alpha/customer-360-ut9yeu/research/

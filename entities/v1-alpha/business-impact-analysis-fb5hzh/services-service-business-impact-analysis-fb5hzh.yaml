@@ -1,0 +1,25 @@
+id: services:service-business-impact-analysis-fb5hzh
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Business Impact Analysis Service
+abbreviation: BIA
+description: Guides process owners through impact analysis of disrupted activities,
+  capturing financial, regulatory, and reputational loss curves over time, and deriving
+  recovery time and recovery point objectives per critical process.
+domain: Change & Transformation
+subdomain: Business Continuity
+capabilities:
+- capabilities:capability-continuity-management-v3rn6u
+solution_components:
+- dea:component-continuity-planning-toolkit
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- continuity
+- bia
+- resilience

@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Audiovisual Conference Service
+slug: audiovisual-conference
+abbreviation: AVC
+description: Installs and supports conference-room camera, display and audio systems,
+  monitoring device health remotely, dispatching technicians for failed rooms, and
+  briefing users on meeting technology before important sessions.
+domain: IT Operations & Infrastructure
+subdomain: Endpoint & Workplace
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-av-room-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- audiovisual
+- workplace
+assigned_id: services:service-audiovisual-conference-zprxud
+admitted: '2026-11-01'

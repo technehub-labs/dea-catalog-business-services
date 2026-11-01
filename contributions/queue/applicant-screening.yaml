@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Applicant Screening Service
+slug: applicant-screening
+abbreviation: ASC
+description: Scores incoming applications against role criteria, applies knockout
+  and screening questions, deduplicates candidate records, and advances qualified
+  applicants to recruiters with ranked shortlists and disposition reasons for every
+  rejected profile.
+domain: Human Resources
+subdomain: Talent Acquisition
+capabilities:
+- capabilities:capability-talent-management-v2qw9c
+solution_components:
+- dea:component-ats-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- recruiting
+- screening
+- candidates
+assigned_id: services:service-applicant-screening-frcxv2
+admitted: '2026-11-01'

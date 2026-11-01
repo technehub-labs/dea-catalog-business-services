@@ -12,6 +12,10 @@ record).
 
 ## [Unreleased]
 
+### CR-SVC-005: Entity Admission Batch 01
+
+Admitted 50 new `BusinessService` records through the CR-SVC-004 contribution workflow (3 Change & Transformation, 1 Customer Experience, 1 Cybersecurity, 5 Data & Analytics, 6 Enterprise Strategy & Performance, 5 Facilities & Asset Management, 6 Finance & Accounting, 3 Human Resources, 4 IT Operations & Infrastructure, 5 Marketing & Brand, 1 Order Management, 1 Product & Offering Management, 5 Risk & Compliance, 1 Sales & Revenue Operations, 1 Sourcing & Procurement, 1 Supply Chain & Logistics, 1 Sustainability & ESG); ids content-derived and collision-checked; entity count +50; queue entries flipped to `admitted`.
+
 ### CR-SVC-004: Entity Ingestion Groundwork (Contribution Queue + Admission Tool)
 
 Defines the intake path for new `BusinessService` entities: a contribution queue (`contributions/queue/`, template + process doc) validated by a new blocking CI gate (`scripts/check_contributions.py` — no hand-invented ids, governance values from the `classifications/sla-classification.yaml` register), and an admission tool (`scripts/admit_entity.py`) that assigns the org-wide id (`services:service-<slug>-<hash6>`, the id-system §2.5 content-derived hash over the intake content — same derivation as the mv1 migration), collision-checks it, scaffolds the entity subtree with the per-entity README (IDM-007), marks the queue entry admitted, and gate-verifies the result (a red id-system gate aborts admission). End-to-end round-trip verified at authoring (18 → 19 records CONFORMANT, index regenerated and valid, then reverted); no real entity lands with this CR — the first real admission rides its own CR.

@@ -1,0 +1,26 @@
+id: services:service-batch-data-ingestion-yftkuq
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Batch Data Ingestion Service
+abbreviation: BDI
+description: Moves scheduled file and database extracts from source systems into the
+  analytics platform, applying schema validation, row counts and quarantine handling
+  so defective feeds never reach consumers.
+domain: Data & Analytics
+subdomain: Data Integration
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-etl-engine
+- dea:component-orchestration-scheduler
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- ingestion
+- batch

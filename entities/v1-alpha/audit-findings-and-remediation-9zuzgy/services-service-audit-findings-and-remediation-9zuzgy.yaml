@@ -1,0 +1,27 @@
+id: services:service-audit-findings-and-remediation-9zuzgy
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Audit Findings and Remediation Service
+abbreviation: AFR
+description: Tracks audit findings and regulator commitments through corrective action
+  plans, verifies remediation evidence before closure, and reports overdue items by
+  owner to governance forums monthly.
+domain: Risk & Compliance
+subdomain: Internal Controls & Audit
+capabilities:
+- capabilities:capability-audit-and-assurance-management-n7qv25
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-audit-management-system
+- dea:component-case-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- findings
+- remediation

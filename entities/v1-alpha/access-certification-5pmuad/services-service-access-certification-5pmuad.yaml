@@ -1,0 +1,27 @@
+id: services:service-access-certification-5pmuad
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Access Certification Service
+abbreviation: ACF
+description: Runs periodic access reviews in which system owners confirm or revoke
+  each user's entitlements, chasing attestations to completion and feeding revocations
+  into deprovisioning to satisfy audit requirements.
+domain: Cybersecurity
+subdomain: Identity & Access
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-identity-provider
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- security
+- access-review
+- governance

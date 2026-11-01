@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Business Model Design Service
+slug: business-model-design
+abbreviation: BMD
+description: Structures exploration of new business models - value propositions, revenue
+  mechanics, cost drivers, and partner networks - running bounded pilots with stage
+  criteria before any model earns scale investment.
+domain: Enterprise Strategy & Performance
+subdomain: Strategy Development
+capabilities:
+- capabilities:capability-strategy-formulation-sf7q2x
+- capabilities:capability-idea-management-86dckf
+solution_components:
+- dea:component-strategy-management-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- strategy
+- business-model
+- innovation
+assigned_id: services:service-business-model-design-wd887q
+admitted: '2026-11-01'

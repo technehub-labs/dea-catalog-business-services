@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Analytics Warehouse Service
+slug: analytics-warehouse
+abbreviation: ANW
+description: Hosts the enterprise dimensional warehouse serving finance, sales and
+  operational reporting, managing modeled layers, workload isolation and query performance,
+  and provisioning governed datasets to certified consumers.
+domain: Data & Analytics
+subdomain: Data Platform Engineering
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance: []
+tags:
+- data
+- warehouse
+- platform
+assigned_id: services:service-analytics-warehouse-p5v78g
+admitted: '2026-11-01'
