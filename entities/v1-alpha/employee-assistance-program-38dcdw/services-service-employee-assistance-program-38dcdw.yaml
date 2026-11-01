@@ -1,0 +1,28 @@
+id: services:service-employee-assistance-program-38dcdw
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Employee Assistance Program Service
+abbreviation: EAP
+description: Provides confidential access to counseling, legal, and financial-support
+  referrals for employees and household members, managing case intake through an independent
+  provider network with strict separation from HR records.
+domain: Human Resources
+subdomain: Compensation & Benefits
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-eap-provider-portal
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Restricted
+  compliance:
+  - HIPAA
+  - GDPR
+tags:
+- hr
+- wellbeing
+- counseling
+- eap

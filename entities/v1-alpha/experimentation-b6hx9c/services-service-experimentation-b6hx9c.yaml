@@ -1,0 +1,28 @@
+id: services:service-experimentation-b6hx9c
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Experimentation Service
+abbreviation: EXP
+description: Runs controlled A/B and multivariate experiments across web and app surfaces,
+  randomizing traffic, guarding significance thresholds and auto-promoting winning
+  variants to production experiences with documented experiment logs.
+domain: Marketing & Brand
+subdomain: Campaign Management & Operations
+capabilities:
+- capabilities:capability-marketing-xmc539
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-experimentation-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- marketing
+- experimentation
+- testing

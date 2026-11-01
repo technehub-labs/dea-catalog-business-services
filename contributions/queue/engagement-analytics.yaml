@@ -1,0 +1,31 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Engagement Analytics Service
+slug: engagement-analytics
+abbreviation: EGA
+description: Aggregates survey scores, recognition activity, eNPS, and participation
+  metrics into engagement dashboards per team and demographic slice, applying anonymity
+  thresholds so small groups cannot be de-anonymized.
+domain: Communications & Workplace
+subdomain: Employee Engagement
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-bi-platform
+- dea:component-survey-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- communications
+- engagement
+- analytics
+- surveys
+assigned_id: services:service-engagement-analytics-55pg93
+admitted: '2026-11-01'

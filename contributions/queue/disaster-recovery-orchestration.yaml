@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Disaster Recovery Orchestration Service
+slug: disaster-recovery-orchestration
+abbreviation: DRO
+description: Documents and rehearses recovery of critical systems to secondary sites
+  or regions, sequencing failover runbooks, measuring achieved recovery times against
+  targets, and closing gaps found in drills.
+domain: IT Operations & Infrastructure
+subdomain: Backup & Resilience
+capabilities:
+- capabilities:capability-continuity-management-v3rn6u
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-backup-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- it
+- disaster-recovery
+- resilience
+assigned_id: services:service-disaster-recovery-orchestration-x2qmys
+admitted: '2026-11-01'

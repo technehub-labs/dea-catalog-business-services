@@ -1,0 +1,27 @@
+id: services:service-employee-record-administration-ycdq8g
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Employee Record Administration Service
+abbreviation: ERA
+description: Maintains the system of record for employee master data - identities,
+  org assignments, employment events, and documents - enforcing effective-dated changes,
+  approval workflows, and GDPR retention and erasure rules.
+domain: Human Resources
+subdomain: Core HR & Payroll
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-hris-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- employee-data
+- master-data

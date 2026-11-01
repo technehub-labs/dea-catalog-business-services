@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Double Materiality Assessment Service
+slug: double-materiality-assessment
+abbreviation: DMA
+description: Collects impact and financial materiality inputs from stakeholders, external
+  sources, and business units, scores topics on defined scales, and documents the
+  materiality matrix decision trail for assurance.
+domain: Sustainability & ESG
+subdomain: ESG Disclosure & Reporting
+capabilities:
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-esg-data-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- sustainability
+- materiality
+- assessment
+assigned_id: services:service-double-materiality-assessment-vxqh34
+admitted: '2026-11-01'

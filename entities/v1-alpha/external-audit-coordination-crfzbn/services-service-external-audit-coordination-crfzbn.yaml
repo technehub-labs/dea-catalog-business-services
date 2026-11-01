@@ -1,0 +1,26 @@
+id: services:service-external-audit-coordination-crfzbn
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: External Audit Coordination Service
+abbreviation: EAC
+description: Coordinates annual external audit logistics, manages the request list
+  and evidence uploads, tracks open queries by preparer, and monitors audit fee and
+  independence disclosures to completion.
+domain: Risk & Compliance
+subdomain: Internal Controls & Audit
+capabilities:
+- capabilities:capability-audit-and-assurance-management-n7qv25
+solution_components:
+- dea:component-audit-management-system
+- dea:component-document-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- audit
+- external

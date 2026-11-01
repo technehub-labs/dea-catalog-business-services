@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Facilities Help Desk Service
+slug: facilities-help-desk
+abbreviation: FHD
+description: Takes occupant requests for repairs, temperature, cleaning and access
+  through a facilities service channel, triaging to trades or vendors, and tracking
+  each ticket through to occupant confirmation.
+domain: Facilities & Asset Management
+subdomain: Field & Maintenance
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-cafm-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- help-desk
+- requests
+assigned_id: services:service-facilities-help-desk-zqbzf4
+admitted: '2026-11-01'

@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Employee Assistance Program Service
+slug: employee-assistance-program
+abbreviation: EAP
+description: Provides confidential access to counseling, legal, and financial-support
+  referrals for employees and household members, managing case intake through an independent
+  provider network with strict separation from HR records.
+domain: Human Resources
+subdomain: Compensation & Benefits
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-eap-provider-portal
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Restricted
+  compliance:
+  - HIPAA
+  - GDPR
+tags:
+- hr
+- wellbeing
+- counseling
+- eap
+assigned_id: services:service-employee-assistance-program-38dcdw
+admitted: '2026-11-01'

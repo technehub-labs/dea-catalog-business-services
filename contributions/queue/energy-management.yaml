@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Energy Management Service
+slug: energy-management
+abbreviation: ENM
+description: Meters electricity, water and gas consumption per building and tenant,
+  baselining usage against weather and occupancy, and identifying savings projects
+  from anomaly detection across the meter estate.
+domain: Facilities & Asset Management
+subdomain: Physical Infrastructure
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-iot-telemetry-platform
+- dea:component-bms-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- energy
+- sustainability
+assigned_id: services:service-energy-management-pm8pq7
+admitted: '2026-11-01'

@@ -1,0 +1,25 @@
+id: services:service-email-security-tvtsjr
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Email Security Service
+abbreviation: EMS
+description: Filters inbound mail for phishing, malware and business-email-compromise,
+  detonating attachments in sandboxing, authenticating sender domains, and giving
+  users a one-click report button that feeds investigator queues.
+domain: Cybersecurity
+subdomain: Vulnerability & Threat Management
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-email-security-gateway
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- security
+- email
+- phishing

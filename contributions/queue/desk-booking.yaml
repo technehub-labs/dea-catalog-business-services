@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Desk Booking Service
+slug: desk-booking
+abbreviation: DSB
+description: Lets staff reserve desks and neighbourhoods for office days through map-based
+  booking, enforcing attendance policies and check-ins, and supplying occupancy counts
+  that inform cleaning and catering volumes.
+domain: Facilities & Asset Management
+subdomain: Workplace & Space
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-desk-booking-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- desks
+- booking
+assigned_id: services:service-desk-booking-2pn9x6
+admitted: '2026-11-01'

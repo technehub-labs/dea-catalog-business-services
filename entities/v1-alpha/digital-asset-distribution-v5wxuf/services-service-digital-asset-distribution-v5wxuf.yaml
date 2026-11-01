@@ -1,0 +1,26 @@
+id: services:service-digital-asset-distribution-v5wxuf
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Digital Asset Distribution Service
+abbreviation: DAD
+description: Stores approved product images, datasheets and media renditions, links
+  them to product identifiers, and distributes rendition packs to commerce channels
+  and print pipelines on publish events.
+domain: Product & Offering Management
+subdomain: Product Data & Content
+capabilities:
+- capabilities:capability-product-development-q9nv34
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-product-information-management
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- content
+- digital-assets

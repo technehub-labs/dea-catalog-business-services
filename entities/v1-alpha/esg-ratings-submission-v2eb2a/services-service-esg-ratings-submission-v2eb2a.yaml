@@ -1,0 +1,26 @@
+id: services:service-esg-ratings-submission-v2eb2a
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: ESG Ratings Submission Service
+abbreviation: ERS
+description: Coordinates responses to CDP, EcoVadis, and investor rating questionnaires,
+  assembles evidence for scored criteria, tracks submission windows, and records resulting
+  score movements with reviewer feedback.
+domain: Sustainability & ESG
+subdomain: ESG Disclosure & Reporting
+capabilities:
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-esg-data-platform
+- dea:component-document-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- sustainability
+- ratings
+- questionnaires

@@ -1,0 +1,27 @@
+id: services:service-esg-goal-and-initiative-management-fau5sw
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: ESG Goal and Initiative Management Service
+abbreviation: EGI
+description: Registers sustainability targets with owners, budgets, and milestones,
+  tracks initiative delivery and expected abatement or impact contribution, and reports
+  program status to the sustainability steering group.
+domain: Sustainability & ESG
+subdomain: Responsible Operations
+capabilities:
+- capabilities:capability-enterprise-governance-uas48u
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-esg-data-platform
+- dea:component-case-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- sustainability
+- programs
+- targets

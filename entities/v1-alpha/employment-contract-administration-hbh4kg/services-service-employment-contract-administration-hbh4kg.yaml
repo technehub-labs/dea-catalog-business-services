@@ -1,0 +1,27 @@
+id: services:service-employment-contract-administration-hbh4kg
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Employment Contract Administration Service
+abbreviation: ECA
+description: Produces employment contracts, amendments, and addenda from clause templates
+  approved by legal, captures signature and countersignature, and files executed documents
+  against the employee record with version history.
+domain: Human Resources
+subdomain: Core HR & Payroll
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-hris-core
+- dea:component-document-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- contracts
+- documents

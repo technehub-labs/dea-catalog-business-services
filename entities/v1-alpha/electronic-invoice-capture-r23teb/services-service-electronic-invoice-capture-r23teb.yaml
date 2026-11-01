@@ -1,0 +1,27 @@
+id: services:service-electronic-invoice-capture-r23teb
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Electronic Invoice Capture Service
+abbreviation: EIC
+description: Ingests supplier invoices from email, portal upload, and EDI feeds, extracts
+  header and line data through capture templates, and queues results for three-way
+  matching processing.
+domain: Finance & Accounting
+subdomain: Payables & Receivables
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-document-management-system
+- dea:component-erp-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- payables
+- invoice-processing

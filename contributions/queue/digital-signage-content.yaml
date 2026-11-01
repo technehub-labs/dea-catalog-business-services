@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Digital Signage Content Service
+slug: digital-signage-content
+abbreviation: DSC
+description: Manages playlists and scheduled content for workplace digital signage
+  networks - corporate news, KPI boards, safety notices, and event promotion - targeting
+  screens by building, floor, and time slot.
+domain: Communications & Workplace
+subdomain: Internal Communications
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-digital-signage-network
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Public
+  compliance: []
+tags:
+- communications
+- signage
+- workplace
+- digital-media
+assigned_id: services:service-digital-signage-content-5nmxmh
+admitted: '2026-11-01'

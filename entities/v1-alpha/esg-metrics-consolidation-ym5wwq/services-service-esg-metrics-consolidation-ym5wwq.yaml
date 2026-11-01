@@ -1,0 +1,27 @@
+id: services:service-esg-metrics-consolidation-ym5wwq
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: ESG Metrics Consolidation Service
+abbreviation: EMC
+description: Aggregates environmental, social, and governance metrics from subsidiaries
+  and site reporters into group baselines, applies unit conversions and boundary rules,
+  and freezes period datasets for reporting.
+domain: Sustainability & ESG
+subdomain: ESG Disclosure & Reporting
+capabilities:
+- capabilities:capability-enterprise-governance-uas48u
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-esg-data-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- sustainability
+- metrics
+- reporting

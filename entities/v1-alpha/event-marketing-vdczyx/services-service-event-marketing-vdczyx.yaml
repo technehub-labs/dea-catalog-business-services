@@ -1,0 +1,27 @@
+id: services:service-event-marketing-vdczyx
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Event Marketing Service
+abbreviation: EVM
+description: Plans demand-generation events and webinars covering registration funnels,
+  invitation waves, reminder cadences, attendance capture and no-show handling that
+  feed follow-up campaign audiences for sales pursuit.
+domain: Marketing & Brand
+subdomain: Audience & Demand Generation
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-event-management-platform
+- dea:component-marketing-automation-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- marketing
+- events
+- demand-generation

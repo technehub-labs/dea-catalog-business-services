@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Directory Synchronization Service
+slug: directory-synchronization
+abbreviation: DSY
+description: Synchronizes worker identities and group memberships between the HR system,
+  the on-premises directory and cloud tenants, keeping attributes consistent so downstream
+  access decisions use current employment data.
+domain: Cybersecurity
+subdomain: Identity & Access
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-identity-provider
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- security
+- directory
+- identity
+assigned_id: services:service-directory-synchronization-pzwjzt
+admitted: '2026-11-01'

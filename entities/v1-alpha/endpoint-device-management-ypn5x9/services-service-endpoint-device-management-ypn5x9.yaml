@@ -1,0 +1,26 @@
+id: services:service-endpoint-device-management-ypn5x9
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Endpoint Device Management Service
+abbreviation: EDM
+description: Enrols laptops, phones and tablets into fleet management, enforcing encryption,
+  OS baselines and remote wipe, and delivering corporate applications and configuration
+  profiles to every managed device.
+domain: IT Operations & Infrastructure
+subdomain: Endpoint & Workplace
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-mdm-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- endpoint
+- device-management

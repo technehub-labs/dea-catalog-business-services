@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Employee Relations Case Service
+slug: employee-relations-case
+abbreviation: ERC
+description: Investigates workplace conflicts, harassment complaints, and disciplinary
+  matters with structured intake, evidence capture, and impartial reviewer assignment,
+  producing documented outcomes and trend reporting on case types and resolution times.
+domain: Human Resources
+subdomain: Workforce Management
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-hr-service-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- employee-relations
+- investigations
+assigned_id: services:service-employee-relations-case-jpyra2
+admitted: '2026-11-01'
