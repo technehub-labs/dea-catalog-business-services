@@ -1,0 +1,25 @@
+id: services:service-wireless-network-z6rmff
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Wireless Network Service
+abbreviation: WNS
+description: Deploys and operates campus Wi-Fi across offices and warehouses, tuning
+  coverage and channel plans, onboarding guest and IoT device networks, and resolving
+  dead zones reported by occupants.
+domain: IT Operations & Infrastructure
+subdomain: Network & Connectivity
+capabilities:
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-wireless-lan
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- wifi
+- network

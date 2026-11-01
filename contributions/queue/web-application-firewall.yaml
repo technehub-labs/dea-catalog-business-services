@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Web Application Firewall Service
+slug: web-application-firewall
+abbreviation: WAF
+description: Inspects HTTP traffic to public web applications against managed and
+  custom rules, blocking injection and bot abuse, tuning exceptions with development
+  teams, and alerting on targeted attack patterns.
+domain: Cybersecurity
+subdomain: Vulnerability & Threat Management
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-waf-cluster
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- security
+- waf
+- web
+assigned_id: services:service-web-application-firewall-k2hp3p
+admitted: '2026-11-01'

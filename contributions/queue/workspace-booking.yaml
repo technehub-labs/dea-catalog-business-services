@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Workspace Booking Service
+slug: workspace-booking
+abbreviation: WSB
+description: Lets employees reserve desks, focus rooms, and parking across offices
+  with interactive floor maps, enforces neighborhood and capacity policies, and feeds
+  utilization data to workplace planning.
+domain: Communications & Workplace
+subdomain: Workplace Experience
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-workspace-booking-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- workplace
+- booking
+- desks
+- offices
+assigned_id: services:service-workspace-booking-65rqk3
+admitted: '2026-11-01'

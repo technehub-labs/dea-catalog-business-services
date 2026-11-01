@@ -1,9 +1,9 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 518
+    candidates: 535
     canonical: 0
-    entities: 518
+    entities: 535
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -5717,6 +5717,193 @@ catalog:
     state: candidate
     type: BusinessService
     version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-web-application-firewall-k2hp3p
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/web-application-firewall-k2hp3p/services-service-web-application-firewall-k2hp3p.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-web-content-personalization-82rx48
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/web-content-personalization-82rx48/services-service-web-content-personalization-82rx48.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-whistleblower-report-intake-vnznfh
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/whistleblower-report-intake-vnznfh/services-service-whistleblower-report-intake-vnznfh.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-win-loss-analysis-7mv9k8
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/win-loss-analysis-7mv9k8/services-service-win-loss-analysis-7mv9k8.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-wireless-network-z6rmff
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/wireless-network-z6rmff/services-service-wireless-network-z6rmff.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workforce-identity-tbmj22
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workforce-identity-tbmj22/services-service-workforce-identity-tbmj22.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workforce-mfa-rwvuy7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workforce-mfa-rwvuy7/services-service-workforce-mfa-rwvuy7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workforce-scheduling-q4jsbn
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workforce-scheduling-q4jsbn/services-service-workforce-scheduling-q4jsbn.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workforce-transition-v7jnxs
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workforce-transition-v7jnxs/services-service-workforce-transition-v7jnxs.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workload-scheduling-f6v62b
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workload-scheduling-f6v62b/services-service-workload-scheduling-f6v62b.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workplace-event-management-zxhy2j
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workplace-event-management-zxhy2j/services-service-workplace-event-management-zxhy2j.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workplace-knowledge-base-xr964y
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workplace-knowledge-base-xr964y/services-service-workplace-knowledge-base-xr964y.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workplace-mail-services-w92pw7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workplace-mail-services-w92pw7/services-service-workplace-mail-services-w92pw7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workplace-printing-e8s44p
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workplace-printing-e8s44p/services-service-workplace-printing-e8s44p.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workplace-service-request-x6qngh
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workplace-service-request-x6qngh/services-service-workplace-service-request-x6qngh.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-workspace-booking-65rqk3
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/workspace-booking-65rqk3/services-service-workspace-booking-65rqk3.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-yard-management-4wdn5q
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/yard-management-4wdn5q/services-service-yard-management-4wdn5q.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
   id: dea:catalog-dbsf
   metamodel_version: ^0.2.1
   name: Digital Business Service Factory
@@ -7277,5 +7464,56 @@ catalog:
   - entity_id: services:service-web-analytics-f7ekw7
     files: []
     path: entities/v1-alpha/web-analytics-f7ekw7/research/
+  - entity_id: services:service-web-application-firewall-k2hp3p
+    files: []
+    path: entities/v1-alpha/web-application-firewall-k2hp3p/research/
+  - entity_id: services:service-web-content-personalization-82rx48
+    files: []
+    path: entities/v1-alpha/web-content-personalization-82rx48/research/
+  - entity_id: services:service-whistleblower-report-intake-vnznfh
+    files: []
+    path: entities/v1-alpha/whistleblower-report-intake-vnznfh/research/
+  - entity_id: services:service-win-loss-analysis-7mv9k8
+    files: []
+    path: entities/v1-alpha/win-loss-analysis-7mv9k8/research/
+  - entity_id: services:service-wireless-network-z6rmff
+    files: []
+    path: entities/v1-alpha/wireless-network-z6rmff/research/
+  - entity_id: services:service-workforce-identity-tbmj22
+    files: []
+    path: entities/v1-alpha/workforce-identity-tbmj22/research/
+  - entity_id: services:service-workforce-mfa-rwvuy7
+    files: []
+    path: entities/v1-alpha/workforce-mfa-rwvuy7/research/
+  - entity_id: services:service-workforce-scheduling-q4jsbn
+    files: []
+    path: entities/v1-alpha/workforce-scheduling-q4jsbn/research/
+  - entity_id: services:service-workforce-transition-v7jnxs
+    files: []
+    path: entities/v1-alpha/workforce-transition-v7jnxs/research/
+  - entity_id: services:service-workload-scheduling-f6v62b
+    files: []
+    path: entities/v1-alpha/workload-scheduling-f6v62b/research/
+  - entity_id: services:service-workplace-event-management-zxhy2j
+    files: []
+    path: entities/v1-alpha/workplace-event-management-zxhy2j/research/
+  - entity_id: services:service-workplace-knowledge-base-xr964y
+    files: []
+    path: entities/v1-alpha/workplace-knowledge-base-xr964y/research/
+  - entity_id: services:service-workplace-mail-services-w92pw7
+    files: []
+    path: entities/v1-alpha/workplace-mail-services-w92pw7/research/
+  - entity_id: services:service-workplace-printing-e8s44p
+    files: []
+    path: entities/v1-alpha/workplace-printing-e8s44p/research/
+  - entity_id: services:service-workplace-service-request-x6qngh
+    files: []
+    path: entities/v1-alpha/workplace-service-request-x6qngh/research/
+  - entity_id: services:service-workspace-booking-65rqk3
+    files: []
+    path: entities/v1-alpha/workspace-booking-65rqk3/research/
+  - entity_id: services:service-yard-management-4wdn5q
+    files: []
+    path: entities/v1-alpha/yard-management-4wdn5q/research/
   status: active
   version: 0.0.0

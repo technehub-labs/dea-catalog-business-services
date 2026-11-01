@@ -1,0 +1,28 @@
+id: services:service-workplace-event-management-zxhy2j
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Workplace Event Management Service
+abbreviation: WEM
+description: Coordinates site events - town halls, celebration days, volunteering
+  programs, and visitor open houses - from budgeting and invitations through logistics,
+  attendance capture, and post-event feedback summaries.
+domain: Communications & Workplace
+subdomain: Employee Engagement
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-event-management-platform
+- dea:component-intranet-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- workplace
+- events
+- engagement
+- logistics

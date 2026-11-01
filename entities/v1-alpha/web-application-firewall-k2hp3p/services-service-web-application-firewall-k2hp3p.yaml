@@ -1,0 +1,25 @@
+id: services:service-web-application-firewall-k2hp3p
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Web Application Firewall Service
+abbreviation: WAF
+description: Inspects HTTP traffic to public web applications against managed and
+  custom rules, blocking injection and bot abuse, tuning exceptions with development
+  teams, and alerting on targeted attack patterns.
+domain: Cybersecurity
+subdomain: Vulnerability & Threat Management
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-waf-cluster
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- security
+- waf
+- web
