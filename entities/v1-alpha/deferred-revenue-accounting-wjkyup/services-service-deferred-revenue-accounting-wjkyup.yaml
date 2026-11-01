@@ -1,0 +1,27 @@
+id: services:service-deferred-revenue-accounting-wjkyup
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Deferred Revenue Accounting Service
+abbreviation: DRA
+description: Maintains deferred and unbilled revenue balances by contract, rolls forward
+  movements from billing and recognition activity, and reconciles subledger totals
+  to the general ledger monthly.
+domain: Finance & Accounting
+subdomain: Revenue & Billing
+capabilities:
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-erp-core
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- revenue
+- general-ledger

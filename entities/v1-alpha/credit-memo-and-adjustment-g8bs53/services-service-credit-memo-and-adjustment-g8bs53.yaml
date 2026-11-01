@@ -1,0 +1,27 @@
+id: services:service-credit-memo-and-adjustment-g8bs53
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Credit Memo and Adjustment Service
+abbreviation: CMA
+description: Issues credit memos, rebills, and billing corrections under approval
+  limits, links each adjustment to its originating invoice, and ensures revenue and
+  tax effects post consistently.
+domain: Finance & Accounting
+subdomain: Revenue & Billing
+capabilities:
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-billing-engine
+- dea:component-erp-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- billing
+- adjustments

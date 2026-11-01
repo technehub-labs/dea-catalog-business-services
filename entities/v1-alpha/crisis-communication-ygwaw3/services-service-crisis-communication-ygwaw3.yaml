@@ -1,0 +1,28 @@
+id: services:service-crisis-communication-ygwaw3
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Crisis Communication Service
+abbreviation: CCS
+description: Activates pre-approved crisis message templates and notification trees
+  when incidents affect employees or operations, pushes urgent alerts across intranet,
+  SMS, and signage simultaneously, and logs message reach for post-incident review.
+domain: Communications & Workplace
+subdomain: Internal Communications
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+- capabilities:capability-continuity-management-v3rn6u
+solution_components:
+- dea:component-mass-notification-system
+- dea:component-intranet-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- communications
+- crisis
+- emergency
+- alerts

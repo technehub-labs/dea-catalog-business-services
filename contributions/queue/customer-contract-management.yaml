@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Customer Contract Management Service
+slug: customer-contract-management
+abbreviation: CCM
+description: Manages executed sales contracts through term, renewal and amendment
+  lifecycles, tracking entitlements, notice dates, obligation milestones and repository
+  access for account teams and finance reviewers.
+domain: Sales & Revenue Operations
+subdomain: Revenue Recognition & Sales Analytics
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-quote-to-cash-suite
+- dea:component-crm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- sales
+- contracts
+- lifecycle
+assigned_id: services:service-customer-contract-management-xeycd5
+admitted: '2026-11-01'

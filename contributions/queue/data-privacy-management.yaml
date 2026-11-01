@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Data Privacy Management Service
+slug: data-privacy-management
+abbreviation: DPM
+description: Handles data-subject access, deletion and consent requests end to end,
+  locating personal data across registered systems, coordinating fulfilment deadlines,
+  and recording processing activities in the privacy inventory.
+domain: Data & Analytics
+subdomain: Data Governance & Quality
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-privacy-workflow
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- data
+- privacy
+- gdpr
+assigned_id: services:service-data-privacy-management-ww9da4
+admitted: '2026-11-01'

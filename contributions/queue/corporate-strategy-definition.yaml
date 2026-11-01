@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Corporate Strategy Definition Service
+slug: corporate-strategy-definition
+abbreviation: CSD
+description: Facilitates definition of corporate strategy - ambition, choice arenas,
+  winning propositions, and capability requirements - capturing decisions with rationale
+  in a governed strategy document that cascades into planning artifacts.
+domain: Enterprise Strategy & Performance
+subdomain: Strategy Development
+capabilities:
+- capabilities:capability-strategy-formulation-sf7q2x
+solution_components:
+- dea:component-strategy-management-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Restricted
+  compliance: []
+tags:
+- strategy
+- corporate-strategy
+- definition
+assigned_id: services:service-corporate-strategy-definition-3ppk3f
+admitted: '2026-11-01'

@@ -1,0 +1,25 @@
+id: services:service-data-replication-v7g25w
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Data Replication Service
+abbreviation: DRP
+description: Keeps near-real-time copies of operational databases synchronized into
+  reporting and landing zones, handling schema drift, monitoring lag against freshness
+  targets, and restarting failed replication streams safely.
+domain: Data & Analytics
+subdomain: Data Integration
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-etl-engine
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- replication
+- sync

@@ -1,0 +1,25 @@
+id: services:service-data-catalog-zmcuc5
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Data Catalog Service
+abbreviation: DCT
+description: Indexes datasets, reports and data products across the estate with descriptions,
+  ownership and usage statistics, letting analysts search, preview and request access
+  to trusted data from one place.
+domain: Data & Analytics
+subdomain: Data Governance & Quality
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-data-catalog
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- catalog
+- discovery

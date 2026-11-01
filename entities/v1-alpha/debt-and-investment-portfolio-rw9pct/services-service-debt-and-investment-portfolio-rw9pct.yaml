@@ -1,0 +1,26 @@
+id: services:service-debt-and-investment-portfolio-rw9pct
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Debt and Investment Portfolio Service
+abbreviation: DIP
+description: Tracks loan facilities, bond issuances, and short-term investments with
+  maturity and interest schedules, computes covenant metrics, and produces interest
+  accrual postings for the ledger each period.
+domain: Finance & Accounting
+subdomain: Treasury & Payments
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+- capabilities:capability-financial-stewardship-c7xtfk
+solution_components:
+- dea:component-treasury-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- finance
+- treasury
+- debt

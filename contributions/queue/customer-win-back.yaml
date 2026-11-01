@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Customer Win-Back Service
+slug: customer-win-back
+abbreviation: CWB
+description: Identifies lapsed customers against dormancy and churn-out rules, assembles
+  win-back audiences with exclusion and consent controls, and hands tailored re-engagement
+  offers to campaign execution, plus response attribution.
+domain: Customer Experience
+subdomain: Customer Lifecycle & Success
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-customer-data-platform
+- dea:component-marketing-automation-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- win-back
+- retention
+assigned_id: services:service-customer-win-back-2ghvw9
+admitted: '2026-11-01'

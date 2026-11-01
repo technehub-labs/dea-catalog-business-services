@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Data Pipeline Monitoring Service
+slug: data-pipeline-monitoring
+abbreviation: DPL
+description: Tracks freshness, volume and quality signals across every production
+  data pipeline, detecting stalled jobs and silent schema breaks, and paging data
+  engineers with run-level diagnostics before dashboards go stale.
+domain: Data & Analytics
+subdomain: Data Platform Engineering
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-monitoring-observability-stack
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- monitoring
+- pipelines
+assigned_id: services:service-data-pipeline-monitoring-ekwg86
+admitted: '2026-11-01'

@@ -1,0 +1,30 @@
+id: services:service-customer-segmentation-td5ghq
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Customer Segmentation Service
+abbreviation: SEG
+description: Builds and refreshes behavioural, demographic and value-based segments
+  from unified customer data, publishing governed segment definitions with lineage
+  to activation and analysis consumers on a scheduled cadence.
+domain: Marketing & Brand
+subdomain: Marketing Analytics & Attribution
+capabilities:
+- capabilities:capability-marketing-xmc539
+- capabilities:capability-insight-management-ms4n9d
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-customer-data-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- marketing
+- segmentation
+- audience

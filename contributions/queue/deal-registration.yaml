@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Deal Registration Service
+slug: deal-registration
+abbreviation: DER
+description: Captures partner-registered opportunities, validates them against pipeline
+  ownership and program rules, and grants approved partners time-boxed price protection
+  and lead ownership for the registered deal.
+domain: Partner & Channel Management
+subdomain: Channel Operations
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-prm-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- partner-channel
+- deals
+- registration
+assigned_id: services:service-deal-registration-74qsh7
+admitted: '2026-11-01'

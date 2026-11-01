@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Customer Retention Service
+slug: customer-retention
+abbreviation: CRT
+description: Detects churn-risk customers from behavioural, service and billing signals,
+  qualifies retention plays against cost thresholds, and coordinates save offers with
+  eligibility and approval controls, plus offer financial limits.
+domain: Customer Experience
+subdomain: Customer Lifecycle & Success
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-crm-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- retention
+- churn
+assigned_id: services:service-customer-retention-hc87wq
+admitted: '2026-11-01'

@@ -1,0 +1,27 @@
+id: services:service-customer-credit-rating-pmkep9
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Customer Credit Rating Service
+abbreviation: CCR
+description: Scores customer creditworthiness from payment history, external bureau
+  data, and open exposure, recommends credit limits and terms, and flags accounts
+  for review when risk profile shifts.
+domain: Finance & Accounting
+subdomain: Payables & Receivables
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-erp-core
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- finance
+- credit
+- receivables

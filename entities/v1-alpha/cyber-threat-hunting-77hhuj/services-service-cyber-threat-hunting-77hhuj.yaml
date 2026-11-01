@@ -1,0 +1,25 @@
+id: services:service-cyber-threat-hunting-77hhuj
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Cyber Threat Hunting Service
+abbreviation: CTH
+description: Proactively searches telemetry for adversary activity that automated
+  detections missed, forming hypotheses from intelligence, pursuing anomalies across
+  endpoint and identity data, and converting findings into new detection rules.
+domain: Cybersecurity
+subdomain: Security Operations
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-siem-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Restricted
+  compliance: []
+tags:
+- security
+- hunting
+- detection

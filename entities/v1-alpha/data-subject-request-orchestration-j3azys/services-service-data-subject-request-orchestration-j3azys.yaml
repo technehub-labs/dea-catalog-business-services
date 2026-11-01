@@ -1,0 +1,27 @@
+id: services:service-data-subject-request-orchestration-j3azys
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Data Subject Request Orchestration Service
+abbreviation: DSO
+description: Receives access, deletion, and portability requests from web forms and
+  privacy inboxes, verifies identity, orchestrates search and redaction across systems,
+  and delivers responses within statutory deadlines.
+domain: Legal & Privacy
+subdomain: Privacy Management
+capabilities:
+- capabilities:capability-privacy-and-consent-management-h3mw69
+solution_components:
+- dea:component-dsr-orchestration-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Restricted
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- legal
+- privacy
+- dsar

@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Corporate Tax Provision Service
+slug: corporate-tax-provision
+abbreviation: CTP
+description: Computes current and deferred tax provisions by entity from ledger data,
+  tracks temporary differences and carryforwards, and produces effective tax rate
+  analysis for statutory reporting.
+domain: Finance & Accounting
+subdomain: Tax, Expense & Fixed Assets
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+- capabilities:capability-financial-stewardship-c7xtfk
+solution_components:
+- dea:component-tax-engine
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- tax
+- reporting
+assigned_id: services:service-corporate-tax-provision-hchhdb
+admitted: '2026-11-01'

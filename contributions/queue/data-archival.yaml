@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Data Archival Service
+slug: data-archival
+abbreviation: DAR
+description: Moves aged, infrequently accessed records from production systems into
+  compliant archival tiers with retention holds and legal-lock support, returning
+  archived content to users on search request.
+domain: IT Operations & Infrastructure
+subdomain: Backup & Resilience
+capabilities:
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-archive-storage
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- archive
+- storage
+assigned_id: services:service-data-archival-tsyvvn
+admitted: '2026-11-01'

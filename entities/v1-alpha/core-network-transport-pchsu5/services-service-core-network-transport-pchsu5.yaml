@@ -1,0 +1,25 @@
+id: services:service-core-network-transport-pchsu5
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Core Network Transport Service
+abbreviation: CNT
+description: Operates the routed and switched backbone linking data centres, branches
+  and cloud regions, managing capacity, redundancy and routing policy so business
+  traffic moves predictably between sites.
+domain: IT Operations & Infrastructure
+subdomain: Network & Connectivity
+capabilities:
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-network-core
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance: []
+tags:
+- it
+- network
+- backbone

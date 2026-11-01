@@ -1,0 +1,31 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Customer Data Unification Service
+slug: customer-data-unification
+abbreviation: CDU
+description: Runs nightly identity resolution across CRM, commerce and support sources,
+  matching records into golden profiles with survivorship rules and flagging merges
+  and duplicates for data steward review.
+domain: Customer Experience
+subdomain: Customer Identity & Profile
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-customer-data-platform
+- dea:component-cdp-identity-graph
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- customer-experience
+- identity-resolution
+- master-data
+assigned_id: services:service-customer-data-unification-2b9ysm
+admitted: '2026-11-01'
