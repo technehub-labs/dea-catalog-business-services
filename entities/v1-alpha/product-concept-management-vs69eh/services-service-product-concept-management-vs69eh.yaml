@@ -1,0 +1,27 @@
+id: services:service-product-concept-management-vs69eh
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Product Concept Management Service
+abbreviation: PCPT
+description: Captures new product ideas with business cases, market evidence and estimated
+  investment, then moves each concept through stage-gate reviews with go/no-go decisions
+  recorded against defined criteria.
+domain: Product & Offering Management
+subdomain: Product Development & Engineering
+capabilities:
+- capabilities:capability-product-development-q9nv34
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-plm-suite
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- development
+- innovation

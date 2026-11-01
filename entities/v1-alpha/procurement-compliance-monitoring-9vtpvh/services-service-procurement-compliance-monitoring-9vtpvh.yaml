@@ -1,0 +1,28 @@
+id: services:service-procurement-compliance-monitoring-9vtpvh
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Procurement Compliance Monitoring Service
+abbreviation: PCM
+description: Detects maverick spend, purchases outside contract coverage and segregation-of-duties
+  conflicts from procurement data, quantifies non-compliant volume by organization,
+  and reports findings to procurement governance forums.
+domain: Sourcing & Procurement
+subdomain: Contract & Controls
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+- capabilities:capability-regulation-management-gya4d8
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-procure-to-pay-suite
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance:
+  - SOX
+tags:
+- sourcing
+- compliance
+- governance

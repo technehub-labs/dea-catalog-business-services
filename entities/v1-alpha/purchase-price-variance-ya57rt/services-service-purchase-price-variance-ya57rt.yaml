@@ -1,0 +1,28 @@
+id: services:service-purchase-price-variance-ya57rt
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Purchase Price Variance Service
+abbreviation: PPV
+description: Computes purchase price variance between ordered, received and standard
+  costs by item and supplier, attributes variances to rate changes or mix effects,
+  and feeds the results into cost accounting.
+domain: Sourcing & Procurement
+subdomain: Contract & Controls
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-erp-core
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- sourcing
+- cost
+- variance

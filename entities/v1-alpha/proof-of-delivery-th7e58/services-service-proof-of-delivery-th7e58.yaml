@@ -1,0 +1,26 @@
+id: services:service-proof-of-delivery-th7e58
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Proof of Delivery Service
+abbreviation: POD
+description: Captures recipient signatures, photos and delivery exceptions at drop-off,
+  matches them to shipment stops, and retains the evidence pack that settles delivery
+  disputes with customers.
+domain: Supply Chain & Logistics
+subdomain: Transportation & Distribution
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-tracking-event-engine
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- supply-chain
+- transportation
+- delivery

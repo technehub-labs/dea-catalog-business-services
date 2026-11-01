@@ -1,0 +1,26 @@
+id: services:service-program-milestone-tracking-jra6ju
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Program Milestone Tracking Service
+abbreviation: PMT
+description: Tracks milestone baselines, forecast dates, and completion evidence across
+  concurrent transformation programs, highlighting schedule variances, critical-path
+  slippage, and cross-program dependencies for weekly sponsor review boards.
+domain: Change & Transformation
+subdomain: Transformation Programs
+capabilities:
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-portfolio-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- change
+- milestones
+- programs
+- tracking

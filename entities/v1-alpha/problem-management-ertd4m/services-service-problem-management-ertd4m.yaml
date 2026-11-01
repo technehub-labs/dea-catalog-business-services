@@ -1,0 +1,26 @@
+id: services:service-problem-management-ertd4m
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Problem Management Service
+abbreviation: PRB
+description: Investigates recurring or high-impact faults beyond individual incidents,
+  driving root-cause analysis, raising permanent fixes as changes, and tracking known
+  errors until workaround or resolution lands in production.
+domain: IT Operations & Infrastructure
+subdomain: Service Management & Support
+capabilities:
+- capabilities:capability-incident-and-problem-management-c2wk96
+solution_components:
+- dea:component-itsm-platform
+- dea:component-monitoring-observability-stack
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- problem
+- service-management

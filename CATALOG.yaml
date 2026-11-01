@@ -1,9 +1,9 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 368
+    candidates: 418
     canonical: 0
-    entities: 368
+    entities: 418
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -4003,6 +4003,72 @@ catalog:
     version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-price-management-d2vtpr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/price-management-d2vtpr/services-service-price-management-d2vtpr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-price-quoting-g23fq8
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/price-quoting-g23fq8/services-service-price-quoting-g23fq8.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-privacy-impact-assessment-95q6uz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/privacy-impact-assessment-95q6uz/services-service-privacy-impact-assessment-95q6uz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-privacy-notice-management-c8ecps
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/privacy-notice-management-c8ecps/services-service-privacy-notice-management-c8ecps.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-privileged-access-management-s94qmf
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/privileged-access-management-s94qmf/services-service-privileged-access-management-s94qmf.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-problem-management-ertd4m
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/problem-management-ertd4m/services-service-problem-management-ertd4m.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-procurement-6s5ttj
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -4012,6 +4078,28 @@ catalog:
     state: candidate
     type: BusinessService
     version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-procurement-compliance-monitoring-9vtpvh
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/procurement-compliance-monitoring-9vtpvh/services-service-procurement-compliance-monitoring-9vtpvh.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-attribute-governance-cs49j3
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-attribute-governance-cs49j3/services-service-product-attribute-governance-cs49j3.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
     id: services:service-product-catalog-7vytmc
@@ -4025,6 +4113,83 @@ catalog:
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-product-classification-and-taxonomy-dtvutg
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-classification-and-taxonomy-dtvutg/services-service-product-classification-and-taxonomy-dtvutg.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-compliance-and-certification-85wpz2
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-compliance-and-certification-85wpz2/services-service-product-compliance-and-certification-85wpz2.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-concept-management-vs69eh
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-concept-management-vs69eh/services-service-product-concept-management-vs69eh.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-configuration-ka6yka
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-configuration-ka6yka/services-service-product-configuration-ka6yka.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-data-quality-5mj27f
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-data-quality-5mj27f/services-service-product-data-quality-5mj27f.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-documentation-publishing-aruj8g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-documentation-publishing-aruj8g/services-service-product-documentation-publishing-aruj8g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-hierarchy-management-v45pu6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-hierarchy-management-v45pu6/services-service-product-hierarchy-management-v45pu6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-product-lifecycle-y4dnkx
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -4036,6 +4201,50 @@ catalog:
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-product-line-profitability-tcteek
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-line-profitability-tcteek/services-service-product-line-profitability-tcteek.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-master-data-ys3mny
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-master-data-ys3mny/services-service-product-master-data-ys3mny.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-obsolescence-8fkmxv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-obsolescence-8fkmxv/services-service-product-obsolescence-8fkmxv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-positioning-and-messaging-y6rc6q
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-positioning-and-messaging-y6rc6q/services-service-product-positioning-and-messaging-y6rc6q.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-product-pricing-ruesce
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -4045,6 +4254,347 @@ catalog:
     state: candidate
     type: BusinessService
     version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-prototype-tracking-t7p4cq
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-prototype-tracking-t7p4cq/services-service-product-prototype-tracking-t7p4cq.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-rationalization-9875kz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-rationalization-9875kz/services-service-product-rationalization-9875kz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-requirements-management-fzndxs
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-requirements-management-fzndxs/services-service-product-requirements-management-fzndxs.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-retirement-and-migration-ryqwsz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-retirement-and-migration-ryqwsz/services-service-product-retirement-and-migration-ryqwsz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-review-moderation-4w87rq
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-review-moderation-4w87rq/services-service-product-review-moderation-4w87rq.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-test-and-validation-4uazv9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-test-and-validation-4uazv9/services-service-product-test-and-validation-4uazv9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-product-translation-and-localization-nkue9p
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/product-translation-and-localization-nkue9p/services-service-product-translation-and-localization-nkue9p.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-program-milestone-tracking-jra6ju
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/program-milestone-tracking-jra6ju/services-service-program-milestone-tracking-jra6ju.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-promotional-demand-uplift-kkqqc8
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/promotional-demand-uplift-kkqqc8/services-service-promotional-demand-uplift-kkqqc8.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-proof-of-delivery-th7e58
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/proof-of-delivery-th7e58/services-service-proof-of-delivery-th7e58.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-propensity-modeling-bypp5p
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/propensity-modeling-bypp5p/services-service-propensity-modeling-bypp5p.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-purchase-order-management-3dbaqa
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/purchase-order-management-3dbaqa/services-service-purchase-order-management-3dbaqa.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-purchase-price-variance-ya57rt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/purchase-price-variance-ya57rt/services-service-purchase-price-variance-ya57rt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-purchase-requisition-4cn9kc
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/purchase-requisition-4cn9kc/services-service-purchase-requisition-4cn9kc.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-quarterly-business-review-qymdyr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/quarterly-business-review-qymdyr/services-service-quarterly-business-review-qymdyr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-records-of-processing-maintenance-8acum8
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/records-of-processing-maintenance-8acum8/services-service-records-of-processing-maintenance-8acum8.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-recruitment-requisition-sxt88g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/recruitment-requisition-sxt88g/services-service-recruitment-requisition-sxt88g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-referral-marketing-psefze
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/referral-marketing-psefze/services-service-referral-marketing-psefze.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-refund-processing-5mgfg9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/refund-processing-5mgfg9/services-service-refund-processing-5mgfg9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-regulatory-change-tracking-fdjj9j
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/regulatory-change-tracking-fdjj9j/services-service-regulatory-change-tracking-fdjj9j.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-regulatory-examination-management-vavpcu
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/regulatory-examination-management-vavpcu/services-service-regulatory-examination-management-vavpcu.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-relocation-management-pmqjbv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/relocation-management-pmqjbv/services-service-relocation-management-pmqjbv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-remote-access-vpn-7c56q7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/remote-access-vpn-7c56q7/services-service-remote-access-vpn-7c56q7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-renewal-pipeline-kc53gx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/renewal-pipeline-kc53gx/services-service-renewal-pipeline-kc53gx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-replenishment-planning-6bfpur
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/replenishment-planning-6bfpur/services-service-replenishment-planning-6bfpur.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-request-fulfillment-p54vk7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/request-fulfillment-p54vk7/services-service-request-fulfillment-p54vk7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-retirement-plan-administration-nmk2pb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/retirement-plan-administration-nmk2pb/services-service-retirement-plan-administration-nmk2pb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-return-authorization-6vma6w
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/return-authorization-6vma6w/services-service-return-authorization-6vma6w.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-return-inspection-vmeywz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/return-inspection-vmeywz/services-service-return-inspection-vmeywz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-revenue-analytics-u87cfm
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/revenue-analytics-u87cfm/services-service-revenue-analytics-u87cfm.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-revenue-assurance-analytics-yvcewr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/revenue-assurance-analytics-yvcewr/services-service-revenue-assurance-analytics-yvcewr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
     id: services:service-talent-management-fprqec
@@ -5159,18 +5709,168 @@ catalog:
   - entity_id: services:service-preventive-maintenance-gqatyr
     files: []
     path: entities/v1-alpha/preventive-maintenance-gqatyr/research/
+  - entity_id: services:service-price-management-d2vtpr
+    files: []
+    path: entities/v1-alpha/price-management-d2vtpr/research/
+  - entity_id: services:service-price-quoting-g23fq8
+    files: []
+    path: entities/v1-alpha/price-quoting-g23fq8/research/
+  - entity_id: services:service-privacy-impact-assessment-95q6uz
+    files: []
+    path: entities/v1-alpha/privacy-impact-assessment-95q6uz/research/
+  - entity_id: services:service-privacy-notice-management-c8ecps
+    files: []
+    path: entities/v1-alpha/privacy-notice-management-c8ecps/research/
+  - entity_id: services:service-privileged-access-management-s94qmf
+    files: []
+    path: entities/v1-alpha/privileged-access-management-s94qmf/research/
+  - entity_id: services:service-problem-management-ertd4m
+    files: []
+    path: entities/v1-alpha/problem-management-ertd4m/research/
   - entity_id: services:service-procurement-6s5ttj
     files: []
     path: entities/v1-alpha/procurement-6s5ttj/research/
+  - entity_id: services:service-procurement-compliance-monitoring-9vtpvh
+    files: []
+    path: entities/v1-alpha/procurement-compliance-monitoring-9vtpvh/research/
+  - entity_id: services:service-product-attribute-governance-cs49j3
+    files: []
+    path: entities/v1-alpha/product-attribute-governance-cs49j3/research/
   - entity_id: services:service-product-catalog-7vytmc
     files: []
     path: entities/v1-alpha/product-catalog-7vytmc/research/
+  - entity_id: services:service-product-classification-and-taxonomy-dtvutg
+    files: []
+    path: entities/v1-alpha/product-classification-and-taxonomy-dtvutg/research/
+  - entity_id: services:service-product-compliance-and-certification-85wpz2
+    files: []
+    path: entities/v1-alpha/product-compliance-and-certification-85wpz2/research/
+  - entity_id: services:service-product-concept-management-vs69eh
+    files: []
+    path: entities/v1-alpha/product-concept-management-vs69eh/research/
+  - entity_id: services:service-product-configuration-ka6yka
+    files: []
+    path: entities/v1-alpha/product-configuration-ka6yka/research/
+  - entity_id: services:service-product-data-quality-5mj27f
+    files: []
+    path: entities/v1-alpha/product-data-quality-5mj27f/research/
+  - entity_id: services:service-product-documentation-publishing-aruj8g
+    files: []
+    path: entities/v1-alpha/product-documentation-publishing-aruj8g/research/
+  - entity_id: services:service-product-hierarchy-management-v45pu6
+    files: []
+    path: entities/v1-alpha/product-hierarchy-management-v45pu6/research/
   - entity_id: services:service-product-lifecycle-y4dnkx
     files: []
     path: entities/v1-alpha/product-lifecycle-y4dnkx/research/
+  - entity_id: services:service-product-line-profitability-tcteek
+    files: []
+    path: entities/v1-alpha/product-line-profitability-tcteek/research/
+  - entity_id: services:service-product-master-data-ys3mny
+    files: []
+    path: entities/v1-alpha/product-master-data-ys3mny/research/
+  - entity_id: services:service-product-obsolescence-8fkmxv
+    files: []
+    path: entities/v1-alpha/product-obsolescence-8fkmxv/research/
+  - entity_id: services:service-product-positioning-and-messaging-y6rc6q
+    files: []
+    path: entities/v1-alpha/product-positioning-and-messaging-y6rc6q/research/
   - entity_id: services:service-product-pricing-ruesce
     files: []
     path: entities/v1-alpha/product-pricing-ruesce/research/
+  - entity_id: services:service-product-prototype-tracking-t7p4cq
+    files: []
+    path: entities/v1-alpha/product-prototype-tracking-t7p4cq/research/
+  - entity_id: services:service-product-rationalization-9875kz
+    files: []
+    path: entities/v1-alpha/product-rationalization-9875kz/research/
+  - entity_id: services:service-product-requirements-management-fzndxs
+    files: []
+    path: entities/v1-alpha/product-requirements-management-fzndxs/research/
+  - entity_id: services:service-product-retirement-and-migration-ryqwsz
+    files: []
+    path: entities/v1-alpha/product-retirement-and-migration-ryqwsz/research/
+  - entity_id: services:service-product-review-moderation-4w87rq
+    files: []
+    path: entities/v1-alpha/product-review-moderation-4w87rq/research/
+  - entity_id: services:service-product-test-and-validation-4uazv9
+    files: []
+    path: entities/v1-alpha/product-test-and-validation-4uazv9/research/
+  - entity_id: services:service-product-translation-and-localization-nkue9p
+    files: []
+    path: entities/v1-alpha/product-translation-and-localization-nkue9p/research/
+  - entity_id: services:service-program-milestone-tracking-jra6ju
+    files: []
+    path: entities/v1-alpha/program-milestone-tracking-jra6ju/research/
+  - entity_id: services:service-promotional-demand-uplift-kkqqc8
+    files: []
+    path: entities/v1-alpha/promotional-demand-uplift-kkqqc8/research/
+  - entity_id: services:service-proof-of-delivery-th7e58
+    files: []
+    path: entities/v1-alpha/proof-of-delivery-th7e58/research/
+  - entity_id: services:service-propensity-modeling-bypp5p
+    files: []
+    path: entities/v1-alpha/propensity-modeling-bypp5p/research/
+  - entity_id: services:service-purchase-order-management-3dbaqa
+    files: []
+    path: entities/v1-alpha/purchase-order-management-3dbaqa/research/
+  - entity_id: services:service-purchase-price-variance-ya57rt
+    files: []
+    path: entities/v1-alpha/purchase-price-variance-ya57rt/research/
+  - entity_id: services:service-purchase-requisition-4cn9kc
+    files: []
+    path: entities/v1-alpha/purchase-requisition-4cn9kc/research/
+  - entity_id: services:service-quarterly-business-review-qymdyr
+    files: []
+    path: entities/v1-alpha/quarterly-business-review-qymdyr/research/
+  - entity_id: services:service-records-of-processing-maintenance-8acum8
+    files: []
+    path: entities/v1-alpha/records-of-processing-maintenance-8acum8/research/
+  - entity_id: services:service-recruitment-requisition-sxt88g
+    files: []
+    path: entities/v1-alpha/recruitment-requisition-sxt88g/research/
+  - entity_id: services:service-referral-marketing-psefze
+    files: []
+    path: entities/v1-alpha/referral-marketing-psefze/research/
+  - entity_id: services:service-refund-processing-5mgfg9
+    files: []
+    path: entities/v1-alpha/refund-processing-5mgfg9/research/
+  - entity_id: services:service-regulatory-change-tracking-fdjj9j
+    files: []
+    path: entities/v1-alpha/regulatory-change-tracking-fdjj9j/research/
+  - entity_id: services:service-regulatory-examination-management-vavpcu
+    files: []
+    path: entities/v1-alpha/regulatory-examination-management-vavpcu/research/
+  - entity_id: services:service-relocation-management-pmqjbv
+    files: []
+    path: entities/v1-alpha/relocation-management-pmqjbv/research/
+  - entity_id: services:service-remote-access-vpn-7c56q7
+    files: []
+    path: entities/v1-alpha/remote-access-vpn-7c56q7/research/
+  - entity_id: services:service-renewal-pipeline-kc53gx
+    files: []
+    path: entities/v1-alpha/renewal-pipeline-kc53gx/research/
+  - entity_id: services:service-replenishment-planning-6bfpur
+    files: []
+    path: entities/v1-alpha/replenishment-planning-6bfpur/research/
+  - entity_id: services:service-request-fulfillment-p54vk7
+    files: []
+    path: entities/v1-alpha/request-fulfillment-p54vk7/research/
+  - entity_id: services:service-retirement-plan-administration-nmk2pb
+    files: []
+    path: entities/v1-alpha/retirement-plan-administration-nmk2pb/research/
+  - entity_id: services:service-return-authorization-6vma6w
+    files: []
+    path: entities/v1-alpha/return-authorization-6vma6w/research/
+  - entity_id: services:service-return-inspection-vmeywz
+    files: []
+    path: entities/v1-alpha/return-inspection-vmeywz/research/
+  - entity_id: services:service-revenue-analytics-u87cfm
+    files: []
+    path: entities/v1-alpha/revenue-analytics-u87cfm/research/
+  - entity_id: services:service-revenue-assurance-analytics-yvcewr
+    files: []
+    path: entities/v1-alpha/revenue-assurance-analytics-yvcewr/research/
   - entity_id: services:service-talent-management-fprqec
     files: []
     path: entities/v1-alpha/talent-management-fprqec/research/

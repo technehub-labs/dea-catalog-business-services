@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Product Prototype Tracking Service
+slug: product-prototype-tracking
+abbreviation: PPT
+description: Tracks prototype and pilot builds from request through test consumption,
+  recording unit serials, build configurations, test assignments and disposition so
+  engineering samples stay accounted for.
+domain: Product & Offering Management
+subdomain: Product Development & Engineering
+capabilities:
+- capabilities:capability-product-development-q9nv34
+solution_components:
+- dea:component-plm-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- engineering
+- prototyping
+assigned_id: services:service-product-prototype-tracking-t7p4cq
+admitted: '2026-11-01'

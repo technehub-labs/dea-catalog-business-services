@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Product Obsolescence Service
+slug: product-obsolescence
+abbreviation: POB
+description: Screens component and SKU master data against supplier discontinuation
+  notices, flags affected products and BOMs, and proposes last-time-buy quantities
+  or replacement parts before stock-outs occur.
+domain: Product & Offering Management
+subdomain: Product Development & Engineering
+capabilities:
+- capabilities:capability-product-development-q9nv34
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-plm-suite
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- lifecycle
+- obsolescence
+assigned_id: services:service-product-obsolescence-8fkmxv
+admitted: '2026-11-01'

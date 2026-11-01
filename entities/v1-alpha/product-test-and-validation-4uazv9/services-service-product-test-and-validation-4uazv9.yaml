@@ -1,0 +1,25 @@
+id: services:service-product-test-and-validation-4uazv9
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Product Test and Validation Service
+abbreviation: PTV
+description: Schedules design verification and validation test runs, records results
+  against requirement targets, and flags failures with severity classifications that
+  gate progression to the next development stage.
+domain: Product & Offering Management
+subdomain: Product Development & Engineering
+capabilities:
+- capabilities:capability-product-development-q9nv34
+solution_components:
+- dea:component-plm-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- quality
+- testing

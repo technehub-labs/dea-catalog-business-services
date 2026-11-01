@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Replenishment Planning Service
+slug: replenishment-planning
+abbreviation: RPP
+description: Computes weekly replenishment quantities from forecast, stock-on-hand,
+  open orders and lead times for each location, and raises purchase or transfer suggestions
+  that planners approve or adjust.
+domain: Supply Chain & Logistics
+subdomain: Demand & Supply Planning
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-demand-planning-suite
+- dea:component-inventory-optimization-engine
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- planning
+- replenishment
+assigned_id: services:service-replenishment-planning-6bfpur
+admitted: '2026-11-01'

@@ -1,0 +1,29 @@
+id: services:service-privacy-notice-management-c8ecps
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Privacy Notice Management Service
+abbreviation: PNM
+description: Versions privacy notices by audience and jurisdiction, links each notice
+  to declared processing purposes and legal bases, and publishes approved changes
+  with effective dating across channels.
+domain: Legal & Privacy
+subdomain: Privacy Management
+capabilities:
+- capabilities:capability-privacy-and-consent-management-h3mw69
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-document-management-system
+- dea:component-consent-management-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- legal
+- privacy
+- notices

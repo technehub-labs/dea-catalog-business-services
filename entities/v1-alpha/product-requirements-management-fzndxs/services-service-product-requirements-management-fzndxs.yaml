@@ -1,0 +1,25 @@
+id: services:service-product-requirements-management-fzndxs
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Product Requirements Management Service
+abbreviation: PRM
+description: Structures market, regulatory and engineering requirements for each product,
+  version-controls changes, links requirements to design artifacts, and reports coverage
+  so engineering scope stays traceable to business intent.
+domain: Product & Offering Management
+subdomain: Product Development & Engineering
+capabilities:
+- capabilities:capability-product-development-q9nv34
+solution_components:
+- dea:component-plm-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- development
+- requirements

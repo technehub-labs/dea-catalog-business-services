@@ -1,0 +1,27 @@
+id: services:service-product-hierarchy-management-v45pu6
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Product Hierarchy Management Service
+abbreviation: PHM
+description: Defines and maintains the rollup structures — product family, line, category,
+  brand — used for planning and reporting, enforces single-parent consistency, and
+  synchronizes hierarchy versions with reporting systems.
+domain: Product & Offering Management
+subdomain: Offering & Portfolio Planning
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-product-information-management
+- dea:component-erp-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- hierarchy
+- reporting

@@ -1,0 +1,26 @@
+id: services:service-product-line-profitability-tcteek
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Product Line Profitability Service
+abbreviation: PLP
+description: Computes revenue, direct cost and contribution margin by product line
+  and SKU using actuals from the analytics warehouse, and highlights lines whose margin
+  drifts below plan thresholds.
+domain: Product & Offering Management
+subdomain: Offering & Portfolio Planning
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- finance
+- profitability

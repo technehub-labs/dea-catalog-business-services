@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Product Review Moderation Service
+slug: product-review-moderation
+abbreviation: PRM
+description: Screens submitted product reviews for policy violations and authenticity
+  signals, routes borderline submissions to human moderators, and publishes approved
+  content with ratings summaries to commerce pages.
+domain: Customer Experience
+subdomain: Feedback & Voice of Customer
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+- capabilities:capability-customer-management-f3n8wb
+solution_components:
+- dea:component-content-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- reviews
+- moderation
+assigned_id: services:service-product-review-moderation-4w87rq
+admitted: '2026-11-01'

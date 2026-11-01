@@ -1,0 +1,25 @@
+id: services:service-product-configuration-ka6yka
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Product Configuration Service
+abbreviation: PRC
+description: Guides compatible selection of products, options and bundles during quote
+  construction, validating configuration rules and flagging conflicts or unsupported
+  combinations before pricing and quotation handoff.
+domain: Sales & Revenue Operations
+subdomain: Quoting & Pricing
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+solution_components:
+- dea:component-cpq-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- sales
+- configuration
+- cpq

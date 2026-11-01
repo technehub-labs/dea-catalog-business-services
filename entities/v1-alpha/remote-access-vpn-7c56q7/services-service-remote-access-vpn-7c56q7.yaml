@@ -1,0 +1,27 @@
+id: services:service-remote-access-vpn-7c56q7
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Remote Access VPN Service
+abbreviation: RAV
+description: Provides encrypted remote access for staff and contractors, authenticating
+  users against workforce identity, enforcing device posture checks, and splitting
+  traffic so corporate resources stay reachable from any location.
+domain: IT Operations & Infrastructure
+subdomain: Network & Connectivity
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-vpn-gateway
+- dea:component-identity-provider
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- it
+- vpn
+- remote-work

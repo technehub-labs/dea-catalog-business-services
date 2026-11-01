@@ -1,0 +1,27 @@
+id: services:service-referral-marketing-psefze
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Referral Marketing Service
+abbreviation: RFM
+description: Runs customer referral programs with unique share links, reward eligibility
+  rules and abuse screening, reconciling issued rewards against confirmed converted
+  referrals each month before payout batching.
+domain: Marketing & Brand
+subdomain: Audience & Demand Generation
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-marketing-automation-platform
+- dea:component-loyalty-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- marketing
+- referrals
+- advocacy

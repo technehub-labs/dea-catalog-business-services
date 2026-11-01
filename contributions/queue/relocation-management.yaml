@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Relocation Management Service
+slug: relocation-management
+abbreviation: RLC
+description: Coordinates departmental moves and site relocations end to end, sequencing
+  packing, furniture, network and access changes against downtime windows, and tracking
+  costs, issues and post-move snags to closure.
+domain: Facilities & Asset Management
+subdomain: Workplace & Space
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-cafm-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- moves
+- relocation
+assigned_id: services:service-relocation-management-pmqjbv
+admitted: '2026-11-01'

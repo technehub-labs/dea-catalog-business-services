@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Program Milestone Tracking Service
+slug: program-milestone-tracking
+abbreviation: PMT
+description: Tracks milestone baselines, forecast dates, and completion evidence across
+  concurrent transformation programs, highlighting schedule variances, critical-path
+  slippage, and cross-program dependencies for weekly sponsor review boards.
+domain: Change & Transformation
+subdomain: Transformation Programs
+capabilities:
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-portfolio-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- change
+- milestones
+- programs
+- tracking
+assigned_id: services:service-program-milestone-tracking-jra6ju
+admitted: '2026-11-01'

@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Product Rationalization Service
+slug: product-rationalization
+abbreviation: PRZ
+description: Identifies duplicate, overlapping and chronically low-volume SKUs using
+  sales, margin and inventory evidence, and manages the resulting consolidation candidates
+  through analysis, stakeholder review and retirement decisions.
+domain: Product & Offering Management
+subdomain: Offering & Portfolio Planning
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- portfolio
+- rationalization
+assigned_id: services:service-product-rationalization-9875kz
+admitted: '2026-11-01'

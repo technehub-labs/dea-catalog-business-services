@@ -1,0 +1,25 @@
+id: services:service-promotional-demand-uplift-kkqqc8
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Promotional Demand Uplift Service
+abbreviation: PDU
+description: Adjusts baseline forecasts for announced promotions, estimating volume
+  uplift from historical promotion response and cannibalization effects, and restores
+  baseline forecasts automatically when promotion windows close.
+domain: Supply Chain & Logistics
+subdomain: Demand & Supply Planning
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-demand-planning-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- planning
+- promotions

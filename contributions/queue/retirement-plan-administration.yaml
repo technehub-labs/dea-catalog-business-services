@@ -1,0 +1,31 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Retirement Plan Administration Service
+slug: retirement-plan-administration
+abbreviation: RPA
+description: Administers pension and retirement-plan participation from enrollment
+  and contribution elections through vesting calculations, beneficiary records, and
+  statutory statements, reconciling contribution files with payroll deductions each
+  cycle.
+domain: Human Resources
+subdomain: Compensation & Benefits
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-benefits-administration-platform
+- dea:component-payroll-engine
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- pension
+- retirement
+- benefits
+assigned_id: services:service-retirement-plan-administration-nmk2pb
+admitted: '2026-11-01'
