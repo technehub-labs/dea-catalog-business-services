@@ -1,0 +1,24 @@
+id: services:service-asset-disposal-dfgkd7
+type: BusinessService
+version: 0.1.0
+name: Asset Disposal Service
+abbreviation: ADS
+description: Retires surplus or end-of-life assets through resale, donation or certified
+  destruction, wiping data-bearing devices to standards, capturing proceeds and certificates,
+  and closing register records with auditable trails.
+domain: Facilities & Asset Management
+subdomain: Asset Lifecycle
+capabilities:
+- capabilities:capability-asset-management-judtwr
+solution_components:
+- dea:component-eam-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- disposal
+- assets

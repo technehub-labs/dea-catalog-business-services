@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Business Impact Analysis Service
+slug: business-impact-analysis
+abbreviation: BIA
+description: Guides process owners through impact analysis of disrupted activities,
+  capturing financial, regulatory, and reputational loss curves over time, and deriving
+  recovery time and recovery point objectives per critical process.
+domain: Change & Transformation
+subdomain: Business Continuity
+capabilities:
+- capabilities:capability-continuity-management-v3rn6u
+solution_components:
+- dea:component-continuity-planning-toolkit
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- continuity
+- bia
+- resilience
+assigned_id: services:service-business-impact-analysis-fb5hzh
+admitted: '2026-11-01'

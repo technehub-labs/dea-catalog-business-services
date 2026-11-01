@@ -1,0 +1,28 @@
+id: services:service-annual-operating-plan-8qf8yd
+type: BusinessService
+version: 0.1.0
+name: Annual Operating Plan Service
+abbreviation: AOP
+description: Coordinates the annual operating plan across functions - targets, budgets,
+  headcount, and key initiatives - running the planning calendar, consolidating submissions,
+  and reconciling the plan with the long-range trajectory.
+domain: Enterprise Strategy & Performance
+subdomain: Strategic Planning
+capabilities:
+- capabilities:capability-strategic-planning-k3rz7a
+- capabilities:capability-portfolio-and-investment-management-m4kw72
+solution_components:
+- dea:component-strategy-management-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- strategy
+- aop
+- planning
+- budget

@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Big Data Processing Service
+slug: big-data-processing
+abbreviation: BDP
+description: Runs distributed processing clusters that transform petabyte-scale datasets
+  for engineering teams, autoscaling workers per job, enforcing queue fairness, and
+  emitting cost and runtime telemetry back to requesting tenants.
+domain: Data & Analytics
+subdomain: Data Platform Engineering
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-distributed-processing
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- spark
+- processing
+assigned_id: services:service-big-data-processing-8434e6
+admitted: '2026-11-01'

@@ -1,0 +1,28 @@
+id: services:service-career-development-aw8s88
+type: BusinessService
+version: 0.1.0
+name: Career Development Service
+abbreviation: CDP
+description: Builds employee development plans from competency gaps and career aspirations,
+  recommends internal mobility, projects, and learning interventions, and tracks plan
+  progress through scheduled manager check-ins.
+domain: Human Resources
+subdomain: Learning & Development
+capabilities:
+- capabilities:capability-learning-and-development-b8qw5n
+- capabilities:capability-talent-management-v2qw9c
+solution_components:
+- dea:component-lms-platform
+- dea:component-talent-marketplace
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- careers
+- development-plans
+- mobility

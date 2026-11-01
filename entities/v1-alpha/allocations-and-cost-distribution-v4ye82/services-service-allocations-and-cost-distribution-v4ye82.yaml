@@ -1,0 +1,26 @@
+id: services:service-allocations-and-cost-distribution-v4ye82
+type: BusinessService
+version: 0.1.0
+name: Allocations and Cost Distribution Service
+abbreviation: ACD
+description: Distributes overhead, shared service, and IT costs to consuming departments
+  using driver-based allocation rules, executes runs per period, and books resulting
+  postings to the ledger.
+domain: Finance & Accounting
+subdomain: General Ledger & Close
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-erp-core
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- cost-allocation
+- general-ledger

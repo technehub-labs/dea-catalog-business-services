@@ -1,0 +1,25 @@
+id: services:service-benefits-enrollment-sp2qsb
+type: BusinessService
+version: 0.1.0
+name: Benefits Enrollment Service
+abbreviation: BEN
+description: Manages annual open enrollment and qualifying life-event changes across
+  health, insurance, and voluntary benefit plans, validates dependent eligibility,
+  and transmits confirmed elections to carriers and payroll deductions.
+domain: Human Resources
+subdomain: Compensation & Benefits
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-benefits-administration-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- benefits
+- enrollment

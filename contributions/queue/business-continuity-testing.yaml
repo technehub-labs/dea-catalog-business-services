@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Business Continuity Testing Service
+slug: business-continuity-testing
+abbreviation: BCT
+description: Plans and runs annual continuity exercises for critical business processes,
+  coordinating scenario walkthroughs and technical failovers, recording observed recovery
+  times, and tracking corrective actions to closure.
+domain: IT Operations & Infrastructure
+subdomain: Backup & Resilience
+capabilities:
+- capabilities:capability-continuity-management-v3rn6u
+solution_components:
+- dea:component-itsm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- continuity
+- testing
+assigned_id: services:service-business-continuity-testing-3u6nf3
+admitted: '2026-11-01'

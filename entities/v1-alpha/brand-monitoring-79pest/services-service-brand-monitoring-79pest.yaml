@@ -1,0 +1,26 @@
+id: services:service-brand-monitoring-79pest
+type: BusinessService
+version: 0.1.0
+name: Brand Monitoring Service
+abbreviation: BMO
+description: Scans social platforms, review sites and news sources for brand mentions
+  and sentiment, alerting communications teams to volume spikes, crises and viral
+  threads for response.
+domain: Marketing & Brand
+subdomain: Brand & Creative
+capabilities:
+- capabilities:capability-marketing-xmc539
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-brand-monitoring-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- brand
+- social-listening

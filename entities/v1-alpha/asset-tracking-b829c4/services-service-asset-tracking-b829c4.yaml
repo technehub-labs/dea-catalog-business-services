@@ -1,0 +1,24 @@
+id: services:service-asset-tracking-b829c4
+type: BusinessService
+version: 0.1.0
+name: Asset Tracking Service
+abbreviation: ATR
+description: Tags movable equipment with barcode and RFID labels, logging custody
+  transfers and location scans, and running periodic stocktakes that locate missing
+  items and correct register inaccuracies.
+domain: Facilities & Asset Management
+subdomain: Asset Lifecycle
+capabilities:
+- capabilities:capability-asset-management-judtwr
+solution_components:
+- dea:component-asset-tagging-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- tracking
+- rfid

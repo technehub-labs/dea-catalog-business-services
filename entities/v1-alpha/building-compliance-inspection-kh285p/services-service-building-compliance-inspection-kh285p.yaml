@@ -1,0 +1,25 @@
+id: services:service-building-compliance-inspection-kh285p
+type: BusinessService
+version: 0.1.0
+name: Building Compliance Inspection Service
+abbreviation: BCI
+description: Runs statutory inspection rounds for electrical, lift, water hygiene
+  and fire assets, capturing evidence on mobile checklists, raising remedial work
+  orders, and producing the compliance certificates auditors request.
+domain: Facilities & Asset Management
+subdomain: Field & Maintenance
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-inspection-mobile-app
+- dea:component-cafm-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- compliance
+- inspection

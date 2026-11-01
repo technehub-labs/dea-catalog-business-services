@@ -1,0 +1,25 @@
+id: services:service-building-access-control-88gdpz
+type: BusinessService
+version: 0.1.0
+name: Building Access Control Service
+abbreviation: BAC
+description: Operates badge readers, door controllers and visitor registration across
+  every site, provisioning access profiles from role assignments, reviewing standing
+  permissions quarterly, and retaining audit trails of entries.
+domain: Facilities & Asset Management
+subdomain: Physical Infrastructure
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-access-badge-system
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- facilities
+- physical-security
+- access

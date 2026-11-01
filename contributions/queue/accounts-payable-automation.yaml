@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Accounts Payable Automation Service
+slug: accounts-payable-automation
+abbreviation: APA
+description: Matches supplier invoices to purchase orders and goods receipts, routes
+  exceptions to approvers, and posts cleared items to the ledger for scheduled payment
+  runs and audit trails.
+domain: Finance & Accounting
+subdomain: Payables & Receivables
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-erp-core
+- dea:component-document-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- payables
+- invoice-processing
+assigned_id: services:service-accounts-payable-automation-m398gg
+admitted: '2026-11-01'

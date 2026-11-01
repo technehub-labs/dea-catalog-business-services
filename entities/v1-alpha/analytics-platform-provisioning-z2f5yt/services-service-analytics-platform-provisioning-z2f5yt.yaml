@@ -1,0 +1,25 @@
+id: services:service-analytics-platform-provisioning-z2f5yt
+type: BusinessService
+version: 0.1.0
+name: Analytics Platform Provisioning Service
+abbreviation: APP
+description: Stands up project sandboxes, query engines and notebooks for analytics
+  teams from pre-approved blueprints, applying cost guards, access boundaries and
+  expiry dates to every environment it creates.
+domain: Data & Analytics
+subdomain: Data Platform Engineering
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-cloud-management-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- provisioning
+- sandbox

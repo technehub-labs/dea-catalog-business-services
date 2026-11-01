@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Application Packaging Service
+slug: application-packaging
+abbreviation: APG
+description: Repackages vendor installers into standardized, silently deployed application
+  packages with dependency and compatibility testing, publishing them to the software
+  catalogue for self-service and automated endpoint installation.
+domain: IT Operations & Infrastructure
+subdomain: Endpoint & Workplace
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-software-repository
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- packaging
+- deployment
+assigned_id: services:service-application-packaging-dzuz7k
+admitted: '2026-11-01'

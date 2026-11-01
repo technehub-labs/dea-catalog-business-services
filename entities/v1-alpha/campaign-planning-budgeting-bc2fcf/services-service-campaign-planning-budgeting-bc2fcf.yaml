@@ -1,0 +1,25 @@
+id: services:service-campaign-planning-budgeting-bc2fcf
+type: BusinessService
+version: 0.1.0
+name: Campaign Planning & Budgeting Service
+abbreviation: CPB
+description: Builds annual and quarterly campaign plans, allocating budgets by channel
+  and market, tracking committed versus actual spend and flagging overruns for marketing
+  finance review each month.
+domain: Marketing & Brand
+subdomain: Campaign Management & Operations
+capabilities:
+- capabilities:capability-marketing-xmc539
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- planning
+- budgeting

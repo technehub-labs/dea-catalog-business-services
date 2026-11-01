@@ -1,0 +1,25 @@
+id: services:service-business-process-mapping-r5jkrb
+type: BusinessService
+version: 0.1.0
+name: Business Process Mapping Service
+abbreviation: BPM
+description: Documents as-is and to-be business processes at agreed levels using a
+  standard notation, mining event logs where systems permit, and storing versioned
+  process hierarchies linked to roles, systems, and controls.
+domain: Change & Transformation
+subdomain: Process & Organization
+capabilities:
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-process-mining-suite
+- dea:component-bpm-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- change
+- process-mapping
+- process-mining

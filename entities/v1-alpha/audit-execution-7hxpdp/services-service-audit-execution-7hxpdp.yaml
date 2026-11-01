@@ -1,0 +1,25 @@
+id: services:service-audit-execution-7hxpdp
+type: BusinessService
+version: 0.1.0
+name: Audit Execution Service
+abbreviation: AEX
+description: Manages audit fieldwork from engagement kickoff through workpaper review,
+  records observations with criteria and root cause, and validates draft findings
+  with process owners before reporting.
+domain: Risk & Compliance
+subdomain: Internal Controls & Audit
+capabilities:
+- capabilities:capability-audit-and-assurance-management-n7qv25
+solution_components:
+- dea:component-audit-management-system
+- dea:component-document-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- audit
+- fieldwork
