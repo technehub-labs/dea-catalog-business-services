@@ -1,0 +1,25 @@
+id: services:service-cross-docking-vy59bn
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Cross-Docking Service
+abbreviation: XDK
+description: Identifies inbound units already committed to outbound demand, routes
+  them from receiving door to staging without putaway, and flags unallocated receipts
+  that must fall back to storage.
+domain: Supply Chain & Logistics
+subdomain: Warehouse & Inventory Operations
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-warehouse-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- warehousing
+- distribution

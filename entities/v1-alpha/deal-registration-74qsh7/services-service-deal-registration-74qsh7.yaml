@@ -1,0 +1,25 @@
+id: services:service-deal-registration-74qsh7
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Deal Registration Service
+abbreviation: DER
+description: Captures partner-registered opportunities, validates them against pipeline
+  ownership and program rules, and grants approved partners time-boxed price protection
+  and lead ownership for the registered deal.
+domain: Partner & Channel Management
+subdomain: Channel Operations
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-prm-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- partner-channel
+- deals
+- registration

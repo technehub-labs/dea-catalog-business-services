@@ -1,0 +1,27 @@
+id: services:service-customer-onboarding-6rxs8d
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Customer Onboarding Service
+abbreviation: COB
+description: Provisions new customer accounts after eligibility and know-your-customer
+  checks, seeding profiles with verified attributes and triggering welcome journeys,
+  entitlement grants and first-use provisioning tasks, plus customer communications.
+domain: Customer Experience
+subdomain: Customer Identity & Profile
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+solution_components:
+- dea:component-crm-platform
+- dea:component-notification-hub
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- onboarding
+- provisioning

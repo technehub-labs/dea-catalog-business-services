@@ -1,0 +1,27 @@
+id: services:service-corporate-card-program-reconciliation-wqp4h6
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Corporate Card Program Reconciliation Service
+abbreviation: CPR
+description: Loads corporate card statements, matches transactions to submitted expense
+  reports and merchant records, and isolates unassigned charges for cardholder follow-up
+  before the monthly ledger close.
+domain: Finance & Accounting
+subdomain: Tax, Expense & Fixed Assets
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-payment-gateway
+- dea:component-erp-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- expense
+- reconciliation

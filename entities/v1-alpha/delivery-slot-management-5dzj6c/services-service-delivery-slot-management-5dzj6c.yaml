@@ -1,0 +1,25 @@
+id: services:service-delivery-slot-management-5dzj6c
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Delivery Slot Management Service
+abbreviation: DSM
+description: Books delivery and pickup appointments against dock or site capacity
+  windows, confirms slots with counterparties, and reoptimizes schedules when vehicles
+  run late or capacity changes.
+domain: Supply Chain & Logistics
+subdomain: Transportation & Distribution
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-transport-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- transportation
+- scheduling

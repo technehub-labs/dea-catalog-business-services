@@ -1,0 +1,26 @@
+id: services:service-contract-obligation-tracking-67w5t9
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Contract Obligation Tracking Service
+abbreviation: COT
+description: Extracts contractual obligations, milestones, and termination rights
+  into a structured register, schedules owner reminders ahead of deadlines, and escalates
+  missed commitments with financial exposure context.
+domain: Legal & Privacy
+subdomain: Legal Operations
+capabilities:
+- capabilities:capability-legal-matter-management-zzbd2u
+solution_components:
+- dea:component-clm-platform
+- dea:component-case-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- legal
+- obligations
+- contracts

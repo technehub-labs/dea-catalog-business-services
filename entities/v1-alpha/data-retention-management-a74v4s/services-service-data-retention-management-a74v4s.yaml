@@ -1,0 +1,26 @@
+id: services:service-data-retention-management-a74v4s
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Data Retention Management Service
+abbreviation: DRM
+description: Applies retention schedules to records and datasets across repositories,
+  executing automated disposal when legal and business holds expire, and evidencing
+  defensible deletion decisions to auditors and regulators.
+domain: Data & Analytics
+subdomain: Data Governance & Quality
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-records-management
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- retention
+- disposal

@@ -1,0 +1,26 @@
+id: services:service-creative-production-tracking-5h3ama
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Creative Production Tracking Service
+abbreviation: CPT
+description: Tracks creative requests from brief through concept, review and delivery,
+  managing studio workload, version approvals, asset handoffs and production deadlines
+  across internal and agency teams.
+domain: Marketing & Brand
+subdomain: Brand & Creative
+capabilities:
+- capabilities:capability-marketing-xmc539
+- capabilities:capability-idea-management-86dckf
+solution_components:
+- dea:component-digital-asset-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- creative
+- production

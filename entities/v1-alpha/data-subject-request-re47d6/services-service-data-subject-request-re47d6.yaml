@@ -1,0 +1,29 @@
+id: services:service-data-subject-request-re47d6
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Data Subject Request Service
+abbreviation: DSR
+description: Handles access, rectification, erasure and portability requests by verifying
+  requester identity, orchestrating discovery across systems, assembling response
+  packages and logging statutory deadlines and outcomes, with regulator-ready evidence.
+domain: Customer Experience
+subdomain: Consent & Privacy
+capabilities:
+- capabilities:capability-privacy-and-consent-management-h3mw69
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-consent-management-platform
+- dea:component-crm-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- customer-experience
+- privacy
+- dsr

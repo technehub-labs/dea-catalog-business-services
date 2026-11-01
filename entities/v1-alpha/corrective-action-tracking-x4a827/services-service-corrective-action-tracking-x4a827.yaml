@@ -1,0 +1,26 @@
+id: services:service-corrective-action-tracking-x4a827
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Corrective Action Tracking Service
+abbreviation: CAX
+description: Records underperformance actions agreed in reviews and audits with owner,
+  deadline, and expected effect, tracks execution status, and verifies at closure
+  whether the corrective action moved the measured result.
+domain: Enterprise Strategy & Performance
+subdomain: Performance Management
+capabilities:
+- capabilities:capability-enterprise-performance-management-5fxren
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-governance-risk-compliance-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- corrective-action
+- tracking

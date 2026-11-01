@@ -1,0 +1,28 @@
+id: services:service-customer-feedback-collection-nxyc8d
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Customer Feedback Collection Service
+abbreviation: CFC
+description: Collects structured customer feedback through post-interaction micro-surveys,
+  in-app prompts and SMS questionnaires, storing responses with context metadata for
+  analysis, alerting and follow-up, plus derived sentiment scores.
+domain: Customer Experience
+subdomain: Feedback & Voice of Customer
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+- capabilities:capability-customer-management-f3n8wb
+solution_components:
+- dea:component-survey-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- feedback
+- survey

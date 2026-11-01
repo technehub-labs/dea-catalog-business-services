@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Deductions and Disputes Management Service
+slug: deductions-and-disputes-management
+abbreviation: DDM
+description: Logs short-pay deductions and invoice disputes, classifies root causes
+  such as pricing or shortage claims, and routes evidence to accountable teams until
+  recovery or write-off.
+domain: Finance & Accounting
+subdomain: Payables & Receivables
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-case-management-system
+- dea:component-erp-core
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- finance
+- receivables
+- disputes
+assigned_id: services:service-deductions-and-disputes-management-2p5v72
+admitted: '2026-11-01'

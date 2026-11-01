@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Data Subject Request Orchestration Service
+slug: data-subject-request-orchestration
+abbreviation: DSO
+description: Receives access, deletion, and portability requests from web forms and
+  privacy inboxes, verifies identity, orchestrates search and redaction across systems,
+  and delivers responses within statutory deadlines.
+domain: Legal & Privacy
+subdomain: Privacy Management
+capabilities:
+- capabilities:capability-privacy-and-consent-management-h3mw69
+solution_components:
+- dea:component-dsr-orchestration-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Restricted
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- legal
+- privacy
+- dsar
+assigned_id: services:service-data-subject-request-orchestration-j3azys
+admitted: '2026-11-01'

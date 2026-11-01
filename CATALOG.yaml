@@ -1,9 +1,9 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 118
+    candidates: 168
     canonical: 0
-    entities: 118
+    entities: 168
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -1121,6 +1121,204 @@ catalog:
     version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-contract-lifecycle-management-979yxb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/contract-lifecycle-management-979yxb/services-service-contract-lifecycle-management-979yxb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-contract-obligation-tracking-67w5t9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/contract-obligation-tracking-67w5t9/services-service-contract-obligation-tracking-67w5t9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-contract-repository-492y3f
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/contract-repository-492y3f/services-service-contract-repository-492y3f.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-controls-testing-and-certification-fmj83h
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/controls-testing-and-certification-fmj83h/services-service-controls-testing-and-certification-fmj83h.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-core-network-transport-pchsu5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/core-network-transport-pchsu5/services-service-core-network-transport-pchsu5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-corporate-announcement-t9nzmu
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/corporate-announcement-t9nzmu/services-service-corporate-announcement-t9nzmu.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-corporate-card-program-reconciliation-wqp4h6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/corporate-card-program-reconciliation-wqp4h6/services-service-corporate-card-program-reconciliation-wqp4h6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-corporate-entity-management-xukrnu
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/corporate-entity-management-xukrnu/services-service-corporate-entity-management-xukrnu.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-corporate-strategy-definition-3ppk3f
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/corporate-strategy-definition-3ppk3f/services-service-corporate-strategy-definition-3ppk3f.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-corporate-tax-provision-hchhdb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/corporate-tax-provision-hchhdb/services-service-corporate-tax-provision-hchhdb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-corrective-action-tracking-x4a827
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/corrective-action-tracking-x4a827/services-service-corrective-action-tracking-x4a827.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-corrective-maintenance-dsppjg
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/corrective-maintenance-dsppjg/services-service-corrective-maintenance-dsppjg.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-course-enrollment-he4ry4
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/course-enrollment-he4ry4/services-service-course-enrollment-he4ry4.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-creative-production-tracking-5h3ama
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/creative-production-tracking-5h3ama/services-service-creative-production-tracking-5h3ama.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-credit-memo-and-adjustment-g8bs53
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/credit-memo-and-adjustment-g8bs53/services-service-credit-memo-and-adjustment-g8bs53.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-crisis-communication-ygwaw3
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/crisis-communication-ygwaw3/services-service-crisis-communication-ygwaw3.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-crisis-response-coordination-aq9thb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/crisis-response-coordination-aq9thb/services-service-crisis-response-coordination-aq9thb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-cross-docking-vy59bn
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/cross-docking-vy59bn/services-service-cross-docking-vy59bn.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-customer-360-ut9yeu
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -1130,6 +1328,61 @@ catalog:
     state: candidate
     type: BusinessService
     version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-customer-contract-management-xeycd5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-contract-management-xeycd5/services-service-customer-contract-management-xeycd5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-customer-credit-rating-pmkep9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-credit-rating-pmkep9/services-service-customer-credit-rating-pmkep9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-customer-data-unification-2b9ysm
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-data-unification-2b9ysm/services-service-customer-data-unification-2b9ysm.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-customer-feedback-collection-nxyc8d
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-feedback-collection-nxyc8d/services-service-customer-feedback-collection-nxyc8d.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-customer-health-scoring-3sc59x
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-health-scoring-3sc59x/services-service-customer-health-scoring-3sc59x.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
     id: services:service-customer-identity-9vrnkq
@@ -1143,6 +1396,17 @@ catalog:
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-customer-journey-orchestration-scmpbd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-journey-orchestration-scmpbd/services-service-customer-journey-orchestration-scmpbd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-customer-notification-4m3jsv
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -1152,6 +1416,292 @@ catalog:
     state: candidate
     type: BusinessService
     version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-customer-onboarding-6rxs8d
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-onboarding-6rxs8d/services-service-customer-onboarding-6rxs8d.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-customer-profile-management-pp4cf8
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-profile-management-pp4cf8/services-service-customer-profile-management-pp4cf8.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-customer-retention-hc87wq
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-retention-hc87wq/services-service-customer-retention-hc87wq.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-customer-segmentation-td5ghq
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-segmentation-td5ghq/services-service-customer-segmentation-td5ghq.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-customer-win-back-2ghvw9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/customer-win-back-2ghvw9/services-service-customer-win-back-2ghvw9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-cyber-threat-hunting-77hhuj
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/cyber-threat-hunting-77hhuj/services-service-cyber-threat-hunting-77hhuj.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-cycle-counting-aqqruy
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/cycle-counting-aqqruy/services-service-cycle-counting-aqqruy.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-archival-tsyvvn
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-archival-tsyvvn/services-service-data-archival-tsyvvn.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-catalog-zmcuc5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-catalog-zmcuc5/services-service-data-catalog-zmcuc5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-lake-storage-bjv5sq
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-lake-storage-bjv5sq/services-service-data-lake-storage-bjv5sq.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-lineage-dvcr4c
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-lineage-dvcr4c/services-service-data-lineage-dvcr4c.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-pipeline-monitoring-ekwg86
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-pipeline-monitoring-ekwg86/services-service-data-pipeline-monitoring-ekwg86.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-privacy-management-ww9da4
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-privacy-management-ww9da4/services-service-data-privacy-management-ww9da4.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-quality-fh93wt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-quality-fh93wt/services-service-data-quality-fh93wt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-replication-v7g25w
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-replication-v7g25w/services-service-data-replication-v7g25w.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-retention-management-a74v4s
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-retention-management-a74v4s/services-service-data-retention-management-a74v4s.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-retention-schedule-azhjey
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-retention-schedule-azhjey/services-service-data-retention-schedule-azhjey.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-subject-request-orchestration-j3azys
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-subject-request-orchestration-j3azys/services-service-data-subject-request-orchestration-j3azys.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-data-subject-request-re47d6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/data-subject-request-re47d6/services-service-data-subject-request-re47d6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-deal-desk-e7a362
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/deal-desk-e7a362/services-service-deal-desk-e7a362.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-deal-registration-74qsh7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/deal-registration-74qsh7/services-service-deal-registration-74qsh7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-debt-and-investment-portfolio-rw9pct
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/debt-and-investment-portfolio-rw9pct/services-service-debt-and-investment-portfolio-rw9pct.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-deductions-and-disputes-management-2p5v72
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/deductions-and-disputes-management-2p5v72/services-service-deductions-and-disputes-management-2p5v72.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-deferred-revenue-accounting-wjkyup
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/deferred-revenue-accounting-wjkyup/services-service-deferred-revenue-accounting-wjkyup.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-delivery-slot-management-5dzj6c
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/delivery-slot-management-5dzj6c/services-service-delivery-slot-management-5dzj6c.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-demand-forecasting-x8c95n
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/demand-forecasting-x8c95n/services-service-demand-forecasting-x8c95n.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
     id: services:service-finance-accounting-qmxysp
@@ -1623,15 +2173,165 @@ catalog:
   - entity_id: services:service-contract-generation-cx59jp
     files: []
     path: entities/v1-alpha/contract-generation-cx59jp/research/
+  - entity_id: services:service-contract-lifecycle-management-979yxb
+    files: []
+    path: entities/v1-alpha/contract-lifecycle-management-979yxb/research/
+  - entity_id: services:service-contract-obligation-tracking-67w5t9
+    files: []
+    path: entities/v1-alpha/contract-obligation-tracking-67w5t9/research/
+  - entity_id: services:service-contract-repository-492y3f
+    files: []
+    path: entities/v1-alpha/contract-repository-492y3f/research/
+  - entity_id: services:service-controls-testing-and-certification-fmj83h
+    files: []
+    path: entities/v1-alpha/controls-testing-and-certification-fmj83h/research/
+  - entity_id: services:service-core-network-transport-pchsu5
+    files: []
+    path: entities/v1-alpha/core-network-transport-pchsu5/research/
+  - entity_id: services:service-corporate-announcement-t9nzmu
+    files: []
+    path: entities/v1-alpha/corporate-announcement-t9nzmu/research/
+  - entity_id: services:service-corporate-card-program-reconciliation-wqp4h6
+    files: []
+    path: entities/v1-alpha/corporate-card-program-reconciliation-wqp4h6/research/
+  - entity_id: services:service-corporate-entity-management-xukrnu
+    files: []
+    path: entities/v1-alpha/corporate-entity-management-xukrnu/research/
+  - entity_id: services:service-corporate-strategy-definition-3ppk3f
+    files: []
+    path: entities/v1-alpha/corporate-strategy-definition-3ppk3f/research/
+  - entity_id: services:service-corporate-tax-provision-hchhdb
+    files: []
+    path: entities/v1-alpha/corporate-tax-provision-hchhdb/research/
+  - entity_id: services:service-corrective-action-tracking-x4a827
+    files: []
+    path: entities/v1-alpha/corrective-action-tracking-x4a827/research/
+  - entity_id: services:service-corrective-maintenance-dsppjg
+    files: []
+    path: entities/v1-alpha/corrective-maintenance-dsppjg/research/
+  - entity_id: services:service-course-enrollment-he4ry4
+    files: []
+    path: entities/v1-alpha/course-enrollment-he4ry4/research/
+  - entity_id: services:service-creative-production-tracking-5h3ama
+    files: []
+    path: entities/v1-alpha/creative-production-tracking-5h3ama/research/
+  - entity_id: services:service-credit-memo-and-adjustment-g8bs53
+    files: []
+    path: entities/v1-alpha/credit-memo-and-adjustment-g8bs53/research/
+  - entity_id: services:service-crisis-communication-ygwaw3
+    files: []
+    path: entities/v1-alpha/crisis-communication-ygwaw3/research/
+  - entity_id: services:service-crisis-response-coordination-aq9thb
+    files: []
+    path: entities/v1-alpha/crisis-response-coordination-aq9thb/research/
+  - entity_id: services:service-cross-docking-vy59bn
+    files: []
+    path: entities/v1-alpha/cross-docking-vy59bn/research/
   - entity_id: services:service-customer-360-ut9yeu
     files: []
     path: entities/v1-alpha/customer-360-ut9yeu/research/
+  - entity_id: services:service-customer-contract-management-xeycd5
+    files: []
+    path: entities/v1-alpha/customer-contract-management-xeycd5/research/
+  - entity_id: services:service-customer-credit-rating-pmkep9
+    files: []
+    path: entities/v1-alpha/customer-credit-rating-pmkep9/research/
+  - entity_id: services:service-customer-data-unification-2b9ysm
+    files: []
+    path: entities/v1-alpha/customer-data-unification-2b9ysm/research/
+  - entity_id: services:service-customer-feedback-collection-nxyc8d
+    files: []
+    path: entities/v1-alpha/customer-feedback-collection-nxyc8d/research/
+  - entity_id: services:service-customer-health-scoring-3sc59x
+    files: []
+    path: entities/v1-alpha/customer-health-scoring-3sc59x/research/
   - entity_id: services:service-customer-identity-9vrnkq
     files: []
     path: entities/v1-alpha/customer-identity-9vrnkq/research/
+  - entity_id: services:service-customer-journey-orchestration-scmpbd
+    files: []
+    path: entities/v1-alpha/customer-journey-orchestration-scmpbd/research/
   - entity_id: services:service-customer-notification-4m3jsv
     files: []
     path: entities/v1-alpha/customer-notification-4m3jsv/research/
+  - entity_id: services:service-customer-onboarding-6rxs8d
+    files: []
+    path: entities/v1-alpha/customer-onboarding-6rxs8d/research/
+  - entity_id: services:service-customer-profile-management-pp4cf8
+    files: []
+    path: entities/v1-alpha/customer-profile-management-pp4cf8/research/
+  - entity_id: services:service-customer-retention-hc87wq
+    files: []
+    path: entities/v1-alpha/customer-retention-hc87wq/research/
+  - entity_id: services:service-customer-segmentation-td5ghq
+    files: []
+    path: entities/v1-alpha/customer-segmentation-td5ghq/research/
+  - entity_id: services:service-customer-win-back-2ghvw9
+    files: []
+    path: entities/v1-alpha/customer-win-back-2ghvw9/research/
+  - entity_id: services:service-cyber-threat-hunting-77hhuj
+    files: []
+    path: entities/v1-alpha/cyber-threat-hunting-77hhuj/research/
+  - entity_id: services:service-cycle-counting-aqqruy
+    files: []
+    path: entities/v1-alpha/cycle-counting-aqqruy/research/
+  - entity_id: services:service-data-archival-tsyvvn
+    files: []
+    path: entities/v1-alpha/data-archival-tsyvvn/research/
+  - entity_id: services:service-data-catalog-zmcuc5
+    files: []
+    path: entities/v1-alpha/data-catalog-zmcuc5/research/
+  - entity_id: services:service-data-lake-storage-bjv5sq
+    files: []
+    path: entities/v1-alpha/data-lake-storage-bjv5sq/research/
+  - entity_id: services:service-data-lineage-dvcr4c
+    files: []
+    path: entities/v1-alpha/data-lineage-dvcr4c/research/
+  - entity_id: services:service-data-pipeline-monitoring-ekwg86
+    files: []
+    path: entities/v1-alpha/data-pipeline-monitoring-ekwg86/research/
+  - entity_id: services:service-data-privacy-management-ww9da4
+    files: []
+    path: entities/v1-alpha/data-privacy-management-ww9da4/research/
+  - entity_id: services:service-data-quality-fh93wt
+    files: []
+    path: entities/v1-alpha/data-quality-fh93wt/research/
+  - entity_id: services:service-data-replication-v7g25w
+    files: []
+    path: entities/v1-alpha/data-replication-v7g25w/research/
+  - entity_id: services:service-data-retention-management-a74v4s
+    files: []
+    path: entities/v1-alpha/data-retention-management-a74v4s/research/
+  - entity_id: services:service-data-retention-schedule-azhjey
+    files: []
+    path: entities/v1-alpha/data-retention-schedule-azhjey/research/
+  - entity_id: services:service-data-subject-request-orchestration-j3azys
+    files: []
+    path: entities/v1-alpha/data-subject-request-orchestration-j3azys/research/
+  - entity_id: services:service-data-subject-request-re47d6
+    files: []
+    path: entities/v1-alpha/data-subject-request-re47d6/research/
+  - entity_id: services:service-deal-desk-e7a362
+    files: []
+    path: entities/v1-alpha/deal-desk-e7a362/research/
+  - entity_id: services:service-deal-registration-74qsh7
+    files: []
+    path: entities/v1-alpha/deal-registration-74qsh7/research/
+  - entity_id: services:service-debt-and-investment-portfolio-rw9pct
+    files: []
+    path: entities/v1-alpha/debt-and-investment-portfolio-rw9pct/research/
+  - entity_id: services:service-deductions-and-disputes-management-2p5v72
+    files: []
+    path: entities/v1-alpha/deductions-and-disputes-management-2p5v72/research/
+  - entity_id: services:service-deferred-revenue-accounting-wjkyup
+    files: []
+    path: entities/v1-alpha/deferred-revenue-accounting-wjkyup/research/
+  - entity_id: services:service-delivery-slot-management-5dzj6c
+    files: []
+    path: entities/v1-alpha/delivery-slot-management-5dzj6c/research/
+  - entity_id: services:service-demand-forecasting-x8c95n
+    files: []
+    path: entities/v1-alpha/demand-forecasting-x8c95n/research/
   - entity_id: services:service-finance-accounting-qmxysp
     files: []
     path: entities/v1-alpha/finance-accounting-qmxysp/research/

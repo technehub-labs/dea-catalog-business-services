@@ -1,0 +1,25 @@
+id: services:service-contract-lifecycle-management-979yxb
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Contract Lifecycle Management Service
+abbreviation: CLM
+description: Manages contract authoring from approved templates, negotiation redlines,
+  and approval routing through signature, then activates executed agreements with
+  obligations and renewal dates for downstream systems.
+domain: Legal & Privacy
+subdomain: Legal Operations
+capabilities:
+- capabilities:capability-legal-matter-management-zzbd2u
+solution_components:
+- dea:component-clm-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- legal
+- contracts
+- lifecycle

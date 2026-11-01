@@ -1,0 +1,25 @@
+id: services:service-corporate-announcement-t9nzmu
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Corporate Announcement Service
+abbreviation: CAN
+description: Publishes company-wide announcements, policy notices, and executive messages
+  to intranet, email, and mobile channels with audience targeting, read-acknowledgment
+  tracking, scheduled publication windows, and automatic archiving of superseded notices.
+domain: Communications & Workplace
+subdomain: Internal Communications
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-intranet-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Public
+  compliance: []
+tags:
+- communications
+- announcements
+- intranet

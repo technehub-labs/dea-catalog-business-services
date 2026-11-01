@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Data Lineage Service
+slug: data-lineage
+abbreviation: DLN
+description: Traces field-level data flows from source systems through transformations
+  to consuming reports, rendering dependency graphs that accelerate impact analysis,
+  root-cause investigation and regulatory data-provenance questions.
+domain: Data & Analytics
+subdomain: Data Governance & Quality
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-metadata-repository
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- lineage
+- impact-analysis
+assigned_id: services:service-data-lineage-dvcr4c
+admitted: '2026-11-01'

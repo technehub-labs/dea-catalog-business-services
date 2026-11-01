@@ -1,0 +1,27 @@
+id: services:service-course-enrollment-he4ry4
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Course Enrollment Service
+abbreviation: CEN
+description: Processes enrollment requests against prerequisites, seat limits, and
+  budget approvals, manages waitlists and cancellations, and records completions,
+  scores, and certificates back to employee learning histories.
+domain: Human Resources
+subdomain: Learning & Development
+capabilities:
+- capabilities:capability-learning-and-development-b8qw5n
+solution_components:
+- dea:component-lms-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- hr
+- learning
+- enrollment
+- courses

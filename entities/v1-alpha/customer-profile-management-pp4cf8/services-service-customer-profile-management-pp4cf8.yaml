@@ -1,0 +1,27 @@
+id: services:service-customer-profile-management-pp4cf8
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Customer Profile Management Service
+abbreviation: CPM
+description: Maintains the master customer record across channels, merging profile
+  attributes, contact points and lifecycle status, and publishing governed profile
+  views to consuming applications and engagement platforms.
+domain: Customer Experience
+subdomain: Customer Identity & Profile
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-customer-data-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- customer-profile
+- master-data

@@ -1,0 +1,28 @@
+id: services:service-customer-health-scoring-3sc59x
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Customer Health Scoring Service
+abbreviation: CHS
+description: Computes account health indices nightly from product usage, support sentiment
+  and billing signals, exposing scores, trend deltas and contributing factors to customer
+  success queues, with score explanations.
+domain: Customer Experience
+subdomain: Customer Lifecycle & Success
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+- capabilities:capability-customer-management-f3n8wb
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-customer-data-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- health-score
+- success

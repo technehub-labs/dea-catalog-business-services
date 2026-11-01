@@ -1,0 +1,25 @@
+id: services:service-demand-forecasting-x8c95n
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Demand Forecasting Service
+abbreviation: DFC
+description: Generates baseline demand forecasts per SKU and location using statistical
+  and machine-learning models, blends in overrides from commercial teams, and publishes
+  forecast versions with accuracy tracking.
+domain: Supply Chain & Logistics
+subdomain: Demand & Supply Planning
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-demand-planning-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- planning
+- forecasting

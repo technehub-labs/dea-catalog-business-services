@@ -1,0 +1,27 @@
+id: services:service-data-privacy-management-ww9da4
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Data Privacy Management Service
+abbreviation: DPM
+description: Handles data-subject access, deletion and consent requests end to end,
+  locating personal data across registered systems, coordinating fulfilment deadlines,
+  and recording processing activities in the privacy inventory.
+domain: Data & Analytics
+subdomain: Data Governance & Quality
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-privacy-workflow
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- data
+- privacy
+- gdpr

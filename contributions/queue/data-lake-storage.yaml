@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Data Lake Storage Service
+slug: data-lake-storage
+abbreviation: DLS
+description: Provides zone-organized object storage where raw, cleansed and curated
+  data lands with lifecycle policies, access controls per zone, and catalogue registration
+  so datasets remain discoverable and protected.
+domain: Data & Analytics
+subdomain: Data Platform Engineering
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-data-lake
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- lake
+- storage
+assigned_id: services:service-data-lake-storage-bjv5sq
+admitted: '2026-11-01'
