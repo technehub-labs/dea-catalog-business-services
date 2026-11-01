@@ -1,6 +1,7 @@
 id: services:service-anti-bribery-and-corruption-monitoring-djkhmx
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Anti-Bribery and Corruption Monitoring Service
 abbreviation: ABC
 description: Screens counterparties for government exposure and corruption indicators,

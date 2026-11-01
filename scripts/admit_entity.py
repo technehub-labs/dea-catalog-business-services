@@ -123,7 +123,8 @@ def main() -> int:
               f"disambiguate the name/slug")
         return 1
 
-    record = {"id": record_id, "type": "BusinessService", "version": "0.1.0", **content}
+    record = {"id": record_id, "type": "BusinessService", "version": "0.1.0",
+             "lifecycle_status": "active", **content}
     entity_dir = ENTITIES / f"{slug}-{suffix}"
     record_path = entity_dir / (record_id.replace(":", "-").lower() + ".yaml")
 

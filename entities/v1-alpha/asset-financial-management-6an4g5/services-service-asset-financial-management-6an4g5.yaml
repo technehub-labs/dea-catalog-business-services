@@ -1,6 +1,7 @@
 id: services:service-asset-financial-management-6an4g5
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Asset Financial Management Service
 abbreviation: AFM
 description: Calculates depreciation schedules, impairment and capitalization treatment

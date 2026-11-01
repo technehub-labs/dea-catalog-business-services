@@ -1,6 +1,7 @@
 id: services:service-campaign-management-c6e8ez
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Campaign Management Service
 abbreviation: CGM
 description: Plans, schedules and launches multi-channel marketing campaigns from

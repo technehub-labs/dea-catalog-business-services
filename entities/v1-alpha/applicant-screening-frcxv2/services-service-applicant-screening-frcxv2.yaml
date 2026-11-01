@@ -1,6 +1,7 @@
 id: services:service-applicant-screening-frcxv2
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Applicant Screening Service
 abbreviation: ASC
 description: Scores incoming applications against role criteria, applies knockout

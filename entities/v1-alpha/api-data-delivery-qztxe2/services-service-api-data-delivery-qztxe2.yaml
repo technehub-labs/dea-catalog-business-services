@@ -1,6 +1,7 @@
 id: services:service-api-data-delivery-qztxe2
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: API Data Delivery Service
 abbreviation: ADD
 description: Publishes governed data products as queryable APIs with versioned contracts,

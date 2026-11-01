@@ -1,6 +1,7 @@
 id: services:service-bank-statement-reconciliation-8ktecw
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Bank Statement Reconciliation Service
 abbreviation: BSR
 description: Ingests electronic bank statements, auto-matches transactions to ledger

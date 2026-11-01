@@ -56,7 +56,11 @@ Each admission: id `services:service-<slug>-<hash6>` assigned by the CR-SVC-004 
 - NOT a release/tag action; records stay candidate-state in v1-alpha.
 - NOT an assertion that every admitted record's `solution_components` reference resolves today — component ids follow the established `dea:component-*` register pattern of the existing records (disclosed mv1 residual class, unchanged by this programme).
 
-## 5. Acceptance criteria
+## 5. Correction (in-landing)
+
+First CI run caught CST-004 (`lifecycle_status` required on canonical records): the CR-SVC-004 admission tool did not write the field. Fixed in this PR — the tool now emits `lifecycle_status: active` (the existing-records convention) and all 50 admitted records carry it. The authoring-time round-trip had verified the IDM/index/queue gates but not the CST suite; the CST suite now runs per batch via CI.
+
+## 6. Acceptance criteria
 
 1. Entity count in `CATALOG.yaml` increases by exactly 50; all records id/README/path-conformant (IDM gate 0 findings).
 2. All 50 queue files carry `status: admitted` and a recorded `assigned_id`.

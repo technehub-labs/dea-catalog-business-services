@@ -1,6 +1,7 @@
 id: services:service-big-data-processing-8434e6
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Big Data Processing Service
 abbreviation: BDP
 description: Runs distributed processing clusters that transform petabyte-scale datasets

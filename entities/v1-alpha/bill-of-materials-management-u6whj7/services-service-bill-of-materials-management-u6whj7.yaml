@@ -1,6 +1,7 @@
 id: services:service-bill-of-materials-management-u6whj7
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Bill of Materials Management Service
 abbreviation: BOMM
 description: Authors and version-controls multi-level bills of materials, maintains

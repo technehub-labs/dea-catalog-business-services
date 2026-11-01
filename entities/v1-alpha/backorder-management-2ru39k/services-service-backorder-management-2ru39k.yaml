@@ -1,6 +1,7 @@
 id: services:service-backorder-management-2ru39k
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Backorder Management Service
 abbreviation: BOM
 description: Tracks shorted order lines as backorders with promised dates derived

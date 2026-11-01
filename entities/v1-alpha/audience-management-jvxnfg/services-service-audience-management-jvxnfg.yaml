@@ -1,6 +1,7 @@
 id: services:service-audience-management-jvxnfg
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Audience Management Service
 abbreviation: AUD
 description: Assembles, deduplicates and refreshes campaign audiences from segment

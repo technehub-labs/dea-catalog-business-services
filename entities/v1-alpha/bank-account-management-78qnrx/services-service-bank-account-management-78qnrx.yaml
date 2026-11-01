@@ -1,6 +1,7 @@
 id: services:service-bank-account-management-78qnrx
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Bank Account Management Service
 abbreviation: BAM
 description: Maintains the global bank account inventory with signatories, mandates,

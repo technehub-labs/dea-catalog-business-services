@@ -1,6 +1,7 @@
 id: services:service-brand-asset-governance-69pt87
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Brand Asset Governance Service
 abbreviation: BRG
 description: Maintains brand guidelines, logo kits and approved templates for all

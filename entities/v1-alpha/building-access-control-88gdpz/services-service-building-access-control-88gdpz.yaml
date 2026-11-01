@@ -1,6 +1,7 @@
 id: services:service-building-access-control-88gdpz
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Building Access Control Service
 abbreviation: BAC
 description: Operates badge readers, door controllers and visitor registration across

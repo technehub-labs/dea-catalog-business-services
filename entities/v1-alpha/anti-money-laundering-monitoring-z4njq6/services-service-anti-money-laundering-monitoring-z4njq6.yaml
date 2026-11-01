@@ -1,6 +1,7 @@
 id: services:service-anti-money-laundering-monitoring-z4njq6
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Anti-Money Laundering Monitoring Service
 abbreviation: AML
 description: Monitors transaction flows against typology models for laundering patterns,

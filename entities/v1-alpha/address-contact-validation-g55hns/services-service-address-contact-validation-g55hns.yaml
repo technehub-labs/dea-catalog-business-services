@@ -1,6 +1,7 @@
 id: services:service-address-contact-validation-g55hns
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Address & Contact Validation Service
 abbreviation: ACV
 description: Validates postal addresses, email addresses and phone numbers against

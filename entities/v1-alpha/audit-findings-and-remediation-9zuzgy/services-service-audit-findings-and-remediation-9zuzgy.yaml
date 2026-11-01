@@ -1,6 +1,7 @@
 id: services:service-audit-findings-and-remediation-9zuzgy
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Audit Findings and Remediation Service
 abbreviation: AFR
 description: Tracks audit findings and regulator commitments through corrective action

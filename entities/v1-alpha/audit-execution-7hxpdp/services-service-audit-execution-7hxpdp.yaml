@@ -1,6 +1,7 @@
 id: services:service-audit-execution-7hxpdp
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Audit Execution Service
 abbreviation: AEX
 description: Manages audit fieldwork from engagement kickoff through workpaper review,

@@ -1,6 +1,7 @@
 id: services:service-capacity-planning-5eus8g
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Capacity Planning Service
 abbreviation: CAP
 description: Forecasts compute, storage and network headroom from utilization telemetry

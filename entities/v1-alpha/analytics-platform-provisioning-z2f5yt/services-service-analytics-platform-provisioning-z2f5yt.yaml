@@ -1,6 +1,7 @@
 id: services:service-analytics-platform-provisioning-z2f5yt
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Analytics Platform Provisioning Service
 abbreviation: APP
 description: Stands up project sandboxes, query engines and notebooks for analytics

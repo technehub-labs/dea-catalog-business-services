@@ -1,6 +1,7 @@
 id: services:service-blanket-order-management-76mq32
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Blanket Order Management Service
 abbreviation: BOM
 description: Administers framework purchase orders that call off quantities over time

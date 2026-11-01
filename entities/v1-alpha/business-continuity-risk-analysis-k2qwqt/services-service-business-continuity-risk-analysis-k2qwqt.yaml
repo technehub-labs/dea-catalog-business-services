@@ -1,6 +1,7 @@
 id: services:service-business-continuity-risk-analysis-k2qwqt
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Business Continuity Risk Analysis Service
 abbreviation: BCX
 description: Supports business impact analysis by capturing critical processes, recovery

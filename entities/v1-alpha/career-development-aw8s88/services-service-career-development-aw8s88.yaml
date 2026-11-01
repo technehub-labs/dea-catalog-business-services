@@ -1,6 +1,7 @@
 id: services:service-career-development-aw8s88
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Career Development Service
 abbreviation: CDP
 description: Builds employee development plans from competency gaps and career aspirations,

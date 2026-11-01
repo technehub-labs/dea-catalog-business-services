@@ -1,6 +1,7 @@
 id: services:service-asset-tracking-b829c4
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Asset Tracking Service
 abbreviation: ATR
 description: Tags movable equipment with barcode and RFID labels, logging custody

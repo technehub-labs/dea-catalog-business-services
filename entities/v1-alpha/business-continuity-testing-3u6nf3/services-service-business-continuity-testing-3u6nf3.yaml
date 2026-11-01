@@ -1,6 +1,7 @@
 id: services:service-business-continuity-testing-3u6nf3
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Business Continuity Testing Service
 abbreviation: BCT
 description: Plans and runs annual continuity exercises for critical business processes,

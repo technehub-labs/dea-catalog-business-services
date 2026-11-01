@@ -1,6 +1,7 @@
 id: services:service-carbon-accounting-kemcbv
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Carbon Accounting Service
 abbreviation: CAA
 description: Compiles the greenhouse gas inventory across scope 1, scope 2, and scope

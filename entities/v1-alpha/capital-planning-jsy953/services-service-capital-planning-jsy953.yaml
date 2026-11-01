@@ -1,6 +1,7 @@
 id: services:service-capital-planning-jsy953
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Capital Planning Service
 abbreviation: CAP
 description: Plans multi-year capital allocation across growth, maintenance, and mandatory

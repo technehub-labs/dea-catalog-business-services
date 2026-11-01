@@ -1,6 +1,7 @@
 id: services:service-annual-operating-plan-8qf8yd
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Annual Operating Plan Service
 abbreviation: AOP
 description: Coordinates the annual operating plan across functions - targets, budgets,

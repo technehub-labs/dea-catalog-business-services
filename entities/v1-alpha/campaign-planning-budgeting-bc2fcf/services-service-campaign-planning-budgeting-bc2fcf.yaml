@@ -1,6 +1,7 @@
 id: services:service-campaign-planning-budgeting-bc2fcf
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Campaign Planning & Budgeting Service
 abbreviation: CPB
 description: Builds annual and quarterly campaign plans, allocating budgets by channel

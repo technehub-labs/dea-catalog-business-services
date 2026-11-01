@@ -1,6 +1,7 @@
 id: services:service-business-process-mapping-r5jkrb
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Business Process Mapping Service
 abbreviation: BPM
 description: Documents as-is and to-be business processes at agreed levels using a

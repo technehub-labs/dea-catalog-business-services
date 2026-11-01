@@ -1,6 +1,7 @@
 id: services:service-analytics-warehouse-p5v78g
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Analytics Warehouse Service
 abbreviation: ANW
 description: Hosts the enterprise dimensional warehouse serving finance, sales and

@@ -1,6 +1,7 @@
 id: services:service-application-packaging-dzuz7k
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Application Packaging Service
 abbreviation: APG
 description: Repackages vendor installers into standardized, silently deployed application

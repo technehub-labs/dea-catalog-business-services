@@ -1,6 +1,7 @@
 id: services:service-brand-monitoring-79pest
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Brand Monitoring Service
 abbreviation: BMO
 description: Scans social platforms, review sites and news sources for brand mentions

@@ -1,6 +1,7 @@
 id: services:service-asset-disposal-dfgkd7
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Asset Disposal Service
 abbreviation: ADS
 description: Retires surplus or end-of-life assets through resale, donation or certified

@@ -1,6 +1,7 @@
 id: services:service-balanced-scorecard-6a9j6n
 type: BusinessService
 version: 0.1.0
+lifecycle_status: active
 name: Balanced Scorecard Service
 abbreviation: BSC
 description: Maintains the corporate balanced scorecard across financial, customer,
