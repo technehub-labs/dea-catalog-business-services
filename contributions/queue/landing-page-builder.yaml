@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Landing Page Builder Service
+slug: landing-page-builder
+abbreviation: LPB
+description: Assembles campaign landing pages from modular templates with forms, tracking
+  parameters and testing hooks, publishing to production domains only after compliance
+  and brand review gates.
+domain: Marketing & Brand
+subdomain: Content & Digital Experience
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-content-management-system
+- dea:component-marketing-automation-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- landing-pages
+- web
+assigned_id: services:service-landing-page-builder-mqy95t
+admitted: '2026-11-01'

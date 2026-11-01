@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Inventory Availability Service
+slug: inventory-availability
+abbreviation: IAV
+description: Answers real-time available-to-promise queries from channel front ends,
+  blending on-hand, in-transit and safety-stock positions with configurable buffering
+  per location and channel to prevent overselling, during peak trading periods.
+domain: Order Management
+subdomain: Inventory & Order Intelligence
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-order-management-system
+- dea:component-api-gateway
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Internal
+  compliance: []
+tags:
+- order-management
+- inventory
+- atp
+assigned_id: services:service-inventory-availability-wsk3ux
+admitted: '2026-11-01'

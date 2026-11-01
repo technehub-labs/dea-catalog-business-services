@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Goods Receipt Service
+slug: goods-receipt
+abbreviation: GRC
+description: Records delivered quantities and condition against purchase orders at
+  the point of receipt, supports partial deliveries and over-receipt tolerance, and
+  posts receipts that activate invoice matching.
+domain: Sourcing & Procurement
+subdomain: Purchase Operations
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+solution_components:
+- dea:component-erp-core
+- dea:component-warehouse-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - SOX
+tags:
+- sourcing
+- receiving
+- purchase-orders
+assigned_id: services:service-goods-receipt-zzwqkj
+admitted: '2026-11-01'

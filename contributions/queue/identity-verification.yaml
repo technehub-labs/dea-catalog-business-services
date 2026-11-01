@@ -1,0 +1,31 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Identity Verification Service
+slug: identity-verification
+abbreviation: IDV
+description: Verifies identity documents and self-declared attributes against issuing-authority
+  registries, scores fraud risk from device and behavioural signals, and issues verified
+  identity tokens for account-opening and onboarding flows.
+domain: Customer Experience
+subdomain: Customer Identity & Profile
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-cdp-identity-graph
+- dea:component-api-gateway
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- identity
+- verification
+- fraud
+assigned_id: services:service-identity-verification-7yx6zv
+admitted: '2026-11-01'

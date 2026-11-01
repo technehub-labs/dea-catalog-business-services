@@ -1,0 +1,28 @@
+id: services:service-lead-capture-qj7k8e
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Lead Capture Service
+abbreviation: LDC
+description: Ingests leads from web forms, events and partner feeds, validating and
+  enriching firmographics, deduplicating against existing accounts and routing qualified
+  records to the sales pipeline.
+domain: Marketing & Brand
+subdomain: Audience & Demand Generation
+capabilities:
+- capabilities:capability-marketing-xmc539
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-marketing-automation-platform
+- dea:component-crm-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- marketing
+- lead-generation
+- capture

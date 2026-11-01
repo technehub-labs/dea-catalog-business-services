@@ -1,0 +1,25 @@
+id: services:service-geospatial-analytics-qyxuz9
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Geospatial Analytics Service
+abbreviation: GEO
+description: Enriches business datasets with location intelligence, maintaining base
+  maps and boundary layers, and supporting site selection, logistics routing and territory
+  analysis through reusable geospatial processing jobs.
+domain: Data & Analytics
+subdomain: Advanced Analytics & AI
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-gis-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- gis
+- location

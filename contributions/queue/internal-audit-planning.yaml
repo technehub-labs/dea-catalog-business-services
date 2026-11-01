@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Internal Audit Planning Service
+slug: internal-audit-planning
+abbreviation: IAP
+description: Builds the risk-based audit universe, scores auditable entities for annual
+  plan selection, allocates auditor capacity, and tracks plan progress and scope changes
+  through the audit committee cycle.
+domain: Risk & Compliance
+subdomain: Internal Controls & Audit
+capabilities:
+- capabilities:capability-audit-and-assurance-management-n7qv25
+solution_components:
+- dea:component-audit-management-system
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- audit
+- planning
+assigned_id: services:service-internal-audit-planning-zvyp2t
+admitted: '2026-11-01'

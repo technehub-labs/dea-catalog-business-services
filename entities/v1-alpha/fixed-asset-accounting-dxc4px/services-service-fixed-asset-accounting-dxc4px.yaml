@@ -1,0 +1,26 @@
+id: services:service-fixed-asset-accounting-dxc4px
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Fixed Asset Accounting Service
+abbreviation: FAA
+description: Maintains the asset register with acquisition, depreciation, and retirement
+  processing, computes period depreciation by book and tax method, and reconciles
+  asset balances to the general ledger.
+domain: Finance & Accounting
+subdomain: Tax, Expense & Fixed Assets
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-erp-core
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- fixed-assets
+- general-ledger

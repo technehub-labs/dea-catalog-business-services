@@ -1,0 +1,27 @@
+id: services:service-kpi-definition-2znts8
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: KPI Definition Service
+abbreviation: KPI
+description: Owns the enterprise KPI catalog - measure definitions, formulas, owners,
+  data sources, and target-setting conventions - governed so every dashboard and report
+  computes each indicator the same way.
+domain: Enterprise Strategy & Performance
+subdomain: Performance Management
+capabilities:
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-bi-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- kpi
+- definitions
+- metrics

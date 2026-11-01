@@ -1,0 +1,32 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Incentive Compensation Service
+slug: incentive-compensation
+abbreviation: ICC
+description: Calculates variable pay - bonuses, commissions, and sales incentives
+  - from plan rules and performance results, routes calculations through plan-owner
+  validation, and delivers approved payout files to payroll execution.
+domain: Human Resources
+subdomain: Compensation & Benefits
+capabilities:
+- capabilities:capability-talent-management-v2qw9c
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-compensation-management
+- dea:component-payroll-engine
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - SOX
+tags:
+- hr
+- compensation
+- incentives
+- bonuses
+assigned_id: services:service-incentive-compensation-g9rjkf
+admitted: '2026-11-01'

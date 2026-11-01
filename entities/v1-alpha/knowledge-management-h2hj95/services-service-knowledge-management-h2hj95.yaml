@@ -1,0 +1,25 @@
+id: services:service-knowledge-management-h2hj95
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Knowledge Management Service
+abbreviation: KMS
+description: Curates the support knowledge base of how-to articles, known-error records
+  and runbooks, reviewing submissions for accuracy, retiring stale content, and surfacing
+  relevant articles during ticket handling.
+domain: IT Operations & Infrastructure
+subdomain: Service Management & Support
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-itsm-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- knowledge
+- support

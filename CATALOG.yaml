@@ -1,9 +1,9 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 218
+    candidates: 268
     canonical: 0
-    entities: 218
+    entities: 268
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -2254,6 +2254,17 @@ catalog:
     version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-facilities-vendor-management-jd25dh
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/facilities-vendor-management-jd25dh/services-service-facilities-vendor-management-jd25dh.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-finance-accounting-qmxysp
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -2276,6 +2287,215 @@ catalog:
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-financial-analytics-9n3p7d
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/financial-analytics-9n3p7d/services-service-financial-analytics-9n3p7d.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-financial-close-orchestration-2yrawu
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/financial-close-orchestration-2yrawu/services-service-financial-close-orchestration-2yrawu.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-financial-statement-preparation-nbyec4
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/financial-statement-preparation-nbyec4/services-service-financial-statement-preparation-nbyec4.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-fire-life-safety-3uq2mx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/fire-life-safety-3uq2mx/services-service-fire-life-safety-3uq2mx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-firewall-operations-5cr76w
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/firewall-operations-5cr76w/services-service-firewall-operations-5cr76w.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-fixed-asset-accounting-dxc4px
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/fixed-asset-accounting-dxc4px/services-service-fixed-asset-accounting-dxc4px.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-fixed-asset-procurement-rju7d9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/fixed-asset-procurement-rju7d9/services-service-fixed-asset-procurement-rju7d9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-fleet-operations-zb59wa
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/fleet-operations-zb59wa/services-service-fleet-operations-zb59wa.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-foreign-exchange-exposure-management-xmvzgs
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/foreign-exchange-exposure-management-xmvzgs/services-service-foreign-exchange-exposure-management-xmvzgs.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-fraud-investigation-management-xn4grc
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/fraud-investigation-management-xn4grc/services-service-fraud-investigation-management-xn4grc.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-freight-audit-djyphm
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/freight-audit-djyphm/services-service-freight-audit-djyphm.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-fulfillment-performance-analytics-m2jwj5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/fulfillment-performance-analytics-m2jwj5/services-service-fulfillment-performance-analytics-m2jwj5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-funding-stage-gate-ssyspj
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/funding-stage-gate-ssyspj/services-service-funding-stage-gate-ssyspj.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-general-ledger-accounting-7zatpa
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/general-ledger-accounting-7zatpa/services-service-general-ledger-accounting-7zatpa.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-geospatial-analytics-qyxuz9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/geospatial-analytics-qyxuz9/services-service-geospatial-analytics-qyxuz9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-gifts-and-entertainment-approval-4bwn3x
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/gifts-and-entertainment-approval-4bwn3x/services-service-gifts-and-entertainment-approval-4bwn3x.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-goods-receipt-zzwqkj
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/goods-receipt-zzwqkj/services-service-goods-receipt-zzwqkj.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-high-availability-clustering-t22a32
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/high-availability-clustering-t22a32/services-service-high-availability-clustering-t22a32.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-hr-case-management-nf2ntw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/hr-case-management-nf2ntw/services-service-hr-case-management-nf2ntw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-hr-core-98hdbh
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -2287,6 +2507,171 @@ catalog:
     version: 1.0.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-hvac-management-53sp2g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/hvac-management-53sp2g/services-service-hvac-management-53sp2g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-idea-capture-vk44fd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/idea-capture-vk44fd/services-service-idea-capture-vk44fd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-idea-evaluation-wjc6pm
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/idea-evaluation-wjc6pm/services-service-idea-evaluation-wjc6pm.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-identity-verification-7yx6zv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/identity-verification-7yx6zv/services-service-identity-verification-7yx6zv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-incentive-compensation-g9rjkf
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/incentive-compensation-g9rjkf/services-service-incentive-compensation-g9rjkf.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-indirect-tax-determination-3ezw34
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/indirect-tax-determination-3ezw34/services-service-indirect-tax-determination-3ezw34.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-innovation-challenge-management-mxw4j9
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/innovation-challenge-management-mxw4j9/services-service-innovation-challenge-management-mxw4j9.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-innovation-pipeline-mkbx7y
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/innovation-pipeline-mkbx7y/services-service-innovation-pipeline-mkbx7y.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-intellectual-property-portfolio-management-cexeu6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/intellectual-property-portfolio-management-cexeu6/services-service-intellectual-property-portfolio-management-cexeu6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-intercompany-accounting-cnff2n
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/intercompany-accounting-cnff2n/services-service-intercompany-accounting-cnff2n.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-internal-audit-planning-zvyp2t
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/internal-audit-planning-zvyp2t/services-service-internal-audit-planning-zvyp2t.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-internal-controls-management-bjujr2
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/internal-controls-management-bjujr2/services-service-internal-controls-management-bjujr2.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-internet-gateway-r8y63h
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/internet-gateway-r8y63h/services-service-internet-gateway-r8y63h.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-interview-scheduling-ykz9ef
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/interview-scheduling-ykz9ef/services-service-interview-scheduling-ykz9ef.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-inventory-availability-wsk3ux
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/inventory-availability-wsk3ux/services-service-inventory-availability-wsk3ux.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-inventory-management-g8xbwr
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -2296,6 +2681,171 @@ catalog:
     state: candidate
     type: BusinessService
     version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-inventory-reservation-mtfhjk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/inventory-reservation-mtfhjk/services-service-inventory-reservation-mtfhjk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-inventory-visibility-uqskus
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/inventory-visibility-uqskus/services-service-inventory-visibility-uqskus.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-investment-prioritization-62mfr8
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/investment-prioritization-62mfr8/services-service-investment-prioritization-62mfr8.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-invoice-exception-resolution-z796wb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/invoice-exception-resolution-z796wb/services-service-invoice-exception-resolution-z796wb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-it-asset-discovery-pkswhp
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/it-asset-discovery-pkswhp/services-service-it-asset-discovery-pkswhp.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-job-posting-distribution-cnksqw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/job-posting-distribution-cnksqw/services-service-job-posting-distribution-cnksqw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-journal-entry-approval-aenb64
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/journal-entry-approval-aenb64/services-service-journal-entry-approval-aenb64.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-key-risk-indicator-monitoring-g2666a
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/key-risk-indicator-monitoring-g2666a/services-service-key-risk-indicator-monitoring-g2666a.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-knowledge-base-fk7ara
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/knowledge-base-fk7ara/services-service-knowledge-base-fk7ara.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-knowledge-management-h2hj95
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/knowledge-management-h2hj95/services-service-knowledge-management-h2hj95.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-kpi-definition-2znts8
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/kpi-definition-2znts8/services-service-kpi-definition-2znts8.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-labor-compliance-monitoring-9zde9x
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/labor-compliance-monitoring-9zde9x/services-service-labor-compliance-monitoring-9zde9x.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-landing-page-builder-mqy95t
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/landing-page-builder-mqy95t/services-service-landing-page-builder-mqy95t.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-lead-assignment-rww7jd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/lead-assignment-rww7jd/services-service-lead-assignment-rww7jd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-lead-capture-qj7k8e
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/lead-capture-qj7k8e/services-service-lead-capture-qj7k8e.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
     id: services:service-logistics-coordination-j8nped
@@ -3032,18 +3582,168 @@ catalog:
   - entity_id: services:service-facilities-maintenance-5p5frk
     files: []
     path: entities/v1-alpha/facilities-maintenance-5p5frk/research/
+  - entity_id: services:service-facilities-vendor-management-jd25dh
+    files: []
+    path: entities/v1-alpha/facilities-vendor-management-jd25dh/research/
   - entity_id: services:service-finance-accounting-qmxysp
     files: []
     path: entities/v1-alpha/finance-accounting-qmxysp/research/
   - entity_id: services:service-finance-reporting-ev9c4k
     files: []
     path: entities/v1-alpha/finance-reporting-ev9c4k/research/
+  - entity_id: services:service-financial-analytics-9n3p7d
+    files: []
+    path: entities/v1-alpha/financial-analytics-9n3p7d/research/
+  - entity_id: services:service-financial-close-orchestration-2yrawu
+    files: []
+    path: entities/v1-alpha/financial-close-orchestration-2yrawu/research/
+  - entity_id: services:service-financial-statement-preparation-nbyec4
+    files: []
+    path: entities/v1-alpha/financial-statement-preparation-nbyec4/research/
+  - entity_id: services:service-fire-life-safety-3uq2mx
+    files: []
+    path: entities/v1-alpha/fire-life-safety-3uq2mx/research/
+  - entity_id: services:service-firewall-operations-5cr76w
+    files: []
+    path: entities/v1-alpha/firewall-operations-5cr76w/research/
+  - entity_id: services:service-fixed-asset-accounting-dxc4px
+    files: []
+    path: entities/v1-alpha/fixed-asset-accounting-dxc4px/research/
+  - entity_id: services:service-fixed-asset-procurement-rju7d9
+    files: []
+    path: entities/v1-alpha/fixed-asset-procurement-rju7d9/research/
+  - entity_id: services:service-fleet-operations-zb59wa
+    files: []
+    path: entities/v1-alpha/fleet-operations-zb59wa/research/
+  - entity_id: services:service-foreign-exchange-exposure-management-xmvzgs
+    files: []
+    path: entities/v1-alpha/foreign-exchange-exposure-management-xmvzgs/research/
+  - entity_id: services:service-fraud-investigation-management-xn4grc
+    files: []
+    path: entities/v1-alpha/fraud-investigation-management-xn4grc/research/
+  - entity_id: services:service-freight-audit-djyphm
+    files: []
+    path: entities/v1-alpha/freight-audit-djyphm/research/
+  - entity_id: services:service-fulfillment-performance-analytics-m2jwj5
+    files: []
+    path: entities/v1-alpha/fulfillment-performance-analytics-m2jwj5/research/
+  - entity_id: services:service-funding-stage-gate-ssyspj
+    files: []
+    path: entities/v1-alpha/funding-stage-gate-ssyspj/research/
+  - entity_id: services:service-general-ledger-accounting-7zatpa
+    files: []
+    path: entities/v1-alpha/general-ledger-accounting-7zatpa/research/
+  - entity_id: services:service-geospatial-analytics-qyxuz9
+    files: []
+    path: entities/v1-alpha/geospatial-analytics-qyxuz9/research/
+  - entity_id: services:service-gifts-and-entertainment-approval-4bwn3x
+    files: []
+    path: entities/v1-alpha/gifts-and-entertainment-approval-4bwn3x/research/
+  - entity_id: services:service-goods-receipt-zzwqkj
+    files: []
+    path: entities/v1-alpha/goods-receipt-zzwqkj/research/
+  - entity_id: services:service-high-availability-clustering-t22a32
+    files: []
+    path: entities/v1-alpha/high-availability-clustering-t22a32/research/
+  - entity_id: services:service-hr-case-management-nf2ntw
+    files: []
+    path: entities/v1-alpha/hr-case-management-nf2ntw/research/
   - entity_id: services:service-hr-core-98hdbh
     files: []
     path: entities/v1-alpha/hr-core-98hdbh/research/
+  - entity_id: services:service-hvac-management-53sp2g
+    files: []
+    path: entities/v1-alpha/hvac-management-53sp2g/research/
+  - entity_id: services:service-idea-capture-vk44fd
+    files: []
+    path: entities/v1-alpha/idea-capture-vk44fd/research/
+  - entity_id: services:service-idea-evaluation-wjc6pm
+    files: []
+    path: entities/v1-alpha/idea-evaluation-wjc6pm/research/
+  - entity_id: services:service-identity-verification-7yx6zv
+    files: []
+    path: entities/v1-alpha/identity-verification-7yx6zv/research/
+  - entity_id: services:service-incentive-compensation-g9rjkf
+    files: []
+    path: entities/v1-alpha/incentive-compensation-g9rjkf/research/
+  - entity_id: services:service-indirect-tax-determination-3ezw34
+    files: []
+    path: entities/v1-alpha/indirect-tax-determination-3ezw34/research/
+  - entity_id: services:service-innovation-challenge-management-mxw4j9
+    files: []
+    path: entities/v1-alpha/innovation-challenge-management-mxw4j9/research/
+  - entity_id: services:service-innovation-pipeline-mkbx7y
+    files: []
+    path: entities/v1-alpha/innovation-pipeline-mkbx7y/research/
+  - entity_id: services:service-intellectual-property-portfolio-management-cexeu6
+    files: []
+    path: entities/v1-alpha/intellectual-property-portfolio-management-cexeu6/research/
+  - entity_id: services:service-intercompany-accounting-cnff2n
+    files: []
+    path: entities/v1-alpha/intercompany-accounting-cnff2n/research/
+  - entity_id: services:service-internal-audit-planning-zvyp2t
+    files: []
+    path: entities/v1-alpha/internal-audit-planning-zvyp2t/research/
+  - entity_id: services:service-internal-controls-management-bjujr2
+    files: []
+    path: entities/v1-alpha/internal-controls-management-bjujr2/research/
+  - entity_id: services:service-internet-gateway-r8y63h
+    files: []
+    path: entities/v1-alpha/internet-gateway-r8y63h/research/
+  - entity_id: services:service-interview-scheduling-ykz9ef
+    files: []
+    path: entities/v1-alpha/interview-scheduling-ykz9ef/research/
+  - entity_id: services:service-inventory-availability-wsk3ux
+    files: []
+    path: entities/v1-alpha/inventory-availability-wsk3ux/research/
   - entity_id: services:service-inventory-management-g8xbwr
     files: []
     path: entities/v1-alpha/inventory-management-g8xbwr/research/
+  - entity_id: services:service-inventory-reservation-mtfhjk
+    files: []
+    path: entities/v1-alpha/inventory-reservation-mtfhjk/research/
+  - entity_id: services:service-inventory-visibility-uqskus
+    files: []
+    path: entities/v1-alpha/inventory-visibility-uqskus/research/
+  - entity_id: services:service-investment-prioritization-62mfr8
+    files: []
+    path: entities/v1-alpha/investment-prioritization-62mfr8/research/
+  - entity_id: services:service-invoice-exception-resolution-z796wb
+    files: []
+    path: entities/v1-alpha/invoice-exception-resolution-z796wb/research/
+  - entity_id: services:service-it-asset-discovery-pkswhp
+    files: []
+    path: entities/v1-alpha/it-asset-discovery-pkswhp/research/
+  - entity_id: services:service-job-posting-distribution-cnksqw
+    files: []
+    path: entities/v1-alpha/job-posting-distribution-cnksqw/research/
+  - entity_id: services:service-journal-entry-approval-aenb64
+    files: []
+    path: entities/v1-alpha/journal-entry-approval-aenb64/research/
+  - entity_id: services:service-key-risk-indicator-monitoring-g2666a
+    files: []
+    path: entities/v1-alpha/key-risk-indicator-monitoring-g2666a/research/
+  - entity_id: services:service-knowledge-base-fk7ara
+    files: []
+    path: entities/v1-alpha/knowledge-base-fk7ara/research/
+  - entity_id: services:service-knowledge-management-h2hj95
+    files: []
+    path: entities/v1-alpha/knowledge-management-h2hj95/research/
+  - entity_id: services:service-kpi-definition-2znts8
+    files: []
+    path: entities/v1-alpha/kpi-definition-2znts8/research/
+  - entity_id: services:service-labor-compliance-monitoring-9zde9x
+    files: []
+    path: entities/v1-alpha/labor-compliance-monitoring-9zde9x/research/
+  - entity_id: services:service-landing-page-builder-mqy95t
+    files: []
+    path: entities/v1-alpha/landing-page-builder-mqy95t/research/
+  - entity_id: services:service-lead-assignment-rww7jd
+    files: []
+    path: entities/v1-alpha/lead-assignment-rww7jd/research/
+  - entity_id: services:service-lead-capture-qj7k8e
+    files: []
+    path: entities/v1-alpha/lead-capture-qj7k8e/research/
   - entity_id: services:service-logistics-coordination-j8nped
     files: []
     path: entities/v1-alpha/logistics-coordination-j8nped/research/

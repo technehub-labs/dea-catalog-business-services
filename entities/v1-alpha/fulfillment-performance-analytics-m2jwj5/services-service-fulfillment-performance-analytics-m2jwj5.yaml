@@ -1,0 +1,26 @@
+id: services:service-fulfillment-performance-analytics-m2jwj5
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Fulfillment Performance Analytics Service
+abbreviation: FPA
+description: Measures on-time shipment, order cycle time, fill rate and cost-to-serve
+  across nodes and carriers, publishing scorecards from nightly warehouse loads for
+  operations review, with node-level comparisons.
+domain: Order Management
+subdomain: Inventory & Order Intelligence
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- order-management
+- analytics
+- performance

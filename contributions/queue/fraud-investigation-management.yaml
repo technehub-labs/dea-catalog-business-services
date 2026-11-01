@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Fraud Investigation Management Service
+slug: fraud-investigation-management
+abbreviation: FIM
+description: Manages fraud allegations from intake through investigation, sequences
+  evidence collection and interviews under legal privilege, documents findings, and
+  feeds confirmed cases to loss and control databases.
+domain: Risk & Compliance
+subdomain: Internal Controls & Audit
+capabilities:
+- capabilities:capability-audit-and-assurance-management-n7qv25
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-case-management-system
+- dea:component-audit-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- fraud
+- investigation
+assigned_id: services:service-fraud-investigation-management-xn4grc
+admitted: '2026-11-01'

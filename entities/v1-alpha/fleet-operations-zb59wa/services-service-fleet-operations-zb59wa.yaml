@@ -1,0 +1,26 @@
+id: services:service-fleet-operations-zb59wa
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Fleet Operations Service
+abbreviation: FLO
+description: Manages owned vehicle fleets — assignments, driver rosters, preventive
+  maintenance schedules and inspection records — and ingests telematics to flag fuel
+  anomalies, idle time and overdue servicing.
+domain: Supply Chain & Logistics
+subdomain: Transportation & Distribution
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+- capabilities:capability-asset-management-judtwr
+solution_components:
+- dea:component-iot-telemetry-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- fleet
+- maintenance

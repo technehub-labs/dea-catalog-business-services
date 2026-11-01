@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Financial Analytics Service
+slug: financial-analytics
+abbreviation: FIN
+description: Models profitability, cost allocation and revenue performance for finance
+  planning teams from ledger and operational data, publishing drillable analyses that
+  reconcile to statutory figures before circulation.
+domain: Data & Analytics
+subdomain: Analytics & Business Intelligence
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-bi-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- data
+- finance
+- analytics
+assigned_id: services:service-financial-analytics-9n3p7d
+admitted: '2026-11-01'

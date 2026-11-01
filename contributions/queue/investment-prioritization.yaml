@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Investment Prioritization Service
+slug: investment-prioritization
+abbreviation: IPP
+description: Scores competing investment proposals on strategic alignment, return,
+  risk, and dependency readiness, then assembles ranked portfolios within budget envelopes
+  so decision forums approve a balanced set rather than isolated projects.
+domain: Enterprise Strategy & Performance
+subdomain: Investment Portfolio
+capabilities:
+- capabilities:capability-portfolio-and-investment-management-m4kw72
+solution_components:
+- dea:component-portfolio-management-system
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- strategy
+- prioritization
+- portfolio
+- investment
+assigned_id: services:service-investment-prioritization-62mfr8
+admitted: '2026-11-01'

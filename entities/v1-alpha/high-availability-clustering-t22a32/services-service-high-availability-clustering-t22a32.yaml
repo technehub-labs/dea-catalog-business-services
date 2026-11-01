@@ -1,0 +1,25 @@
+id: services:service-high-availability-clustering-t22a32
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: High Availability Clustering Service
+abbreviation: HAC
+description: Configures and operates failover clusters and database availability groups
+  that keep tier-one applications online through node loss, testing failovers routinely
+  and tuning quorum, heartbeat and failback behaviour.
+domain: IT Operations & Infrastructure
+subdomain: Backup & Resilience
+capabilities:
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-clustering-infrastructure
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- clustering
+- availability

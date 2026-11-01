@@ -1,0 +1,26 @@
+id: services:service-invoice-exception-resolution-z796wb
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Invoice Exception Resolution Service
+abbreviation: IER
+description: Routes blocked and mismatched invoices to buyers and approvers with the
+  match discrepancy detail, tracks resolution actions and write-off decisions, and
+  clears or credits invoices within policy deadlines.
+domain: Sourcing & Procurement
+subdomain: Purchase Operations
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+solution_components:
+- dea:component-procure-to-pay-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - SOX
+tags:
+- sourcing
+- invoices
+- exceptions

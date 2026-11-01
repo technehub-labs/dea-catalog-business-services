@@ -1,0 +1,28 @@
+id: services:service-financial-close-orchestration-2yrawu
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Financial Close Orchestration Service
+abbreviation: FCO
+description: Runs the period-end close calendar, assigns close tasks with dependencies
+  and sign-offs, tracks blockers, and reports completion status so entities close
+  on schedule each month.
+domain: Finance & Accounting
+subdomain: General Ledger & Close
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+- capabilities:capability-financial-stewardship-c7xtfk
+solution_components:
+- dea:component-erp-core
+- dea:component-grc-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- close
+- workflow

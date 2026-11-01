@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Financial Statement Preparation Service
+slug: financial-statement-preparation
+abbreviation: FSP
+description: Assembles balance sheet, income, and cash flow statements from final
+  ledger balances, applies disclosure formats and footnotes, and versions output for
+  board and statutory filing.
+domain: Finance & Accounting
+subdomain: General Ledger & Close
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+- capabilities:capability-financial-stewardship-c7xtfk
+solution_components:
+- dea:component-erp-core
+- dea:component-document-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- reporting
+- statutory
+assigned_id: services:service-financial-statement-preparation-nbyec4
+admitted: '2026-11-01'

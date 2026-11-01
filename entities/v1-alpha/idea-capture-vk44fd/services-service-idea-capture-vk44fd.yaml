@@ -1,0 +1,26 @@
+id: services:service-idea-capture-vk44fd
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Idea Capture Service
+abbreviation: IDC
+description: Collects improvement and innovation ideas from employees through a governed
+  intake with categories and campaign tags, deduplicates similar submissions, and
+  routes each idea to the owning reviewer community.
+domain: Enterprise Strategy & Performance
+subdomain: Innovation & Ideas
+capabilities:
+- capabilities:capability-idea-management-86dckf
+solution_components:
+- dea:component-idea-crowdsourcing-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- ideas
+- innovation
+- intake
