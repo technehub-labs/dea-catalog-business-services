@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Revenue Assurance Analytics Service
+slug: revenue-assurance-analytics
+abbreviation: RAA
+description: Compares order, delivery, and billing data to detect leakage such as
+  unbilled usage or misapplied pricing, quantifies recovered amounts, and alerts product
+  and finance owners.
+domain: Finance & Accounting
+subdomain: Revenue & Billing
+capabilities:
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-billing-engine
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- finance
+- revenue
+- analytics
+assigned_id: services:service-revenue-assurance-analytics-yvcewr
+admitted: '2026-11-01'

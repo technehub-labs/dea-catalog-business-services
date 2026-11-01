@@ -1,0 +1,27 @@
+id: services:service-records-of-processing-maintenance-8acum8
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Records of Processing Maintenance Service
+abbreviation: RPM
+description: Maintains the record of processing activities with purposes, categories,
+  recipients, and transfer mechanisms per Article 30, validates entries with data
+  owners, and versions updates as processing changes.
+domain: Legal & Privacy
+subdomain: Privacy Management
+capabilities:
+- capabilities:capability-privacy-and-consent-management-h3mw69
+solution_components:
+- dea:component-document-management-system
+- dea:component-policy-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- legal
+- privacy
+- ropa

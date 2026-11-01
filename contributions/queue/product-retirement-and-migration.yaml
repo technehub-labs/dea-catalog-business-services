@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Product Retirement and Migration Service
+slug: product-retirement-and-migration
+abbreviation: PRM
+description: 'Coordinates end-of-sale transitions: last-order dates, remaining-inventory
+  dispositions, replacement offering mapping and customer migration paths, with milestone
+  tracking until every affected account or stock position is resolved.'
+domain: Product & Offering Management
+subdomain: Subscription & Service Offerings
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-subscription-and-service-management-p3n8rt
+solution_components:
+- dea:component-erp-core
+- dea:component-product-information-management
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- lifecycle
+- migration
+assigned_id: services:service-product-retirement-and-migration-ryqwsz
+admitted: '2026-11-01'

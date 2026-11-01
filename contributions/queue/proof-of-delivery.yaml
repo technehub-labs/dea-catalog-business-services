@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Proof of Delivery Service
+slug: proof-of-delivery
+abbreviation: POD
+description: Captures recipient signatures, photos and delivery exceptions at drop-off,
+  matches them to shipment stops, and retains the evidence pack that settles delivery
+  disputes with customers.
+domain: Supply Chain & Logistics
+subdomain: Transportation & Distribution
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-tracking-event-engine
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- supply-chain
+- transportation
+- delivery
+assigned_id: services:service-proof-of-delivery-th7e58
+admitted: '2026-11-01'

@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Product Configuration Service
+slug: product-configuration
+abbreviation: PRC
+description: Guides compatible selection of products, options and bundles during quote
+  construction, validating configuration rules and flagging conflicts or unsupported
+  combinations before pricing and quotation handoff.
+domain: Sales & Revenue Operations
+subdomain: Quoting & Pricing
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+solution_components:
+- dea:component-cpq-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- sales
+- configuration
+- cpq
+assigned_id: services:service-product-configuration-ka6yka
+admitted: '2026-11-01'

@@ -1,0 +1,26 @@
+id: services:service-quarterly-business-review-qymdyr
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Quarterly Business Review Service
+abbreviation: QBR
+description: Structures the quarterly business review cycle - performance packs, unit
+  presentations, decision logs, and action minutes - so leadership reviews results,
+  risks, and plan adjustments on a consistent cadence.
+domain: Enterprise Strategy & Performance
+subdomain: Performance Management
+capabilities:
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-bi-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- strategy
+- qbr
+- reviews
+- governance

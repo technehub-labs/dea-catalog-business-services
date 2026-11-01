@@ -1,0 +1,27 @@
+id: services:service-privacy-impact-assessment-95q6uz
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Privacy Impact Assessment Service
+abbreviation: PIA
+description: Guides teams through screening questions that decide when assessments
+  are required, captures processing risks and mitigation decisions, and routes high-risk
+  outcomes to the privacy office for approval.
+domain: Legal & Privacy
+subdomain: Privacy Management
+capabilities:
+- capabilities:capability-privacy-and-consent-management-h3mw69
+solution_components:
+- dea:component-case-management-system
+- dea:component-policy-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- legal
+- privacy
+- dpia

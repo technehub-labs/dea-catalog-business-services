@@ -1,0 +1,27 @@
+id: services:service-return-authorization-6vma6w
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Return Authorization Service
+abbreviation: RAU
+description: Issues return merchandise authorizations against eligibility rules covering
+  window, condition and reason, assigning disposition paths and prepaid labels to
+  approved returns with expiry tracking, plus carrier drop-off options.
+domain: Order Management
+subdomain: Returns & Post-Sale Care
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+solution_components:
+- dea:component-return-management-system
+- dea:component-order-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- order-management
+- returns
+- rma

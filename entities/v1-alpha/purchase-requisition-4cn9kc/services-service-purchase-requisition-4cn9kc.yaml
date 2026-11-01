@@ -1,0 +1,26 @@
+id: services:service-purchase-requisition-4cn9kc
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Purchase Requisition Service
+abbreviation: PRQ
+description: Captures employee purchase requests with item detail, need dates and
+  budget strings, validates them against catalog contracts and spending limits, and
+  routes approvals by amount and category rules.
+domain: Sourcing & Procurement
+subdomain: Purchase Operations
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+solution_components:
+- dea:component-procure-to-pay-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - SOX
+tags:
+- sourcing
+- purchasing
+- requisitions

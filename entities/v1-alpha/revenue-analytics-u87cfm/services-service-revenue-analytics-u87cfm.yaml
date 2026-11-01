@@ -1,0 +1,28 @@
+id: services:service-revenue-analytics-u87cfm
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Revenue Analytics Service
+abbreviation: RVA
+description: Analyzes bookings, billings and recognized revenue by product, segment
+  and geography, bridging variances across the three measures for finance and sales
+  leadership review on a monthly cadence.
+domain: Sales & Revenue Operations
+subdomain: Revenue Recognition & Sales Analytics
+capabilities:
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-quote-to-cash-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - SOX
+tags:
+- sales
+- revenue
+- analytics

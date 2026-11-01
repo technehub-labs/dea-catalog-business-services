@@ -1,0 +1,27 @@
+id: services:service-purchase-order-management-3dbaqa
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Purchase Order Management Service
+abbreviation: POM
+description: Converts approved requisitions into purchase orders under the correct
+  contracts, transmits them to suppliers, tracks acknowledgements and changes, and
+  maintains the PO history every downstream match depends on.
+domain: Sourcing & Procurement
+subdomain: Purchase Operations
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+solution_components:
+- dea:component-procure-to-pay-suite
+- dea:component-erp-core
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Internal
+  compliance:
+  - SOX
+tags:
+- sourcing
+- purchasing
+- purchase-orders

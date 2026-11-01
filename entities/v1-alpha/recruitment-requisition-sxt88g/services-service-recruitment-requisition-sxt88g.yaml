@@ -1,0 +1,27 @@
+id: services:service-recruitment-requisition-sxt88g
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Recruitment Requisition Service
+abbreviation: RRQ
+description: Captures hiring requests with headcount justification, budget codes,
+  and role profiles, routes them through compensation and finance approval, and releases
+  the approved requisition to recruiters and the ATS.
+domain: Human Resources
+subdomain: Talent Acquisition
+capabilities:
+- capabilities:capability-talent-management-v2qw9c
+solution_components:
+- dea:component-ats-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- hr
+- recruiting
+- requisition
+- approvals

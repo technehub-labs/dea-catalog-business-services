@@ -1,0 +1,28 @@
+id: services:service-return-inspection-vmeywz
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Return Inspection Service
+abbreviation: RIN
+description: Logs received-return inspections with condition grade and restock, refurbish
+  or scrap disposition, triggering refunds or replacements and updating inventory
+  condition at receiving sites for every returned unit.
+domain: Order Management
+subdomain: Returns & Post-Sale Care
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-return-management-system
+- dea:component-warehouse-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- order-management
+- returns
+- inspection

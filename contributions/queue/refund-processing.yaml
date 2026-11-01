@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Refund Processing Service
+slug: refund-processing
+abbreviation: RFP
+description: Executes approved refunds and adjustments against original payment instruments,
+  enforcing refund windows, idempotency keys and ledger reversal entries so refunds
+  never duplicate or exceed paid amounts.
+domain: Order Management
+subdomain: Payment & Settlement
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-payment-gateway
+- dea:component-billing-engine
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Restricted
+  compliance:
+  - PCI-DSS
+tags:
+- order-management
+- refunds
+- payments
+assigned_id: services:service-refund-processing-5mgfg9
+admitted: '2026-11-01'

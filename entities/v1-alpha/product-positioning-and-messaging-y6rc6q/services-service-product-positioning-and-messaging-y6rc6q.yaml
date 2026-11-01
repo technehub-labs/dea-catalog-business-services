@@ -1,0 +1,25 @@
+id: services:service-product-positioning-and-messaging-y6rc6q
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Product Positioning and Messaging Service
+abbreviation: PPM
+description: Stores approved positioning statements, value propositions and messaging
+  kits per product and segment, versions them with effective dates, and distributes
+  current kits to sales enablement and channel teams.
+domain: Product & Offering Management
+subdomain: Offering & Portfolio Planning
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+solution_components:
+- dea:component-marketing-content-hub
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- marketing
+- messaging
