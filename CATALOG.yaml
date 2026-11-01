@@ -1,9 +1,9 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 68
+    candidates: 118
     canonical: 0
-    entities: 68
+    entities: 118
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -571,6 +571,556 @@ catalog:
     version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-carrier-rate-management-6em4hd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/carrier-rate-management-6em4hd/services-service-carrier-rate-management-6em4hd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-case-management-5454s7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/case-management-5454s7/services-service-case-management-5454s7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-cash-application-z3p36g
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/cash-application-z3p36g/services-service-cash-application-z3p36g.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-cash-position-management-ntq2tk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/cash-position-management-ntq2tk/services-service-cash-position-management-ntq2tk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-category-strategy-ba6ku2
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/category-strategy-ba6ku2/services-service-category-strategy-ba6ku2.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-change-adoption-tracking-mh2snz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/change-adoption-tracking-mh2snz/services-service-change-adoption-tracking-mh2snz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-change-champion-network-fu72ny
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/change-champion-network-fu72ny/services-service-change-champion-network-fu72ny.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-change-data-capture-aftmuy
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/change-data-capture-aftmuy/services-service-change-data-capture-aftmuy.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-change-enablement-6rxn4s
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/change-enablement-6rxn4s/services-service-change-enablement-6rxn4s.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-change-impact-assessment-d4sbhc
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/change-impact-assessment-d4sbhc/services-service-change-impact-assessment-d4sbhc.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-change-readiness-assessment-2ykzen
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/change-readiness-assessment-2ykzen/services-service-change-readiness-assessment-2ykzen.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-channel-incentive-management-pab5kw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/channel-incentive-management-pab5kw/services-service-channel-incentive-management-pab5kw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-channel-inventory-visibility-vsmzrp
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/channel-inventory-visibility-vsmzrp/services-service-channel-inventory-visibility-vsmzrp.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-channel-partner-enrollment-w5jgbm
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/channel-partner-enrollment-w5jgbm/services-service-channel-partner-enrollment-w5jgbm.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-channel-price-list-distribution-ergq52
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/channel-price-list-distribution-ergq52/services-service-channel-price-list-distribution-ergq52.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-chart-of-accounts-administration-d52pcx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/chart-of-accounts-administration-d52pcx/services-service-chart-of-accounts-administration-d52pcx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-checkout-ke3qhz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/checkout-ke3qhz/services-service-checkout-ke3qhz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-climate-risk-scenario-analysis-tz6jfv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/climate-risk-scenario-analysis-tz6jfv/services-service-climate-risk-scenario-analysis-tz6jfv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-cloud-cost-optimization-s8u9jy
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/cloud-cost-optimization-s8u9jy/services-service-cloud-cost-optimization-s8u9jy.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-cloud-landing-zone-wywcmf
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/cloud-landing-zone-wywcmf/services-service-cloud-landing-zone-wywcmf.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-cold-chain-monitoring-nyzpkw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/cold-chain-monitoring-nyzpkw/services-service-cold-chain-monitoring-nyzpkw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-collaboration-platform-fdtkg6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/collaboration-platform-fdtkg6/services-service-collaboration-platform-fdtkg6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-collections-and-dunning-bu2phg
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/collections-and-dunning-bu2phg/services-service-collections-and-dunning-bu2phg.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-communication-suppression-eygvnw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/communication-suppression-eygvnw/services-service-communication-suppression-eygvnw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-community-investment-tracking-gvrjyu
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/community-investment-tracking-gvrjyu/services-service-community-investment-tracking-gvrjyu.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-compensation-review-cycle-63nzka
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/compensation-review-cycle-63nzka/services-service-compensation-review-cycle-63nzka.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-competency-framework-8etwph
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/competency-framework-8etwph/services-service-competency-framework-8etwph.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-competitive-intelligence-xujyhd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/competitive-intelligence-xujyhd/services-service-competitive-intelligence-xujyhd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-competitive-product-intelligence-jut327
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/competitive-product-intelligence-jut327/services-service-competitive-product-intelligence-jut327.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-complaint-handling-rruw4r
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/complaint-handling-rruw4r/services-service-complaint-handling-rruw4r.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-compliance-obligation-mapping-8vt5dv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/compliance-obligation-mapping-8vt5dv/services-service-compliance-obligation-mapping-8vt5dv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-compliance-training-administration-pjju2h
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/compliance-training-administration-pjju2h/services-service-compliance-training-administration-pjju2h.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-compute-provisioning-t53qbx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/compute-provisioning-t53qbx/services-service-compute-provisioning-t53qbx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-configuration-management-88ksuv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/configuration-management-88ksuv/services-service-configuration-management-88ksuv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-conflict-of-interest-disclosure-bjmvp7
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/conflict-of-interest-disclosure-bjmvp7/services-service-conflict-of-interest-disclosure-bjmvp7.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-consent-capture-5rgn45
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/consent-capture-5rgn45/services-service-consent-capture-5rgn45.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-consent-capture-and-management-zu2eqd
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/consent-capture-and-management-zu2eqd/services-service-consent-capture-and-management-zu2eqd.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-consolidation-and-elimination-h5zpe4
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/consolidation-and-elimination-h5zpe4/services-service-consolidation-and-elimination-h5zpe4.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-contact-management-ktr4bf
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/contact-management-ktr4bf/services-service-contact-management-ktr4bf.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-container-orchestration-nb2zyj
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/container-orchestration-nb2zyj/services-service-container-orchestration-nb2zyj.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-content-approval-workflow-pyybjr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/content-approval-workflow-pyybjr/services-service-content-approval-workflow-pyybjr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-content-localization-vvbbh3
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/content-localization-vvbbh3/services-service-content-localization-vvbbh3.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-content-publishing-2k5ggn
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/content-publishing-2k5ggn/services-service-content-publishing-2k5ggn.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-contingent-workforce-administration-fdpzem
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/contingent-workforce-administration-fdpzem/services-service-contingent-workforce-administration-fdpzem.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-continuity-plan-management-3hbba4
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/continuity-plan-management-3hbba4/services-service-continuity-plan-management-3hbba4.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-continuity-testing-nbrq74
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/continuity-testing-nbrq74/services-service-continuity-testing-nbrq74.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-continuous-improvement-8nqasx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/continuous-improvement-8nqasx/services-service-continuous-improvement-8nqasx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-contract-clause-library-ew9rp2
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/contract-clause-library-ew9rp2/services-service-contract-clause-library-ew9rp2.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-contract-expiry-and-renewal-vhzyrk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/contract-expiry-and-renewal-vhzyrk/services-service-contract-expiry-and-renewal-vhzyrk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-contract-generation-cx59jp
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/contract-generation-cx59jp/services-service-contract-generation-cx59jp.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-customer-360-ut9yeu
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -923,6 +1473,156 @@ catalog:
   - entity_id: services:service-career-development-aw8s88
     files: []
     path: entities/v1-alpha/career-development-aw8s88/research/
+  - entity_id: services:service-carrier-rate-management-6em4hd
+    files: []
+    path: entities/v1-alpha/carrier-rate-management-6em4hd/research/
+  - entity_id: services:service-case-management-5454s7
+    files: []
+    path: entities/v1-alpha/case-management-5454s7/research/
+  - entity_id: services:service-cash-application-z3p36g
+    files: []
+    path: entities/v1-alpha/cash-application-z3p36g/research/
+  - entity_id: services:service-cash-position-management-ntq2tk
+    files: []
+    path: entities/v1-alpha/cash-position-management-ntq2tk/research/
+  - entity_id: services:service-category-strategy-ba6ku2
+    files: []
+    path: entities/v1-alpha/category-strategy-ba6ku2/research/
+  - entity_id: services:service-change-adoption-tracking-mh2snz
+    files: []
+    path: entities/v1-alpha/change-adoption-tracking-mh2snz/research/
+  - entity_id: services:service-change-champion-network-fu72ny
+    files: []
+    path: entities/v1-alpha/change-champion-network-fu72ny/research/
+  - entity_id: services:service-change-data-capture-aftmuy
+    files: []
+    path: entities/v1-alpha/change-data-capture-aftmuy/research/
+  - entity_id: services:service-change-enablement-6rxn4s
+    files: []
+    path: entities/v1-alpha/change-enablement-6rxn4s/research/
+  - entity_id: services:service-change-impact-assessment-d4sbhc
+    files: []
+    path: entities/v1-alpha/change-impact-assessment-d4sbhc/research/
+  - entity_id: services:service-change-readiness-assessment-2ykzen
+    files: []
+    path: entities/v1-alpha/change-readiness-assessment-2ykzen/research/
+  - entity_id: services:service-channel-incentive-management-pab5kw
+    files: []
+    path: entities/v1-alpha/channel-incentive-management-pab5kw/research/
+  - entity_id: services:service-channel-inventory-visibility-vsmzrp
+    files: []
+    path: entities/v1-alpha/channel-inventory-visibility-vsmzrp/research/
+  - entity_id: services:service-channel-partner-enrollment-w5jgbm
+    files: []
+    path: entities/v1-alpha/channel-partner-enrollment-w5jgbm/research/
+  - entity_id: services:service-channel-price-list-distribution-ergq52
+    files: []
+    path: entities/v1-alpha/channel-price-list-distribution-ergq52/research/
+  - entity_id: services:service-chart-of-accounts-administration-d52pcx
+    files: []
+    path: entities/v1-alpha/chart-of-accounts-administration-d52pcx/research/
+  - entity_id: services:service-checkout-ke3qhz
+    files: []
+    path: entities/v1-alpha/checkout-ke3qhz/research/
+  - entity_id: services:service-climate-risk-scenario-analysis-tz6jfv
+    files: []
+    path: entities/v1-alpha/climate-risk-scenario-analysis-tz6jfv/research/
+  - entity_id: services:service-cloud-cost-optimization-s8u9jy
+    files: []
+    path: entities/v1-alpha/cloud-cost-optimization-s8u9jy/research/
+  - entity_id: services:service-cloud-landing-zone-wywcmf
+    files: []
+    path: entities/v1-alpha/cloud-landing-zone-wywcmf/research/
+  - entity_id: services:service-cold-chain-monitoring-nyzpkw
+    files: []
+    path: entities/v1-alpha/cold-chain-monitoring-nyzpkw/research/
+  - entity_id: services:service-collaboration-platform-fdtkg6
+    files: []
+    path: entities/v1-alpha/collaboration-platform-fdtkg6/research/
+  - entity_id: services:service-collections-and-dunning-bu2phg
+    files: []
+    path: entities/v1-alpha/collections-and-dunning-bu2phg/research/
+  - entity_id: services:service-communication-suppression-eygvnw
+    files: []
+    path: entities/v1-alpha/communication-suppression-eygvnw/research/
+  - entity_id: services:service-community-investment-tracking-gvrjyu
+    files: []
+    path: entities/v1-alpha/community-investment-tracking-gvrjyu/research/
+  - entity_id: services:service-compensation-review-cycle-63nzka
+    files: []
+    path: entities/v1-alpha/compensation-review-cycle-63nzka/research/
+  - entity_id: services:service-competency-framework-8etwph
+    files: []
+    path: entities/v1-alpha/competency-framework-8etwph/research/
+  - entity_id: services:service-competitive-intelligence-xujyhd
+    files: []
+    path: entities/v1-alpha/competitive-intelligence-xujyhd/research/
+  - entity_id: services:service-competitive-product-intelligence-jut327
+    files: []
+    path: entities/v1-alpha/competitive-product-intelligence-jut327/research/
+  - entity_id: services:service-complaint-handling-rruw4r
+    files: []
+    path: entities/v1-alpha/complaint-handling-rruw4r/research/
+  - entity_id: services:service-compliance-obligation-mapping-8vt5dv
+    files: []
+    path: entities/v1-alpha/compliance-obligation-mapping-8vt5dv/research/
+  - entity_id: services:service-compliance-training-administration-pjju2h
+    files: []
+    path: entities/v1-alpha/compliance-training-administration-pjju2h/research/
+  - entity_id: services:service-compute-provisioning-t53qbx
+    files: []
+    path: entities/v1-alpha/compute-provisioning-t53qbx/research/
+  - entity_id: services:service-configuration-management-88ksuv
+    files: []
+    path: entities/v1-alpha/configuration-management-88ksuv/research/
+  - entity_id: services:service-conflict-of-interest-disclosure-bjmvp7
+    files: []
+    path: entities/v1-alpha/conflict-of-interest-disclosure-bjmvp7/research/
+  - entity_id: services:service-consent-capture-5rgn45
+    files: []
+    path: entities/v1-alpha/consent-capture-5rgn45/research/
+  - entity_id: services:service-consent-capture-and-management-zu2eqd
+    files: []
+    path: entities/v1-alpha/consent-capture-and-management-zu2eqd/research/
+  - entity_id: services:service-consolidation-and-elimination-h5zpe4
+    files: []
+    path: entities/v1-alpha/consolidation-and-elimination-h5zpe4/research/
+  - entity_id: services:service-contact-management-ktr4bf
+    files: []
+    path: entities/v1-alpha/contact-management-ktr4bf/research/
+  - entity_id: services:service-container-orchestration-nb2zyj
+    files: []
+    path: entities/v1-alpha/container-orchestration-nb2zyj/research/
+  - entity_id: services:service-content-approval-workflow-pyybjr
+    files: []
+    path: entities/v1-alpha/content-approval-workflow-pyybjr/research/
+  - entity_id: services:service-content-localization-vvbbh3
+    files: []
+    path: entities/v1-alpha/content-localization-vvbbh3/research/
+  - entity_id: services:service-content-publishing-2k5ggn
+    files: []
+    path: entities/v1-alpha/content-publishing-2k5ggn/research/
+  - entity_id: services:service-contingent-workforce-administration-fdpzem
+    files: []
+    path: entities/v1-alpha/contingent-workforce-administration-fdpzem/research/
+  - entity_id: services:service-continuity-plan-management-3hbba4
+    files: []
+    path: entities/v1-alpha/continuity-plan-management-3hbba4/research/
+  - entity_id: services:service-continuity-testing-nbrq74
+    files: []
+    path: entities/v1-alpha/continuity-testing-nbrq74/research/
+  - entity_id: services:service-continuous-improvement-8nqasx
+    files: []
+    path: entities/v1-alpha/continuous-improvement-8nqasx/research/
+  - entity_id: services:service-contract-clause-library-ew9rp2
+    files: []
+    path: entities/v1-alpha/contract-clause-library-ew9rp2/research/
+  - entity_id: services:service-contract-expiry-and-renewal-vhzyrk
+    files: []
+    path: entities/v1-alpha/contract-expiry-and-renewal-vhzyrk/research/
+  - entity_id: services:service-contract-generation-cx59jp
+    files: []
+    path: entities/v1-alpha/contract-generation-cx59jp/research/
   - entity_id: services:service-customer-360-ut9yeu
     files: []
     path: entities/v1-alpha/customer-360-ut9yeu/research/

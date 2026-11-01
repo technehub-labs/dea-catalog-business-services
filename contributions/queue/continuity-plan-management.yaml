@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Continuity Plan Management Service
+slug: continuity-plan-management
+abbreviation: CPM
+description: Maintains business continuity plans for critical processes and sites
+  - response team rosters, activation criteria, recovery procedures, and supplier
+  fallbacks - versioned, approved, and distributed to response teams.
+domain: Change & Transformation
+subdomain: Business Continuity
+capabilities:
+- capabilities:capability-continuity-management-v3rn6u
+solution_components:
+- dea:component-continuity-planning-toolkit
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- continuity
+- plans
+- resilience
+- recovery
+assigned_id: services:service-continuity-plan-management-3hbba4
+admitted: '2026-11-01'

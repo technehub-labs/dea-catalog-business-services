@@ -1,0 +1,26 @@
+id: services:service-compliance-obligation-mapping-8vt5dv
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Compliance Obligation Mapping Service
+abbreviation: COM
+description: Maps regulatory provisions to obligations, controls, and accountable
+  owners in a structured register, records control coverage gaps, and refreshes mappings
+  when regulations or processes change.
+domain: Risk & Compliance
+subdomain: Regulatory Compliance
+capabilities:
+- capabilities:capability-regulation-management-gya4d8
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-grc-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- obligations
+- regulatory

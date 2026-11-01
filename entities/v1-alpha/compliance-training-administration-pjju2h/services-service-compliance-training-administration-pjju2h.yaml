@@ -1,0 +1,27 @@
+id: services:service-compliance-training-administration-pjju2h
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Compliance Training Administration Service
+abbreviation: CTA
+description: Assigns mandatory compliance curricula by role and jurisdiction, tracks
+  completion and assessment scores, escalates overdue learners to managers, and evidences
+  training records for audits and examinations.
+domain: Risk & Compliance
+subdomain: Regulatory Compliance
+capabilities:
+- capabilities:capability-policy-management-w5qb87
+- capabilities:capability-regulation-management-gya4d8
+solution_components:
+- dea:component-policy-management-system
+- dea:component-document-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- training
+- compliance

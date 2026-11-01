@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Complaint Handling Service
+slug: complaint-handling
+abbreviation: CHT
+description: Intakes customer complaints, classifies severity and regulatory exposure,
+  drives investigation workflows to resolution deadlines, and produces audit-ready
+  complaint registers for consumer-protection reporting, with statutory deadline tracking.
+domain: Customer Experience
+subdomain: Customer Support & Service
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-crm-platform
+- dea:component-notification-hub
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- complaints
+- regulatory
+assigned_id: services:service-complaint-handling-rruw4r
+admitted: '2026-11-01'

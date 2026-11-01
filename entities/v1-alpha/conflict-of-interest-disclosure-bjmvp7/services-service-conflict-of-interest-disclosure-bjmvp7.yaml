@@ -1,0 +1,26 @@
+id: services:service-conflict-of-interest-disclosure-bjmvp7
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Conflict of Interest Disclosure Service
+abbreviation: CID
+description: Collects annual and event-driven conflict of interest declarations from
+  employees and directors, screens disclosures against supplier and partner records,
+  and routes recusal or mitigation decisions to ethics officers.
+domain: Risk & Compliance
+subdomain: Policies & Ethics
+capabilities:
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-case-management-system
+- dea:component-policy-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- ethics
+- disclosure

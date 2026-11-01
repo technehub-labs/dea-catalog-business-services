@@ -1,0 +1,25 @@
+id: services:service-change-impact-assessment-d4sbhc
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Change Impact Assessment Service
+abbreviation: CIA
+description: Analyzes each transformation initiative for affected roles, processes,
+  systems, and locations, producing scored impact heatmaps and per-population change
+  burdens that shape communication and training plans.
+domain: Change & Transformation
+subdomain: Change Enablement
+capabilities:
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-change-management-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- change
+- impact-assessment
+- transformation

@@ -1,0 +1,27 @@
+id: services:service-change-adoption-tracking-mh2snz
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Change Adoption Tracking Service
+abbreviation: CAT
+description: Measures post-deployment adoption through usage telemetry, process-compliance
+  checks, and proficiency sampling, comparing actual behavior against the adoption
+  curve each program committed to and escalating lags to sponsors.
+domain: Change & Transformation
+subdomain: Change Enablement
+capabilities:
+- capabilities:capability-change-management-hukdeq
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-change-management-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- change
+- adoption
+- measurement

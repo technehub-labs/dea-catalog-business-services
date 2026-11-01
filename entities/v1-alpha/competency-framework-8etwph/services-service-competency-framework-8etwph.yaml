@@ -1,0 +1,26 @@
+id: services:service-competency-framework-8etwph
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Competency Framework Service
+abbreviation: CFW
+description: Maintains the enterprise competency library - definitions, proficiency
+  levels, and role mappings - and versions it over time so job profiles, assessments,
+  and development plans reference one consistent standard.
+domain: Human Resources
+subdomain: Learning & Development
+capabilities:
+- capabilities:capability-learning-and-development-b8qw5n
+- capabilities:capability-talent-management-v2qw9c
+solution_components:
+- dea:component-lms-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- hr
+- competencies
+- job-architecture

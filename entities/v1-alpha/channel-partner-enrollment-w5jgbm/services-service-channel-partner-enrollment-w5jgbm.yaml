@@ -1,0 +1,27 @@
+id: services:service-channel-partner-enrollment-w5jgbm
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Channel Partner Enrollment Service
+abbreviation: CPE
+description: Registers new channel partners through vetting, agreement execution,
+  tier assignment and portal provisioning, establishing resale entitlements, margin
+  schedules, certification requirements and documented annual renewal checkpoints.
+domain: Sales & Revenue Operations
+subdomain: Partner & Channel Sales
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-partner-portal
+- dea:component-crm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- sales
+- partners
+- onboarding

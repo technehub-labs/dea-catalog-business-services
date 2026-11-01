@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Channel Partner Enrollment Service
+slug: channel-partner-enrollment
+abbreviation: CPE
+description: Registers new channel partners through vetting, agreement execution,
+  tier assignment and portal provisioning, establishing resale entitlements, margin
+  schedules, certification requirements and documented annual renewal checkpoints.
+domain: Sales & Revenue Operations
+subdomain: Partner & Channel Sales
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+solution_components:
+- dea:component-partner-portal
+- dea:component-crm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- sales
+- partners
+- onboarding
+assigned_id: services:service-channel-partner-enrollment-w5jgbm
+admitted: '2026-11-01'

@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Contract Generation Service
+slug: contract-generation
+abbreviation: CTG
+description: Assembles contracts and order forms from approved quotes using clause
+  libraries and templates, producing signature-ready documents with tracked deviations
+  and approval records for legal sign-off.
+domain: Sales & Revenue Operations
+subdomain: Quoting & Pricing
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+solution_components:
+- dea:component-cpq-system
+- dea:component-quote-to-cash-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- sales
+- contracts
+- documents
+assigned_id: services:service-contract-generation-cx59jp
+admitted: '2026-11-01'

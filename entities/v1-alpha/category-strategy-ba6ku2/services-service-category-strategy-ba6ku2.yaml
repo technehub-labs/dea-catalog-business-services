@@ -1,0 +1,26 @@
+id: services:service-category-strategy-ba6ku2
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Category Strategy Service
+abbreviation: CST
+description: Documents category strategies — demand outlook, supply market assessment,
+  sourcing levers and savings targets — tracks execution of approved initiatives,
+  and reports realized savings against the strategy baseline.
+domain: Sourcing & Procurement
+subdomain: Strategic Sourcing
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- sourcing
+- category-management
+- savings

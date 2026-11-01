@@ -1,0 +1,28 @@
+id: services:service-change-readiness-assessment-2ykzen
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Change Readiness Assessment Service
+abbreviation: CRA
+description: Surveys affected populations on awareness, willingness, and capability
+  ahead of each release wave, benchmarking readiness scores by unit and flagging where
+  resistance or capability gaps require targeted intervention.
+domain: Change & Transformation
+subdomain: Change Enablement
+capabilities:
+- capabilities:capability-change-management-hukdeq
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-survey-platform
+- dea:component-change-management-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- change
+- readiness
+- surveys

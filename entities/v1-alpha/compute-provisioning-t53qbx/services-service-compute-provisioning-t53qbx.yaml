@@ -1,0 +1,27 @@
+id: services:service-compute-provisioning-t53qbx
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Compute Provisioning Service
+abbreviation: CPS
+description: Provisions virtual machines and bare-metal compute across on-premise
+  and cloud estates from standardized templates, enforcing sizing, tagging and placement
+  rules so project teams receive compliant servers within agreed lead times.
+domain: IT Operations & Infrastructure
+subdomain: Compute & Cloud Platform
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-cloud-management-platform
+- dea:component-compute-fleet
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- compute
+- provisioning

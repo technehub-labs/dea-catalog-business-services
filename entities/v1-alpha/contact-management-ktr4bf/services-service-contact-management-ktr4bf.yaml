@@ -1,0 +1,27 @@
+id: services:service-contact-management-ktr4bf
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Contact Management Service
+abbreviation: CTM
+description: Maintains business contact records with roles, influence relationships
+  and engagement history per account, deduplicating entries and governing visibility
+  of contact data by region and privacy consent.
+domain: Sales & Revenue Operations
+subdomain: Opportunity & Pipeline Management
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-crm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- sales
+- contacts
+- accounts
