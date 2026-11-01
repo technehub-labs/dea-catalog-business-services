@@ -1,0 +1,26 @@
+id: services:service-supplier-qualification-f6mfjx
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Supplier Qualification Service
+abbreviation: SQU
+description: Screens prospective suppliers against financial health, quality certifications,
+  insurance and sanctions criteria, records qualification evidence with expiry dates,
+  and gates sourcing participation until approval completes.
+domain: Sourcing & Procurement
+subdomain: Strategic Sourcing
+capabilities:
+- capabilities:capability-supplier-management-d6fuj4
+- capabilities:capability-sourcing-and-procurement-esucp4
+solution_components:
+- dea:component-supplier-portal
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- sourcing
+- suppliers
+- qualification

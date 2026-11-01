@@ -1,0 +1,26 @@
+id: services:service-video-surveillance-gykuz2
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Video Surveillance Service
+abbreviation: VSV
+description: Records and retains camera coverage of sites and critical rooms, managing
+  retention cycles and export workflows for investigations, and checking recorder
+  health so evidence exists when incidents occur.
+domain: Facilities & Asset Management
+subdomain: Physical Infrastructure
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-cctv-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- facilities
+- cctv
+- physical-security

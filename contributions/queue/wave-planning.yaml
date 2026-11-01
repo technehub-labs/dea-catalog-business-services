@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Wave Planning Service
+slug: wave-planning
+abbreviation: WVP
+description: Groups released orders into waves by carrier cutoff, zone and workload
+  balance, estimates wave labor demand, and releases waves to the floor when staffing
+  confirms readiness.
+domain: Supply Chain & Logistics
+subdomain: Warehouse & Inventory Operations
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-warehouse-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- warehousing
+- fulfillment
+assigned_id: services:service-wave-planning-xpt2mk
+admitted: '2026-11-01'

@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Transformation Program Office Service
+slug: transformation-program-office
+abbreviation: TPO
+description: 'Operates the program management office for enterprise transformation:
+  intake of initiatives, stage documentation, milestone and dependency registers,
+  status reporting to the steering committee, and decision logs.'
+domain: Change & Transformation
+subdomain: Transformation Programs
+capabilities:
+- capabilities:capability-change-management-hukdeq
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-portfolio-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- change
+- pmo
+- governance
+- transformation
+assigned_id: services:service-transformation-program-office-ma6zg7
+admitted: '2026-11-01'

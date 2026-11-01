@@ -1,0 +1,26 @@
+id: services:service-third-party-risk-assessment-u8pz5k
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Third-Party Risk Assessment Service
+abbreviation: TRA
+description: Screens vendors and service providers through tiered due diligence questionnaires
+  covering financial, security, and continuity posture, records findings, and triggers
+  reassessment on criticality or incident history.
+domain: Risk & Compliance
+subdomain: Enterprise Risk Management
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-grc-platform
+- dea:component-case-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- third-party
+- due-diligence

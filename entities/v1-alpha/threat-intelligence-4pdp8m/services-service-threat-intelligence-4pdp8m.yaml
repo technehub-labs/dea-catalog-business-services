@@ -1,0 +1,26 @@
+id: services:service-threat-intelligence-4pdp8m
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Threat Intelligence Service
+abbreviation: TIS
+description: Collects indicators and adversary tradecraft from commercial and open
+  feeds, enriches them with internal context, and pushes tuned detections and actor
+  profiles to monitoring and risk teams.
+domain: Cybersecurity
+subdomain: Security Operations
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-threat-intel-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Restricted
+  compliance: []
+tags:
+- security
+- threat-intelligence
+- detection

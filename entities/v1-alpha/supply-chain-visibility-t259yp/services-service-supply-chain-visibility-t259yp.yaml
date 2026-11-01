@@ -1,0 +1,27 @@
+id: services:service-supply-chain-visibility-t259yp
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Supply Chain Visibility Service
+abbreviation: SCV
+description: Aggregates order, shipment, inventory and supplier event streams into
+  one network view, computes projected arrival and stockout risks, and alerts planners
+  where actuals diverge from plan.
+domain: Supply Chain & Logistics
+subdomain: Supply Network Visibility & Analytics
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-tracking-event-engine
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- visibility
+- analytics

@@ -1,0 +1,31 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Talent Pool Service
+slug: talent-pool
+abbreviation: TPL
+description: Maintains silver-medallist and proactively sourced candidate pools with
+  consent-based retention periods, tags profiles by skill and location, and notifies
+  talent acquisition when new requisitions match pooled candidates.
+domain: Human Resources
+subdomain: Talent Acquisition
+capabilities:
+- capabilities:capability-talent-management-v2qw9c
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-ats-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- recruiting
+- talent-pool
+- sourcing
+assigned_id: services:service-talent-pool-ah3qxg
+admitted: '2026-11-01'

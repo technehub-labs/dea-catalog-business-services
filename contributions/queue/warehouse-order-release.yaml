@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Warehouse Order Release Service
+slug: warehouse-order-release
+abbreviation: WOR
+description: Transmits released orders to warehouse systems as pick-and-pack tasks
+  with priority waves, cut-off times and carrier allocations, consuming confirmations
+  back into order state, plus cartonization instructions.
+domain: Order Management
+subdomain: Order Processing & Fulfillment
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-order-management-system
+- dea:component-warehouse-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- order-management
+- warehouse
+- fulfillment
+assigned_id: services:service-warehouse-order-release-q5943g
+admitted: '2026-11-01'

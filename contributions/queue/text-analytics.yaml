@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Text Analytics Service
+slug: text-analytics
+abbreviation: TXT
+description: Classifies and extracts structure from documents, tickets and survey
+  verbatims using language models, feeding sentiment, topic and entity outputs into
+  dashboards that voice-of-customer and support teams consume.
+domain: Data & Analytics
+subdomain: Advanced Analytics & AI
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-ml-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- nlp
+- text
+assigned_id: services:service-text-analytics-ez4fgk
+admitted: '2026-11-01'

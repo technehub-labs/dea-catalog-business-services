@@ -1,0 +1,28 @@
+id: services:service-variance-analysis-5vmh7z
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Variance Analysis Service
+abbreviation: VAN
+description: Compares actual results against plan, forecast, and prior year at chosen
+  aggregation levels, decomposes variances into volume, price, and mix drivers, and
+  routes explanations to accountable owners.
+domain: Enterprise Strategy & Performance
+subdomain: Performance Management
+capabilities:
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-bi-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- strategy
+- variance
+- analysis
+- finance

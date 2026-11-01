@@ -1,0 +1,27 @@
+id: services:service-user-activity-monitoring-xuhnky
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: User Activity Monitoring Service
+abbreviation: UAM
+description: Monitors privileged and high-risk user activity on regulated systems,
+  baselining normal behaviour and flagging data exfiltration or policy violations,
+  while applying privacy controls to personal data captured.
+domain: Cybersecurity
+subdomain: Security Operations
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-siem-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Restricted
+  compliance:
+  - GDPR
+tags:
+- security
+- monitoring
+- insider-risk

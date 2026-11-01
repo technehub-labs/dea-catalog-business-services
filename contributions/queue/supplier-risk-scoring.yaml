@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Supplier Risk Scoring Service
+slug: supplier-risk-scoring
+abbreviation: SRS
+description: Aggregates financial ratings, geopolitical exposure, concentration and
+  delivery-reliability signals into supplier risk scores, re-scores on trigger events,
+  and alerts category managers when suppliers cross defined risk thresholds.
+domain: Sourcing & Procurement
+subdomain: Supplier Performance & Risk
+capabilities:
+- capabilities:capability-supplier-management-d6fuj4
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- sourcing
+- suppliers
+- risk
+assigned_id: services:service-supplier-risk-scoring-yghbp7
+admitted: '2026-11-01'

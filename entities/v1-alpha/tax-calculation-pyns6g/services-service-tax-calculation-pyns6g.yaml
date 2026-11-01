@@ -1,0 +1,27 @@
+id: services:service-tax-calculation-pyns6g
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Tax Calculation Service
+abbreviation: TXC
+description: Determines indirect tax for order lines from product taxability, origin-destination
+  rules and registration data, returning tax breakdowns at checkout, invoicing and
+  credit-note time, with jurisdiction version tracking.
+domain: Order Management
+subdomain: Payment & Settlement
+capabilities:
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-tax-engine
+- dea:component-billing-engine
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - SOX
+tags:
+- order-management
+- tax
+- compliance

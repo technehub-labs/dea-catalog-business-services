@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Transformation Risk Management Service
+slug: transformation-risk-management
+abbreviation: TRK
+description: Maintains the risk register for the transformation portfolio, scoring
+  delivery, adoption, and operational risks with mitigation owners, and reporting
+  exposure trends and top risks to governance forums.
+domain: Change & Transformation
+subdomain: Transformation Programs
+capabilities:
+- capabilities:capability-change-management-hukdeq
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-governance-risk-compliance-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- change
+- risk
+- portfolio
+assigned_id: services:service-transformation-risk-management-fgbyuw
+admitted: '2026-11-01'

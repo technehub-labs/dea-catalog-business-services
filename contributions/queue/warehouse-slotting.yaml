@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Warehouse Slotting Service
+slug: warehouse-slotting
+abbreviation: WSL
+description: Assigns items to storage locations from velocity, cube, weight and affinity
+  data, proposes re-slotting moves when profiles shift, and batches approved moves
+  into warehouse work queues.
+domain: Supply Chain & Logistics
+subdomain: Warehouse & Inventory Operations
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-warehouse-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- warehousing
+- slotting
+assigned_id: services:service-warehouse-slotting-5vyfwa
+admitted: '2026-11-01'

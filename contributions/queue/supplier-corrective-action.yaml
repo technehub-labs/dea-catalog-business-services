@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Supplier Corrective Action Service
+slug: supplier-corrective-action
+abbreviation: SCA
+description: Issues supplier corrective action requests for quality or delivery failures,
+  tracks containment, root cause and preventive steps through due dates, and verifies
+  effectiveness before closing the request.
+domain: Sourcing & Procurement
+subdomain: Supplier Performance & Risk
+capabilities:
+- capabilities:capability-supplier-management-d6fuj4
+solution_components:
+- dea:component-supplier-portal
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- sourcing
+- quality
+- suppliers
+assigned_id: services:service-supplier-corrective-action-p7jh6n
+admitted: '2026-11-01'

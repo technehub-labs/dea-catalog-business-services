@@ -1,0 +1,27 @@
+id: services:service-time-and-attendance-grh7nr
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Time and Attendance Service
+abbreviation: TNA
+description: Collects clock-in and timesheet data across sites and remote workers,
+  validates it against schedules and overtime rules, and approves export-ready time
+  records to payroll each period.
+domain: Human Resources
+subdomain: Workforce Management
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-time-capture-system
+- dea:component-payroll-engine
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- time-attendance
+- timesheets

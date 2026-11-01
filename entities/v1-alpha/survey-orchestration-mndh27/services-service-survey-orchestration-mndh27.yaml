@@ -1,0 +1,27 @@
+id: services:service-survey-orchestration-mndh27
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Survey Orchestration Service
+abbreviation: SVO
+description: Designs multi-step survey programs, samples recipient groups, schedules
+  distributions across email, web and mobile channels, and applies branching logic,
+  translation sets and quota stops, with response-rate monitoring.
+domain: Customer Experience
+subdomain: Feedback & Voice of Customer
+capabilities:
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-survey-platform
+- dea:component-marketing-automation-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- survey
+- orchestration
