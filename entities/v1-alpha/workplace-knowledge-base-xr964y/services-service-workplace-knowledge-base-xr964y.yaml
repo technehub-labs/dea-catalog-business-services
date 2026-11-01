@@ -1,0 +1,26 @@
+id: services:service-workplace-knowledge-base-xr964y
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Workplace Knowledge Base Service
+abbreviation: WKB
+description: Publishes how-to guides, policy explainers, and FAQs for employees, organized
+  by topic and audience with review dates and owner accountability, and surfaces answers
+  contextually in search and service channels.
+domain: Communications & Workplace
+subdomain: Employee Engagement
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-intranet-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- communications
+- knowledge-base
+- self-service

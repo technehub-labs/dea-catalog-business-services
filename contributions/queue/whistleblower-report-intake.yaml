@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Whistleblower Report Intake Service
+slug: whistleblower-report-intake
+abbreviation: WRI
+description: Provides confidential channels for anonymous reports of misconduct, triages
+  submissions by category and severity, prevents identity exposure, and hands eligible
+  cases to investigators under defined service levels.
+domain: Risk & Compliance
+subdomain: Policies & Ethics
+capabilities:
+- capabilities:capability-policy-management-w5qb87
+- capabilities:capability-audit-and-assurance-management-n7qv25
+solution_components:
+- dea:component-case-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- whistleblowing
+- ethics
+assigned_id: services:service-whistleblower-report-intake-vnznfh
+admitted: '2026-11-01'

@@ -1,0 +1,25 @@
+id: services:service-workplace-mail-services-w92pw7
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Workplace Mail Services
+abbreviation: WPM
+description: Runs incoming mail sorting, franking and inter-site courier runs for
+  business correspondence and parcels, logging tracked items, and delivering to floors
+  and mailboxes on published rounds.
+domain: Facilities & Asset Management
+subdomain: Workplace & Space
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-mailroom-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- mail
+- courier

@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Workload Scheduling Service
+slug: workload-scheduling
+abbreviation: WSC
+description: Schedules and monitors batch jobs and data-processing workloads across
+  the enterprise, managing dependency chains, rerunning failed steps, and alerting
+  owning teams when overnight job calendars breach completion windows.
+domain: IT Operations & Infrastructure
+subdomain: Compute & Cloud Platform
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-orchestration-scheduler
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- batch
+- scheduling
+assigned_id: services:service-workload-scheduling-f6v62b
+admitted: '2026-11-01'

@@ -1,0 +1,31 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Web Content Personalization Service
+slug: web-content-personalization
+abbreviation: WCP
+description: Selects page variants, recommendations and offers for each visitor from
+  segmentation and consent-checked behavioural signals, keeping rendering latency
+  within interactive thresholds on owned properties, without page-load penalties.
+domain: Marketing & Brand
+subdomain: Content & Digital Experience
+capabilities:
+- capabilities:capability-marketing-xmc539
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-customer-data-platform
+- dea:component-content-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- marketing
+- personalization
+- web
+assigned_id: services:service-web-content-personalization-82rx48
+admitted: '2026-11-01'

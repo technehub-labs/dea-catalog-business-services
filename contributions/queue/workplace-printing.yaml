@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Workplace Printing Service
+slug: workplace-printing
+abbreviation: WPR
+description: Maintains shared printers, scanners and secure print-release queues across
+  offices, manages consumables and vendor maintenance, and connects occupants through
+  driverless printing from managed and personal devices.
+domain: IT Operations & Infrastructure
+subdomain: Endpoint & Workplace
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-print-infrastructure
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- printing
+- workplace
+assigned_id: services:service-workplace-printing-e8s44p
+admitted: '2026-11-01'

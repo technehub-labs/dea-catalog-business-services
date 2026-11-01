@@ -1,0 +1,27 @@
+id: services:service-workforce-scheduling-q4jsbn
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Workforce Scheduling Service
+abbreviation: WFS
+description: Builds shift rosters from demand forecasts, contracts, and skill requirements,
+  publishes schedules to employees' devices, and manages shift swaps, open shifts,
+  and absence cover with rule-based fairness checks.
+domain: Human Resources
+subdomain: Workforce Management
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-workforce-scheduling-engine
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- hr
+- scheduling
+- shifts
+- rosters

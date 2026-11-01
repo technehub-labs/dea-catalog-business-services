@@ -1,0 +1,25 @@
+id: services:service-workforce-identity-tbmj22
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Workforce Identity Service
+abbreviation: WFI
+description: Authenticates every employee and contractor through the central directory
+  and single sign-on, provisioning and deprovisioning accounts from HR events, and
+  federating applications so one credential grants governed access.
+domain: Cybersecurity
+subdomain: Identity & Access
+capabilities:
+- capabilities:capability-security-management-wmzc7c
+solution_components:
+- dea:component-identity-provider
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance: []
+tags:
+- security
+- identity
+- authentication

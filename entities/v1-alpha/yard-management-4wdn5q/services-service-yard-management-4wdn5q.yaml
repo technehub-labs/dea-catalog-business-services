@@ -1,0 +1,27 @@
+id: services:service-yard-management-4wdn5q
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Yard Management Service
+abbreviation: YMS
+description: Manages trailer movements across yard and dock doors — gate check-in,
+  spot assignments, dock appointments and departure control — and links trailer positions
+  to inbound and outbound shipments.
+domain: Supply Chain & Logistics
+subdomain: Warehouse & Inventory Operations
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+- capabilities:capability-asset-management-judtwr
+solution_components:
+- dea:component-yard-management-system
+- dea:component-warehouse-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- warehousing
+- yard

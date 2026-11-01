@@ -1,0 +1,31 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Workforce Transition Service
+slug: workforce-transition
+abbreviation: WFT
+description: Manages individual transitions during restructuring - redeployment matching,
+  retraining paths, notice and consultation steps, and severance processing - with
+  each case tracked to closure under employment law constraints.
+domain: Change & Transformation
+subdomain: Process & Organization
+capabilities:
+- capabilities:capability-change-management-hukdeq
+- capabilities:capability-workforce-planning-b43rhm
+solution_components:
+- dea:component-hris-core
+- dea:component-talent-marketplace
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- change
+- transition
+- redeployment
+- severance
+assigned_id: services:service-workforce-transition-v7jnxs
+admitted: '2026-11-01'

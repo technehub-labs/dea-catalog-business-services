@@ -1,0 +1,27 @@
+id: services:service-win-loss-analysis-7mv9k8
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Win/Loss Analysis Service
+abbreviation: WLA
+description: Classifies closed opportunities by outcome using structured reason codes
+  and competitor data, quantifying loss drivers and win patterns for quarterly sales
+  reviews and play adjustments.
+domain: Sales & Revenue Operations
+subdomain: Revenue Recognition & Sales Analytics
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-crm-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- sales
+- win-loss
+- competitive
