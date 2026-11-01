@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Container Orchestration Service
+slug: container-orchestration
+abbreviation: COC
+description: Runs the shared Kubernetes platforms that host containerized business
+  applications, autoscaling node pools, enforcing resource quotas and admission policies,
+  and rolling out cluster upgrades without downtime for tenant workloads.
+domain: IT Operations & Infrastructure
+subdomain: Compute & Cloud Platform
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-container-platform
+- dea:component-cicd-platform
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance: []
+tags:
+- it
+- containers
+- platform
+assigned_id: services:service-container-orchestration-nb2zyj
+admitted: '2026-11-01'

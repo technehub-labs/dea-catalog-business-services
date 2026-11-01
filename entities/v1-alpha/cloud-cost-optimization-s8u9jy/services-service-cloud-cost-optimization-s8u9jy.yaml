@@ -1,0 +1,26 @@
+id: services:service-cloud-cost-optimization-s8u9jy
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Cloud Cost Optimization Service
+abbreviation: CCO
+description: Analyzes cloud spend across accounts, rightsizes oversized resources,
+  eliminates idle assets, and publishes monthly showback reports that map consumption
+  to business units so owners can act on waste.
+domain: IT Operations & Infrastructure
+subdomain: Compute & Cloud Platform
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-enterprise-governance-uas48u
+solution_components:
+- dea:component-cloud-management-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- cloud
+- cost

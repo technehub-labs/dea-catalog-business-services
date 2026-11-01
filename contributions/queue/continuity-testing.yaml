@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Continuity Testing Service
+slug: continuity-testing
+abbreviation: CNT
+description: Schedules and records continuity exercises - tabletop walk-throughs,
+  call-tree tests, and recovery drills - capturing findings, corrective actions, and
+  retest dates so plans stay proven against current operations.
+domain: Change & Transformation
+subdomain: Business Continuity
+capabilities:
+- capabilities:capability-continuity-management-v3rn6u
+solution_components:
+- dea:component-continuity-planning-toolkit
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- continuity
+- testing
+- exercises
+- drills
+assigned_id: services:service-continuity-testing-nbrq74
+admitted: '2026-11-01'

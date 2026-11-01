@@ -1,0 +1,29 @@
+id: services:service-contingent-workforce-administration-fdpzem
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Contingent Workforce Administration Service
+abbreviation: CWA
+description: Manages the contract-labor lifecycle from statement-of-work intake through
+  vendor assignment, badge and system access, time confirmation, and contract expiry,
+  keeping external workers visible in headcount and spend reporting.
+domain: Human Resources
+subdomain: Workforce Management
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+- capabilities:capability-workforce-planning-b43rhm
+solution_components:
+- dea:component-hris-core
+- dea:component-vendor-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- contingent-labor
+- contractors
+- vendors

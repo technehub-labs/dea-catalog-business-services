@@ -1,0 +1,25 @@
+id: services:service-carrier-rate-management-6em4hd
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Carrier Rate Management Service
+abbreviation: CRM
+description: Stores contracted carrier rates, accessorial schedules and fuel surcharge
+  tables, applies them to shipment ratings, and versions rate packages so shipments
+  price against the contracts effective on ship date.
+domain: Supply Chain & Logistics
+subdomain: Transportation & Distribution
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-transport-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- supply-chain
+- transportation
+- rates

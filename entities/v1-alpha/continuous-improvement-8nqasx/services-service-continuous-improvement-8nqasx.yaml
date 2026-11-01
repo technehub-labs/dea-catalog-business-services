@@ -1,0 +1,28 @@
+id: services:service-continuous-improvement-8nqasx
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Continuous Improvement Service
+abbreviation: CII
+description: Collects improvement proposals from operations, prioritizes them by effort
+  and benefit, runs structured problem-solving cycles, and tracks implemented gains
+  so process performance compounds across sites.
+domain: Change & Transformation
+subdomain: Process & Organization
+capabilities:
+- capabilities:capability-change-management-hukdeq
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-bpm-suite
+- dea:component-process-mining-suite
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- change
+- improvement
+- kaizen
+- process

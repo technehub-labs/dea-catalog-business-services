@@ -1,0 +1,26 @@
+id: services:service-cloud-landing-zone-wywcmf
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Cloud Landing Zone Service
+abbreviation: CLZ
+description: Operates the governed landing zones in which cloud workloads run, wiring
+  account scaffolding, identity boundaries, network segmentation and guardrail policies,
+  and onboarding new business workloads onto those pre-approved environments.
+domain: IT Operations & Infrastructure
+subdomain: Compute & Cloud Platform
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-cloud-management-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- it
+- cloud
+- governance

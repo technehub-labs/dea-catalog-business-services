@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Change Data Capture Service
+slug: change-data-capture
+abbreviation: CDC
+description: Captures insert, update and delete events from transactional database
+  logs and publishes them as ordered streams, letting downstream platforms mirror
+  operational data without querying production systems directly.
+domain: Data & Analytics
+subdomain: Data Integration
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-streaming-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- cdc
+- integration
+assigned_id: services:service-change-data-capture-aftmuy
+admitted: '2026-11-01'

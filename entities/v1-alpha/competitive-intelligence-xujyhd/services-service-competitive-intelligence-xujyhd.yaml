@@ -1,0 +1,27 @@
+id: services:service-competitive-intelligence-xujyhd
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Competitive Intelligence Service
+abbreviation: CIN
+description: Gathers and synthesizes market, competitor, and industry signals from
+  analyst reports, filings, and public sources into briefs and watchlists that inform
+  strategy choices and executive decision points.
+domain: Enterprise Strategy & Performance
+subdomain: Strategy Development
+capabilities:
+- capabilities:capability-strategy-formulation-sf7q2x
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-competitive-intelligence-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- competitive-intelligence
+- market

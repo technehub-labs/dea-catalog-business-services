@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Competitive Intelligence Service
+slug: competitive-intelligence
+abbreviation: CIN
+description: Gathers and synthesizes market, competitor, and industry signals from
+  analyst reports, filings, and public sources into briefs and watchlists that inform
+  strategy choices and executive decision points.
+domain: Enterprise Strategy & Performance
+subdomain: Strategy Development
+capabilities:
+- capabilities:capability-strategy-formulation-sf7q2x
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-competitive-intelligence-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- competitive-intelligence
+- market
+assigned_id: services:service-competitive-intelligence-xujyhd
+admitted: '2026-11-01'

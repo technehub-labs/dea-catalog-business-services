@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Content Localization Service
+slug: content-localization
+abbreviation: CLZ
+description: Translates and adapts marketing content for target locales, managing
+  translation memory, vendor assignments, in-market review and market-specific publication
+  schedules for global launches across all regions.
+domain: Marketing & Brand
+subdomain: Content & Digital Experience
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-content-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- localization
+- translation
+assigned_id: services:service-content-localization-vvbbh3
+admitted: '2026-11-01'

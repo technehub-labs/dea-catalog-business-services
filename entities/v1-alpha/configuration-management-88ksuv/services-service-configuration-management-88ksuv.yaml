@@ -1,0 +1,26 @@
+id: services:service-configuration-management-88ksuv
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Configuration Management Service
+abbreviation: CMT
+description: Maintains the configuration management database recording every production
+  asset, its owner and its dependencies, reconciling discovered data against records
+  so impact analysis rests on trustworthy topology.
+domain: IT Operations & Infrastructure
+subdomain: Service Management & Support
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-cmdb
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- cmdb
+- service-management

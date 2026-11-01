@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Communication Suppression Service
+slug: communication-suppression
+abbreviation: CSU
+description: Maintains global do-not-contact, legal-hold and unsubscribe registers,
+  evaluating every outbound customer message against suppression rules before release
+  and reporting suppression coverage metrics, to compliance stakeholders.
+domain: Customer Experience
+subdomain: Consent & Privacy
+capabilities:
+- capabilities:capability-privacy-and-consent-management-h3mw69
+solution_components:
+- dea:component-notification-hub
+- dea:component-consent-management-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- customer-experience
+- suppression
+- do-not-contact
+assigned_id: services:service-communication-suppression-eygvnw
+admitted: '2026-11-01'

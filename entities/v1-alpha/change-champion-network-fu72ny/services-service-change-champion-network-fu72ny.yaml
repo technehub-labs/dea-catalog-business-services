@@ -1,0 +1,28 @@
+id: services:service-change-champion-network-fu72ny
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Change Champion Network Service
+abbreviation: CCN
+description: Recruits, trains, and coordinates volunteer change champions embedded
+  in business units, equipping them with early previews, feedback-collection duties,
+  and talking points, and tracking their activity per initiative wave.
+domain: Change & Transformation
+subdomain: Change Enablement
+capabilities:
+- capabilities:capability-change-management-hukdeq
+solution_components:
+- dea:component-collaboration-suite
+- dea:component-change-management-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- change
+- champions
+- network
+- enablement

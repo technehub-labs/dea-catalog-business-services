@@ -1,0 +1,27 @@
+id: services:service-channel-inventory-visibility-vsmzrp
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Channel Inventory Visibility Service
+abbreviation: CIV
+description: Ingests partner sell-in receipts and sell-through sales reports, maintains
+  channel stock positions by partner and SKU, and flags aging or oversized channel
+  inventory for demand planning review.
+domain: Partner & Channel Management
+subdomain: Channel Operations
+capabilities:
+- capabilities:capability-partner-management-cp3vdb
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-analytics-warehouse
+- dea:component-partner-portal
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- partner-channel
+- inventory
+- sell-through

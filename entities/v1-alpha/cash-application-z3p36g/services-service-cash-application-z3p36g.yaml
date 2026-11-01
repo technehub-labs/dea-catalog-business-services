@@ -1,0 +1,27 @@
+id: services:service-cash-application-z3p36g
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Cash Application Service
+abbreviation: CAP
+description: Matches incoming bank remittances to open customer invoices using reference
+  extraction and tolerance rules, posts unidentified amounts to suspense, and feeds
+  unapplied cash back to collectors.
+domain: Finance & Accounting
+subdomain: Payables & Receivables
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-erp-core
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- receivables
+- cash-management

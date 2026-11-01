@@ -1,0 +1,27 @@
+id: services:service-chart-of-accounts-administration-d52pcx
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Chart of Accounts Administration Service
+abbreviation: COA
+description: Maintains the chart of accounts, cost center and segment mappings, and
+  hierarchy changes with effective dating, so ledger postings and statutory reports
+  stay aligned across entities.
+domain: Finance & Accounting
+subdomain: General Ledger & Close
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+- capabilities:capability-financial-stewardship-c7xtfk
+solution_components:
+- dea:component-erp-core
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- general-ledger
+- master-data

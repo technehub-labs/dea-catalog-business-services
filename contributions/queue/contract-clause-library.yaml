@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Contract Clause Library Service
+slug: contract-clause-library
+abbreviation: CCL
+description: Holds approved contract clause templates with fallback positions and
+  negotiation guidance, lets authors assemble drafts from vetted clauses only, and
+  flags deviations from standard positions for legal review.
+domain: Sourcing & Procurement
+subdomain: Contract & Controls
+capabilities:
+- capabilities:capability-sourcing-and-procurement-esucp4
+solution_components:
+- dea:component-contract-lifecycle-management
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- sourcing
+- contracts
+- legal
+assigned_id: services:service-contract-clause-library-ew9rp2
+admitted: '2026-11-01'

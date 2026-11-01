@@ -1,0 +1,28 @@
+id: services:service-consent-capture-5rgn45
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Consent Capture Service
+abbreviation: CNC
+description: Records, versions and timestamps customer consent grants per purpose
+  and channel at every collection point, propagating grant, refusal and withdrawal
+  decisions to downstream processing systems.
+domain: Customer Experience
+subdomain: Consent & Privacy
+capabilities:
+- capabilities:capability-privacy-and-consent-management-h3mw69
+solution_components:
+- dea:component-consent-management-platform
+- dea:component-api-gateway
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - CCPA
+tags:
+- customer-experience
+- consent
+- privacy

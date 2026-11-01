@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Content Approval Workflow Service
+slug: content-approval-workflow
+abbreviation: CAW
+description: Routes draft marketing content through legal, brand and regional review
+  gates with parallel or sequential tasks, recording approvals, rejections and revision
+  history for audit, with reviewer service levels.
+domain: Marketing & Brand
+subdomain: Campaign Management & Operations
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-content-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- workflow
+- compliance-review
+assigned_id: services:service-content-approval-workflow-pyybjr
+admitted: '2026-11-01'

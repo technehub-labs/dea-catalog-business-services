@@ -1,0 +1,27 @@
+id: services:service-climate-risk-scenario-analysis-tz6jfv
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Climate Risk Scenario Analysis Service
+abbreviation: CRS
+description: Runs transition and physical climate scenarios against asset locations
+  and business activities, quantifies exposure ranges under temperature pathways,
+  and documents assumptions for disclosure-ready climate risk reporting.
+domain: Sustainability & ESG
+subdomain: Emissions & Climate
+capabilities:
+- capabilities:capability-enterprise-governance-uas48u
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-esg-data-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- sustainability
+- climate-risk
+- scenario

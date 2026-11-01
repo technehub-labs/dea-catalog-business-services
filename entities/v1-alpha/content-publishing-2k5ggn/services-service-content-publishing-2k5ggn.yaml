@@ -1,0 +1,25 @@
+id: services:service-content-publishing-2k5ggn
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Content Publishing Service
+abbreviation: CPS
+description: Creates, schedules and releases editorial and promotional content to
+  web, mobile and syndication endpoints, with staged previews, scheduled take-downs,
+  rollbacks and channel-specific rendering per publication target.
+domain: Marketing & Brand
+subdomain: Content & Digital Experience
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-content-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- content
+- publishing

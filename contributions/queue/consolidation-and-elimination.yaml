@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Consolidation and Elimination Service
+slug: consolidation-and-elimination
+abbreviation: CEL
+description: Aggregates trial balances from subsidiary ledgers into group currency,
+  applies ownership percentages, posts intercompany eliminations, and produces consolidated
+  statements for statutory and management reporting use.
+domain: Finance & Accounting
+subdomain: General Ledger & Close
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+- capabilities:capability-financial-stewardship-c7xtfk
+solution_components:
+- dea:component-erp-core
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - SOX
+tags:
+- finance
+- consolidation
+- group-reporting
+assigned_id: services:service-consolidation-and-elimination-h5zpe4
+admitted: '2026-11-01'

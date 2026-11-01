@@ -1,0 +1,27 @@
+id: services:service-case-management-5454s7
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Case Management Service
+abbreviation: CSM
+description: Creates, routes and resolves customer support cases with SLA timers,
+  entitlement checks and linked interactions, closing every case with root-cause codes
+  and satisfaction follow-up, within defined service targets.
+domain: Customer Experience
+subdomain: Customer Support & Service
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+solution_components:
+- dea:component-crm-platform
+- dea:component-notification-hub
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- case-management
+- support

@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Collections and Dunning Service
+slug: collections-and-dunning
+abbreviation: CDS
+description: Generates dunning notices by customer aging level, records promise-to-pay
+  commitments, and coordinates escalation of overdue accounts between sales owners
+  and the credit function before write-off review.
+domain: Finance & Accounting
+subdomain: Payables & Receivables
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-erp-core
+- dea:component-case-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- finance
+- receivables
+- collections
+assigned_id: services:service-collections-and-dunning-bu2phg
+admitted: '2026-11-01'
