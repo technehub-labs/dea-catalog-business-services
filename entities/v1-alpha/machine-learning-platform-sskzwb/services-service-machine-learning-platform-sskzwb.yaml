@@ -1,0 +1,26 @@
+id: services:service-machine-learning-platform-sskzwb
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Machine Learning Platform Service
+abbreviation: MLP
+description: Provides data scientists with managed training compute, feature stores
+  and experiment tracking, provisioning GPU pools on demand and versioning datasets
+  and models so results stay reproducible across projects.
+domain: Data & Analytics
+subdomain: Advanced Analytics & AI
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-ml-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- data
+- ml
+- platform

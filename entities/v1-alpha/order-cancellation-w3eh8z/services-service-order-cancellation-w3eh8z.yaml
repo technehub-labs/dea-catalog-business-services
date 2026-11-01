@@ -1,0 +1,28 @@
+id: services:service-order-cancellation-w3eh8z
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Order Cancellation Service
+abbreviation: OCN
+description: Processes full and line-level cancellations, releasing stock reservations,
+  reversing payment authorizations and calculating cancellation fees according to
+  policy, timing and jurisdiction rules with customer notification.
+domain: Order Management
+subdomain: Order Processing & Fulfillment
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-billing-and-revenue-management-k7mwq2
+solution_components:
+- dea:component-order-management-system
+- dea:component-payment-gateway
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- order-management
+- cancellation
+- reversals

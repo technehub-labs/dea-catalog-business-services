@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Long-Range Planning Service
+slug: long-range-planning
+abbreviation: LRP
+description: Produces the three-to-five-year enterprise plan from unit submissions,
+  market outlooks, and capability assessments, reconciling growth ambitions, resource
+  envelopes, and financial trajectories into one approved long-range view.
+domain: Enterprise Strategy & Performance
+subdomain: Strategic Planning
+capabilities:
+- capabilities:capability-strategic-planning-k3rz7a
+solution_components:
+- dea:component-strategy-management-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- strategy
+- planning
+- long-range
+assigned_id: services:service-long-range-planning-df6sab
+admitted: '2026-11-01'

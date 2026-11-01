@@ -1,0 +1,25 @@
+id: services:service-log-management-jcvktj
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Log Management Service
+abbreviation: LGM
+description: Centralizes operational and audit logs from systems and applications
+  into searchable retention tiers, applying tamper-evident storage, normalization
+  and index lifecycle rules so investigations and audits retrieve evidence quickly.
+domain: IT Operations & Infrastructure
+subdomain: Backup & Resilience
+capabilities:
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-log-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- it
+- logging
+- audit

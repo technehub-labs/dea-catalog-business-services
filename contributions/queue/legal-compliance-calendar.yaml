@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Legal Compliance Calendar Service
+slug: legal-compliance-calendar
+abbreviation: LCC
+description: Maintains filing and renewal deadlines across corporate, contractual,
+  and regulatory commitments, assigns preparers with lead times, and escalates approaching
+  statutory deadlines before late penalties accrue.
+domain: Legal & Privacy
+subdomain: Compliance & Governance
+capabilities:
+- capabilities:capability-legal-matter-management-zzbd2u
+solution_components:
+- dea:component-case-management-system
+- dea:component-document-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- legal
+- deadlines
+- filing
+assigned_id: services:service-legal-compliance-calendar-74ssc6
+admitted: '2026-11-01'

@@ -1,0 +1,25 @@
+id: services:service-load-building-qru3fz
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Load Building Service
+abbreviation: LDB
+description: Optimizes load plans for outbound shipments against weight, cube, axle
+  and stacking constraints, sequences stops, and rejects or repacks loads that violate
+  equipment or legal limits.
+domain: Supply Chain & Logistics
+subdomain: Transportation & Distribution
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-transport-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- transportation
+- load-planning

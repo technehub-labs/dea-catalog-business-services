@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Middleware Administration Service
+slug: middleware-administration
+abbreviation: MID
+description: Administers application servers, message brokers and integration runtimes
+  shared by business systems, applying configuration baselines, tuning connection
+  pools, and coordinating version upgrades with owning application teams.
+domain: IT Operations & Infrastructure
+subdomain: Compute & Cloud Platform
+capabilities:
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-middleware-runtime
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- it
+- middleware
+- administration
+assigned_id: services:service-middleware-administration-bfwhcx
+admitted: '2026-11-01'

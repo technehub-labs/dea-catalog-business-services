@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Offer Management Service
+slug: offer-management
+abbreviation: OFM
+description: Generates offer letters from approved compensation bands, tracks candidate
+  negotiation and acceptance status, triggers background-check and document-collection
+  steps, and updates requisition and pipeline status once an offer is accepted or
+  declined.
+domain: Human Resources
+subdomain: Talent Acquisition
+capabilities:
+- capabilities:capability-talent-management-v2qw9c
+solution_components:
+- dea:component-ats-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- recruiting
+- offers
+- candidates
+assigned_id: services:service-offer-management-mpw4vk
+admitted: '2026-11-01'

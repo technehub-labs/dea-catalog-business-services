@@ -1,0 +1,28 @@
+id: services:service-mandatory-training-compliance-b43gpq
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Mandatory Training Compliance Service
+abbreviation: MTC
+description: Assigns statutory and policy-mandated training by role and region, chases
+  completion through escalating reminders, and reports completion evidence and overdue
+  exceptions to compliance owners and auditors.
+domain: Human Resources
+subdomain: Learning & Development
+capabilities:
+- capabilities:capability-learning-and-development-b8qw5n
+- capabilities:capability-policy-management-w5qb87
+solution_components:
+- dea:component-lms-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- hr
+- learning
+- compliance
+- training

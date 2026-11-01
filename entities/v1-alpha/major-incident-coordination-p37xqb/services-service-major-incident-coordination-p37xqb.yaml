@@ -1,0 +1,26 @@
+id: services:service-major-incident-coordination-p37xqb
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Major Incident Coordination Service
+abbreviation: MIC
+description: Leads the response to severity-one outages, convening bridge calls, directing
+  technical workstreams, issuing stakeholder communications at fixed intervals, and
+  driving services to restoration before structured post-incident review.
+domain: IT Operations & Infrastructure
+subdomain: Service Management & Support
+capabilities:
+- capabilities:capability-incident-and-problem-management-c2wk96
+- capabilities:capability-technology-management-maus5n
+solution_components:
+- dea:component-itsm-platform
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance: []
+tags:
+- it
+- incident
+- service-management

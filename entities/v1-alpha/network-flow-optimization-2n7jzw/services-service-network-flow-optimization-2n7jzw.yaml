@@ -1,0 +1,25 @@
+id: services:service-network-flow-optimization-2n7jzw
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Network Flow Optimization Service
+abbreviation: NFO
+description: Determines least-cost product flows from sources through distribution
+  centers to demand regions under capacity and service constraints, and publishes
+  recommended flow plans for tactical sourcing decisions.
+domain: Supply Chain & Logistics
+subdomain: Demand & Supply Planning
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-scm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- network-design
+- optimization

@@ -1,0 +1,27 @@
+id: services:service-okr-tracking-9ce8fr
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: OKR Tracking Service
+abbreviation: OKR
+description: Manages objective and key-result setting each quarter - drafting, alignment
+  checks, and confidence scoring - then tracks weekly key-result progress across teams
+  and rolls attainment up to company objectives.
+domain: Enterprise Strategy & Performance
+subdomain: Strategic Planning
+capabilities:
+- capabilities:capability-strategic-planning-k3rz7a
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-okr-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- okr
+- objectives
+- tracking

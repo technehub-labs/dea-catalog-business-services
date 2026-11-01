@@ -1,0 +1,27 @@
+id: services:service-office-relocation-coordination-nk7uxy
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Office Relocation Coordination Service
+abbreviation: ORC
+description: Plans and executes employee moves between buildings and floors - seating
+  assignments, crate logistics, network and phone activation, and access-badge updates
+  - sequencing moves to keep business operations uninterrupted.
+domain: Communications & Workplace
+subdomain: Workplace Experience
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-workspace-booking-system
+- dea:component-facilities-work-order-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- workplace
+- relocation
+- moves
+- facilities

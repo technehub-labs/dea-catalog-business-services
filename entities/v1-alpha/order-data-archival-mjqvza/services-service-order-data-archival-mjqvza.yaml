@@ -1,0 +1,29 @@
+id: services:service-order-data-archival-mjqvza
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Order Data Archival Service
+abbreviation: ODA
+description: Archives closed orders and associated payment references into retention-compliant
+  storage after the active window, serving lookup requests and enforcing legal holds
+  during retention, with restoration procedures.
+domain: Order Management
+subdomain: Inventory & Order Intelligence
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-order-management-system
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance:
+  - GDPR
+  - SOX
+tags:
+- order-management
+- archival
+- retention

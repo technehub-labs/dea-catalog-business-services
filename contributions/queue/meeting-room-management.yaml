@@ -1,0 +1,27 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Meeting Room Management Service
+slug: meeting-room-management
+abbreviation: MRM
+description: Administers bookable meeting rooms and their doorway display panels,
+  syncing reservations with calendars, reclaiming no-show slots automatically, and
+  reporting utilization figures that shape room reconfiguration choices.
+domain: Facilities & Asset Management
+subdomain: Workplace & Space
+capabilities:
+- capabilities:capability-facility-management-tx73hb
+solution_components:
+- dea:component-room-booking-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- facilities
+- rooms
+- booking
+assigned_id: services:service-meeting-room-management-28b7rp
+admitted: '2026-11-01'

@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Lead Nurturing Service
+slug: lead-nurturing
+abbreviation: LDN
+description: Advances not-yet-ready leads through staged content streams and drip
+  sequences, monitoring engagement decay, honouring preference changes and recycling
+  cold leads back into capture programs, with engagement thresholds.
+domain: Marketing & Brand
+subdomain: Audience & Demand Generation
+capabilities:
+- capabilities:capability-marketing-xmc539
+solution_components:
+- dea:component-marketing-automation-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- marketing
+- nurturing
+- drip-campaigns
+assigned_id: services:service-lead-nurturing-wpjhfy
+admitted: '2026-11-01'

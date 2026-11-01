@@ -1,0 +1,27 @@
+id: services:service-order-capture-8hg35t
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Order Capture Service
+abbreviation: ODC
+description: Accepts orders from web, EDI, API and agent channels, normalizing payloads
+  into the canonical order model, and issuing acknowledgements with persisted order
+  identifiers and customer receipts.
+domain: Order Management
+subdomain: Order Capture & Validation
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+solution_components:
+- dea:component-order-management-system
+- dea:component-ecommerce-platform
+governance:
+  sla_tier: Platinum
+  sla_uptime: 99.99%
+  recovery_time_minutes: 15
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- order-management
+- capture
+- channels

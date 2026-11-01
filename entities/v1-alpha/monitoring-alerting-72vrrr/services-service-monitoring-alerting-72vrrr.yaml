@@ -1,0 +1,26 @@
+id: services:service-monitoring-alerting-72vrrr
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Monitoring & Alerting Service
+abbreviation: MAS
+description: Collects metrics, traces and health probes from infrastructure and applications,
+  maintains alert rules and dashboards per service, and routes deduplicated alerts
+  to owning teams before customers notice degradation.
+domain: IT Operations & Infrastructure
+subdomain: Backup & Resilience
+capabilities:
+- capabilities:capability-technology-management-maus5n
+- capabilities:capability-incident-and-problem-management-c2wk96
+solution_components:
+- dea:component-monitoring-observability-stack
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance: []
+tags:
+- it
+- monitoring
+- alerting

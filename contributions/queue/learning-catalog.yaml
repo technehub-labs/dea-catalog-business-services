@@ -1,0 +1,29 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Learning Catalog Service
+slug: learning-catalog
+abbreviation: LCA
+description: Curates the searchable catalog of courses, curricula, and certifications
+  from internal and external providers, maintaining prerequisites, formats, pricing,
+  and validity windows that enrollment and compliance processes consume.
+domain: Human Resources
+subdomain: Learning & Development
+capabilities:
+- capabilities:capability-learning-and-development-b8qw5n
+solution_components:
+- dea:component-lms-platform
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- hr
+- learning
+- catalog
+- training
+assigned_id: services:service-learning-catalog-zp7w7a
+admitted: '2026-11-01'

@@ -1,0 +1,27 @@
+id: services:service-offboarding-administration-83cbbj
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Offboarding Administration Service
+abbreviation: 'OFF'
+description: Executes leaver checklists covering access revocation, asset return,
+  final-pay inputs, and benefits termination, coordinates knowledge handover tasks,
+  and closes the employment record with exit-interview data feeding attrition analytics.
+domain: Human Resources
+subdomain: Core HR & Payroll
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-hris-core
+- dea:component-itsm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- offboarding
+- leavers

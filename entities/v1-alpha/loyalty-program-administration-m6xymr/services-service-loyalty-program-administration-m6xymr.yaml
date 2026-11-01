@@ -1,0 +1,26 @@
+id: services:service-loyalty-program-administration-m6xymr
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Loyalty Program Administration Service
+abbreviation: LPA
+description: Administers loyalty scheme rules including accrual, redemption, tier
+  qualification and promotional multipliers, posting points ledgers, expiries and
+  adjustments to member accounts in real time, with full audit trails.
+domain: Customer Experience
+subdomain: Customer Lifecycle & Success
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+solution_components:
+- dea:component-loyalty-platform
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- loyalty
+- points
