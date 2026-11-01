@@ -1,0 +1,26 @@
+id: services:service-marketing-performance-analytics-43fzfv
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Marketing Performance Analytics Service
+abbreviation: MPA
+description: Consolidates spend, impressions, engagement and conversion data across
+  paid and owned channels into campaign scorecards, quantifying cost per outcome and
+  budget efficiency for marketing leadership.
+domain: Marketing & Brand
+subdomain: Marketing Analytics & Attribution
+capabilities:
+- capabilities:capability-marketing-xmc539
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- analytics
+- performance

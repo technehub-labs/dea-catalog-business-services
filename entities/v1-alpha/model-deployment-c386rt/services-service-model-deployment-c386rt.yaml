@@ -1,0 +1,25 @@
+id: services:service-model-deployment-c386rt
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Model Deployment Service
+abbreviation: MDP
+description: Packages approved models into monitored serving endpoints with staged
+  rollout and rollback, tracking prediction drift and latency, and returning performance
+  dashboards to model owners for retraining decisions.
+domain: Data & Analytics
+subdomain: Advanced Analytics & AI
+capabilities:
+- capabilities:capability-technology-enablement-y6nkws
+solution_components:
+- dea:component-ml-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- mlops
+- serving

@@ -1,0 +1,26 @@
+id: services:service-logistics-cost-analytics-kwx2x4
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Logistics Cost Analytics Service
+abbreviation: LCA
+description: Computes landed and per-unit logistics costs by lane, mode, carrier and
+  customer from freight spend and shipment records, and explains month-over-month
+  variances for budget reviews.
+domain: Supply Chain & Logistics
+subdomain: Supply Network Visibility & Analytics
+capabilities:
+- capabilities:capability-operations-management-pm3w8k
+- capabilities:capability-enterprise-performance-management-5fxren
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- supply-chain
+- analytics
+- cost

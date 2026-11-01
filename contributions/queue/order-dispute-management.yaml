@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Order Dispute Management Service
+slug: order-dispute-management
+abbreviation: ODM
+description: Manages customer and chargeback disputes over orders, assembling evidence
+  packets, meeting scheme response deadlines and tracking dispute outcomes through
+  recovery or write-off with responsibility assignment.
+domain: Order Management
+subdomain: Returns & Post-Sale Care
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-payment-gateway
+- dea:component-order-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- order-management
+- disputes
+- chargebacks
+assigned_id: services:service-order-dispute-management-z3mt3n
+admitted: '2026-11-01'

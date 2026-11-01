@@ -1,0 +1,30 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Onboarding Orchestration Service
+slug: onboarding-orchestration
+abbreviation: ONS
+description: Turns accepted offers into day-one readiness by initiating contracts,
+  equipment, accounts, and mandatory training, assigning buddies and orientation plans,
+  and tracking each new hire through the probation checkpoints defined by HR policy.
+domain: Human Resources
+subdomain: Talent Acquisition
+capabilities:
+- capabilities:capability-talent-management-v2qw9c
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-hris-core
+- dea:component-itsm-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- onboarding
+- new-hires
+assigned_id: services:service-onboarding-orchestration-8uaqng
+admitted: '2026-11-01'

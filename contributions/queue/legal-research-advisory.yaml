@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Legal Research Advisory Service
+slug: legal-research-advisory
+abbreviation: LRA
+description: Captures research requests, routes questions to in-house specialists
+  or retained counsel, records written positions and citations in a searchable memo
+  library, and flags precedent changes affecting prior advice.
+domain: Legal & Privacy
+subdomain: Compliance & Governance
+capabilities:
+- capabilities:capability-legal-matter-management-zzbd2u
+solution_components:
+- dea:component-document-management-system
+- dea:component-case-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- legal
+- research
+- advisory
+assigned_id: services:service-legal-research-advisory-9vzffc
+admitted: '2026-11-01'

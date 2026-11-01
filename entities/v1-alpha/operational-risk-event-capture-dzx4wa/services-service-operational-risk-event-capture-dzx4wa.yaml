@@ -1,0 +1,26 @@
+id: services:service-operational-risk-event-capture-dzx4wa
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Operational Risk Event Capture Service
+abbreviation: ORE
+description: Records loss events and near misses from business units, classifies them
+  by Basel event type, links contributing control failures, and feeds gross loss data
+  to risk reporting.
+domain: Risk & Compliance
+subdomain: Enterprise Risk Management
+capabilities:
+- capabilities:capability-risk-management-h9uxdw
+solution_components:
+- dea:component-grc-platform
+- dea:component-case-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- risk
+- operational-risk
+- incident

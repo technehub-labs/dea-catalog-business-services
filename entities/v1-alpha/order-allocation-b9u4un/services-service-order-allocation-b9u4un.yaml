@@ -1,0 +1,26 @@
+id: services:service-order-allocation-b9u4un
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Order Allocation Service
+abbreviation: OAL
+description: Reserves and allocates on-hand inventory to competing orders by priority
+  and promise date, resolving contention explicitly and releasing allocations on cancellation
+  or expiry, with allocation audit records.
+domain: Order Management
+subdomain: Order Processing & Fulfillment
+capabilities:
+- capabilities:capability-order-management-t6wm3h
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-order-management-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- order-management
+- allocation
+- inventory

@@ -1,9 +1,9 @@
 catalog:
   abbreviation: DBSF
   counts:
-    candidates: 268
+    candidates: 318
     canonical: 0
-    entities: 268
+    entities: 318
     open_change_requests: 0
     research_files: 0
     retired: 0
@@ -2848,6 +2848,160 @@ catalog:
     version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
+    id: services:service-lead-nurturing-wpjhfy
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/lead-nurturing-wpjhfy/services-service-lead-nurturing-wpjhfy.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-lead-scoring-3rknva
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/lead-scoring-3rknva/services-service-lead-scoring-3rknva.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-learning-catalog-zp7w7a
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/learning-catalog-zp7w7a/services-service-learning-catalog-zp7w7a.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-leave-and-absence-management-v6sncu
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/leave-and-absence-management-v6sncu/services-service-leave-and-absence-management-v6sncu.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-legal-compliance-calendar-74ssc6
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/legal-compliance-calendar-74ssc6/services-service-legal-compliance-calendar-74ssc6.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-legal-e-billing-and-accrual-4hyv9u
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/legal-e-billing-and-accrual-4hyv9u/services-service-legal-e-billing-and-accrual-4hyv9u.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-legal-hold-and-ediscovery-e4bfjp
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/legal-hold-and-ediscovery-e4bfjp/services-service-legal-hold-and-ediscovery-e4bfjp.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-legal-matter-management-rxb77c
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/legal-matter-management-rxb77c/services-service-legal-matter-management-rxb77c.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-legal-research-advisory-9vzffc
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/legal-research-advisory-9vzffc/services-service-legal-research-advisory-9vzffc.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-license-and-permit-compliance-fhxzcp
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/license-and-permit-compliance-fhxzcp/services-service-license-and-permit-compliance-fhxzcp.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-liquidity-forecasting-qnmgz5
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/liquidity-forecasting-qnmgz5/services-service-liquidity-forecasting-qnmgz5.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-load-balancing-5v4bgk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/load-balancing-5v4bgk/services-service-load-balancing-5v4bgk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-load-building-qru3fz
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/load-building-qru3fz/services-service-load-building-qru3fz.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-log-management-jcvktj
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/log-management-jcvktj/services-service-log-management-jcvktj.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
     id: services:service-logistics-coordination-j8nped
     last_modified: '2026-09-21'
     lifecycle_status: active
@@ -2857,6 +3011,402 @@ catalog:
     state: candidate
     type: BusinessService
     version: 1.0.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-logistics-cost-analytics-kwx2x4
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/logistics-cost-analytics-kwx2x4/services-service-logistics-cost-analytics-kwx2x4.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-long-range-planning-df6sab
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/long-range-planning-df6sab/services-service-long-range-planning-df6sab.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-loyalty-program-administration-m6xymr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/loyalty-program-administration-m6xymr/services-service-loyalty-program-administration-m6xymr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-machine-learning-platform-sskzwb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/machine-learning-platform-sskzwb/services-service-machine-learning-platform-sskzwb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-major-incident-coordination-p37xqb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/major-incident-coordination-p37xqb/services-service-major-incident-coordination-p37xqb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-mandatory-training-compliance-b43gpq
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/mandatory-training-compliance-b43gpq/services-service-mandatory-training-compliance-b43gpq.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-marketing-attribution-9gwyqm
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/marketing-attribution-9gwyqm/services-service-marketing-attribution-9gwyqm.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-marketing-mix-modeling-kpdsnx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/marketing-mix-modeling-kpdsnx/services-service-marketing-mix-modeling-kpdsnx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-marketing-performance-analytics-43fzfv
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/marketing-performance-analytics-43fzfv/services-service-marketing-performance-analytics-43fzfv.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-master-data-management-zah3h3
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/master-data-management-zah3h3/services-service-master-data-management-zah3h3.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-meeting-room-management-28b7rp
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/meeting-room-management-28b7rp/services-service-meeting-room-management-28b7rp.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-mentoring-program-8buwke
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/mentoring-program-8buwke/services-service-mentoring-program-8buwke.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-metadata-management-rguuxs
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/metadata-management-rguuxs/services-service-metadata-management-rguuxs.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-middleware-administration-bfwhcx
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/middleware-administration-bfwhcx/services-service-middleware-administration-bfwhcx.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-model-deployment-c386rt
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/model-deployment-c386rt/services-service-model-deployment-c386rt.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-monitoring-alerting-72vrrr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/monitoring-alerting-72vrrr/services-service-monitoring-alerting-72vrrr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-nda-intake-and-approval-jndg2b
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/nda-intake-and-approval-jndg2b/services-service-nda-intake-and-approval-jndg2b.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-network-flow-optimization-2n7jzw
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/network-flow-optimization-2n7jzw/services-service-network-flow-optimization-2n7jzw.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-network-monitoring-swe8ps
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/network-monitoring-swe8ps/services-service-network-monitoring-swe8ps.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-new-product-introduction-h4zzag
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/new-product-introduction-h4zzag/services-service-new-product-introduction-h4zzag.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-objective-cascade-na4kbb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/objective-cascade-na4kbb/services-service-objective-cascade-na4kbb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-occupational-health-management-y2nppk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/occupational-health-management-y2nppk/services-service-occupational-health-management-y2nppk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-offboarding-administration-83cbbj
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/offboarding-administration-83cbbj/services-service-offboarding-administration-83cbbj.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-offer-bundling-uz2gyb
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/offer-bundling-uz2gyb/services-service-offer-bundling-uz2gyb.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-offer-management-mpw4vk
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/offer-management-mpw4vk/services-service-offer-management-mpw4vk.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-office-relocation-coordination-nk7uxy
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/office-relocation-coordination-nk7uxy/services-service-office-relocation-coordination-nk7uxy.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-okr-tracking-9ce8fr
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/okr-tracking-9ce8fr/services-service-okr-tracking-9ce8fr.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-omnichannel-contact-routing-uphc34
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/omnichannel-contact-routing-uphc34/services-service-omnichannel-contact-routing-uphc34.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-onboarding-orchestration-8uaqng
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/onboarding-orchestration-8uaqng/services-service-onboarding-orchestration-8uaqng.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-operational-risk-event-capture-dzx4wa
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/operational-risk-event-capture-dzx4wa/services-service-operational-risk-event-capture-dzx4wa.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-opportunity-management-ujh9jh
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/opportunity-management-ujh9jh/services-service-opportunity-management-ujh9jh.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-order-allocation-b9u4un
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/order-allocation-b9u4un/services-service-order-allocation-b9u4un.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-order-cancellation-w3eh8z
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/order-cancellation-w3eh8z/services-service-order-cancellation-w3eh8z.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-order-capture-8hg35t
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/order-capture-8hg35t/services-service-order-capture-8hg35t.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-order-data-archival-mjqvza
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/order-data-archival-mjqvza/services-service-order-data-archival-mjqvza.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
+  - candidate_count: 0
+    canonical_count: 1
+    id: services:service-order-dispute-management-z3mt3n
+    last_modified: '2026-11-01'
+    lifecycle_status: active
+    path: entities/v1-alpha/order-dispute-management-z3mt3n/services-service-order-dispute-management-z3mt3n.yaml
+    research_count: 0
+    retired_count: 0
+    state: candidate
+    type: BusinessService
+    version: 0.1.0
   - candidate_count: 0
     canonical_count: 1
     id: services:service-order-fulfillment-ceuq33
@@ -3744,9 +4294,159 @@ catalog:
   - entity_id: services:service-lead-capture-qj7k8e
     files: []
     path: entities/v1-alpha/lead-capture-qj7k8e/research/
+  - entity_id: services:service-lead-nurturing-wpjhfy
+    files: []
+    path: entities/v1-alpha/lead-nurturing-wpjhfy/research/
+  - entity_id: services:service-lead-scoring-3rknva
+    files: []
+    path: entities/v1-alpha/lead-scoring-3rknva/research/
+  - entity_id: services:service-learning-catalog-zp7w7a
+    files: []
+    path: entities/v1-alpha/learning-catalog-zp7w7a/research/
+  - entity_id: services:service-leave-and-absence-management-v6sncu
+    files: []
+    path: entities/v1-alpha/leave-and-absence-management-v6sncu/research/
+  - entity_id: services:service-legal-compliance-calendar-74ssc6
+    files: []
+    path: entities/v1-alpha/legal-compliance-calendar-74ssc6/research/
+  - entity_id: services:service-legal-e-billing-and-accrual-4hyv9u
+    files: []
+    path: entities/v1-alpha/legal-e-billing-and-accrual-4hyv9u/research/
+  - entity_id: services:service-legal-hold-and-ediscovery-e4bfjp
+    files: []
+    path: entities/v1-alpha/legal-hold-and-ediscovery-e4bfjp/research/
+  - entity_id: services:service-legal-matter-management-rxb77c
+    files: []
+    path: entities/v1-alpha/legal-matter-management-rxb77c/research/
+  - entity_id: services:service-legal-research-advisory-9vzffc
+    files: []
+    path: entities/v1-alpha/legal-research-advisory-9vzffc/research/
+  - entity_id: services:service-license-and-permit-compliance-fhxzcp
+    files: []
+    path: entities/v1-alpha/license-and-permit-compliance-fhxzcp/research/
+  - entity_id: services:service-liquidity-forecasting-qnmgz5
+    files: []
+    path: entities/v1-alpha/liquidity-forecasting-qnmgz5/research/
+  - entity_id: services:service-load-balancing-5v4bgk
+    files: []
+    path: entities/v1-alpha/load-balancing-5v4bgk/research/
+  - entity_id: services:service-load-building-qru3fz
+    files: []
+    path: entities/v1-alpha/load-building-qru3fz/research/
+  - entity_id: services:service-log-management-jcvktj
+    files: []
+    path: entities/v1-alpha/log-management-jcvktj/research/
   - entity_id: services:service-logistics-coordination-j8nped
     files: []
     path: entities/v1-alpha/logistics-coordination-j8nped/research/
+  - entity_id: services:service-logistics-cost-analytics-kwx2x4
+    files: []
+    path: entities/v1-alpha/logistics-cost-analytics-kwx2x4/research/
+  - entity_id: services:service-long-range-planning-df6sab
+    files: []
+    path: entities/v1-alpha/long-range-planning-df6sab/research/
+  - entity_id: services:service-loyalty-program-administration-m6xymr
+    files: []
+    path: entities/v1-alpha/loyalty-program-administration-m6xymr/research/
+  - entity_id: services:service-machine-learning-platform-sskzwb
+    files: []
+    path: entities/v1-alpha/machine-learning-platform-sskzwb/research/
+  - entity_id: services:service-major-incident-coordination-p37xqb
+    files: []
+    path: entities/v1-alpha/major-incident-coordination-p37xqb/research/
+  - entity_id: services:service-mandatory-training-compliance-b43gpq
+    files: []
+    path: entities/v1-alpha/mandatory-training-compliance-b43gpq/research/
+  - entity_id: services:service-marketing-attribution-9gwyqm
+    files: []
+    path: entities/v1-alpha/marketing-attribution-9gwyqm/research/
+  - entity_id: services:service-marketing-mix-modeling-kpdsnx
+    files: []
+    path: entities/v1-alpha/marketing-mix-modeling-kpdsnx/research/
+  - entity_id: services:service-marketing-performance-analytics-43fzfv
+    files: []
+    path: entities/v1-alpha/marketing-performance-analytics-43fzfv/research/
+  - entity_id: services:service-master-data-management-zah3h3
+    files: []
+    path: entities/v1-alpha/master-data-management-zah3h3/research/
+  - entity_id: services:service-meeting-room-management-28b7rp
+    files: []
+    path: entities/v1-alpha/meeting-room-management-28b7rp/research/
+  - entity_id: services:service-mentoring-program-8buwke
+    files: []
+    path: entities/v1-alpha/mentoring-program-8buwke/research/
+  - entity_id: services:service-metadata-management-rguuxs
+    files: []
+    path: entities/v1-alpha/metadata-management-rguuxs/research/
+  - entity_id: services:service-middleware-administration-bfwhcx
+    files: []
+    path: entities/v1-alpha/middleware-administration-bfwhcx/research/
+  - entity_id: services:service-model-deployment-c386rt
+    files: []
+    path: entities/v1-alpha/model-deployment-c386rt/research/
+  - entity_id: services:service-monitoring-alerting-72vrrr
+    files: []
+    path: entities/v1-alpha/monitoring-alerting-72vrrr/research/
+  - entity_id: services:service-nda-intake-and-approval-jndg2b
+    files: []
+    path: entities/v1-alpha/nda-intake-and-approval-jndg2b/research/
+  - entity_id: services:service-network-flow-optimization-2n7jzw
+    files: []
+    path: entities/v1-alpha/network-flow-optimization-2n7jzw/research/
+  - entity_id: services:service-network-monitoring-swe8ps
+    files: []
+    path: entities/v1-alpha/network-monitoring-swe8ps/research/
+  - entity_id: services:service-new-product-introduction-h4zzag
+    files: []
+    path: entities/v1-alpha/new-product-introduction-h4zzag/research/
+  - entity_id: services:service-objective-cascade-na4kbb
+    files: []
+    path: entities/v1-alpha/objective-cascade-na4kbb/research/
+  - entity_id: services:service-occupational-health-management-y2nppk
+    files: []
+    path: entities/v1-alpha/occupational-health-management-y2nppk/research/
+  - entity_id: services:service-offboarding-administration-83cbbj
+    files: []
+    path: entities/v1-alpha/offboarding-administration-83cbbj/research/
+  - entity_id: services:service-offer-bundling-uz2gyb
+    files: []
+    path: entities/v1-alpha/offer-bundling-uz2gyb/research/
+  - entity_id: services:service-offer-management-mpw4vk
+    files: []
+    path: entities/v1-alpha/offer-management-mpw4vk/research/
+  - entity_id: services:service-office-relocation-coordination-nk7uxy
+    files: []
+    path: entities/v1-alpha/office-relocation-coordination-nk7uxy/research/
+  - entity_id: services:service-okr-tracking-9ce8fr
+    files: []
+    path: entities/v1-alpha/okr-tracking-9ce8fr/research/
+  - entity_id: services:service-omnichannel-contact-routing-uphc34
+    files: []
+    path: entities/v1-alpha/omnichannel-contact-routing-uphc34/research/
+  - entity_id: services:service-onboarding-orchestration-8uaqng
+    files: []
+    path: entities/v1-alpha/onboarding-orchestration-8uaqng/research/
+  - entity_id: services:service-operational-risk-event-capture-dzx4wa
+    files: []
+    path: entities/v1-alpha/operational-risk-event-capture-dzx4wa/research/
+  - entity_id: services:service-opportunity-management-ujh9jh
+    files: []
+    path: entities/v1-alpha/opportunity-management-ujh9jh/research/
+  - entity_id: services:service-order-allocation-b9u4un
+    files: []
+    path: entities/v1-alpha/order-allocation-b9u4un/research/
+  - entity_id: services:service-order-cancellation-w3eh8z
+    files: []
+    path: entities/v1-alpha/order-cancellation-w3eh8z/research/
+  - entity_id: services:service-order-capture-8hg35t
+    files: []
+    path: entities/v1-alpha/order-capture-8hg35t/research/
+  - entity_id: services:service-order-data-archival-mjqvza
+    files: []
+    path: entities/v1-alpha/order-data-archival-mjqvza/research/
+  - entity_id: services:service-order-dispute-management-z3mt3n
+    files: []
+    path: entities/v1-alpha/order-dispute-management-z3mt3n/research/
   - entity_id: services:service-order-fulfillment-ceuq33
     files: []
     path: entities/v1-alpha/order-fulfillment-ceuq33/research/

@@ -1,0 +1,27 @@
+id: services:service-objective-cascade-na4kbb
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Objective Cascade Service
+abbreviation: OCA
+description: Breaks enterprise strategy into unit, team, and individual objectives,
+  checking vertical and horizontal alignment so every level's contribution traces
+  to a strategic outcome, and publishes the full cascade for transparency.
+domain: Enterprise Strategy & Performance
+subdomain: Strategic Planning
+capabilities:
+- capabilities:capability-strategic-planning-k3rz7a
+solution_components:
+- dea:component-okr-platform
+- dea:component-strategy-management-platform
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance: []
+tags:
+- strategy
+- cascade
+- alignment
+- objectives

@@ -1,0 +1,28 @@
+status: admitted
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-01'
+name: Legal E-Billing and Accrual Service
+slug: legal-e-billing-and-accrual
+abbreviation: LEB
+description: Receives law firm invoices against matter budgets, applies billing guideline
+  validations and rate checks, routes adjustments to matter owners, and feeds accrual
+  estimates to finance each close.
+domain: Legal & Privacy
+subdomain: Legal Operations
+capabilities:
+- capabilities:capability-legal-matter-management-zzbd2u
+solution_components:
+- dea:component-clm-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- legal
+- billing
+- accruals
+assigned_id: services:service-legal-e-billing-and-accrual-4hyv9u
+admitted: '2026-11-01'

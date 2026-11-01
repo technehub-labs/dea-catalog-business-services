@@ -1,0 +1,28 @@
+id: services:service-lead-scoring-3rknva
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Lead Scoring Service
+abbreviation: LDS
+description: Scores inbound leads against fit and engagement models, setting grade
+  thresholds that determine sales-readiness routing, nurturing track assignment and
+  service-level targets for follow-up by the sales team.
+domain: Marketing & Brand
+subdomain: Audience & Demand Generation
+capabilities:
+- capabilities:capability-marketing-xmc539
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-marketing-automation-platform
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- marketing
+- lead-scoring
+- qualification

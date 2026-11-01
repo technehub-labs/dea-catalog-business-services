@@ -1,0 +1,26 @@
+id: services:service-nda-intake-and-approval-jndg2b
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: NDA Intake and Approval Service
+abbreviation: NIA
+description: Accepts non-disclosure agreement requests from business teams, selects
+  standard or reciprocal templates, routes deviations to counsel with playbook positions,
+  and archives executed agreements for reuse.
+domain: Legal & Privacy
+subdomain: Compliance & Governance
+capabilities:
+- capabilities:capability-legal-matter-management-zzbd2u
+solution_components:
+- dea:component-clm-platform
+- dea:component-case-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- legal
+- nda
+- contracts

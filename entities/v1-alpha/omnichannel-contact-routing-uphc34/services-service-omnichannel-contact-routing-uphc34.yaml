@@ -1,0 +1,27 @@
+id: services:service-omnichannel-contact-routing-uphc34
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Omnichannel Contact Routing Service
+abbreviation: OCR
+description: Routes inbound voice, chat, email and social contacts to the best-qualified
+  agent using skills, entitlement and queue-load rules, preserving conversation context
+  across channel switches, including during transfers and escalations.
+domain: Customer Experience
+subdomain: Customer Support & Service
+capabilities:
+- capabilities:capability-customer-management-f3n8wb
+solution_components:
+- dea:component-crm-platform
+- dea:component-api-gateway
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- customer-experience
+- contact-center
+- routing

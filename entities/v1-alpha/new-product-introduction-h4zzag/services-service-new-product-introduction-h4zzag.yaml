@@ -1,0 +1,28 @@
+id: services:service-new-product-introduction-h4zzag
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: New Product Introduction Service
+abbreviation: NPI
+description: 'Orchestrates the phase-in of new products: readiness gates across data,
+  supply and channel; first-order cut-over; and launch communications, with each gate
+  requiring documented sign-off before shipment release.'
+domain: Product & Offering Management
+subdomain: Offering & Portfolio Planning
+capabilities:
+- capabilities:capability-offering-management-6egkc8
+- capabilities:capability-product-development-q9nv34
+- capabilities:capability-operations-management-pm3w8k
+solution_components:
+- dea:component-erp-core
+- dea:component-plm-suite
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- product
+- launch
+- lifecycle

@@ -1,0 +1,27 @@
+id: services:service-leave-and-absence-management-v6sncu
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Leave and Absence Management Service
+abbreviation: LAM
+description: Administers leave balances, accruals, and carryover per policy and statute,
+  processes absence requests with manager approval, and feeds validated absence days
+  to payroll and to return-to-work follow-ups.
+domain: Human Resources
+subdomain: Workforce Management
+capabilities:
+- capabilities:capability-workforce-management-9e8d8s
+solution_components:
+- dea:component-hris-core
+- dea:component-time-capture-system
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Confidential
+  compliance:
+  - GDPR
+tags:
+- hr
+- leave
+- absence

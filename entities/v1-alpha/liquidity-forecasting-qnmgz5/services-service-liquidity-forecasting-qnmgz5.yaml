@@ -1,0 +1,26 @@
+id: services:service-liquidity-forecasting-qnmgz5
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Liquidity Forecasting Service
+abbreviation: LFO
+description: Projects short and medium term cash inflows and outflows from payables,
+  receivables, and payroll schedules, quantifies forecast variance against actuals,
+  and supports funding and investment decisions.
+domain: Finance & Accounting
+subdomain: Treasury & Payments
+capabilities:
+- capabilities:capability-financial-resource-management-cd3c7c
+solution_components:
+- dea:component-treasury-management-system
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Confidential
+  compliance: []
+tags:
+- finance
+- treasury
+- forecasting

@@ -1,0 +1,26 @@
+id: services:service-license-and-permit-compliance-fhxzcp
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: License and Permit Compliance Service
+abbreviation: LPC
+description: Maintains the inventory of operating licenses, permits, and registrations
+  with jurisdictions and expiry dates, schedules renewals ahead of deadlines, and
+  alerts owners when conditions or filings lapse.
+domain: Risk & Compliance
+subdomain: Regulatory Compliance
+capabilities:
+- capabilities:capability-regulation-management-gya4d8
+solution_components:
+- dea:component-grc-platform
+- dea:component-document-management-system
+governance:
+  sla_tier: Silver
+  sla_uptime: 99.9%
+  recovery_time_minutes: 240
+  security_classification: Confidential
+  compliance: []
+tags:
+- risk
+- licenses
+- permits

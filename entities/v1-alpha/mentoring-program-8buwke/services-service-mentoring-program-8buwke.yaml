@@ -1,0 +1,28 @@
+id: services:service-mentoring-program-8buwke
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Mentoring Program Service
+abbreviation: MPR
+description: Matches mentors and mentees from registered profiles and development
+  goals, structures the mentoring relationship with agreed session plans, and gathers
+  periodic feedback to measure program outcomes.
+domain: Human Resources
+subdomain: Learning & Development
+capabilities:
+- capabilities:capability-learning-and-development-b8qw5n
+- capabilities:capability-talent-management-v2qw9c
+solution_components:
+- dea:component-talent-marketplace
+- dea:component-collaboration-suite
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance:
+  - GDPR
+tags:
+- hr
+- mentoring
+- development

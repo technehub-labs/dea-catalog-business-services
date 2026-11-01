@@ -12,6 +12,10 @@ record).
 
 ## [Unreleased]
 
+### CR-SVC-010: Entity Admission Batch 06
+
+Admitted 50 new `BusinessService` records through the CR-SVC-004 contribution workflow (1 Communications & Workplace, 2 Customer Experience, 4 Data & Analytics, 3 Enterprise Strategy & Performance, 1 Facilities & Asset Management, 1 Finance & Accounting, 8 Human Resources, 6 IT Operations & Infrastructure, 6 Legal & Privacy, 5 Marketing & Brand, 5 Order Management, 2 Product & Offering Management, 2 Risk & Compliance, 1 Sales & Revenue Operations, 3 Supply Chain & Logistics); ids content-derived and collision-checked; entity count +50; queue entries flipped to `admitted`.
+
 ### CR-SVC-009: Entity Admission Batch 05
 
 Admitted 50 new `BusinessService` records through the CR-SVC-004 contribution workflow (2 Customer Experience, 2 Data & Analytics, 7 Enterprise Strategy & Performance, 4 Facilities & Asset Management, 8 Finance & Accounting, 5 Human Resources, 5 IT Operations & Infrastructure, 1 Legal & Privacy, 2 Marketing & Brand, 2 Order Management, 5 Risk & Compliance, 1 Sales & Revenue Operations, 2 Sourcing & Procurement, 4 Supply Chain & Logistics); ids content-derived and collision-checked; entity count +50; queue entries flipped to `admitted`.

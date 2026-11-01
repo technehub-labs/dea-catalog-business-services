@@ -1,0 +1,25 @@
+id: services:service-metadata-management-rguuxs
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Metadata Management Service
+abbreviation: MET
+description: Harvests technical and business metadata from databases, pipelines and
+  BI tools into a central repository, recording owners, definitions and classifications
+  that power lineage, search and governance automation.
+domain: Data & Analytics
+subdomain: Data Platform Engineering
+capabilities:
+- capabilities:capability-information-management-6vjgdh
+solution_components:
+- dea:component-metadata-repository
+governance:
+  sla_tier: Gold
+  sla_uptime: 99.95%
+  recovery_time_minutes: 60
+  security_classification: Internal
+  compliance: []
+tags:
+- data
+- metadata
+- governance

@@ -1,0 +1,26 @@
+id: services:service-marketing-mix-modeling-kpdsnx
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Marketing Mix Modeling Service
+abbreviation: MMM
+description: Estimates channel contribution and diminishing returns from aggregated
+  spend and sales history, producing quarterly budget reallocation recommendations
+  and scenario comparisons for planning cycles with documented assumptions.
+domain: Marketing & Brand
+subdomain: Marketing Analytics & Attribution
+capabilities:
+- capabilities:capability-marketing-xmc539
+- capabilities:capability-insight-management-ms4n9d
+solution_components:
+- dea:component-analytics-warehouse
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- marketing
+- mix-modeling
+- planning

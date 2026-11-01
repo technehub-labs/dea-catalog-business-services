@@ -1,0 +1,26 @@
+id: services:service-legal-research-advisory-9vzffc
+type: BusinessService
+version: 0.1.0
+lifecycle_status: active
+name: Legal Research Advisory Service
+abbreviation: LRA
+description: Captures research requests, routes questions to in-house specialists
+  or retained counsel, records written positions and citations in a searchable memo
+  library, and flags precedent changes affecting prior advice.
+domain: Legal & Privacy
+subdomain: Compliance & Governance
+capabilities:
+- capabilities:capability-legal-matter-management-zzbd2u
+solution_components:
+- dea:component-document-management-system
+- dea:component-case-management-system
+governance:
+  sla_tier: Bronze
+  sla_uptime: 99.5%
+  recovery_time_minutes: 480
+  security_classification: Internal
+  compliance: []
+tags:
+- legal
+- research
+- advisory
