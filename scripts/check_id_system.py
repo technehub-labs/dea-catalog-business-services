@@ -117,7 +117,7 @@ def _check_idm005(record_id: str, path: Path) -> str | None:
         return f"IDM-005: filename {path.name!r} does not match id-derived name {expected_name!r} for {record_id}"
     if path.parent.name != expected_dir:
         return f"IDM-005: dir {path.parent.name!r} does not match id-derived dir {expected_dir!r} for {record_id}"
-    if path.parent.parent != expected_parent:
+    if path.parent != expected_parent:
         return (
             f"IDM-005: record not at its id-derived shard path "
             f"{expected_parent.relative_to(ROOT)} for {record_id}"

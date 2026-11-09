@@ -69,12 +69,29 @@ def load_yaml(path: Path) -> Any:
         return yaml.safe_load(fh)
 
 
+def _is_shard_dir(name: str) -> bool:
+    """CR-SVC-016 shard directory: a single lowercase letter or `0-9`."""
+    return name == "0-9" or (len(name) == 1 and name.isalpha() and name.islower())
+
+
 def list_subtrees(catalog_root: Path) -> list[Path]:
-    """List every directory under `entities/v1-alpha/`; sorted lexicographically."""
+    """List every record directory under `entities/v1-alpha/`.
+
+    CR-SVC-016 shard layout: `entities/v1-alpha/<shard>/<record-dir>/`.
+    The flat depth-1 form (pre-shard checkouts) is still accepted so the
+    gate runs across the migration window."""
     entities_root = catalog_root / "entities" / "v1-alpha"
     if not entities_root.exists():
         return []
-    return sorted([p for p in entities_root.iterdir() if p.is_dir()])
+    out: list[Path] = []
+    for top in sorted(entities_root.iterdir()):
+        if not top.is_dir():
+            continue
+        if _is_shard_dir(top.name):
+            out.extend(sorted(p for p in top.iterdir() if p.is_dir()))
+        else:
+            out.append(top)
+    return out
 
 
 def schema_validate(payload: dict[str, Any], schema: dict[str, Any]) -> list[str]:

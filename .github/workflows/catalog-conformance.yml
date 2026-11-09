@@ -34,12 +34,15 @@ jobs:
           path: .metaframework
           ref: v2.7.0          # CR-SVC-001: release-tag pin (CST-013/014); bumped to v2.7.0 by CR-SVC-016 (CST-017)
 
-      - name: Stage regenerator + gate + schema from the pinned checkout
+      - name: Stage regenerator + gate + schema (vendored copies preferred)
         run: |
+          # The vendored copies carry this repo's CR-SVC-016 shard-aware
+          # walks, which the generic upstream tools do not implement, so
+          # they win; the pinned checkout only fills a missing file.
           mkdir -p scripts catalog-index-schema
-          cp .metaframework/tools/regenerate_catalog.py scripts/
-          cp .metaframework/tools/check_catalog_index.py scripts/
-          cp .metaframework/tools/catalog-index-schema.json catalog-index-schema/
+          [ -f scripts/regenerate_catalog.py ] || cp .metaframework/tools/regenerate_catalog.py scripts/
+          [ -f scripts/check_catalog_index.py ] || cp .metaframework/tools/check_catalog_index.py scripts/
+          [ -f catalog-index-schema/catalog-index-schema.json ] || cp .metaframework/tools/catalog-index-schema.json catalog-index-schema/
 
       - name: Set canonical git origin URL (regenerator reads it)
         run: |
