@@ -4,8 +4,9 @@ check_id_system.py
 CR-SVC-mv1: ID System gate (IDM-001..007 catalog-wide; IDM-008 PR-scoped).
 
 Enforces the org-wide id system spec (dea-metaframework/docs/id-system.md)
-for the services catalog (flat layout, docs/entity-storage-layout.md
-section 3): every canonical record's id matches the org-wide form, the
+for the services catalog (shard layout since CR-SVC-016: entities/v1-alpha/
+<slug-first-letter>/<dir>/, docs/entity-storage-layout.md sections 3-4):
+every canonical record's id matches the org-wide form, the
 namespace token matches the registry binding, every structured
 cross-reference resolves, every entropy suffix is well-formed, every
 filesystem path is derivable from its id, no legacy `dea:*` ids remain in
@@ -90,21 +91,37 @@ def _check_idm004(record_id: str) -> str | None:
     return None
 
 
-def _check_idm005(record_id: str, path: Path) -> str | None:
-    """IDM-005: path derivable from id (flat layout).
+def shard_for_record(record_id: str) -> str:
+    """CR-SVC-016 shard key: the first character of the record's slug
+    (the id minus the `services:service-` prefix and the `-<hash>`
+    suffix); digit-leading slugs live in `0-9` (entity-storage-layout.md
+    §4; CR-MET-024 R1 recipe)."""
+    slug_hash = record_id.split(":", 1)[1].split("-", 1)[1]
+    first = slug_hash[:1]
+    return first if first.isalpha() and first.islower() else "0-9"
 
-    dir  = id minus '<namespace>:<level>-' prefix
-    file = id with ':' normalized to '-' + '.yaml'
+
+def _check_idm005(record_id: str, path: Path) -> str | None:
+    """IDM-005: path derivable from id (CR-SVC-016 shard layout).
+
+    shard = first char of the slug (or `0-9`)
+    dir   = id minus '<namespace>:<level>-' prefix
+    file  = id with ':' normalized to '-' + '.yaml'
+    expected: entities/v1-alpha/<shard>/<dir>/<file>
     """
     body = record_id.split(":", 1)[1]
     expected_dir = body.split("-", 1)[1]
     expected_name = record_id.replace(":", "-").lower() + ".yaml"
+    expected_parent = ENTITIES / shard_for_record(record_id) / expected_dir
     if path.name != expected_name:
         return f"IDM-005: filename {path.name!r} does not match id-derived name {expected_name!r} for {record_id}"
     if path.parent.name != expected_dir:
         return f"IDM-005: dir {path.parent.name!r} does not match id-derived dir {expected_dir!r} for {record_id}"
-    if path.parent.parent.name != "v1-alpha":
-        return f"IDM-005: record not at entities/v1-alpha/<dir>/ depth for {record_id}"
+    if path.parent.parent != expected_parent:
+        return (
+            f"IDM-005: record not at its id-derived shard path "
+            f"{expected_parent.relative_to(ROOT)} for {record_id}"
+        )
     return None
 
 
@@ -162,13 +179,24 @@ def _check_idm007(path: Path) -> str | None:
 
 
 def _load_all_records() -> dict[str, tuple[Path, dict]]:
-    """Canonical records only: capabilities-*.yaml at entity dir roots."""
+    """Canonical records only: services-*.yaml at record-dir roots.
+
+    Walks both layout eras so the gate runs across the CR-SVC-016
+    transition: the sharded form `entities/v1-alpha/<shard>/<dir>/` and
+    the flat form `entities/v1-alpha/<dir>/` (pre-shard checkouts, the
+    migration script's input)."""
     records = {}
-    for p in sorted(ENTITIES.glob("*/services-*.yaml")):
-        record = yaml.safe_load(p.read_text())
-        rid = record.get("id", "")
-        if rid:
-            records[rid] = (p, record)
+    seen: set[Path] = set()
+    patterns = ("*/services-*.yaml", "*/*/services-*.yaml")
+    for pattern in patterns:
+        for p in sorted(ENTITIES.glob(pattern)):
+            if p in seen:
+                continue
+            seen.add(p)
+            record = yaml.safe_load(p.read_text())
+            rid = record.get("id", "")
+            if rid:
+                records[rid] = (p, record)
     return records
 
 

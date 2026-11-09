@@ -2,7 +2,7 @@ name: catalog-conformance
 
 # CR-CATALOG-STRUCT-04: catalog repository standard conformance gate.
 # Runs the standard's regenerator + gate + cross-repo conformance suite
-# (CST-001..CST-016) on every PR. Vendored scripts are preferred over the
+# (CST-001..CST-017) on every PR. Vendored scripts are preferred over the
 # dea-metaframework fetch (per the process catalog's STRUCT-02 pattern).
 
 on:
@@ -32,7 +32,7 @@ jobs:
         with:
           repository: technehub-labs/dea-metaframework
           path: .metaframework
-          ref: v2.6.0          # CR-SVC-001: release-tag pin (CST-013/014); bump deliberately
+          ref: v2.7.0          # CR-SVC-001: release-tag pin (CST-013/014); bumped to v2.7.0 by CR-SVC-016 (CST-017)
 
       - name: Stage regenerator + gate + schema from the pinned checkout
         run: |

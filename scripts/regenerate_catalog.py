@@ -87,6 +87,36 @@ ENTITY_ID_PATTERN = re.compile(
     r"-[abcdefghjkmnpqrstuvwxyz23456789]{6})$"
 )
 
+# Terminal CR statuses (CR-ECF-011): the org-consistent closed set, as
+# landed downstream in dea-catalog-business-capabilities PR #91 /
+# CR-DEA-BC-38 (superset of the CR-BP-114 set ratified in
+# dea-catalog-processes).
+CLOSED_CR_STATUSES = frozenset(
+    {"Merged", "Landed", "Applied", "Accepted", "Rejected", "Superseded", "Withdrawn"}
+)
+
+# CR metadata shapes (CR-ECF-011): bold-line (``**Status**: X``) and
+# table (``| **Status** | X |``).
+_STATUS_LINE_RE = re.compile(r"^\*\*Status\*\*:\s*(.+)$")
+_STATUS_TABLE_RE = re.compile(r"^\|\s*\*\*Status\*\*\s*\|\s*(.+?)\s*\|$")
+
+
+def _cr_status_token(head: str) -> str | None:
+    """First Status value in a CR head as a bare token, or None.
+
+    Accepts both house metadata shapes, stripping trailing context such
+    as ``(PR #6)``. First status line wins: a carrier CR that *quotes* a
+    status line in its body must not be misparsed by it (observed on the
+    stakeholders carrier CR-CATALOG-STRUCT-08, whose body quotes the old
+    buggy condition).
+    """
+    for line in head.splitlines():
+        s = line.strip()
+        m = _STATUS_LINE_RE.match(s) or _STATUS_TABLE_RE.match(s)
+        if m:
+            return re.split(r"[;(,]", m.group(1))[0].strip()
+    return None
+
 
 def load_schema(schema_path: Path) -> dict[str, Any]:
     with schema_path.open("r", encoding="utf-8") as fh:
@@ -188,12 +218,33 @@ def build_catalog_metadata(
     return metadata, warnings
 
 
+def is_shard_dir(name: str) -> bool:
+    """True for a CR-SVC-016 shard directory: a single lowercase letter
+    or the digit bucket `0-9`."""
+    return name == "0-9" or (len(name) == 1 and name.isalpha() and name.islower())
+
+
 def list_subtrees(catalog_root: Path) -> list[Path]:
-    """List every directory under `entities/v1-alpha/`; sorted lexicographically."""
+    """List every record directory under `entities/v1-alpha/`; sorted
+    lexicographically.
+
+    CR-SVC-016 shard layout: `entities/v1-alpha/<shard>/<record-dir>/`
+    where `<shard>` is a single lowercase letter or `0-9`. The flat
+    depth-1 form (pre-shard checkouts, the migration script's input) is
+    still accepted so the walk works across the whole transition.
+    """
     entities_root = catalog_root / "entities" / "v1-alpha"
     if not entities_root.exists():
         return []
-    return sorted([p for p in entities_root.iterdir() if p.is_dir()])
+    out: list[Path] = []
+    for top in sorted(entities_root.iterdir()):
+        if not top.is_dir():
+            continue
+        if is_shard_dir(top.name):
+            out.extend(sorted(p for p in top.iterdir() if p.is_dir()))
+        else:
+            out.append(top)
+    return out
 
 
 def entity_id_from_subtree(subtree: Path) -> str:
@@ -270,12 +321,22 @@ def infer_state(subtree: Path, canonical: dict[str, Any] | None) -> tuple[str, s
     that should be recorded in the entities[] entry (None if no canonical file).
     """
     entity_id = entity_id_from_subtree(subtree)
-    canonical_file = subtree / f"{entity_id}.yaml"
-    canonical_path = (
-        f"entities/v1-alpha/{entity_id}/{entity_id}.yaml"
-        if canonical_file.exists()
-        else None
-    )
+    # The canonical file may use either filename form: the colon-form id
+    # (legacy flat layout) or the normalized hyphen-form that
+    # read_canonical_yaml prefers (post-mv1 and kit-generated layouts).
+    # Checking both keeps infer_state in agreement with read_canonical_yaml;
+    # checking only the colon form misclassified every hyphen-named
+    # canonical record as a candidate (observed on
+    # dea-catalog-business-capabilities: 29 canonical records counted as
+    # candidates since the mv1 id migration).
+    hyphen_file = subtree / (entity_id.replace(":", "-").lower() + ".yaml")
+    colon_file = subtree / f"{entity_id}.yaml"
+    if hyphen_file.exists():
+        canonical_path = f"entities/v1-alpha/{entity_id}/{hyphen_file.name}"
+    elif colon_file.exists():
+        canonical_path = f"entities/v1-alpha/{entity_id}/{entity_id}.yaml"
+    else:
+        canonical_path = None
 
     has_research = state_research_present(subtree)
     has_candidates = state_candidates_present(subtree)
@@ -400,23 +461,27 @@ def entity_path_for(subtree: Path, state: str) -> str | None:
 
     Returns None if the subtree has no candidate file at all (empty subtree).
     Post-migration layout: dir name is slug+hash; the canonical filename is
-    the id with colons normalized to hyphens.
+    the id with colons normalized to hyphens. CR-SVC-016: the dir may sit
+    one level deeper, under its slug-first-letter shard; the path mirrors
+    wherever the subtree actually is relative to `entities/v1-alpha`.
     """
+    parent = subtree.parent
+    if parent.name == "v1-alpha":
+        location = subtree.name  # flat form (pre-shard checkout)
+    else:  # parent is the CR-SVC-016 shard directory
+        location = f"{parent.name}/{subtree.name}"
     entity_id = entity_id_from_subtree(subtree)
     canonical = subtree / (entity_id.replace(":", "-").lower() + ".yaml")
     if canonical.exists():
-        return f"entities/v1-alpha/{subtree.name}/{canonical.name}"
-    legacy = subtree / f"{entity_id}.yaml"
-    if legacy.exists():
-        return f"entities/v1-alpha/{subtree.name}/{entity_id}.yaml"
+        return f"entities/v1-alpha/{location}/{canonical.name}"
     # First candidate file
     candidates_dir = subtree / "candidates"
     if candidates_dir.is_dir():
         candidates = sorted(p for p in candidates_dir.iterdir() if p.is_file() and p.suffix in (".yaml", ".yml"))
         if candidates:
-            return f"entities/v1-alpha/{subtree.name}/candidates/{candidates[0].name}"
+            return f"entities/v1-alpha/{location}/candidates/{candidates[0].name}"
     # Subtree root with trailing slash
-    return f"entities/v1-alpha/{subtree.name}/"
+    return f"entities/v1-alpha/{location}/"
 
 
 def build_entity_entry(
@@ -498,11 +563,11 @@ def build_research_registers(entities: list[dict[str, Any]], catalog_root: Path)
 
 
 def count_open_change_requests(catalog_root: Path) -> int:
-    """Count CR-*.md files in change-requests/ whose status is not 'Merged'.
+    """Count CR-*.md files in change-requests/ whose status is not terminal.
 
-    Heuristic: look for the word 'Merged' on the line immediately following
-    the '# CR-...' heading. Files without a status line are conservatively
-    counted as open.
+    Parses the first Status line in the file head (first 30 lines); both
+    house metadata shapes parse (CR-ECF-011). Files without a parsable
+    status are conservatively counted as open.
     """
     cr_dir = catalog_root / "change-requests"
     if not cr_dir.is_dir():
@@ -514,18 +579,11 @@ def count_open_change_requests(catalog_root: Path) -> int:
         except OSError:
             open_count += 1
             continue
-        # Take the first 30 lines; look for a status line.
         head = "\n".join(text.splitlines()[:30])
-        if "Status**: Merged" in head or "Status**: Merged" in head:
+        token = _cr_status_token(head)
+        if token is not None and token in CLOSED_CR_STATUSES:
             continue
-        if "Status**: Proposed" in head or "Status**: Draft" in head:
-            open_count += 1
-            continue
-        if "Status**:" in head:
-            # Some other status (Accepted, Superseded, etc.): conservative: open.
-            open_count += 1
-            continue
-        # No status line found: conservative open.
+        # Proposed, Draft, unknown token, or no status line: conservative open.
         open_count += 1
     return open_count
 

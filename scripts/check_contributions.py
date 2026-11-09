@@ -133,7 +133,12 @@ def main() -> int:
               "(classifications/sla-classification.yaml)")
         return 1
     findings: list[str] = []
-    files = sorted(QUEUE.glob("*.yaml")) if QUEUE.is_dir() else []
+    if QUEUE.is_dir():
+        # CR-SVC-016 shard layout: queue/<letter>/<slug>.yaml; the flat
+        # depth-1 form is still accepted across the migration window.
+        files = sorted(QUEUE.glob("*.yaml")) + sorted(QUEUE.glob("*/*.yaml"))
+    else:
+        files = []
     for path in files:
         findings.extend(validate_queue_file(path, reg))
     for f in findings:
