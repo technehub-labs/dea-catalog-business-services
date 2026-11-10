@@ -69,13 +69,16 @@ def slug_from_name(name: str) -> str:
 
 def existing_ids() -> set[str]:
     ids = set()
-    for p in sorted(ENTITIES.glob("*/services-*.yaml")):
-        try:
-            rec = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
-        except yaml.YAMLError:
-            continue
-        if isinstance(rec.get("id"), str):
-            ids.add(rec["id"])
+    # CR-SVC-016 shard layout; the flat depth-1 form is still accepted
+    # across the migration window.
+    for pattern in ("*/services-*.yaml", "*/*/services-*.yaml"):
+        for p in sorted(ENTITIES.glob(pattern)):
+            try:
+                rec = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+            except yaml.YAMLError:
+                continue
+            if isinstance(rec.get("id"), str):
+                ids.add(rec["id"])
     return ids
 
 
@@ -125,13 +128,17 @@ def main() -> int:
 
     record = {"id": record_id, "type": "BusinessService", "version": "0.1.0",
              "lifecycle_status": "active", **content}
-    entity_dir = ENTITIES / f"{slug}-{suffix}"
+    # CR-SVC-016 shard layout: the record dir sits under its
+    # slug-first-letter shard (entity-storage-layout.md §4).
+    first = slug[:1]
+    shard = first if first.isalpha() and first.islower() else "0-9"
+    entity_dir = ENTITIES / shard / f"{slug}-{suffix}"
     record_path = entity_dir / (record_id.replace(":", "-").lower() + ".yaml")
 
     print(f"submission : {queue_path.name}")
     print(f"slug       : {slug}")
     print(f"assigned id: {record_id}")
-    print(f"entity dir : entities/v1-alpha/{slug}-{suffix}/")
+    print(f"entity dir : entities/v1-alpha/{shard}/{slug}-{suffix}/")
     if dry_run:
         print("dry run: no files written")
         return 0
